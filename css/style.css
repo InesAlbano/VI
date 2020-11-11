@@ -79,11 +79,49 @@ li {
     background-color: #E3E0E0;
 }
 
+/* education buttons */
+.radio-toolbar-education{
+    font-size: 10px;
+    text-align: center;
+}
 
+.radio-toolbar-education input[type="radio"] {
+    opacity: 0;
+    position: fixed;
+    width: 0;
+}
+    
+.radio-toolbar-education label {
+    color: black;
+    display: inline-block;
+    background-color: #AFAFAF;
+    padding: 10px 20px;
+    font-family: sans-serif, Arial;
+    border: 1px solid #1A1C1F;
+    border-radius: 4px;
+    width: 10px;
+    text-align: center;
+}
+
+.radio-toolbar-education label:hover {
+background-color: #e2c9a2;
+}
+
+.radio-toolbar-education input[type="radio"]:focus + label {
+    border: 1px solid #e4a950;
+}
+
+.radio-toolbar-education input[type="radio"]:checked + label {
+    background-color: #E0C090;
+}
+    
+
+
+/* bottom left buttons */
 .radio-toolbar input[type="radio"] {
-opacity: 0;
-position: fixed;
-width: 0;
+    opacity: 0;
+    position: fixed;
+    width: 0;
 }
 
 .radio-toolbar label {
