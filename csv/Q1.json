@@ -1,0 +1,7562 @@
+[
+  {
+    "Year": 2005,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "36,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "36,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "27,2"
+  },
+  {
+    "Year": 2005,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "33,4"
+  },
+  {
+    "Year": 2005,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "48,85"
+  },
+  {
+    "Year": 2005,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "17,8"
+  },
+  {
+    "Year": 2005,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "16,85"
+  },
+  {
+    "Year": 2005,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "72,15"
+  },
+  {
+    "Year": 2005,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "11,0"
+  },
+  {
+    "Year": 2005,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "25,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "45,75"
+  },
+  {
+    "Year": 2005,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "28,55"
+  },
+  {
+    "Year": 2005,
+    "Country": "Germany",
+    "ISCED11": "0-2",
+    "AVG": "24,8"
+  },
+  {
+    "Year": 2005,
+    "Country": "Germany",
+    "ISCED11": "3-4",
+    "AVG": "54,65"
+  },
+  {
+    "Year": 2005,
+    "Country": "Germany",
+    "ISCED11": "5-8",
+    "AVG": "20,55"
+  },
+  {
+    "Year": 2005,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "20,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "52,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "27,45"
+  },
+  {
+    "Year": 2005,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "37,0"
+  },
+  {
+    "Year": 2005,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "37,25"
+  },
+  {
+    "Year": 2005,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "25,65"
+  },
+  {
+    "Year": 2005,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "40,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "42,35"
+  },
+  {
+    "Year": 2005,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "17,6"
+  },
+  {
+    "Year": 2005,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "51,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "22,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "26,1"
+  },
+  {
+    "Year": 2005,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "35,55"
+  },
+  {
+    "Year": 2005,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,1"
+  },
+  {
+    "Year": 2005,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "23,4"
+  },
+  {
+    "Year": 2005,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "29,2"
+  },
+  {
+    "Year": 2005,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "57,4"
+  },
+  {
+    "Year": 2005,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "13,4"
+  },
+  {
+    "Year": 2005,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "50,6"
+  },
+  {
+    "Year": 2005,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "38,65"
+  },
+  {
+    "Year": 2005,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "10,75"
+  },
+  {
+    "Year": 2005,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "36,2"
+  },
+  {
+    "Year": 2005,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,1"
+  },
+  {
+    "Year": 2005,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "25,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "24,75"
+  },
+  {
+    "Year": 2005,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "58,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "16,75"
+  },
+  {
+    "Year": 2005,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "20,85"
+  },
+  {
+    "Year": 2005,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,95"
+  },
+  {
+    "Year": 2005,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "22,25"
+  },
+  {
+    "Year": 2005,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "38,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "38,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "23,0"
+  },
+  {
+    "Year": 2005,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "28,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "14,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "68,9"
+  },
+  {
+    "Year": 2005,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "20,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "10,35"
+  },
+  {
+    "Year": 2005,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "34,55"
+  },
+  {
+    "Year": 2005,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,0"
+  },
+  {
+    "Year": 2005,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2005,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2005,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,5"
+  },
+  {
+    "Year": 2005,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "15,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "21,85"
+  },
+  {
+    "Year": 2005,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "64,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "13,9"
+  },
+  {
+    "Year": 2005,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "72,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "16,25"
+  },
+  {
+    "Year": 2005,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "11,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "33,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,6"
+  },
+  {
+    "Year": 2005,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "9,1"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "24,0"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "59,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "16,7"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "19,95"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "68,65"
+  },
+  {
+    "Year": 2005,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "11,35"
+  },
+  {
+    "Year": 2005,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "26,95"
+  },
+  {
+    "Year": 2005,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,45"
+  },
+  {
+    "Year": 2005,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "28,6"
+  },
+  {
+    "Year": 2005,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "21,3"
+  },
+  {
+    "Year": 2005,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "53,1"
+  },
+  {
+    "Year": 2005,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "25,6"
+  },
+  {
+    "Year": 2005,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "23,75"
+  },
+  {
+    "Year": 2005,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "52,05"
+  },
+  {
+    "Year": 2005,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "24,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "35,7"
+  },
+  {
+    "Year": 2006,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "36,45"
+  },
+  {
+    "Year": 2006,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "27,9"
+  },
+  {
+    "Year": 2006,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "30,6"
+  },
+  {
+    "Year": 2006,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "51,3"
+  },
+  {
+    "Year": 2006,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "18,1"
+  },
+  {
+    "Year": 2006,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "16,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "72,2"
+  },
+  {
+    "Year": 2006,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "11,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "25,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "45,3"
+  },
+  {
+    "Year": 2006,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "29,3"
+  },
+  {
+    "Year": 2006,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "24,6"
+  },
+  {
+    "Year": 2006,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "55,35"
+  },
+  {
+    "Year": 2006,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "20,05"
+  },
+  {
+    "Year": 2006,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "20,7"
+  },
+  {
+    "Year": 2006,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "52,1"
+  },
+  {
+    "Year": 2006,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "27,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "35,5"
+  },
+  {
+    "Year": 2006,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "37,0"
+  },
+  {
+    "Year": 2006,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "27,5"
+  },
+  {
+    "Year": 2006,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "41,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "39,9"
+  },
+  {
+    "Year": 2006,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "18,65"
+  },
+  {
+    "Year": 2006,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "50,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "22,75"
+  },
+  {
+    "Year": 2006,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "26,35"
+  },
+  {
+    "Year": 2006,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "34,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,1"
+  },
+  {
+    "Year": 2006,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "23,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "28,2"
+  },
+  {
+    "Year": 2006,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "58,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "13,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "49,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "39,05"
+  },
+  {
+    "Year": 2006,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "11,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "33,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "27,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "24,8"
+  },
+  {
+    "Year": 2006,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "17,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "20,7"
+  },
+  {
+    "Year": 2006,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "57,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "21,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "39,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "40,2"
+  },
+  {
+    "Year": 2006,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "20,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "27,2"
+  },
+  {
+    "Year": 2006,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,8"
+  },
+  {
+    "Year": 2006,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "15,0"
+  },
+  {
+    "Year": 2006,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "67,5"
+  },
+  {
+    "Year": 2006,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "21,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "11,1"
+  },
+  {
+    "Year": 2006,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "33,65"
+  },
+  {
+    "Year": 2006,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,45"
+  },
+  {
+    "Year": 2006,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "24,8"
+  },
+  {
+    "Year": 2006,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "24,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,3"
+  },
+  {
+    "Year": 2006,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "14,75"
+  },
+  {
+    "Year": 2006,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "20,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "64,15"
+  },
+  {
+    "Year": 2006,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "14,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "71,75"
+  },
+  {
+    "Year": 2006,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "16,65"
+  },
+  {
+    "Year": 2006,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "11,6"
+  },
+  {
+    "Year": 2006,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "32,05"
+  },
+  {
+    "Year": 2006,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "58,4"
+  },
+  {
+    "Year": 2006,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "9,55"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "22,9"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "59,3"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "17,8"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "18,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "69,25"
+  },
+  {
+    "Year": 2006,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "11,9"
+  },
+  {
+    "Year": 2006,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "26,2"
+  },
+  {
+    "Year": 2006,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,75"
+  },
+  {
+    "Year": 2006,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "29,0"
+  },
+  {
+    "Year": 2006,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "26,85"
+  },
+  {
+    "Year": 2006,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "47,15"
+  },
+  {
+    "Year": 2006,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "25,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "21,9"
+  },
+  {
+    "Year": 2006,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "52,95"
+  },
+  {
+    "Year": 2006,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "25,2"
+  },
+  {
+    "Year": 2007,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "34,8"
+  },
+  {
+    "Year": 2007,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "28,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "28,65"
+  },
+  {
+    "Year": 2007,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "52,8"
+  },
+  {
+    "Year": 2007,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "18,5"
+  },
+  {
+    "Year": 2007,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "16,2"
+  },
+  {
+    "Year": 2007,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "72,2"
+  },
+  {
+    "Year": 2007,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "11,65"
+  },
+  {
+    "Year": 2007,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "32,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "26,05"
+  },
+  {
+    "Year": 2007,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "23,5"
+  },
+  {
+    "Year": 2007,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "56,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "20,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "20,1"
+  },
+  {
+    "Year": 2007,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "52,55"
+  },
+  {
+    "Year": 2007,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "27,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "33,1"
+  },
+  {
+    "Year": 2007,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,75"
+  },
+  {
+    "Year": 2007,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "30,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "40,8"
+  },
+  {
+    "Year": 2007,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "40,1"
+  },
+  {
+    "Year": 2007,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "19,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "50,1"
+  },
+  {
+    "Year": 2007,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,1"
+  },
+  {
+    "Year": 2007,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "26,8"
+  },
+  {
+    "Year": 2007,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "33,95"
+  },
+  {
+    "Year": 2007,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "24,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "26,65"
+  },
+  {
+    "Year": 2007,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,95"
+  },
+  {
+    "Year": 2007,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "13,4"
+  },
+  {
+    "Year": 2007,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "48,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "39,3"
+  },
+  {
+    "Year": 2007,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "12,05"
+  },
+  {
+    "Year": 2007,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "31,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "39,2"
+  },
+  {
+    "Year": 2007,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "29,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "24,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,45"
+  },
+  {
+    "Year": 2007,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "18,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "19,95"
+  },
+  {
+    "Year": 2007,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,5"
+  },
+  {
+    "Year": 2007,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "23,6"
+  },
+  {
+    "Year": 2007,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "38,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "38,6"
+  },
+  {
+    "Year": 2007,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "22,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "26,25"
+  },
+  {
+    "Year": 2007,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "58,4"
+  },
+  {
+    "Year": 2007,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "15,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "67,3"
+  },
+  {
+    "Year": 2007,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "20,95"
+  },
+  {
+    "Year": 2007,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "11,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "32,85"
+  },
+  {
+    "Year": 2007,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "25,45"
+  },
+  {
+    "Year": 2007,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "25,4"
+  },
+  {
+    "Year": 2007,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,05"
+  },
+  {
+    "Year": 2007,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "14,6"
+  },
+  {
+    "Year": 2007,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "20,4"
+  },
+  {
+    "Year": 2007,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "63,95"
+  },
+  {
+    "Year": 2007,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "15,6"
+  },
+  {
+    "Year": 2007,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "71,5"
+  },
+  {
+    "Year": 2007,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "16,6"
+  },
+  {
+    "Year": 2007,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "11,9"
+  },
+  {
+    "Year": 2007,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "30,9"
+  },
+  {
+    "Year": 2007,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "59,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "9,9"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "22,25"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "59,25"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "18,55"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "18,4"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "69,7"
+  },
+  {
+    "Year": 2007,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "11,9"
+  },
+  {
+    "Year": 2007,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "25,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,55"
+  },
+  {
+    "Year": 2007,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "30,0"
+  },
+  {
+    "Year": 2007,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "26,55"
+  },
+  {
+    "Year": 2007,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "47,0"
+  },
+  {
+    "Year": 2007,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "26,45"
+  },
+  {
+    "Year": 2007,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "21,15"
+  },
+  {
+    "Year": 2007,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "52,35"
+  },
+  {
+    "Year": 2007,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "26,55"
+  },
+  {
+    "Year": 2008,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "33,55"
+  },
+  {
+    "Year": 2008,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,0"
+  },
+  {
+    "Year": 2008,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "28,45"
+  },
+  {
+    "Year": 2008,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "28,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "52,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "18,85"
+  },
+  {
+    "Year": 2008,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "15,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "71,75"
+  },
+  {
+    "Year": 2008,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "12,45"
+  },
+  {
+    "Year": 2008,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "33,25"
+  },
+  {
+    "Year": 2008,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "40,7"
+  },
+  {
+    "Year": 2008,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "26,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "22,3"
+  },
+  {
+    "Year": 2008,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "56,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "21,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "20,45"
+  },
+  {
+    "Year": 2008,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "51,45"
+  },
+  {
+    "Year": 2008,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "28,1"
+  },
+  {
+    "Year": 2008,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "31,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,95"
+  },
+  {
+    "Year": 2008,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "31,25"
+  },
+  {
+    "Year": 2008,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "39,75"
+  },
+  {
+    "Year": 2008,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "40,5"
+  },
+  {
+    "Year": 2008,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "19,75"
+  },
+  {
+    "Year": 2008,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "49,85"
+  },
+  {
+    "Year": 2008,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "27,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "32,95"
+  },
+  {
+    "Year": 2008,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "42,3"
+  },
+  {
+    "Year": 2008,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "24,75"
+  },
+  {
+    "Year": 2008,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "25,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "60,5"
+  },
+  {
+    "Year": 2008,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "13,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "47,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "39,45"
+  },
+  {
+    "Year": 2008,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "12,65"
+  },
+  {
+    "Year": 2008,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "30,4"
+  },
+  {
+    "Year": 2008,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,65"
+  },
+  {
+    "Year": 2008,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "31,0"
+  },
+  {
+    "Year": 2008,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "22,95"
+  },
+  {
+    "Year": 2008,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "56,55"
+  },
+  {
+    "Year": 2008,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "20,5"
+  },
+  {
+    "Year": 2008,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "18,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,25"
+  },
+  {
+    "Year": 2008,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "36,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "39,5"
+  },
+  {
+    "Year": 2008,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "23,7"
+  },
+  {
+    "Year": 2008,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "25,7"
+  },
+  {
+    "Year": 2008,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,95"
+  },
+  {
+    "Year": 2008,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "16,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "65,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "22,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "12,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "32,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,95"
+  },
+  {
+    "Year": 2008,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "26,25"
+  },
+  {
+    "Year": 2008,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "24,55"
+  },
+  {
+    "Year": 2008,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,4"
+  },
+  {
+    "Year": 2008,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "15,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "19,65"
+  },
+  {
+    "Year": 2008,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "63,85"
+  },
+  {
+    "Year": 2008,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "16,5"
+  },
+  {
+    "Year": 2008,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "70,8"
+  },
+  {
+    "Year": 2008,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "16,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "12,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "30,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "59,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "10,7"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "21,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "59,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "19,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "17,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "70,05"
+  },
+  {
+    "Year": 2008,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "12,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,6"
+  },
+  {
+    "Year": 2008,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "30,25"
+  },
+  {
+    "Year": 2008,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "26,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "46,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "26,9"
+  },
+  {
+    "Year": 2008,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "20,35"
+  },
+  {
+    "Year": 2008,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "51,15"
+  },
+  {
+    "Year": 2008,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "28,5"
+  },
+  {
+    "Year": 2009,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "32,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,1"
+  },
+  {
+    "Year": 2009,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "29,45"
+  },
+  {
+    "Year": 2009,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "27,55"
+  },
+  {
+    "Year": 2009,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,25"
+  },
+  {
+    "Year": 2009,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "19,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "15,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "71,45"
+  },
+  {
+    "Year": 2009,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "13,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "32,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "40,95"
+  },
+  {
+    "Year": 2009,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "26,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "22,0"
+  },
+  {
+    "Year": 2009,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "55,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "22,25"
+  },
+  {
+    "Year": 2009,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "19,3"
+  },
+  {
+    "Year": 2009,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "50,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "29,95"
+  },
+  {
+    "Year": 2009,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "30,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,7"
+  },
+  {
+    "Year": 2009,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "32,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "39,6"
+  },
+  {
+    "Year": 2009,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "40,45"
+  },
+  {
+    "Year": 2009,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "19,95"
+  },
+  {
+    "Year": 2009,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "49,45"
+  },
+  {
+    "Year": 2009,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "27,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "32,35"
+  },
+  {
+    "Year": 2009,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "25,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "25,35"
+  },
+  {
+    "Year": 2009,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "60,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "14,5"
+  },
+  {
+    "Year": 2009,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "47,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "40,1"
+  },
+  {
+    "Year": 2009,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "12,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "31,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,35"
+  },
+  {
+    "Year": 2009,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "30,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "21,7"
+  },
+  {
+    "Year": 2009,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "21,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "18,1"
+  },
+  {
+    "Year": 2009,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,55"
+  },
+  {
+    "Year": 2009,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "25,3"
+  },
+  {
+    "Year": 2009,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "28,6"
+  },
+  {
+    "Year": 2009,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "41,25"
+  },
+  {
+    "Year": 2009,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "30,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "24,95"
+  },
+  {
+    "Year": 2009,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "58,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "16,85"
+  },
+  {
+    "Year": 2009,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "62,0"
+  },
+  {
+    "Year": 2009,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2009,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "12,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "32,6"
+  },
+  {
+    "Year": 2009,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "26,75"
+  },
+  {
+    "Year": 2009,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "23,8"
+  },
+  {
+    "Year": 2009,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,25"
+  },
+  {
+    "Year": 2009,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "16,0"
+  },
+  {
+    "Year": 2009,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "18,7"
+  },
+  {
+    "Year": 2009,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "63,3"
+  },
+  {
+    "Year": 2009,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "18,05"
+  },
+  {
+    "Year": 2009,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "69,3"
+  },
+  {
+    "Year": 2009,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "17,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "13,05"
+  },
+  {
+    "Year": 2009,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "30,2"
+  },
+  {
+    "Year": 2009,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "58,6"
+  },
+  {
+    "Year": 2009,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "11,25"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "20,85"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "59,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "19,7"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "16,5"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "70,1"
+  },
+  {
+    "Year": 2009,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "13,45"
+  },
+  {
+    "Year": 2009,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "24,35"
+  },
+  {
+    "Year": 2009,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,7"
+  },
+  {
+    "Year": 2009,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "30,9"
+  },
+  {
+    "Year": 2009,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "25,4"
+  },
+  {
+    "Year": 2009,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "46,9"
+  },
+  {
+    "Year": 2009,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "27,65"
+  },
+  {
+    "Year": 2009,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "20,55"
+  },
+  {
+    "Year": 2009,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "49,95"
+  },
+  {
+    "Year": 2009,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "29,5"
+  },
+  {
+    "Year": 2010,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "32,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "36,75"
+  },
+  {
+    "Year": 2010,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "30,75"
+  },
+  {
+    "Year": 2010,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2010,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "55,1"
+  },
+  {
+    "Year": 2010,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "19,75"
+  },
+  {
+    "Year": 2010,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "14,45"
+  },
+  {
+    "Year": 2010,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "71,05"
+  },
+  {
+    "Year": 2010,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "14,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "32,15"
+  },
+  {
+    "Year": 2010,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "40,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "27,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "21,0"
+  },
+  {
+    "Year": 2010,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "56,35"
+  },
+  {
+    "Year": 2010,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "22,65"
+  },
+  {
+    "Year": 2010,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "18,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "51,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "29,85"
+  },
+  {
+    "Year": 2010,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "29,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "33,85"
+  },
+  {
+    "Year": 2010,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "38,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "40,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "20,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "48,1"
+  },
+  {
+    "Year": 2010,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,45"
+  },
+  {
+    "Year": 2010,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "28,45"
+  },
+  {
+    "Year": 2010,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "31,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "26,15"
+  },
+  {
+    "Year": 2010,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "25,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "58,85"
+  },
+  {
+    "Year": 2010,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "15,75"
+  },
+  {
+    "Year": 2010,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "46,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "40,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "13,0"
+  },
+  {
+    "Year": 2010,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "29,6"
+  },
+  {
+    "Year": 2010,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "31,95"
+  },
+  {
+    "Year": 2010,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "19,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "22,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "17,2"
+  },
+  {
+    "Year": 2010,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,15"
+  },
+  {
+    "Year": 2010,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "26,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "28,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "40,8"
+  },
+  {
+    "Year": 2010,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "30,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "24,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "58,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "17,05"
+  },
+  {
+    "Year": 2010,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "60,3"
+  },
+  {
+    "Year": 2010,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "25,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "14,15"
+  },
+  {
+    "Year": 2010,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "31,8"
+  },
+  {
+    "Year": 2010,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,45"
+  },
+  {
+    "Year": 2010,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "27,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "23,2"
+  },
+  {
+    "Year": 2010,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "16,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "18,0"
+  },
+  {
+    "Year": 2010,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "62,55"
+  },
+  {
+    "Year": 2010,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "19,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "67,4"
+  },
+  {
+    "Year": 2010,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "18,8"
+  },
+  {
+    "Year": 2010,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "13,85"
+  },
+  {
+    "Year": 2010,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "30,6"
+  },
+  {
+    "Year": 2010,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,5"
+  },
+  {
+    "Year": 2010,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "11,9"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "20,95"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "58,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "20,35"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "16,25"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "68,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "15,05"
+  },
+  {
+    "Year": 2010,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "23,65"
+  },
+  {
+    "Year": 2010,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,8"
+  },
+  {
+    "Year": 2010,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "31,65"
+  },
+  {
+    "Year": 2010,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "25,0"
+  },
+  {
+    "Year": 2010,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "46,7"
+  },
+  {
+    "Year": 2010,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "28,3"
+  },
+  {
+    "Year": 2010,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "21,35"
+  },
+  {
+    "Year": 2010,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "49,95"
+  },
+  {
+    "Year": 2010,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "28,75"
+  },
+  {
+    "Year": 2011,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "31,85"
+  },
+  {
+    "Year": 2011,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,7"
+  },
+  {
+    "Year": 2011,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "30,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "24,0"
+  },
+  {
+    "Year": 2011,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "55,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "20,1"
+  },
+  {
+    "Year": 2011,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "13,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "70,2"
+  },
+  {
+    "Year": 2011,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "15,85"
+  },
+  {
+    "Year": 2011,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "30,85"
+  },
+  {
+    "Year": 2011,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,3"
+  },
+  {
+    "Year": 2011,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "27,85"
+  },
+  {
+    "Year": 2011,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "18,05"
+  },
+  {
+    "Year": 2011,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "57,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "24,3"
+  },
+  {
+    "Year": 2011,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "17,75"
+  },
+  {
+    "Year": 2011,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "51,15"
+  },
+  {
+    "Year": 2011,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "31,15"
+  },
+  {
+    "Year": 2011,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "29,1"
+  },
+  {
+    "Year": 2011,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,5"
+  },
+  {
+    "Year": 2011,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "34,35"
+  },
+  {
+    "Year": 2011,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "37,1"
+  },
+  {
+    "Year": 2011,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "40,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "22,2"
+  },
+  {
+    "Year": 2011,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "46,95"
+  },
+  {
+    "Year": 2011,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,75"
+  },
+  {
+    "Year": 2011,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "29,3"
+  },
+  {
+    "Year": 2011,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "31,25"
+  },
+  {
+    "Year": 2011,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "42,1"
+  },
+  {
+    "Year": 2011,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "26,7"
+  },
+  {
+    "Year": 2011,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "24,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "60,0"
+  },
+  {
+    "Year": 2011,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "15,35"
+  },
+  {
+    "Year": 2011,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "45,5"
+  },
+  {
+    "Year": 2011,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "41,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "13,15"
+  },
+  {
+    "Year": 2011,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "28,35"
+  },
+  {
+    "Year": 2011,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,05"
+  },
+  {
+    "Year": 2011,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "33,6"
+  },
+  {
+    "Year": 2011,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "19,7"
+  },
+  {
+    "Year": 2011,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "56,95"
+  },
+  {
+    "Year": 2011,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "23,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "15,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "27,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "29,05"
+  },
+  {
+    "Year": 2011,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "39,25"
+  },
+  {
+    "Year": 2011,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "31,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "24,25"
+  },
+  {
+    "Year": 2011,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,8"
+  },
+  {
+    "Year": 2011,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "18,0"
+  },
+  {
+    "Year": 2011,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "58,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "26,05"
+  },
+  {
+    "Year": 2011,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "15,15"
+  },
+  {
+    "Year": 2011,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "31,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,45"
+  },
+  {
+    "Year": 2011,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "27,95"
+  },
+  {
+    "Year": 2011,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "23,05"
+  },
+  {
+    "Year": 2011,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,6"
+  },
+  {
+    "Year": 2011,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "16,35"
+  },
+  {
+    "Year": 2011,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "17,55"
+  },
+  {
+    "Year": 2011,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "62,2"
+  },
+  {
+    "Year": 2011,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "20,25"
+  },
+  {
+    "Year": 2011,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "64,25"
+  },
+  {
+    "Year": 2011,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "20,3"
+  },
+  {
+    "Year": 2011,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "15,5"
+  },
+  {
+    "Year": 2011,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "29,95"
+  },
+  {
+    "Year": 2011,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,2"
+  },
+  {
+    "Year": 2011,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "12,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "19,75"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "58,55"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "21,7"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "15,65"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "67,95"
+  },
+  {
+    "Year": 2011,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "16,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "22,9"
+  },
+  {
+    "Year": 2011,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,55"
+  },
+  {
+    "Year": 2011,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "32,55"
+  },
+  {
+    "Year": 2011,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "24,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "46,5"
+  },
+  {
+    "Year": 2011,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "29,15"
+  },
+  {
+    "Year": 2011,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "21,4"
+  },
+  {
+    "Year": 2011,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "49,75"
+  },
+  {
+    "Year": 2011,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "28,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "31,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "31,3"
+  },
+  {
+    "Year": 2012,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "22,95"
+  },
+  {
+    "Year": 2012,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "56,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "20,65"
+  },
+  {
+    "Year": 2012,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "13,45"
+  },
+  {
+    "Year": 2012,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "69,55"
+  },
+  {
+    "Year": 2012,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "17,0"
+  },
+  {
+    "Year": 2012,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "30,05"
+  },
+  {
+    "Year": 2012,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "28,55"
+  },
+  {
+    "Year": 2012,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "17,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "57,2"
+  },
+  {
+    "Year": 2012,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "24,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "16,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "51,2"
+  },
+  {
+    "Year": 2012,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "31,95"
+  },
+  {
+    "Year": 2012,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "28,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,1"
+  },
+  {
+    "Year": 2012,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "35,65"
+  },
+  {
+    "Year": 2012,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "35,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "41,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "22,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "46,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,6"
+  },
+  {
+    "Year": 2012,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "30,0"
+  },
+  {
+    "Year": 2012,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "30,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "41,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "27,7"
+  },
+  {
+    "Year": 2012,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "23,15"
+  },
+  {
+    "Year": 2012,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "61,1"
+  },
+  {
+    "Year": 2012,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "15,75"
+  },
+  {
+    "Year": 2012,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "44,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "13,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "26,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,75"
+  },
+  {
+    "Year": 2012,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "34,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "17,6"
+  },
+  {
+    "Year": 2012,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,55"
+  },
+  {
+    "Year": 2012,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "24,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "15,05"
+  },
+  {
+    "Year": 2012,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "56,5"
+  },
+  {
+    "Year": 2012,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "28,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "28,4"
+  },
+  {
+    "Year": 2012,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "38,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "33,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "23,45"
+  },
+  {
+    "Year": 2012,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,6"
+  },
+  {
+    "Year": 2012,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "18,95"
+  },
+  {
+    "Year": 2012,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "56,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "26,5"
+  },
+  {
+    "Year": 2012,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "16,55"
+  },
+  {
+    "Year": 2012,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "30,75"
+  },
+  {
+    "Year": 2012,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,65"
+  },
+  {
+    "Year": 2012,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "28,6"
+  },
+  {
+    "Year": 2012,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "22,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,75"
+  },
+  {
+    "Year": 2012,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "16,9"
+  },
+  {
+    "Year": 2012,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "16,7"
+  },
+  {
+    "Year": 2012,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "61,8"
+  },
+  {
+    "Year": 2012,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "21,45"
+  },
+  {
+    "Year": 2012,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "61,7"
+  },
+  {
+    "Year": 2012,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "21,65"
+  },
+  {
+    "Year": 2012,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "16,7"
+  },
+  {
+    "Year": 2012,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "29,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,25"
+  },
+  {
+    "Year": 2012,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "13,5"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "19,1"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "57,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "23,1"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "15,0"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "68,05"
+  },
+  {
+    "Year": 2012,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "17,0"
+  },
+  {
+    "Year": 2012,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "21,8"
+  },
+  {
+    "Year": 2012,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,35"
+  },
+  {
+    "Year": 2012,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "32,85"
+  },
+  {
+    "Year": 2012,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "23,8"
+  },
+  {
+    "Year": 2012,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "46,0"
+  },
+  {
+    "Year": 2012,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "30,15"
+  },
+  {
+    "Year": 2012,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "20,45"
+  },
+  {
+    "Year": 2012,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "49,55"
+  },
+  {
+    "Year": 2012,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "30,05"
+  },
+  {
+    "Year": 2013,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "30,4"
+  },
+  {
+    "Year": 2013,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,1"
+  },
+  {
+    "Year": 2013,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "31,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "22,1"
+  },
+  {
+    "Year": 2013,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "55,7"
+  },
+  {
+    "Year": 2013,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "22,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,9"
+  },
+  {
+    "Year": 2013,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "68,95"
+  },
+  {
+    "Year": 2013,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "18,15"
+  },
+  {
+    "Year": 2013,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "29,85"
+  },
+  {
+    "Year": 2013,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,15"
+  },
+  {
+    "Year": 2013,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "29,0"
+  },
+  {
+    "Year": 2013,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "17,65"
+  },
+  {
+    "Year": 2013,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "57,1"
+  },
+  {
+    "Year": 2013,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "25,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "15,9"
+  },
+  {
+    "Year": 2013,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "52,0"
+  },
+  {
+    "Year": 2013,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "32,05"
+  },
+  {
+    "Year": 2013,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "26,65"
+  },
+  {
+    "Year": 2013,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "36,1"
+  },
+  {
+    "Year": 2013,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "37,3"
+  },
+  {
+    "Year": 2013,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "34,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "41,45"
+  },
+  {
+    "Year": 2013,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "24,05"
+  },
+  {
+    "Year": 2013,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "45,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,45"
+  },
+  {
+    "Year": 2013,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "30,95"
+  },
+  {
+    "Year": 2013,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "28,0"
+  },
+  {
+    "Year": 2013,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "43,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "28,85"
+  },
+  {
+    "Year": 2013,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "22,4"
+  },
+  {
+    "Year": 2013,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "60,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "17,05"
+  },
+  {
+    "Year": 2013,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "43,4"
+  },
+  {
+    "Year": 2013,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,15"
+  },
+  {
+    "Year": 2013,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "14,4"
+  },
+  {
+    "Year": 2013,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "25,45"
+  },
+  {
+    "Year": 2013,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "39,35"
+  },
+  {
+    "Year": 2013,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "35,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "16,75"
+  },
+  {
+    "Year": 2013,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "56,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "26,7"
+  },
+  {
+    "Year": 2013,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "14,45"
+  },
+  {
+    "Year": 2013,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "55,95"
+  },
+  {
+    "Year": 2013,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "29,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "26,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "38,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "35,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "22,75"
+  },
+  {
+    "Year": 2013,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,85"
+  },
+  {
+    "Year": 2013,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "19,45"
+  },
+  {
+    "Year": 2013,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "54,35"
+  },
+  {
+    "Year": 2013,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "27,75"
+  },
+  {
+    "Year": 2013,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "17,9"
+  },
+  {
+    "Year": 2013,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "29,05"
+  },
+  {
+    "Year": 2013,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "29,35"
+  },
+  {
+    "Year": 2013,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "22,15"
+  },
+  {
+    "Year": 2013,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "60,2"
+  },
+  {
+    "Year": 2013,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "17,65"
+  },
+  {
+    "Year": 2013,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "16,1"
+  },
+  {
+    "Year": 2013,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "61,3"
+  },
+  {
+    "Year": 2013,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "22,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "59,5"
+  },
+  {
+    "Year": 2013,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "23,0"
+  },
+  {
+    "Year": 2013,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "17,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "28,9"
+  },
+  {
+    "Year": 2013,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,35"
+  },
+  {
+    "Year": 2013,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "13,8"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "18,5"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "57,0"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "24,5"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,75"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "67,55"
+  },
+  {
+    "Year": 2013,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "17,75"
+  },
+  {
+    "Year": 2013,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "20,8"
+  },
+  {
+    "Year": 2013,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "33,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "22,9"
+  },
+  {
+    "Year": 2013,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "45,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "31,5"
+  },
+  {
+    "Year": 2013,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "19,6"
+  },
+  {
+    "Year": 2013,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "48,5"
+  },
+  {
+    "Year": 2013,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "31,9"
+  },
+  {
+    "Year": 2014,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "29,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,8"
+  },
+  {
+    "Year": 2014,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "32,65"
+  },
+  {
+    "Year": 2014,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "22,6"
+  },
+  {
+    "Year": 2014,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "23,65"
+  },
+  {
+    "Year": 2014,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,4"
+  },
+  {
+    "Year": 2014,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "68,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "19,1"
+  },
+  {
+    "Year": 2014,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "28,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2014,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "29,45"
+  },
+  {
+    "Year": 2014,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "57,15"
+  },
+  {
+    "Year": 2014,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "23,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "17,75"
+  },
+  {
+    "Year": 2014,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "49,75"
+  },
+  {
+    "Year": 2014,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "32,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "23,95"
+  },
+  {
+    "Year": 2014,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "38,1"
+  },
+  {
+    "Year": 2014,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "37,9"
+  },
+  {
+    "Year": 2014,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "33,15"
+  },
+  {
+    "Year": 2014,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "42,25"
+  },
+  {
+    "Year": 2014,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "24,6"
+  },
+  {
+    "Year": 2014,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "44,45"
+  },
+  {
+    "Year": 2014,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "23,85"
+  },
+  {
+    "Year": 2014,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "31,65"
+  },
+  {
+    "Year": 2014,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "26,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "43,8"
+  },
+  {
+    "Year": 2014,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "29,75"
+  },
+  {
+    "Year": 2014,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "21,0"
+  },
+  {
+    "Year": 2014,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "60,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "18,5"
+  },
+  {
+    "Year": 2014,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "42,35"
+  },
+  {
+    "Year": 2014,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "14,95"
+  },
+  {
+    "Year": 2014,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "26,1"
+  },
+  {
+    "Year": 2014,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "37,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "36,25"
+  },
+  {
+    "Year": 2014,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "16,3"
+  },
+  {
+    "Year": 2014,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "57,1"
+  },
+  {
+    "Year": 2014,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "26,6"
+  },
+  {
+    "Year": 2014,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "14,3"
+  },
+  {
+    "Year": 2014,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "54,45"
+  },
+  {
+    "Year": 2014,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "31,25"
+  },
+  {
+    "Year": 2014,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "24,85"
+  },
+  {
+    "Year": 2014,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "35,55"
+  },
+  {
+    "Year": 2014,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "39,6"
+  },
+  {
+    "Year": 2014,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "22,0"
+  },
+  {
+    "Year": 2014,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,75"
+  },
+  {
+    "Year": 2014,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "20,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "52,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "28,35"
+  },
+  {
+    "Year": 2014,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "19,4"
+  },
+  {
+    "Year": 2014,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "28,85"
+  },
+  {
+    "Year": 2014,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,4"
+  },
+  {
+    "Year": 2014,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "29,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "20,25"
+  },
+  {
+    "Year": 2014,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "52,4"
+  },
+  {
+    "Year": 2014,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "27,4"
+  },
+  {
+    "Year": 2014,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "15,55"
+  },
+  {
+    "Year": 2014,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "60,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "23,8"
+  },
+  {
+    "Year": 2014,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "56,45"
+  },
+  {
+    "Year": 2014,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "23,95"
+  },
+  {
+    "Year": 2014,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "19,55"
+  },
+  {
+    "Year": 2014,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "31,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "54,6"
+  },
+  {
+    "Year": 2014,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "14,15"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "18,45"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "56,35"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "25,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "15,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "66,65"
+  },
+  {
+    "Year": 2014,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "18,15"
+  },
+  {
+    "Year": 2014,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "20,1"
+  },
+  {
+    "Year": 2014,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,2"
+  },
+  {
+    "Year": 2014,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "34,7"
+  },
+  {
+    "Year": 2014,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "22,15"
+  },
+  {
+    "Year": 2014,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "44,95"
+  },
+  {
+    "Year": 2014,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "32,9"
+  },
+  {
+    "Year": 2014,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "18,75"
+  },
+  {
+    "Year": 2014,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "48,35"
+  },
+  {
+    "Year": 2014,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "32,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "28,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,7"
+  },
+  {
+    "Year": 2015,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "32,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "22,2"
+  },
+  {
+    "Year": 2015,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "24,15"
+  },
+  {
+    "Year": 2015,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,45"
+  },
+  {
+    "Year": 2015,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "67,75"
+  },
+  {
+    "Year": 2015,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "19,8"
+  },
+  {
+    "Year": 2015,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "27,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2015,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "30,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,85"
+  },
+  {
+    "Year": 2015,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "56,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "23,75"
+  },
+  {
+    "Year": 2015,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "17,3"
+  },
+  {
+    "Year": 2015,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "49,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "33,2"
+  },
+  {
+    "Year": 2015,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "23,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "37,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "38,95"
+  },
+  {
+    "Year": 2015,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "31,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "43,05"
+  },
+  {
+    "Year": 2015,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "25,45"
+  },
+  {
+    "Year": 2015,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "43,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "24,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "32,1"
+  },
+  {
+    "Year": 2015,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "25,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "43,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "30,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "20,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "19,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2015,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,65"
+  },
+  {
+    "Year": 2015,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "15,45"
+  },
+  {
+    "Year": 2015,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "25,6"
+  },
+  {
+    "Year": 2015,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "36,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "15,7"
+  },
+  {
+    "Year": 2015,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "56,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "27,85"
+  },
+  {
+    "Year": 2015,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "13,85"
+  },
+  {
+    "Year": 2015,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "53,15"
+  },
+  {
+    "Year": 2015,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "33,0"
+  },
+  {
+    "Year": 2015,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "30,3"
+  },
+  {
+    "Year": 2015,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "34,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "35,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "21,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,2"
+  },
+  {
+    "Year": 2015,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "20,95"
+  },
+  {
+    "Year": 2015,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "50,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "29,7"
+  },
+  {
+    "Year": 2015,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "20,0"
+  },
+  {
+    "Year": 2015,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "28,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,1"
+  },
+  {
+    "Year": 2015,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "30,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "19,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "52,3"
+  },
+  {
+    "Year": 2015,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "28,15"
+  },
+  {
+    "Year": 2015,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "15,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "60,3"
+  },
+  {
+    "Year": 2015,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2015,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "54,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "24,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "20,6"
+  },
+  {
+    "Year": 2015,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "29,4"
+  },
+  {
+    "Year": 2015,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "55,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "15,0"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "17,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "55,8"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "26,8"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,6"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "66,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "18,9"
+  },
+  {
+    "Year": 2015,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "19,15"
+  },
+  {
+    "Year": 2015,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,25"
+  },
+  {
+    "Year": 2015,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "35,55"
+  },
+  {
+    "Year": 2015,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "21,6"
+  },
+  {
+    "Year": 2015,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "44,35"
+  },
+  {
+    "Year": 2015,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "34,1"
+  },
+  {
+    "Year": 2015,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "18,5"
+  },
+  {
+    "Year": 2015,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "47,3"
+  },
+  {
+    "Year": 2015,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "34,1"
+  },
+  {
+    "Year": 2016,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "28,2"
+  },
+  {
+    "Year": 2016,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "33,25"
+  },
+  {
+    "Year": 2016,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "21,9"
+  },
+  {
+    "Year": 2016,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,65"
+  },
+  {
+    "Year": 2016,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,35"
+  },
+  {
+    "Year": 2016,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "67,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "20,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "27,3"
+  },
+  {
+    "Year": 2016,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,7"
+  },
+  {
+    "Year": 2016,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "30,95"
+  },
+  {
+    "Year": 2016,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,85"
+  },
+  {
+    "Year": 2016,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "55,75"
+  },
+  {
+    "Year": 2016,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "16,7"
+  },
+  {
+    "Year": 2016,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "49,3"
+  },
+  {
+    "Year": 2016,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "34,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "23,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "37,55"
+  },
+  {
+    "Year": 2016,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "39,4"
+  },
+  {
+    "Year": 2016,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "30,05"
+  },
+  {
+    "Year": 2016,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "43,5"
+  },
+  {
+    "Year": 2016,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "26,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "42,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "24,75"
+  },
+  {
+    "Year": 2016,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "32,7"
+  },
+  {
+    "Year": 2016,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "25,4"
+  },
+  {
+    "Year": 2016,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "43,65"
+  },
+  {
+    "Year": 2016,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "30,9"
+  },
+  {
+    "Year": 2016,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "20,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "20,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "41,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,75"
+  },
+  {
+    "Year": 2016,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "15,65"
+  },
+  {
+    "Year": 2016,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "24,1"
+  },
+  {
+    "Year": 2016,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,5"
+  },
+  {
+    "Year": 2016,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "37,4"
+  },
+  {
+    "Year": 2016,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "15,05"
+  },
+  {
+    "Year": 2016,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "55,8"
+  },
+  {
+    "Year": 2016,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "29,25"
+  },
+  {
+    "Year": 2016,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "12,5"
+  },
+  {
+    "Year": 2016,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "53,65"
+  },
+  {
+    "Year": 2016,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "33,85"
+  },
+  {
+    "Year": 2016,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "28,2"
+  },
+  {
+    "Year": 2016,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "35,4"
+  },
+  {
+    "Year": 2016,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "36,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "21,8"
+  },
+  {
+    "Year": 2016,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,7"
+  },
+  {
+    "Year": 2016,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "20,55"
+  },
+  {
+    "Year": 2016,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "47,8"
+  },
+  {
+    "Year": 2016,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "31,75"
+  },
+  {
+    "Year": 2016,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "20,4"
+  },
+  {
+    "Year": 2016,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "27,95"
+  },
+  {
+    "Year": 2016,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,05"
+  },
+  {
+    "Year": 2016,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "31,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "19,55"
+  },
+  {
+    "Year": 2016,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "51,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "28,9"
+  },
+  {
+    "Year": 2016,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "14,6"
+  },
+  {
+    "Year": 2016,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "60,2"
+  },
+  {
+    "Year": 2016,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "25,2"
+  },
+  {
+    "Year": 2016,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "53,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "25,65"
+  },
+  {
+    "Year": 2016,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "21,3"
+  },
+  {
+    "Year": 2016,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "28,05"
+  },
+  {
+    "Year": 2016,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "56,85"
+  },
+  {
+    "Year": 2016,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "15,1"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "17,25"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "55,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "27,3"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,25"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "66,0"
+  },
+  {
+    "Year": 2016,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "19,75"
+  },
+  {
+    "Year": 2016,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "18,55"
+  },
+  {
+    "Year": 2016,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,5"
+  },
+  {
+    "Year": 2016,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "35,95"
+  },
+  {
+    "Year": 2016,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "21,1"
+  },
+  {
+    "Year": 2016,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "43,55"
+  },
+  {
+    "Year": 2016,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "35,45"
+  },
+  {
+    "Year": 2016,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "18,25"
+  },
+  {
+    "Year": 2016,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "46,35"
+  },
+  {
+    "Year": 2016,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "35,45"
+  },
+  {
+    "Year": 2017,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "27,2"
+  },
+  {
+    "Year": 2017,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "35,65"
+  },
+  {
+    "Year": 2017,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "21,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "54,05"
+  },
+  {
+    "Year": 2017,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "24,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "66,45"
+  },
+  {
+    "Year": 2017,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "21,45"
+  },
+  {
+    "Year": 2017,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "26,65"
+  },
+  {
+    "Year": 2017,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "41,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "32,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,85"
+  },
+  {
+    "Year": 2017,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "55,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "24,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "16,9"
+  },
+  {
+    "Year": 2017,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "48,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "34,7"
+  },
+  {
+    "Year": 2017,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "21,85"
+  },
+  {
+    "Year": 2017,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "37,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "40,4"
+  },
+  {
+    "Year": 2017,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "29,3"
+  },
+  {
+    "Year": 2017,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "43,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "27,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2017,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "24,95"
+  },
+  {
+    "Year": 2017,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "33,2"
+  },
+  {
+    "Year": 2017,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "25,2"
+  },
+  {
+    "Year": 2017,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "43,4"
+  },
+  {
+    "Year": 2017,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "31,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "19,9"
+  },
+  {
+    "Year": 2017,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,55"
+  },
+  {
+    "Year": 2017,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "20,55"
+  },
+  {
+    "Year": 2017,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "40,85"
+  },
+  {
+    "Year": 2017,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "16,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "22,9"
+  },
+  {
+    "Year": 2017,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "39,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "37,95"
+  },
+  {
+    "Year": 2017,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "15,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "54,9"
+  },
+  {
+    "Year": 2017,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "29,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "12,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "53,3"
+  },
+  {
+    "Year": 2017,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "34,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "30,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "35,4"
+  },
+  {
+    "Year": 2017,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "34,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "21,05"
+  },
+  {
+    "Year": 2017,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "58,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "20,85"
+  },
+  {
+    "Year": 2017,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "45,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "32,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "22,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "26,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "41,3"
+  },
+  {
+    "Year": 2017,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "32,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "19,3"
+  },
+  {
+    "Year": 2017,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "50,95"
+  },
+  {
+    "Year": 2017,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "29,7"
+  },
+  {
+    "Year": 2017,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "13,9"
+  },
+  {
+    "Year": 2017,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "59,8"
+  },
+  {
+    "Year": 2017,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "26,3"
+  },
+  {
+    "Year": 2017,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "51,8"
+  },
+  {
+    "Year": 2017,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "26,6"
+  },
+  {
+    "Year": 2017,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "21,55"
+  },
+  {
+    "Year": 2017,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "26,95"
+  },
+  {
+    "Year": 2017,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "57,7"
+  },
+  {
+    "Year": 2017,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "15,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "16,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "54,45"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "28,8"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "64,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "20,75"
+  },
+  {
+    "Year": 2017,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "18,35"
+  },
+  {
+    "Year": 2017,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,15"
+  },
+  {
+    "Year": 2017,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "36,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "21,1"
+  },
+  {
+    "Year": 2017,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "42,8"
+  },
+  {
+    "Year": 2017,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "36,05"
+  },
+  {
+    "Year": 2017,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "17,8"
+  },
+  {
+    "Year": 2017,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "45,5"
+  },
+  {
+    "Year": 2017,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "36,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "26,35"
+  },
+  {
+    "Year": 2018,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "37,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "36,0"
+  },
+  {
+    "Year": 2018,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "21,55"
+  },
+  {
+    "Year": 2018,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,6"
+  },
+  {
+    "Year": 2018,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "24,9"
+  },
+  {
+    "Year": 2018,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "66,15"
+  },
+  {
+    "Year": 2018,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "21,75"
+  },
+  {
+    "Year": 2018,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "26,6"
+  },
+  {
+    "Year": 2018,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "40,95"
+  },
+  {
+    "Year": 2018,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "32,4"
+  },
+  {
+    "Year": 2018,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,65"
+  },
+  {
+    "Year": 2018,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "55,2"
+  },
+  {
+    "Year": 2018,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2018,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "16,8"
+  },
+  {
+    "Year": 2018,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "47,35"
+  },
+  {
+    "Year": 2018,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "35,85"
+  },
+  {
+    "Year": 2018,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "21,5"
+  },
+  {
+    "Year": 2018,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "38,05"
+  },
+  {
+    "Year": 2018,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "40,45"
+  },
+  {
+    "Year": 2018,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "28,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "43,65"
+  },
+  {
+    "Year": 2018,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "27,65"
+  },
+  {
+    "Year": 2018,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "40,85"
+  },
+  {
+    "Year": 2018,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "25,15"
+  },
+  {
+    "Year": 2018,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "34,0"
+  },
+  {
+    "Year": 2018,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "24,45"
+  },
+  {
+    "Year": 2018,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "42,85"
+  },
+  {
+    "Year": 2018,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "32,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "18,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "22,0"
+  },
+  {
+    "Year": 2018,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "40,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,6"
+  },
+  {
+    "Year": 2018,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "17,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "21,9"
+  },
+  {
+    "Year": 2018,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,8"
+  },
+  {
+    "Year": 2018,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "39,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "15,35"
+  },
+  {
+    "Year": 2018,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "54,8"
+  },
+  {
+    "Year": 2018,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "29,8"
+  },
+  {
+    "Year": 2018,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "11,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "52,4"
+  },
+  {
+    "Year": 2018,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "35,9"
+  },
+  {
+    "Year": 2018,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "27,55"
+  },
+  {
+    "Year": 2018,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "34,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "38,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "20,25"
+  },
+  {
+    "Year": 2018,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "58,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "21,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "42,9"
+  },
+  {
+    "Year": 2018,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "32,4"
+  },
+  {
+    "Year": 2018,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "24,65"
+  },
+  {
+    "Year": 2018,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "26,05"
+  },
+  {
+    "Year": 2018,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "40,95"
+  },
+  {
+    "Year": 2018,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "33,05"
+  },
+  {
+    "Year": 2018,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "18,85"
+  },
+  {
+    "Year": 2018,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "51,05"
+  },
+  {
+    "Year": 2018,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "30,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "13,45"
+  },
+  {
+    "Year": 2018,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "59,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "27,25"
+  },
+  {
+    "Year": 2018,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "50,0"
+  },
+  {
+    "Year": 2018,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "27,6"
+  },
+  {
+    "Year": 2018,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "22,35"
+  },
+  {
+    "Year": 2018,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "26,3"
+  },
+  {
+    "Year": 2018,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "58,2"
+  },
+  {
+    "Year": 2018,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "15,5"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "16,45"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "54,7"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "28,9"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,45"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "63,55"
+  },
+  {
+    "Year": 2018,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "22,1"
+  },
+  {
+    "Year": 2018,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "17,65"
+  },
+  {
+    "Year": 2018,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "45,0"
+  },
+  {
+    "Year": 2018,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "37,35"
+  },
+  {
+    "Year": 2018,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "20,95"
+  },
+  {
+    "Year": 2018,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "41,85"
+  },
+  {
+    "Year": 2018,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "37,2"
+  },
+  {
+    "Year": 2018,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "17,25"
+  },
+  {
+    "Year": 2018,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "45,05"
+  },
+  {
+    "Year": 2018,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "37,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Belgium",
+    "ISCED11": "0-2",
+    "AVG": "25,85"
+  },
+  {
+    "Year": 2019,
+    "Country": "Belgium",
+    "ISCED11": "3-4",
+    "AVG": "38,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Belgium",
+    "ISCED11": "5-8",
+    "AVG": "36,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Bulgaria",
+    "ISCED11": "0-2",
+    "AVG": "21,85"
+  },
+  {
+    "Year": 2019,
+    "Country": "Bulgaria",
+    "ISCED11": "3-4",
+    "AVG": "53,4"
+  },
+  {
+    "Year": 2019,
+    "Country": "Bulgaria",
+    "ISCED11": "5-8",
+    "AVG": "24,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Czechia",
+    "ISCED11": "0-2",
+    "AVG": "12,35"
+  },
+  {
+    "Year": 2019,
+    "Country": "Czechia",
+    "ISCED11": "3-4",
+    "AVG": "66,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Czechia",
+    "ISCED11": "5-8",
+    "AVG": "21,6"
+  },
+  {
+    "Year": 2019,
+    "Country": "Denmark",
+    "ISCED11": "0-2",
+    "AVG": "26,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Denmark",
+    "ISCED11": "3-4",
+    "AVG": "40,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Denmark",
+    "ISCED11": "5-8",
+    "AVG": "33,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Germany (u",
+    "ISCED11": "0-2",
+    "AVG": "19,55"
+  },
+  {
+    "Year": 2019,
+    "Country": "Germany (u",
+    "ISCED11": "3-4",
+    "AVG": "54,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Germany (u",
+    "ISCED11": "5-8",
+    "AVG": "25,95"
+  },
+  {
+    "Year": 2019,
+    "Country": "Estonia",
+    "ISCED11": "0-2",
+    "AVG": "15,8"
+  },
+  {
+    "Year": 2019,
+    "Country": "Estonia",
+    "ISCED11": "3-4",
+    "AVG": "47,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Estonia",
+    "ISCED11": "5-8",
+    "AVG": "36,45"
+  },
+  {
+    "Year": 2019,
+    "Country": "Ireland",
+    "ISCED11": "0-2",
+    "AVG": "21,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Ireland",
+    "ISCED11": "3-4",
+    "AVG": "38,3"
+  },
+  {
+    "Year": 2019,
+    "Country": "Ireland",
+    "ISCED11": "5-8",
+    "AVG": "40,65"
+  },
+  {
+    "Year": 2019,
+    "Country": "Greece",
+    "ISCED11": "0-2",
+    "AVG": "25,9"
+  },
+  {
+    "Year": 2019,
+    "Country": "Greece",
+    "ISCED11": "3-4",
+    "AVG": "46,35"
+  },
+  {
+    "Year": 2019,
+    "Country": "Greece",
+    "ISCED11": "5-8",
+    "AVG": "27,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Spain",
+    "ISCED11": "0-2",
+    "AVG": "39,65"
+  },
+  {
+    "Year": 2019,
+    "Country": "Spain",
+    "ISCED11": "3-4",
+    "AVG": "25,25"
+  },
+  {
+    "Year": 2019,
+    "Country": "Spain",
+    "ISCED11": "5-8",
+    "AVG": "35,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "France",
+    "ISCED11": "0-2",
+    "AVG": "23,45"
+  },
+  {
+    "Year": 2019,
+    "Country": "France",
+    "ISCED11": "3-4",
+    "AVG": "42,9"
+  },
+  {
+    "Year": 2019,
+    "Country": "France",
+    "ISCED11": "5-8",
+    "AVG": "33,6"
+  },
+  {
+    "Year": 2019,
+    "Country": "Croatia",
+    "ISCED11": "0-2",
+    "AVG": "18,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Croatia",
+    "ISCED11": "3-4",
+    "AVG": "59,85"
+  },
+  {
+    "Year": 2019,
+    "Country": "Croatia",
+    "ISCED11": "5-8",
+    "AVG": "22,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Italy",
+    "ISCED11": "0-2",
+    "AVG": "39,8"
+  },
+  {
+    "Year": 2019,
+    "Country": "Italy",
+    "ISCED11": "3-4",
+    "AVG": "42,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Italy",
+    "ISCED11": "5-8",
+    "AVG": "17,4"
+  },
+  {
+    "Year": 2019,
+    "Country": "Cyprus",
+    "ISCED11": "0-2",
+    "AVG": "21,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Cyprus",
+    "ISCED11": "3-4",
+    "AVG": "38,65"
+  },
+  {
+    "Year": 2019,
+    "Country": "Cyprus",
+    "ISCED11": "5-8",
+    "AVG": "39,85"
+  },
+  {
+    "Year": 2019,
+    "Country": "Latvia",
+    "ISCED11": "0-2",
+    "AVG": "14,95"
+  },
+  {
+    "Year": 2019,
+    "Country": "Latvia",
+    "ISCED11": "3-4",
+    "AVG": "53,9"
+  },
+  {
+    "Year": 2019,
+    "Country": "Latvia",
+    "ISCED11": "5-8",
+    "AVG": "31,15"
+  },
+  {
+    "Year": 2019,
+    "Country": "Lithuania",
+    "ISCED11": "0-2",
+    "AVG": "11,15"
+  },
+  {
+    "Year": 2019,
+    "Country": "Lithuania",
+    "ISCED11": "3-4",
+    "AVG": "51,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Lithuania",
+    "ISCED11": "5-8",
+    "AVG": "37,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Luxembourg",
+    "ISCED11": "0-2",
+    "AVG": "26,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Luxembourg",
+    "ISCED11": "3-4",
+    "AVG": "32,25"
+  },
+  {
+    "Year": 2019,
+    "Country": "Luxembourg",
+    "ISCED11": "5-8",
+    "AVG": "41,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Hungary",
+    "ISCED11": "0-2",
+    "AVG": "19,95"
+  },
+  {
+    "Year": 2019,
+    "Country": "Hungary",
+    "ISCED11": "3-4",
+    "AVG": "57,6"
+  },
+  {
+    "Year": 2019,
+    "Country": "Hungary",
+    "ISCED11": "5-8",
+    "AVG": "22,45"
+  },
+  {
+    "Year": 2019,
+    "Country": "Malta",
+    "ISCED11": "0-2",
+    "AVG": "41,25"
+  },
+  {
+    "Year": 2019,
+    "Country": "Malta",
+    "ISCED11": "3-4",
+    "AVG": "32,0"
+  },
+  {
+    "Year": 2019,
+    "Country": "Malta",
+    "ISCED11": "5-8",
+    "AVG": "26,8"
+  },
+  {
+    "Year": 2019,
+    "Country": "Netherland",
+    "ISCED11": "0-2",
+    "AVG": "25,55"
+  },
+  {
+    "Year": 2019,
+    "Country": "Netherland",
+    "ISCED11": "3-4",
+    "AVG": "39,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Netherland",
+    "ISCED11": "5-8",
+    "AVG": "34,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Austria",
+    "ISCED11": "0-2",
+    "AVG": "18,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Austria",
+    "ISCED11": "3-4",
+    "AVG": "50,15"
+  },
+  {
+    "Year": 2019,
+    "Country": "Austria",
+    "ISCED11": "5-8",
+    "AVG": "31,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Poland",
+    "ISCED11": "0-2",
+    "AVG": "13,3"
+  },
+  {
+    "Year": 2019,
+    "Country": "Poland",
+    "ISCED11": "3-4",
+    "AVG": "58,45"
+  },
+  {
+    "Year": 2019,
+    "Country": "Poland",
+    "ISCED11": "5-8",
+    "AVG": "28,2"
+  },
+  {
+    "Year": 2019,
+    "Country": "Portugal",
+    "ISCED11": "0-2",
+    "AVG": "47,75"
+  },
+  {
+    "Year": 2019,
+    "Country": "Portugal",
+    "ISCED11": "3-4",
+    "AVG": "28,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Portugal",
+    "ISCED11": "5-8",
+    "AVG": "23,6"
+  },
+  {
+    "Year": 2019,
+    "Country": "Romania",
+    "ISCED11": "0-2",
+    "AVG": "25,1"
+  },
+  {
+    "Year": 2019,
+    "Country": "Romania",
+    "ISCED11": "3-4",
+    "AVG": "58,85"
+  },
+  {
+    "Year": 2019,
+    "Country": "Romania",
+    "ISCED11": "5-8",
+    "AVG": "16,05"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovenia",
+    "ISCED11": "0-2",
+    "AVG": "15,8"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovenia",
+    "ISCED11": "3-4",
+    "AVG": "54,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovenia",
+    "ISCED11": "5-8",
+    "AVG": "29,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovakia",
+    "ISCED11": "0-2",
+    "AVG": "14,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovakia",
+    "ISCED11": "3-4",
+    "AVG": "62,3"
+  },
+  {
+    "Year": 2019,
+    "Country": "Slovakia",
+    "ISCED11": "5-8",
+    "AVG": "23,15"
+  },
+  {
+    "Year": 2019,
+    "Country": "Finland",
+    "ISCED11": "0-2",
+    "AVG": "16,9"
+  },
+  {
+    "Year": 2019,
+    "Country": "Finland",
+    "ISCED11": "3-4",
+    "AVG": "44,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Finland",
+    "ISCED11": "5-8",
+    "AVG": "38,6"
+  },
+  {
+    "Year": 2019,
+    "Country": "Sweden",
+    "ISCED11": "0-2",
+    "AVG": "20,7"
+  },
+  {
+    "Year": 2019,
+    "Country": "Sweden",
+    "ISCED11": "3-4",
+    "AVG": "41,3"
+  },
+  {
+    "Year": 2019,
+    "Country": "Sweden",
+    "ISCED11": "5-8",
+    "AVG": "37,95"
+  },
+  {
+    "Year": 2019,
+    "Country": "Switzerlan",
+    "ISCED11": "0-2",
+    "AVG": "16,5"
+  },
+  {
+    "Year": 2019,
+    "Country": "Switzerlan",
+    "ISCED11": "3-4",
+    "AVG": "44,95"
+  },
+  {
+    "Year": 2019,
+    "Country": "Switzerlan",
+    "ISCED11": "5-8",
+    "AVG": "38,55"
+  }
+]
