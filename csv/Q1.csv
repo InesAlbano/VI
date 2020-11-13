@@ -95,9 +95,9 @@ Year,Country,code,ISCED11,AVG
 2006,Denmark,DK,0-2,25,4
 2006,Denmark,DK,3-4,45,3
 2006,Denmark,DK,5-8,29,3
-2006,Germany,DE(u,0-2,24,6
-2006,Germany,DE(u,3-4,55,35
-2006,Germany,DE(u,5-8,20,05
+2006,Germany,DE,0-2,24,6
+2006,Germany,DE,3-4,55,35
+2006,Germany,DE,5-8,20,05
 2006,Estonia,EE,0-2,20,7
 2006,Estonia,EE,3-4,52,1
 2006,Estonia,EE,5-8,27,25
