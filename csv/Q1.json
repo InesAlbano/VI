@@ -2,7561 +2,8821 @@
   {
     "Year": 2005,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "36,3"
+    "AVG": 36
   },
   {
     "Year": 2005,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "36,5"
+    "AVG": 36
   },
   {
     "Year": 2005,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "27,2"
+    "AVG": 27
   },
   {
     "Year": 2005,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "33,4"
+    "AVG": 33
   },
   {
     "Year": 2005,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "48,85"
+    "AVG": 48
   },
   {
     "Year": 2005,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "17,8"
+    "AVG": 17
   },
   {
     "Year": 2005,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "16,85"
+    "AVG": 16
   },
   {
     "Year": 2005,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "72,15"
+    "AVG": 72
   },
   {
     "Year": 2005,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "11,0"
+    "AVG": 11
   },
   {
     "Year": 2005,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "25,7"
+    "AVG": 25
   },
   {
     "Year": 2005,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "45,75"
+    "AVG": 45
   },
   {
     "Year": 2005,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "28,55"
+    "AVG": 28
   },
   {
     "Year": 2005,
     "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "24,8"
+    "AVG": 24
   },
   {
     "Year": 2005,
     "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "54,65"
+    "AVG": 54
   },
   {
     "Year": 2005,
     "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "20,55"
+    "AVG": 20
   },
   {
     "Year": 2005,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "20,05"
+    "AVG": 20
   },
   {
     "Year": 2005,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "52,5"
+    "AVG": 52
   },
   {
     "Year": 2005,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "27,45"
+    "AVG": 27
   },
   {
     "Year": 2005,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "37,0"
+    "AVG": 37
   },
   {
     "Year": 2005,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "37,25"
+    "AVG": 37
   },
   {
     "Year": 2005,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "25,65"
+    "AVG": 25
   },
   {
     "Year": 2005,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "40,05"
+    "AVG": 40
   },
   {
     "Year": 2005,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "42,35"
+    "AVG": 42
   },
   {
     "Year": 2005,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "17,6"
+    "AVG": 17
   },
   {
     "Year": 2005,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "51,7"
+    "AVG": 51
   },
   {
     "Year": 2005,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "22,3"
+    "AVG": 22
   },
   {
     "Year": 2005,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "26,1"
+    "AVG": 26
   },
   {
     "Year": 2005,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "35,55"
+    "AVG": 35
   },
   {
     "Year": 2005,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,1"
+    "AVG": 41
   },
   {
     "Year": 2005,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "23,4"
+    "AVG": 23
   },
   {
     "Year": 2005,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "29,2"
+    "AVG": 29
   },
   {
     "Year": 2005,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "57,4"
+    "AVG": 57
   },
   {
     "Year": 2005,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "13,4"
+    "AVG": 13
   },
   {
     "Year": 2005,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "50,6"
+    "AVG": 50
   },
   {
     "Year": 2005,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "38,65"
+    "AVG": 38
   },
   {
     "Year": 2005,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "10,75"
+    "AVG": 10
   },
   {
     "Year": 2005,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "36,2"
+    "AVG": 36
   },
   {
     "Year": 2005,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,1"
+    "AVG": 38
   },
   {
     "Year": 2005,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "25,7"
+    "AVG": 25
   },
   {
     "Year": 2005,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "24,75"
+    "AVG": 24
   },
   {
     "Year": 2005,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "58,5"
+    "AVG": 58
   },
   {
     "Year": 2005,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "16,75"
+    "AVG": 16
   },
   {
     "Year": 2005,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "20,85"
+    "AVG": 20
   },
   {
     "Year": 2005,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,95"
+    "AVG": 56
   },
   {
     "Year": 2005,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "22,25"
+    "AVG": 22
   },
   {
     "Year": 2005,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "38,7"
+    "AVG": 38
   },
   {
     "Year": 2005,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "38,3"
+    "AVG": 38
   },
   {
     "Year": 2005,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "23,0"
+    "AVG": 23
   },
   {
     "Year": 2005,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "28,5"
+    "AVG": 28
   },
   {
     "Year": 2005,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,05"
+    "AVG": 57
   },
   {
     "Year": 2005,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "14,5"
+    "AVG": 14
   },
   {
     "Year": 2005,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "68,9"
+    "AVG": 68
   },
   {
     "Year": 2005,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "20,7"
+    "AVG": 20
   },
   {
     "Year": 2005,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "10,35"
+    "AVG": 10
   },
   {
     "Year": 2005,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "34,55"
+    "code": "0-2",
+    "ISCED11": 34,
+    "AVG": 55
   },
   {
     "Year": 2005,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,0"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 0
   },
   {
     "Year": 2005,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "24,45"
+    "code": "5-8",
+    "ISCED11": 24,
+    "AVG": 45
   },
   {
     "Year": 2005,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "24,45"
+    "AVG": 24
   },
   {
     "Year": 2005,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,5"
+    "AVG": 60
   },
   {
     "Year": 2005,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "15,05"
+    "AVG": 15
   },
   {
     "Year": 2005,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "21,85"
+    "AVG": 21
   },
   {
     "Year": 2005,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "64,3"
+    "AVG": 64
   },
   {
     "Year": 2005,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "13,9"
+    "AVG": 13
   },
   {
     "Year": 2005,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "72,7"
+    "AVG": 72
   },
   {
     "Year": 2005,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "16,25"
+    "AVG": 16
   },
   {
     "Year": 2005,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "11,05"
+    "AVG": 11
   },
   {
     "Year": 2005,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "33,3"
+    "AVG": 33
   },
   {
     "Year": 2005,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,6"
+    "AVG": 57
   },
   {
     "Year": 2005,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "9,1"
+    "AVG": 9
   },
   {
     "Year": 2005,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "24,0"
+    "AVG": 24
   },
   {
     "Year": 2005,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "59,3"
+    "AVG": 59
   },
   {
     "Year": 2005,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "16,7"
+    "AVG": 16
   },
   {
     "Year": 2005,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "19,95"
+    "AVG": 19
   },
   {
     "Year": 2005,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "68,65"
+    "AVG": 68
   },
   {
     "Year": 2005,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "11,35"
+    "AVG": 11
   },
   {
     "Year": 2005,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "26,95"
+    "AVG": 26
   },
   {
     "Year": 2005,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,45"
+    "AVG": 44
   },
   {
     "Year": 2005,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "28,6"
+    "AVG": 28
   },
   {
     "Year": 2005,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "21,3"
+    "AVG": 21
   },
   {
     "Year": 2005,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "53,1"
+    "AVG": 53
   },
   {
     "Year": 2005,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "25,6"
+    "AVG": 25
   },
   {
     "Year": 2005,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "23,75"
+    "code": "0-2",
+    "ISCED11": 23,
+    "AVG": 75
   },
   {
     "Year": 2005,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "52,05"
+    "code": "3-4",
+    "ISCED11": 52,
+    "AVG": "05"
   },
   {
     "Year": 2005,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "24,25"
+    "code": "5-8",
+    "ISCED11": 24,
+    "AVG": 25
   },
   {
     "Year": 2006,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "35,7"
+    "AVG": 35
   },
   {
     "Year": 2006,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "36,45"
+    "AVG": 36
   },
   {
     "Year": 2006,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "27,9"
+    "AVG": 27
   },
   {
     "Year": 2006,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "30,6"
+    "AVG": 30
   },
   {
     "Year": 2006,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "51,3"
+    "AVG": 51
   },
   {
     "Year": 2006,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "18,1"
+    "AVG": 18
   },
   {
     "Year": 2006,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "16,4"
+    "AVG": 16
   },
   {
     "Year": 2006,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "72,2"
+    "AVG": 72
   },
   {
     "Year": 2006,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "11,4"
+    "AVG": 11
   },
   {
     "Year": 2006,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "25,4"
+    "AVG": 25
   },
   {
     "Year": 2006,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "45,3"
+    "AVG": 45
   },
   {
     "Year": 2006,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "29,3"
+    "AVG": 29
   },
   {
     "Year": 2006,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE(u",
     "ISCED11": "0-2",
-    "AVG": "24,6"
+    "AVG": 24
   },
   {
     "Year": 2006,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE(u",
     "ISCED11": "3-4",
-    "AVG": "55,35"
+    "AVG": 55
   },
   {
     "Year": 2006,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE(u",
     "ISCED11": "5-8",
-    "AVG": "20,05"
+    "AVG": 20
   },
   {
     "Year": 2006,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "20,7"
+    "AVG": 20
   },
   {
     "Year": 2006,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "52,1"
+    "AVG": 52
   },
   {
     "Year": 2006,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "27,25"
+    "AVG": 27
   },
   {
     "Year": 2006,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "35,5"
+    "AVG": 35
   },
   {
     "Year": 2006,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "37,0"
+    "AVG": 37
   },
   {
     "Year": 2006,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "27,5"
+    "AVG": 27
   },
   {
     "Year": 2006,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "41,4"
+    "AVG": 41
   },
   {
     "Year": 2006,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "39,9"
+    "AVG": 39
   },
   {
     "Year": 2006,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "18,65"
+    "AVG": 18
   },
   {
     "Year": 2006,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "50,85"
+    "AVG": 50
   },
   {
     "Year": 2006,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "22,75"
+    "AVG": 22
   },
   {
     "Year": 2006,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "26,35"
+    "AVG": 26
   },
   {
     "Year": 2006,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "34,95"
+    "AVG": 34
   },
   {
     "Year": 2006,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,1"
+    "AVG": 41
   },
   {
     "Year": 2006,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "23,95"
+    "AVG": 23
   },
   {
     "Year": 2006,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "28,2"
+    "AVG": 28
   },
   {
     "Year": 2006,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "58,25"
+    "AVG": 58
   },
   {
     "Year": 2006,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "13,55"
+    "AVG": 13
   },
   {
     "Year": 2006,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "49,55"
+    "AVG": 49
   },
   {
     "Year": 2006,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "39,05"
+    "AVG": 39
   },
   {
     "Year": 2006,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "11,4"
+    "AVG": 11
   },
   {
     "Year": 2006,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "33,55"
+    "AVG": 33
   },
   {
     "Year": 2006,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,85"
+    "AVG": 38
   },
   {
     "Year": 2006,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "27,55"
+    "AVG": 27
   },
   {
     "Year": 2006,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "24,8"
+    "AVG": 24
   },
   {
     "Year": 2006,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,95"
+    "AVG": 57
   },
   {
     "Year": 2006,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "17,25"
+    "AVG": 17
   },
   {
     "Year": 2006,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "20,7"
+    "AVG": 20
   },
   {
     "Year": 2006,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "57,4"
+    "AVG": 57
   },
   {
     "Year": 2006,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "21,85"
+    "AVG": 21
   },
   {
     "Year": 2006,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "39,25"
+    "AVG": 39
   },
   {
     "Year": 2006,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "40,2"
+    "AVG": 40
   },
   {
     "Year": 2006,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "20,55"
+    "AVG": 20
   },
   {
     "Year": 2006,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "27,2"
+    "AVG": 27
   },
   {
     "Year": 2006,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,8"
+    "AVG": 57
   },
   {
     "Year": 2006,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "15,0"
+    "AVG": 15
   },
   {
     "Year": 2006,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "67,5"
+    "AVG": 67
   },
   {
     "Year": 2006,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "21,4"
+    "AVG": 21
   },
   {
     "Year": 2006,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "11,1"
+    "AVG": 11
   },
   {
     "Year": 2006,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "33,65"
+    "code": "0-2",
+    "ISCED11": 33,
+    "AVG": 65
   },
   {
     "Year": 2006,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,45"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 45
   },
   {
     "Year": 2006,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "24,8"
+    "code": "5-8",
+    "ISCED11": 24,
+    "AVG": 8
   },
   {
     "Year": 2006,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "24,95"
+    "AVG": 24
   },
   {
     "Year": 2006,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,3"
+    "AVG": 60
   },
   {
     "Year": 2006,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "14,75"
+    "AVG": 14
   },
   {
     "Year": 2006,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "20,95"
+    "AVG": 20
   },
   {
     "Year": 2006,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "64,15"
+    "AVG": 64
   },
   {
     "Year": 2006,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "14,85"
+    "AVG": 14
   },
   {
     "Year": 2006,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "71,75"
+    "AVG": 71
   },
   {
     "Year": 2006,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "16,65"
+    "AVG": 16
   },
   {
     "Year": 2006,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "11,6"
+    "AVG": 11
   },
   {
     "Year": 2006,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "32,05"
+    "AVG": 32
   },
   {
     "Year": 2006,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "58,4"
+    "AVG": 58
   },
   {
     "Year": 2006,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "9,55"
+    "AVG": 9
   },
   {
     "Year": 2006,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "22,9"
+    "AVG": 22
   },
   {
     "Year": 2006,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "59,3"
+    "AVG": 59
   },
   {
     "Year": 2006,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "17,8"
+    "AVG": 17
   },
   {
     "Year": 2006,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "18,85"
+    "AVG": 18
   },
   {
     "Year": 2006,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "69,25"
+    "AVG": 69
   },
   {
     "Year": 2006,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "11,9"
+    "AVG": 11
   },
   {
     "Year": 2006,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "26,2"
+    "AVG": 26
   },
   {
     "Year": 2006,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,75"
+    "AVG": 44
   },
   {
     "Year": 2006,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "29,0"
+    "AVG": 29
   },
   {
     "Year": 2006,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "26,85"
+    "AVG": 26
   },
   {
     "Year": 2006,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "47,15"
+    "AVG": 47
   },
   {
     "Year": 2006,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "25,95"
+    "AVG": 25
   },
   {
     "Year": 2006,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "21,9"
+    "code": "0-2",
+    "ISCED11": 21,
+    "AVG": 9
   },
   {
     "Year": 2006,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "52,95"
+    "code": "3-4",
+    "ISCED11": 52,
+    "AVG": 95
   },
   {
     "Year": 2006,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "25,2"
+    "code": "5-8",
+    "ISCED11": 25,
+    "AVG": 2
   },
   {
     "Year": 2007,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "34,8"
+    "AVG": 34
   },
   {
     "Year": 2007,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,15"
+    "AVG": 37
   },
   {
     "Year": 2007,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "28,15"
+    "AVG": 28
   },
   {
     "Year": 2007,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "28,65"
+    "AVG": 28
   },
   {
     "Year": 2007,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "52,8"
+    "AVG": 52
   },
   {
     "Year": 2007,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "18,5"
+    "AVG": 18
   },
   {
     "Year": 2007,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "16,2"
+    "AVG": 16
   },
   {
     "Year": 2007,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "72,2"
+    "AVG": 72
   },
   {
     "Year": 2007,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "11,65"
+    "AVG": 11
   },
   {
     "Year": 2007,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "32,35"
+    "AVG": 32
   },
   {
     "Year": 2007,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,7"
+    "AVG": 41
   },
   {
     "Year": 2007,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "26,05"
+    "AVG": 26
   },
   {
     "Year": 2007,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "23,5"
+    "AVG": 23
   },
   {
     "Year": 2007,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "56,15"
+    "AVG": 56
   },
   {
     "Year": 2007,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "20,35"
+    "AVG": 20
   },
   {
     "Year": 2007,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "20,1"
+    "AVG": 20
   },
   {
     "Year": 2007,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "52,55"
+    "AVG": 52
   },
   {
     "Year": 2007,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "27,35"
+    "AVG": 27
   },
   {
     "Year": 2007,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "33,1"
+    "AVG": 33
   },
   {
     "Year": 2007,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,75"
+    "AVG": 36
   },
   {
     "Year": 2007,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "30,15"
+    "AVG": 30
   },
   {
     "Year": 2007,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "40,8"
+    "AVG": 40
   },
   {
     "Year": 2007,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "40,1"
+    "AVG": 40
   },
   {
     "Year": 2007,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "19,15"
+    "AVG": 19
   },
   {
     "Year": 2007,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "50,1"
+    "AVG": 50
   },
   {
     "Year": 2007,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,1"
+    "AVG": 23
   },
   {
     "Year": 2007,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "26,8"
+    "AVG": 26
   },
   {
     "Year": 2007,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "33,95"
+    "AVG": 33
   },
   {
     "Year": 2007,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,7"
+    "AVG": 41
   },
   {
     "Year": 2007,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "24,35"
+    "AVG": 24
   },
   {
     "Year": 2007,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "26,65"
+    "AVG": 26
   },
   {
     "Year": 2007,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,95"
+    "AVG": 59
   },
   {
     "Year": 2007,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "13,4"
+    "AVG": 13
   },
   {
     "Year": 2007,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "48,7"
+    "AVG": 48
   },
   {
     "Year": 2007,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "39,3"
+    "AVG": 39
   },
   {
     "Year": 2007,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "12,05"
+    "AVG": 12
   },
   {
     "Year": 2007,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "31,15"
+    "AVG": 31
   },
   {
     "Year": 2007,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "39,2"
+    "AVG": 39
   },
   {
     "Year": 2007,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "29,7"
+    "AVG": 29
   },
   {
     "Year": 2007,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "24,15"
+    "AVG": 24
   },
   {
     "Year": 2007,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,45"
+    "AVG": 57
   },
   {
     "Year": 2007,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "18,35"
+    "AVG": 18
   },
   {
     "Year": 2007,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "19,95"
+    "AVG": 19
   },
   {
     "Year": 2007,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,5"
+    "AVG": 56
   },
   {
     "Year": 2007,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "23,6"
+    "AVG": 23
   },
   {
     "Year": 2007,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "38,7"
+    "AVG": 38
   },
   {
     "Year": 2007,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "38,6"
+    "AVG": 38
   },
   {
     "Year": 2007,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "22,7"
+    "AVG": 22
   },
   {
     "Year": 2007,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "26,25"
+    "AVG": 26
   },
   {
     "Year": 2007,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "58,4"
+    "AVG": 58
   },
   {
     "Year": 2007,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "15,35"
+    "AVG": 15
   },
   {
     "Year": 2007,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "67,3"
+    "AVG": 67
   },
   {
     "Year": 2007,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "20,95"
+    "AVG": 20
   },
   {
     "Year": 2007,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "11,7"
+    "AVG": 11
   },
   {
     "Year": 2007,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "32,85"
+    "code": "0-2",
+    "ISCED11": 32,
+    "AVG": 85
   },
   {
     "Year": 2007,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,7"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 7
   },
   {
     "Year": 2007,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "25,45"
+    "code": "5-8",
+    "ISCED11": 25,
+    "AVG": 45
   },
   {
     "Year": 2007,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "25,4"
+    "AVG": 25
   },
   {
     "Year": 2007,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,05"
+    "AVG": 60
   },
   {
     "Year": 2007,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "14,6"
+    "AVG": 14
   },
   {
     "Year": 2007,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "20,4"
+    "AVG": 20
   },
   {
     "Year": 2007,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "63,95"
+    "AVG": 63
   },
   {
     "Year": 2007,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "15,6"
+    "AVG": 15
   },
   {
     "Year": 2007,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "71,5"
+    "AVG": 71
   },
   {
     "Year": 2007,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "16,6"
+    "AVG": 16
   },
   {
     "Year": 2007,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "11,9"
+    "AVG": 11
   },
   {
     "Year": 2007,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "30,9"
+    "AVG": 30
   },
   {
     "Year": 2007,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "59,15"
+    "AVG": 59
   },
   {
     "Year": 2007,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "9,9"
+    "AVG": 9
   },
   {
     "Year": 2007,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "22,25"
+    "AVG": 22
   },
   {
     "Year": 2007,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "59,25"
+    "AVG": 59
   },
   {
     "Year": 2007,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "18,55"
+    "AVG": 18
   },
   {
     "Year": 2007,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "18,4"
+    "AVG": 18
   },
   {
     "Year": 2007,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "69,7"
+    "AVG": 69
   },
   {
     "Year": 2007,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "11,9"
+    "AVG": 11
   },
   {
     "Year": 2007,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "25,35"
+    "AVG": 25
   },
   {
     "Year": 2007,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,55"
+    "AVG": 44
   },
   {
     "Year": 2007,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "30,0"
+    "AVG": 30
   },
   {
     "Year": 2007,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "26,55"
+    "AVG": 26
   },
   {
     "Year": 2007,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "47,0"
+    "AVG": 47
   },
   {
     "Year": 2007,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "26,45"
+    "AVG": 26
   },
   {
     "Year": 2007,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "21,15"
+    "code": "0-2",
+    "ISCED11": 21,
+    "AVG": 15
   },
   {
     "Year": 2007,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "52,35"
+    "code": "3-4",
+    "ISCED11": 52,
+    "AVG": 35
   },
   {
     "Year": 2007,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "26,55"
+    "code": "5-8",
+    "ISCED11": 26,
+    "AVG": 55
   },
   {
     "Year": 2008,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "33,55"
+    "AVG": 33
   },
   {
     "Year": 2008,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,0"
+    "AVG": 38
   },
   {
     "Year": 2008,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "28,45"
+    "AVG": 28
   },
   {
     "Year": 2008,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "28,35"
+    "AVG": 28
   },
   {
     "Year": 2008,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "52,8"
+    "AVG": 52
   },
   {
     "Year": 2008,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "18,85"
+    "AVG": 18
   },
   {
     "Year": 2008,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "15,9"
+    "AVG": 15
   },
   {
     "Year": 2008,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "71,75"
+    "AVG": 71
   },
   {
     "Year": 2008,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "12,45"
+    "AVG": 12
   },
   {
     "Year": 2008,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "33,25"
+    "AVG": 33
   },
   {
     "Year": 2008,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "40,7"
+    "AVG": 40
   },
   {
     "Year": 2008,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "26,05"
+    "AVG": 26
   },
   {
     "Year": 2008,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "22,3"
+    "AVG": 22
   },
   {
     "Year": 2008,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "56,35"
+    "AVG": 56
   },
   {
     "Year": 2008,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "21,35"
+    "AVG": 21
   },
   {
     "Year": 2008,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "20,45"
+    "AVG": 20
   },
   {
     "Year": 2008,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "51,45"
+    "AVG": 51
   },
   {
     "Year": 2008,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "28,1"
+    "AVG": 28
   },
   {
     "Year": 2008,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "31,8"
+    "AVG": 31
   },
   {
     "Year": 2008,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,95"
+    "AVG": 36
   },
   {
     "Year": 2008,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "31,25"
+    "AVG": 31
   },
   {
     "Year": 2008,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "39,75"
+    "AVG": 39
   },
   {
     "Year": 2008,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "40,5"
+    "AVG": 40
   },
   {
     "Year": 2008,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "19,75"
+    "AVG": 19
   },
   {
     "Year": 2008,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "49,85"
+    "AVG": 49
   },
   {
     "Year": 2008,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,15"
+    "AVG": 23
   },
   {
     "Year": 2008,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "27,05"
+    "AVG": 27
   },
   {
     "Year": 2008,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "32,95"
+    "AVG": 32
   },
   {
     "Year": 2008,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "42,3"
+    "AVG": 42
   },
   {
     "Year": 2008,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "24,75"
+    "AVG": 24
   },
   {
     "Year": 2008,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "25,9"
+    "AVG": 25
   },
   {
     "Year": 2008,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "60,5"
+    "AVG": 60
   },
   {
     "Year": 2008,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "13,6"
+    "AVG": 13
   },
   {
     "Year": 2008,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "47,9"
+    "AVG": 47
   },
   {
     "Year": 2008,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "39,45"
+    "AVG": 39
   },
   {
     "Year": 2008,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "12,65"
+    "AVG": 12
   },
   {
     "Year": 2008,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "30,4"
+    "AVG": 30
   },
   {
     "Year": 2008,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,65"
+    "AVG": 38
   },
   {
     "Year": 2008,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "31,0"
+    "AVG": 31
   },
   {
     "Year": 2008,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "22,95"
+    "AVG": 22
   },
   {
     "Year": 2008,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "56,55"
+    "AVG": 56
   },
   {
     "Year": 2008,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "20,5"
+    "AVG": 20
   },
   {
     "Year": 2008,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "18,6"
+    "AVG": 18
   },
   {
     "Year": 2008,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,25"
+    "AVG": 56
   },
   {
     "Year": 2008,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2008,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "36,8"
+    "AVG": 36
   },
   {
     "Year": 2008,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "39,5"
+    "AVG": 39
   },
   {
     "Year": 2008,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "23,7"
+    "AVG": 23
   },
   {
     "Year": 2008,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "25,7"
+    "AVG": 25
   },
   {
     "Year": 2008,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,95"
+    "AVG": 57
   },
   {
     "Year": 2008,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "16,35"
+    "AVG": 16
   },
   {
     "Year": 2008,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "65,15"
+    "AVG": 65
   },
   {
     "Year": 2008,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "22,8"
+    "AVG": 22
   },
   {
     "Year": 2008,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "12,05"
+    "AVG": 12
   },
   {
     "Year": 2008,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "32,8"
+    "code": "0-2",
+    "ISCED11": 32,
+    "AVG": 8
   },
   {
     "Year": 2008,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,95"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 95
   },
   {
     "Year": 2008,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "26,25"
+    "code": "5-8",
+    "ISCED11": 26,
+    "AVG": 25
   },
   {
     "Year": 2008,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "24,55"
+    "AVG": 24
   },
   {
     "Year": 2008,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,4"
+    "AVG": 60
   },
   {
     "Year": 2008,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "15,05"
+    "AVG": 15
   },
   {
     "Year": 2008,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "19,65"
+    "AVG": 19
   },
   {
     "Year": 2008,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "63,85"
+    "AVG": 63
   },
   {
     "Year": 2008,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "16,5"
+    "AVG": 16
   },
   {
     "Year": 2008,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "70,8"
+    "AVG": 70
   },
   {
     "Year": 2008,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "16,6"
+    "AVG": 16
   },
   {
     "Year": 2008,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "12,6"
+    "AVG": 12
   },
   {
     "Year": 2008,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "30,15"
+    "AVG": 30
   },
   {
     "Year": 2008,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "59,15"
+    "AVG": 59
   },
   {
     "Year": 2008,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "10,7"
+    "AVG": 10
   },
   {
     "Year": 2008,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "21,9"
+    "AVG": 21
   },
   {
     "Year": 2008,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "59,05"
+    "AVG": 59
   },
   {
     "Year": 2008,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "19,05"
+    "AVG": 19
   },
   {
     "Year": 2008,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "17,6"
+    "AVG": 17
   },
   {
     "Year": 2008,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "70,05"
+    "AVG": 70
   },
   {
     "Year": 2008,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "12,35"
+    "AVG": 12
   },
   {
     "Year": 2008,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2008,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,6"
+    "AVG": 44
   },
   {
     "Year": 2008,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "30,25"
+    "AVG": 30
   },
   {
     "Year": 2008,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "26,15"
+    "AVG": 26
   },
   {
     "Year": 2008,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "46,9"
+    "AVG": 46
   },
   {
     "Year": 2008,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "26,9"
+    "AVG": 26
   },
   {
     "Year": 2008,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "20,35"
+    "code": "0-2",
+    "ISCED11": 20,
+    "AVG": 35
   },
   {
     "Year": 2008,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "51,15"
+    "code": "3-4",
+    "ISCED11": 51,
+    "AVG": 15
   },
   {
     "Year": 2008,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "28,5"
+    "code": "5-8",
+    "ISCED11": 28,
+    "AVG": 5
   },
   {
     "Year": 2009,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "32,4"
+    "AVG": 32
   },
   {
     "Year": 2009,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,1"
+    "AVG": 38
   },
   {
     "Year": 2009,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "29,45"
+    "AVG": 29
   },
   {
     "Year": 2009,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "27,55"
+    "AVG": 27
   },
   {
     "Year": 2009,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,25"
+    "AVG": 53
   },
   {
     "Year": 2009,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "19,15"
+    "AVG": 19
   },
   {
     "Year": 2009,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "15,2"
+    "AVG": 15
   },
   {
     "Year": 2009,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "71,45"
+    "AVG": 71
   },
   {
     "Year": 2009,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "13,4"
+    "AVG": 13
   },
   {
     "Year": 2009,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "32,4"
+    "AVG": 32
   },
   {
     "Year": 2009,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "40,95"
+    "AVG": 40
   },
   {
     "Year": 2009,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "26,65"
+    "AVG": 26
   },
   {
     "Year": 2009,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "22,0"
+    "AVG": 22
   },
   {
     "Year": 2009,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "55,8"
+    "AVG": 55
   },
   {
     "Year": 2009,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "22,25"
+    "AVG": 22
   },
   {
     "Year": 2009,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "19,3"
+    "AVG": 19
   },
   {
     "Year": 2009,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "50,8"
+    "AVG": 50
   },
   {
     "Year": 2009,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "29,95"
+    "AVG": 29
   },
   {
     "Year": 2009,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "30,65"
+    "AVG": 30
   },
   {
     "Year": 2009,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,7"
+    "AVG": 36
   },
   {
     "Year": 2009,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "32,65"
+    "AVG": 32
   },
   {
     "Year": 2009,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "39,6"
+    "AVG": 39
   },
   {
     "Year": 2009,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "40,45"
+    "AVG": 40
   },
   {
     "Year": 2009,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "19,95"
+    "AVG": 19
   },
   {
     "Year": 2009,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "49,45"
+    "AVG": 49
   },
   {
     "Year": 2009,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,15"
+    "AVG": 23
   },
   {
     "Year": 2009,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "27,4"
+    "AVG": 27
   },
   {
     "Year": 2009,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "32,35"
+    "AVG": 32
   },
   {
     "Year": 2009,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,8"
+    "AVG": 41
   },
   {
     "Year": 2009,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "25,8"
+    "AVG": 25
   },
   {
     "Year": 2009,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "25,35"
+    "AVG": 25
   },
   {
     "Year": 2009,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "60,15"
+    "AVG": 60
   },
   {
     "Year": 2009,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "14,5"
+    "AVG": 14
   },
   {
     "Year": 2009,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "47,15"
+    "AVG": 47
   },
   {
     "Year": 2009,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "40,1"
+    "AVG": 40
   },
   {
     "Year": 2009,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "12,8"
+    "AVG": 12
   },
   {
     "Year": 2009,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "31,2"
+    "AVG": 31
   },
   {
     "Year": 2009,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,35"
+    "AVG": 38
   },
   {
     "Year": 2009,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "30,4"
+    "AVG": 30
   },
   {
     "Year": 2009,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "21,7"
+    "AVG": 21
   },
   {
     "Year": 2009,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,15"
+    "AVG": 57
   },
   {
     "Year": 2009,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "21,2"
+    "AVG": 21
   },
   {
     "Year": 2009,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "18,1"
+    "AVG": 18
   },
   {
     "Year": 2009,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,55"
+    "AVG": 56
   },
   {
     "Year": 2009,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "25,3"
+    "AVG": 25
   },
   {
     "Year": 2009,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "28,6"
+    "AVG": 28
   },
   {
     "Year": 2009,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "41,25"
+    "AVG": 41
   },
   {
     "Year": 2009,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "30,2"
+    "AVG": 30
   },
   {
     "Year": 2009,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "24,95"
+    "AVG": 24
   },
   {
     "Year": 2009,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "58,2"
+    "AVG": 58
   },
   {
     "Year": 2009,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "16,85"
+    "AVG": 16
   },
   {
     "Year": 2009,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "62,0"
+    "AVG": 62
   },
   {
     "Year": 2009,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2009,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "12,8"
+    "AVG": 12
   },
   {
     "Year": 2009,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "32,6"
+    "code": "0-2",
+    "ISCED11": 32,
+    "AVG": 6
   },
   {
     "Year": 2009,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,65"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 65
   },
   {
     "Year": 2009,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "26,75"
+    "code": "5-8",
+    "ISCED11": 26,
+    "AVG": 75
   },
   {
     "Year": 2009,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "23,8"
+    "AVG": 23
   },
   {
     "Year": 2009,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,25"
+    "AVG": 60
   },
   {
     "Year": 2009,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "16,0"
+    "AVG": 16
   },
   {
     "Year": 2009,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "18,7"
+    "AVG": 18
   },
   {
     "Year": 2009,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "63,3"
+    "AVG": 63
   },
   {
     "Year": 2009,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "18,05"
+    "AVG": 18
   },
   {
     "Year": 2009,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "69,3"
+    "AVG": 69
   },
   {
     "Year": 2009,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "17,65"
+    "AVG": 17
   },
   {
     "Year": 2009,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "13,05"
+    "AVG": 13
   },
   {
     "Year": 2009,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "30,2"
+    "AVG": 30
   },
   {
     "Year": 2009,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "58,6"
+    "AVG": 58
   },
   {
     "Year": 2009,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "11,25"
+    "AVG": 11
   },
   {
     "Year": 2009,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "20,85"
+    "AVG": 20
   },
   {
     "Year": 2009,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "59,4"
+    "AVG": 59
   },
   {
     "Year": 2009,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "19,7"
+    "AVG": 19
   },
   {
     "Year": 2009,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "16,5"
+    "AVG": 16
   },
   {
     "Year": 2009,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "70,1"
+    "AVG": 70
   },
   {
     "Year": 2009,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "13,45"
+    "AVG": 13
   },
   {
     "Year": 2009,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "24,35"
+    "AVG": 24
   },
   {
     "Year": 2009,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,7"
+    "AVG": 44
   },
   {
     "Year": 2009,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "30,9"
+    "AVG": 30
   },
   {
     "Year": 2009,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "25,4"
+    "AVG": 25
   },
   {
     "Year": 2009,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "46,9"
+    "AVG": 46
   },
   {
     "Year": 2009,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "27,65"
+    "AVG": 27
   },
   {
     "Year": 2009,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "20,55"
+    "code": "0-2",
+    "ISCED11": 20,
+    "AVG": 55
   },
   {
     "Year": 2009,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "49,95"
+    "code": "3-4",
+    "ISCED11": 49,
+    "AVG": 95
   },
   {
     "Year": 2009,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "29,5"
+    "code": "5-8",
+    "ISCED11": 29,
+    "AVG": 5
   },
   {
     "Year": 2010,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "32,55"
+    "AVG": 32
   },
   {
     "Year": 2010,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "36,75"
+    "AVG": 36
   },
   {
     "Year": 2010,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "30,75"
+    "AVG": 30
   },
   {
     "Year": 2010,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2010,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "55,1"
+    "AVG": 55
   },
   {
     "Year": 2010,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "19,75"
+    "AVG": 19
   },
   {
     "Year": 2010,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "14,45"
+    "AVG": 14
   },
   {
     "Year": 2010,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "71,05"
+    "AVG": 71
   },
   {
     "Year": 2010,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "14,55"
+    "AVG": 14
   },
   {
     "Year": 2010,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "32,15"
+    "AVG": 32
   },
   {
     "Year": 2010,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "40,55"
+    "AVG": 40
   },
   {
     "Year": 2010,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "27,4"
+    "AVG": 27
   },
   {
     "Year": 2010,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "21,0"
+    "AVG": 21
   },
   {
     "Year": 2010,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "56,35"
+    "AVG": 56
   },
   {
     "Year": 2010,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "22,65"
+    "AVG": 22
   },
   {
     "Year": 2010,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "18,25"
+    "AVG": 18
   },
   {
     "Year": 2010,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "51,9"
+    "AVG": 51
   },
   {
     "Year": 2010,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "29,85"
+    "AVG": 29
   },
   {
     "Year": 2010,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "29,9"
+    "AVG": 29
   },
   {
     "Year": 2010,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,25"
+    "AVG": 36
   },
   {
     "Year": 2010,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "33,85"
+    "AVG": 33
   },
   {
     "Year": 2010,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "38,55"
+    "AVG": 38
   },
   {
     "Year": 2010,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "40,55"
+    "AVG": 40
   },
   {
     "Year": 2010,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "20,9"
+    "AVG": 20
   },
   {
     "Year": 2010,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "48,1"
+    "AVG": 48
   },
   {
     "Year": 2010,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,45"
+    "AVG": 23
   },
   {
     "Year": 2010,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "28,45"
+    "AVG": 28
   },
   {
     "Year": 2010,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "31,9"
+    "AVG": 31
   },
   {
     "Year": 2010,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,9"
+    "AVG": 41
   },
   {
     "Year": 2010,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "26,15"
+    "AVG": 26
   },
   {
     "Year": 2010,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "25,4"
+    "AVG": 25
   },
   {
     "Year": 2010,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "58,85"
+    "AVG": 58
   },
   {
     "Year": 2010,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "15,75"
+    "AVG": 15
   },
   {
     "Year": 2010,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "46,25"
+    "AVG": 46
   },
   {
     "Year": 2010,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "40,7"
+    "AVG": 40
   },
   {
     "Year": 2010,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "13,0"
+    "AVG": 13
   },
   {
     "Year": 2010,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "29,6"
+    "AVG": 29
   },
   {
     "Year": 2010,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,4"
+    "AVG": 38
   },
   {
     "Year": 2010,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "31,95"
+    "AVG": 31
   },
   {
     "Year": 2010,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "19,7"
+    "AVG": 19
   },
   {
     "Year": 2010,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,9"
+    "AVG": 57
   },
   {
     "Year": 2010,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "22,4"
+    "AVG": 22
   },
   {
     "Year": 2010,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "17,2"
+    "AVG": 17
   },
   {
     "Year": 2010,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,15"
+    "AVG": 56
   },
   {
     "Year": 2010,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "26,7"
+    "AVG": 26
   },
   {
     "Year": 2010,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "28,9"
+    "AVG": 28
   },
   {
     "Year": 2010,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "40,8"
+    "AVG": 40
   },
   {
     "Year": 2010,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "30,25"
+    "AVG": 30
   },
   {
     "Year": 2010,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "24,4"
+    "AVG": 24
   },
   {
     "Year": 2010,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "58,55"
+    "AVG": 58
   },
   {
     "Year": 2010,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "17,05"
+    "AVG": 17
   },
   {
     "Year": 2010,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "60,3"
+    "AVG": 60
   },
   {
     "Year": 2010,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "25,55"
+    "AVG": 25
   },
   {
     "Year": 2010,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "14,15"
+    "AVG": 14
   },
   {
     "Year": 2010,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "31,8"
+    "code": "0-2",
+    "ISCED11": 31,
+    "AVG": 8
   },
   {
     "Year": 2010,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,45"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 45
   },
   {
     "Year": 2010,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "27,7"
+    "code": "5-8",
+    "ISCED11": 27,
+    "AVG": 7
   },
   {
     "Year": 2010,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "23,2"
+    "AVG": 23
   },
   {
     "Year": 2010,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,55"
+    "AVG": 60
   },
   {
     "Year": 2010,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "16,25"
+    "AVG": 16
   },
   {
     "Year": 2010,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "18,0"
+    "AVG": 18
   },
   {
     "Year": 2010,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "62,55"
+    "AVG": 62
   },
   {
     "Year": 2010,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "19,4"
+    "AVG": 19
   },
   {
     "Year": 2010,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "67,4"
+    "AVG": 67
   },
   {
     "Year": 2010,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "18,8"
+    "AVG": 18
   },
   {
     "Year": 2010,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "13,85"
+    "AVG": 13
   },
   {
     "Year": 2010,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "30,6"
+    "AVG": 30
   },
   {
     "Year": 2010,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,5"
+    "AVG": 57
   },
   {
     "Year": 2010,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "11,9"
+    "AVG": 11
   },
   {
     "Year": 2010,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "20,95"
+    "AVG": 20
   },
   {
     "Year": 2010,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "58,7"
+    "AVG": 58
   },
   {
     "Year": 2010,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "20,35"
+    "AVG": 20
   },
   {
     "Year": 2010,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "16,25"
+    "AVG": 16
   },
   {
     "Year": 2010,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "68,7"
+    "AVG": 68
   },
   {
     "Year": 2010,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "15,05"
+    "AVG": 15
   },
   {
     "Year": 2010,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "23,65"
+    "AVG": 23
   },
   {
     "Year": 2010,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,8"
+    "AVG": 44
   },
   {
     "Year": 2010,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "31,65"
+    "AVG": 31
   },
   {
     "Year": 2010,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "25,0"
+    "AVG": 25
   },
   {
     "Year": 2010,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "46,7"
+    "AVG": 46
   },
   {
     "Year": 2010,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "28,3"
+    "AVG": 28
   },
   {
     "Year": 2010,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "21,35"
+    "code": "0-2",
+    "ISCED11": 21,
+    "AVG": 35
   },
   {
     "Year": 2010,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "49,95"
+    "code": "3-4",
+    "ISCED11": 49,
+    "AVG": 95
   },
   {
     "Year": 2010,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "28,75"
+    "code": "5-8",
+    "ISCED11": 28,
+    "AVG": 75
   },
   {
     "Year": 2011,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "31,85"
+    "AVG": 31
   },
   {
     "Year": 2011,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,7"
+    "AVG": 37
   },
   {
     "Year": 2011,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "30,4"
+    "AVG": 30
   },
   {
     "Year": 2011,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "24,0"
+    "AVG": 24
   },
   {
     "Year": 2011,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "55,9"
+    "AVG": 55
   },
   {
     "Year": 2011,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "20,1"
+    "AVG": 20
   },
   {
     "Year": 2011,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "13,9"
+    "AVG": 13
   },
   {
     "Year": 2011,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "70,2"
+    "AVG": 70
   },
   {
     "Year": 2011,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "15,85"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "30,85"
+    "AVG": 30
   },
   {
     "Year": 2011,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,3"
+    "AVG": 41
   },
   {
     "Year": 2011,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "27,85"
+    "AVG": 27
   },
   {
     "Year": 2011,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "18,05"
+    "AVG": 18
   },
   {
     "Year": 2011,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "57,65"
+    "AVG": 57
   },
   {
     "Year": 2011,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "24,3"
+    "AVG": 24
   },
   {
     "Year": 2011,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "17,75"
+    "AVG": 17
   },
   {
     "Year": 2011,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "51,15"
+    "AVG": 51
   },
   {
     "Year": 2011,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "31,15"
+    "AVG": 31
   },
   {
     "Year": 2011,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "29,1"
+    "AVG": 29
   },
   {
     "Year": 2011,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,5"
+    "AVG": 36
   },
   {
     "Year": 2011,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "34,35"
+    "AVG": 34
   },
   {
     "Year": 2011,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "37,1"
+    "AVG": 37
   },
   {
     "Year": 2011,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "40,65"
+    "AVG": 40
   },
   {
     "Year": 2011,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "22,2"
+    "AVG": 22
   },
   {
     "Year": 2011,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "46,95"
+    "AVG": 46
   },
   {
     "Year": 2011,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,75"
+    "AVG": 23
   },
   {
     "Year": 2011,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "29,3"
+    "AVG": 29
   },
   {
     "Year": 2011,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "31,25"
+    "AVG": 31
   },
   {
     "Year": 2011,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "42,1"
+    "AVG": 42
   },
   {
     "Year": 2011,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "26,7"
+    "AVG": 26
   },
   {
     "Year": 2011,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "24,65"
+    "AVG": 24
   },
   {
     "Year": 2011,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "60,0"
+    "AVG": 60
   },
   {
     "Year": 2011,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "15,35"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "45,5"
+    "AVG": 45
   },
   {
     "Year": 2011,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "41,4"
+    "AVG": 41
   },
   {
     "Year": 2011,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "13,15"
+    "AVG": 13
   },
   {
     "Year": 2011,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "28,35"
+    "AVG": 28
   },
   {
     "Year": 2011,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,05"
+    "AVG": 38
   },
   {
     "Year": 2011,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "33,6"
+    "AVG": 33
   },
   {
     "Year": 2011,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "19,7"
+    "AVG": 19
   },
   {
     "Year": 2011,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "56,95"
+    "AVG": 56
   },
   {
     "Year": 2011,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "23,4"
+    "AVG": 23
   },
   {
     "Year": 2011,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "15,9"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,4"
+    "AVG": 56
   },
   {
     "Year": 2011,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "27,65"
+    "AVG": 27
   },
   {
     "Year": 2011,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "29,05"
+    "AVG": 29
   },
   {
     "Year": 2011,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "39,25"
+    "AVG": 39
   },
   {
     "Year": 2011,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "31,65"
+    "AVG": 31
   },
   {
     "Year": 2011,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "24,25"
+    "AVG": 24
   },
   {
     "Year": 2011,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,8"
+    "AVG": 57
   },
   {
     "Year": 2011,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "18,0"
+    "AVG": 18
   },
   {
     "Year": 2011,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "58,9"
+    "AVG": 58
   },
   {
     "Year": 2011,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "26,05"
+    "AVG": 26
   },
   {
     "Year": 2011,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "15,15"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "31,65"
+    "code": "0-2",
+    "ISCED11": 31,
+    "AVG": 65
   },
   {
     "Year": 2011,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,45"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 45
   },
   {
     "Year": 2011,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "27,95"
+    "code": "5-8",
+    "ISCED11": 27,
+    "AVG": 95
   },
   {
     "Year": 2011,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "23,05"
+    "AVG": 23
   },
   {
     "Year": 2011,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,6"
+    "AVG": 60
   },
   {
     "Year": 2011,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "16,35"
+    "AVG": 16
   },
   {
     "Year": 2011,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "17,55"
+    "AVG": 17
   },
   {
     "Year": 2011,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "62,2"
+    "AVG": 62
   },
   {
     "Year": 2011,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "20,25"
+    "AVG": 20
   },
   {
     "Year": 2011,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "64,25"
+    "AVG": 64
   },
   {
     "Year": 2011,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "20,3"
+    "AVG": 20
   },
   {
     "Year": 2011,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "15,5"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "29,95"
+    "AVG": 29
   },
   {
     "Year": 2011,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,2"
+    "AVG": 57
   },
   {
     "Year": 2011,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "12,9"
+    "AVG": 12
   },
   {
     "Year": 2011,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "19,75"
+    "AVG": 19
   },
   {
     "Year": 2011,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "58,55"
+    "AVG": 58
   },
   {
     "Year": 2011,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "21,7"
+    "AVG": 21
   },
   {
     "Year": 2011,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "15,65"
+    "AVG": 15
   },
   {
     "Year": 2011,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "67,95"
+    "AVG": 67
   },
   {
     "Year": 2011,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "16,4"
+    "AVG": 16
   },
   {
     "Year": 2011,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "22,9"
+    "AVG": 22
   },
   {
     "Year": 2011,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,55"
+    "AVG": 44
   },
   {
     "Year": 2011,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "32,55"
+    "AVG": 32
   },
   {
     "Year": 2011,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "24,4"
+    "AVG": 24
   },
   {
     "Year": 2011,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "46,5"
+    "AVG": 46
   },
   {
     "Year": 2011,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "29,15"
+    "AVG": 29
   },
   {
     "Year": 2011,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "21,4"
+    "code": "0-2",
+    "ISCED11": 21,
+    "AVG": 4
   },
   {
     "Year": 2011,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "49,75"
+    "code": "3-4",
+    "ISCED11": 49,
+    "AVG": 75
   },
   {
     "Year": 2011,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "28,9"
+    "code": "5-8",
+    "ISCED11": 28,
+    "AVG": 9
   },
   {
     "Year": 2012,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "31,4"
+    "AVG": 31
   },
   {
     "Year": 2012,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,35"
+    "AVG": 37
   },
   {
     "Year": 2012,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "31,3"
+    "AVG": 31
   },
   {
     "Year": 2012,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "22,95"
+    "AVG": 22
   },
   {
     "Year": 2012,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "56,35"
+    "AVG": 56
   },
   {
     "Year": 2012,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "20,65"
+    "AVG": 20
   },
   {
     "Year": 2012,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "13,45"
+    "AVG": 13
   },
   {
     "Year": 2012,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "69,55"
+    "AVG": 69
   },
   {
     "Year": 2012,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "17,0"
+    "AVG": 17
   },
   {
     "Year": 2012,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "30,05"
+    "AVG": 30
   },
   {
     "Year": 2012,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,4"
+    "AVG": 41
   },
   {
     "Year": 2012,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "28,55"
+    "AVG": 28
   },
   {
     "Year": 2012,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "17,9"
+    "AVG": 17
   },
   {
     "Year": 2012,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "57,2"
+    "AVG": 57
   },
   {
     "Year": 2012,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "24,9"
+    "AVG": 24
   },
   {
     "Year": 2012,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "16,85"
+    "AVG": 16
   },
   {
     "Year": 2012,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "51,2"
+    "AVG": 51
   },
   {
     "Year": 2012,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "31,95"
+    "AVG": 31
   },
   {
     "Year": 2012,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "28,25"
+    "AVG": 28
   },
   {
     "Year": 2012,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,1"
+    "AVG": 36
   },
   {
     "Year": 2012,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "35,65"
+    "AVG": 35
   },
   {
     "Year": 2012,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "35,9"
+    "AVG": 35
   },
   {
     "Year": 2012,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "41,25"
+    "AVG": 41
   },
   {
     "Year": 2012,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "22,85"
+    "AVG": 22
   },
   {
     "Year": 2012,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "46,4"
+    "AVG": 46
   },
   {
     "Year": 2012,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,6"
+    "AVG": 23
   },
   {
     "Year": 2012,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "30,0"
+    "AVG": 30
   },
   {
     "Year": 2012,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "30,35"
+    "AVG": 30
   },
   {
     "Year": 2012,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "41,9"
+    "AVG": 41
   },
   {
     "Year": 2012,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "27,7"
+    "AVG": 27
   },
   {
     "Year": 2012,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "23,15"
+    "AVG": 23
   },
   {
     "Year": 2012,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "61,1"
+    "AVG": 61
   },
   {
     "Year": 2012,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "15,75"
+    "AVG": 15
   },
   {
     "Year": 2012,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "44,25"
+    "AVG": 44
   },
   {
     "Year": 2012,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2012,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "13,85"
+    "AVG": 13
   },
   {
     "Year": 2012,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "26,4"
+    "AVG": 26
   },
   {
     "Year": 2012,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,75"
+    "AVG": 38
   },
   {
     "Year": 2012,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "34,85"
+    "AVG": 34
   },
   {
     "Year": 2012,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "17,6"
+    "AVG": 17
   },
   {
     "Year": 2012,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,55"
+    "AVG": 57
   },
   {
     "Year": 2012,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "24,85"
+    "AVG": 24
   },
   {
     "Year": 2012,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "15,05"
+    "AVG": 15
   },
   {
     "Year": 2012,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "56,5"
+    "AVG": 56
   },
   {
     "Year": 2012,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "28,4"
+    "AVG": 28
   },
   {
     "Year": 2012,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "28,4"
+    "AVG": 28
   },
   {
     "Year": 2012,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "38,25"
+    "AVG": 38
   },
   {
     "Year": 2012,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "33,35"
+    "AVG": 33
   },
   {
     "Year": 2012,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "23,45"
+    "AVG": 23
   },
   {
     "Year": 2012,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,6"
+    "AVG": 57
   },
   {
     "Year": 2012,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "18,95"
+    "AVG": 18
   },
   {
     "Year": 2012,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "56,9"
+    "AVG": 56
   },
   {
     "Year": 2012,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "26,5"
+    "AVG": 26
   },
   {
     "Year": 2012,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "16,55"
+    "AVG": 16
   },
   {
     "Year": 2012,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "30,75"
+    "code": "0-2",
+    "ISCED11": 30,
+    "AVG": 75
   },
   {
     "Year": 2012,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,65"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 65
   },
   {
     "Year": 2012,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "28,6"
+    "code": "5-8",
+    "ISCED11": 28,
+    "AVG": 6
   },
   {
     "Year": 2012,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "22,35"
+    "AVG": 22
   },
   {
     "Year": 2012,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,75"
+    "AVG": 60
   },
   {
     "Year": 2012,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "16,9"
+    "AVG": 16
   },
   {
     "Year": 2012,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "16,7"
+    "AVG": 16
   },
   {
     "Year": 2012,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "61,8"
+    "AVG": 61
   },
   {
     "Year": 2012,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "21,45"
+    "AVG": 21
   },
   {
     "Year": 2012,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "61,7"
+    "AVG": 61
   },
   {
     "Year": 2012,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "21,65"
+    "AVG": 21
   },
   {
     "Year": 2012,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "16,7"
+    "AVG": 16
   },
   {
     "Year": 2012,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "29,25"
+    "AVG": 29
   },
   {
     "Year": 2012,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,25"
+    "AVG": 57
   },
   {
     "Year": 2012,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "13,5"
+    "AVG": 13
   },
   {
     "Year": 2012,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "19,1"
+    "AVG": 19
   },
   {
     "Year": 2012,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "57,85"
+    "AVG": 57
   },
   {
     "Year": 2012,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "23,1"
+    "AVG": 23
   },
   {
     "Year": 2012,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "15,0"
+    "AVG": 15
   },
   {
     "Year": 2012,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "68,05"
+    "AVG": 68
   },
   {
     "Year": 2012,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "17,0"
+    "AVG": 17
   },
   {
     "Year": 2012,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "21,8"
+    "AVG": 21
   },
   {
     "Year": 2012,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,35"
+    "AVG": 45
   },
   {
     "Year": 2012,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "32,85"
+    "AVG": 32
   },
   {
     "Year": 2012,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "23,8"
+    "AVG": 23
   },
   {
     "Year": 2012,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "46,0"
+    "AVG": 46
   },
   {
     "Year": 2012,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "30,15"
+    "AVG": 30
   },
   {
     "Year": 2012,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "20,45"
+    "code": "0-2",
+    "ISCED11": 20,
+    "AVG": 45
   },
   {
     "Year": 2012,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "49,55"
+    "code": "3-4",
+    "ISCED11": 49,
+    "AVG": 55
   },
   {
     "Year": 2012,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "30,05"
+    "code": "5-8",
+    "ISCED11": 30,
+    "AVG": "05"
   },
   {
     "Year": 2013,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "30,4"
+    "AVG": 30
   },
   {
     "Year": 2013,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,1"
+    "AVG": 38
   },
   {
     "Year": 2013,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "31,55"
+    "AVG": 31
   },
   {
     "Year": 2013,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "22,1"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "55,7"
+    "AVG": 55
   },
   {
     "Year": 2013,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "22,2"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,9"
+    "AVG": 12
   },
   {
     "Year": 2013,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "68,95"
+    "AVG": 68
   },
   {
     "Year": 2013,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "18,15"
+    "AVG": 18
   },
   {
     "Year": 2013,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "29,85"
+    "AVG": 29
   },
   {
     "Year": 2013,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,15"
+    "AVG": 41
   },
   {
     "Year": 2013,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "29,0"
+    "AVG": 29
   },
   {
     "Year": 2013,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "17,65"
+    "AVG": 17
   },
   {
     "Year": 2013,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "57,1"
+    "AVG": 57
   },
   {
     "Year": 2013,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "25,2"
+    "AVG": 25
   },
   {
     "Year": 2013,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "15,9"
+    "AVG": 15
   },
   {
     "Year": 2013,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "52,0"
+    "AVG": 52
   },
   {
     "Year": 2013,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "32,05"
+    "AVG": 32
   },
   {
     "Year": 2013,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "26,65"
+    "AVG": 26
   },
   {
     "Year": 2013,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "36,1"
+    "AVG": 36
   },
   {
     "Year": 2013,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "37,3"
+    "AVG": 37
   },
   {
     "Year": 2013,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "34,55"
+    "AVG": 34
   },
   {
     "Year": 2013,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "41,45"
+    "AVG": 41
   },
   {
     "Year": 2013,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "24,05"
+    "AVG": 24
   },
   {
     "Year": 2013,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "45,6"
+    "AVG": 45
   },
   {
     "Year": 2013,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,45"
+    "AVG": 23
   },
   {
     "Year": 2013,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "30,95"
+    "AVG": 30
   },
   {
     "Year": 2013,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "28,0"
+    "AVG": 28
   },
   {
     "Year": 2013,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "43,2"
+    "AVG": 43
   },
   {
     "Year": 2013,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "28,85"
+    "AVG": 28
   },
   {
     "Year": 2013,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "22,4"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "60,55"
+    "AVG": 60
   },
   {
     "Year": 2013,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "17,05"
+    "AVG": 17
   },
   {
     "Year": 2013,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "43,4"
+    "AVG": 43
   },
   {
     "Year": 2013,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,15"
+    "AVG": 42
   },
   {
     "Year": 2013,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "14,4"
+    "AVG": 14
   },
   {
     "Year": 2013,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "25,45"
+    "AVG": 25
   },
   {
     "Year": 2013,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "39,35"
+    "AVG": 39
   },
   {
     "Year": 2013,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "35,2"
+    "AVG": 35
   },
   {
     "Year": 2013,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "16,75"
+    "AVG": 16
   },
   {
     "Year": 2013,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "56,55"
+    "AVG": 56
   },
   {
     "Year": 2013,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "26,7"
+    "AVG": 26
   },
   {
     "Year": 2013,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "14,45"
+    "AVG": 14
   },
   {
     "Year": 2013,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "55,95"
+    "AVG": 55
   },
   {
     "Year": 2013,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "29,6"
+    "AVG": 29
   },
   {
     "Year": 2013,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "26,2"
+    "AVG": 26
   },
   {
     "Year": 2013,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "38,6"
+    "AVG": 38
   },
   {
     "Year": 2013,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "35,2"
+    "AVG": 35
   },
   {
     "Year": 2013,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "22,75"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,85"
+    "AVG": 57
   },
   {
     "Year": 2013,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "19,45"
+    "AVG": 19
   },
   {
     "Year": 2013,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "54,35"
+    "AVG": 54
   },
   {
     "Year": 2013,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "27,75"
+    "AVG": 27
   },
   {
     "Year": 2013,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "17,9"
+    "AVG": 17
   },
   {
     "Year": 2013,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "29,05"
+    "code": "0-2",
+    "ISCED11": 29,
+    "AVG": "05"
   },
   {
     "Year": 2013,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,6"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 6
   },
   {
     "Year": 2013,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "29,35"
+    "code": "5-8",
+    "ISCED11": 29,
+    "AVG": 35
   },
   {
     "Year": 2013,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "22,15"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "60,2"
+    "AVG": 60
   },
   {
     "Year": 2013,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "17,65"
+    "AVG": 17
   },
   {
     "Year": 2013,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "16,1"
+    "AVG": 16
   },
   {
     "Year": 2013,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "61,3"
+    "AVG": 61
   },
   {
     "Year": 2013,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "22,6"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "59,5"
+    "AVG": 59
   },
   {
     "Year": 2013,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "23,0"
+    "AVG": 23
   },
   {
     "Year": 2013,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "17,55"
+    "AVG": 17
   },
   {
     "Year": 2013,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "28,9"
+    "AVG": 28
   },
   {
     "Year": 2013,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,35"
+    "AVG": 57
   },
   {
     "Year": 2013,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "13,8"
+    "AVG": 13
   },
   {
     "Year": 2013,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "18,5"
+    "AVG": 18
   },
   {
     "Year": 2013,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "57,0"
+    "AVG": 57
   },
   {
     "Year": 2013,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "24,5"
+    "AVG": 24
   },
   {
     "Year": 2013,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,75"
+    "AVG": 14
   },
   {
     "Year": 2013,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "67,55"
+    "AVG": 67
   },
   {
     "Year": 2013,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "17,75"
+    "AVG": 17
   },
   {
     "Year": 2013,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "20,8"
+    "AVG": 20
   },
   {
     "Year": 2013,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,6"
+    "AVG": 45
   },
   {
     "Year": 2013,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "33,6"
+    "AVG": 33
   },
   {
     "Year": 2013,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "22,9"
+    "AVG": 22
   },
   {
     "Year": 2013,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "45,6"
+    "AVG": 45
   },
   {
     "Year": 2013,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "31,5"
+    "AVG": 31
   },
   {
     "Year": 2013,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "19,6"
+    "code": "0-2",
+    "ISCED11": 19,
+    "AVG": 6
   },
   {
     "Year": 2013,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "48,5"
+    "code": "3-4",
+    "ISCED11": 48,
+    "AVG": 5
   },
   {
     "Year": 2013,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "31,9"
+    "code": "5-8",
+    "ISCED11": 31,
+    "AVG": 9
   },
   {
     "Year": 2014,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "29,5"
+    "AVG": 29
   },
   {
     "Year": 2014,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,8"
+    "AVG": 37
   },
   {
     "Year": 2014,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "32,65"
+    "AVG": 32
   },
   {
     "Year": 2014,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "22,6"
+    "AVG": 22
   },
   {
     "Year": 2014,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,7"
+    "AVG": 53
   },
   {
     "Year": 2014,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "23,65"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,4"
+    "AVG": 12
   },
   {
     "Year": 2014,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "68,5"
+    "AVG": 68
   },
   {
     "Year": 2014,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "19,1"
+    "AVG": 19
   },
   {
     "Year": 2014,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "28,7"
+    "AVG": 28
   },
   {
     "Year": 2014,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2014,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "29,45"
+    "AVG": 29
   },
   {
     "Year": 2014,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,7"
+    "AVG": 19
   },
   {
     "Year": 2014,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "57,15"
+    "AVG": 57
   },
   {
     "Year": 2014,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "23,2"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "17,75"
+    "AVG": 17
   },
   {
     "Year": 2014,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "49,75"
+    "AVG": 49
   },
   {
     "Year": 2014,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "32,5"
+    "AVG": 32
   },
   {
     "Year": 2014,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "23,95"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "38,1"
+    "AVG": 38
   },
   {
     "Year": 2014,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "37,9"
+    "AVG": 37
   },
   {
     "Year": 2014,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "33,15"
+    "AVG": 33
   },
   {
     "Year": 2014,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "42,25"
+    "AVG": 42
   },
   {
     "Year": 2014,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "24,6"
+    "AVG": 24
   },
   {
     "Year": 2014,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "44,45"
+    "AVG": 44
   },
   {
     "Year": 2014,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "23,85"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "31,65"
+    "AVG": 31
   },
   {
     "Year": 2014,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "26,5"
+    "AVG": 26
   },
   {
     "Year": 2014,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "43,8"
+    "AVG": 43
   },
   {
     "Year": 2014,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "29,75"
+    "AVG": 29
   },
   {
     "Year": 2014,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "21,0"
+    "AVG": 21
   },
   {
     "Year": 2014,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "60,5"
+    "AVG": 60
   },
   {
     "Year": 2014,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "18,5"
+    "AVG": 18
   },
   {
     "Year": 2014,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "42,35"
+    "AVG": 42
   },
   {
     "Year": 2014,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,7"
+    "AVG": 42
   },
   {
     "Year": 2014,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "14,95"
+    "AVG": 14
   },
   {
     "Year": 2014,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "26,1"
+    "AVG": 26
   },
   {
     "Year": 2014,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "37,7"
+    "AVG": 37
   },
   {
     "Year": 2014,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "36,25"
+    "AVG": 36
   },
   {
     "Year": 2014,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "16,3"
+    "AVG": 16
   },
   {
     "Year": 2014,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "57,1"
+    "AVG": 57
   },
   {
     "Year": 2014,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "26,6"
+    "AVG": 26
   },
   {
     "Year": 2014,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "14,3"
+    "AVG": 14
   },
   {
     "Year": 2014,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "54,45"
+    "AVG": 54
   },
   {
     "Year": 2014,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "31,25"
+    "AVG": 31
   },
   {
     "Year": 2014,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "24,85"
+    "AVG": 24
   },
   {
     "Year": 2014,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "35,55"
+    "AVG": 35
   },
   {
     "Year": 2014,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "39,6"
+    "AVG": 39
   },
   {
     "Year": 2014,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "22,0"
+    "AVG": 22
   },
   {
     "Year": 2014,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,75"
+    "AVG": 57
   },
   {
     "Year": 2014,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "20,2"
+    "AVG": 20
   },
   {
     "Year": 2014,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "52,2"
+    "AVG": 52
   },
   {
     "Year": 2014,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "28,35"
+    "AVG": 28
   },
   {
     "Year": 2014,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "19,4"
+    "AVG": 19
   },
   {
     "Year": 2014,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "28,85"
+    "code": "0-2",
+    "ISCED11": 28,
+    "AVG": 85
   },
   {
     "Year": 2014,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,4"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 4
   },
   {
     "Year": 2014,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "29,7"
+    "code": "5-8",
+    "ISCED11": 29,
+    "AVG": 7
   },
   {
     "Year": 2014,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "20,25"
+    "AVG": 20
   },
   {
     "Year": 2014,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "52,4"
+    "AVG": 52
   },
   {
     "Year": 2014,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "27,4"
+    "AVG": 27
   },
   {
     "Year": 2014,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "15,55"
+    "AVG": 15
   },
   {
     "Year": 2014,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "60,7"
+    "AVG": 60
   },
   {
     "Year": 2014,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "23,8"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "56,45"
+    "AVG": 56
   },
   {
     "Year": 2014,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "23,95"
+    "AVG": 23
   },
   {
     "Year": 2014,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "19,55"
+    "AVG": 19
   },
   {
     "Year": 2014,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "31,2"
+    "AVG": 31
   },
   {
     "Year": 2014,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "54,6"
+    "AVG": 54
   },
   {
     "Year": 2014,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "14,15"
+    "AVG": 14
   },
   {
     "Year": 2014,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "18,45"
+    "AVG": 18
   },
   {
     "Year": 2014,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "56,35"
+    "AVG": 56
   },
   {
     "Year": 2014,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "25,2"
+    "AVG": 25
   },
   {
     "Year": 2014,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "15,2"
+    "AVG": 15
   },
   {
     "Year": 2014,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "66,65"
+    "AVG": 66
   },
   {
     "Year": 2014,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "18,15"
+    "AVG": 18
   },
   {
     "Year": 2014,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "20,1"
+    "AVG": 20
   },
   {
     "Year": 2014,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,2"
+    "AVG": 45
   },
   {
     "Year": 2014,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "34,7"
+    "AVG": 34
   },
   {
     "Year": 2014,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "22,15"
+    "AVG": 22
   },
   {
     "Year": 2014,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "44,95"
+    "AVG": 44
   },
   {
     "Year": 2014,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "32,9"
+    "AVG": 32
   },
   {
     "Year": 2014,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "18,75"
+    "code": "0-2",
+    "ISCED11": 18,
+    "AVG": 75
   },
   {
     "Year": 2014,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "48,35"
+    "code": "3-4",
+    "ISCED11": 48,
+    "AVG": 35
   },
   {
     "Year": 2014,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "32,9"
+    "code": "5-8",
+    "ISCED11": 32,
+    "AVG": 9
   },
   {
     "Year": 2015,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "28,65"
+    "AVG": 28
   },
   {
     "Year": 2015,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,7"
+    "AVG": 38
   },
   {
     "Year": 2015,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "32,65"
+    "AVG": 32
   },
   {
     "Year": 2015,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "22,2"
+    "AVG": 22
   },
   {
     "Year": 2015,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,65"
+    "AVG": 53
   },
   {
     "Year": 2015,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "24,15"
+    "AVG": 24
   },
   {
     "Year": 2015,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,45"
+    "AVG": 12
   },
   {
     "Year": 2015,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "67,75"
+    "AVG": 67
   },
   {
     "Year": 2015,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "19,8"
+    "AVG": 19
   },
   {
     "Year": 2015,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "27,9"
+    "AVG": 27
   },
   {
     "Year": 2015,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2015,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "30,25"
+    "AVG": 30
   },
   {
     "Year": 2015,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,85"
+    "AVG": 19
   },
   {
     "Year": 2015,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "56,4"
+    "AVG": 56
   },
   {
     "Year": 2015,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "23,75"
+    "AVG": 23
   },
   {
     "Year": 2015,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "17,3"
+    "AVG": 17
   },
   {
     "Year": 2015,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "49,55"
+    "AVG": 49
   },
   {
     "Year": 2015,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "33,2"
+    "AVG": 33
   },
   {
     "Year": 2015,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "23,5"
+    "AVG": 23
   },
   {
     "Year": 2015,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "37,55"
+    "AVG": 37
   },
   {
     "Year": 2015,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "38,95"
+    "AVG": 38
   },
   {
     "Year": 2015,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "31,55"
+    "AVG": 31
   },
   {
     "Year": 2015,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "43,05"
+    "AVG": 43
   },
   {
     "Year": 2015,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "25,45"
+    "AVG": 25
   },
   {
     "Year": 2015,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "43,5"
+    "AVG": 43
   },
   {
     "Year": 2015,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "24,4"
+    "AVG": 24
   },
   {
     "Year": 2015,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "32,1"
+    "AVG": 32
   },
   {
     "Year": 2015,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "25,9"
+    "AVG": 25
   },
   {
     "Year": 2015,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "43,65"
+    "AVG": 43
   },
   {
     "Year": 2015,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "30,4"
+    "AVG": 30
   },
   {
     "Year": 2015,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "20,4"
+    "AVG": 20
   },
   {
     "Year": 2015,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,9"
+    "AVG": 59
   },
   {
     "Year": 2015,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "19,65"
+    "AVG": 19
   },
   {
     "Year": 2015,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2015,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,65"
+    "AVG": 42
   },
   {
     "Year": 2015,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "15,45"
+    "AVG": 15
   },
   {
     "Year": 2015,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "25,6"
+    "AVG": 25
   },
   {
     "Year": 2015,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,25"
+    "AVG": 38
   },
   {
     "Year": 2015,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "36,25"
+    "AVG": 36
   },
   {
     "Year": 2015,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "15,7"
+    "AVG": 15
   },
   {
     "Year": 2015,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "56,5"
+    "AVG": 56
   },
   {
     "Year": 2015,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "27,85"
+    "AVG": 27
   },
   {
     "Year": 2015,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "13,85"
+    "AVG": 13
   },
   {
     "Year": 2015,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "53,15"
+    "AVG": 53
   },
   {
     "Year": 2015,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "33,0"
+    "AVG": 33
   },
   {
     "Year": 2015,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "30,3"
+    "AVG": 30
   },
   {
     "Year": 2015,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "34,5"
+    "AVG": 34
   },
   {
     "Year": 2015,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "35,25"
+    "AVG": 35
   },
   {
     "Year": 2015,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "21,9"
+    "AVG": 21
   },
   {
     "Year": 2015,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,2"
+    "AVG": 57
   },
   {
     "Year": 2015,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "20,95"
+    "AVG": 20
   },
   {
     "Year": 2015,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "50,4"
+    "AVG": 50
   },
   {
     "Year": 2015,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "29,7"
+    "AVG": 29
   },
   {
     "Year": 2015,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "20,0"
+    "AVG": 20
   },
   {
     "Year": 2015,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "28,4"
+    "code": "0-2",
+    "ISCED11": 28,
+    "AVG": 4
   },
   {
     "Year": 2015,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,1"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 1
   },
   {
     "Year": 2015,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "30,5"
+    "code": "5-8",
+    "ISCED11": 30,
+    "AVG": 5
   },
   {
     "Year": 2015,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "19,55"
+    "AVG": 19
   },
   {
     "Year": 2015,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "52,3"
+    "AVG": 52
   },
   {
     "Year": 2015,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "28,15"
+    "AVG": 28
   },
   {
     "Year": 2015,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "15,25"
+    "AVG": 15
   },
   {
     "Year": 2015,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "60,3"
+    "AVG": 60
   },
   {
     "Year": 2015,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "24,45"
+    "AVG": 24
   },
   {
     "Year": 2015,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "54,5"
+    "AVG": 54
   },
   {
     "Year": 2015,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "24,9"
+    "AVG": 24
   },
   {
     "Year": 2015,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "20,6"
+    "AVG": 20
   },
   {
     "Year": 2015,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "29,4"
+    "AVG": 29
   },
   {
     "Year": 2015,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "55,55"
+    "AVG": 55
   },
   {
     "Year": 2015,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "15,0"
+    "AVG": 15
   },
   {
     "Year": 2015,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "17,5"
+    "AVG": 17
   },
   {
     "Year": 2015,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "55,8"
+    "AVG": 55
   },
   {
     "Year": 2015,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "26,8"
+    "AVG": 26
   },
   {
     "Year": 2015,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,6"
+    "AVG": 14
   },
   {
     "Year": 2015,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "66,55"
+    "AVG": 66
   },
   {
     "Year": 2015,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "18,9"
+    "AVG": 18
   },
   {
     "Year": 2015,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "19,15"
+    "AVG": 19
   },
   {
     "Year": 2015,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,25"
+    "AVG": 45
   },
   {
     "Year": 2015,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "35,55"
+    "AVG": 35
   },
   {
     "Year": 2015,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "21,6"
+    "AVG": 21
   },
   {
     "Year": 2015,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "44,35"
+    "AVG": 44
   },
   {
     "Year": 2015,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "34,1"
+    "AVG": 34
   },
   {
     "Year": 2015,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "18,5"
+    "code": "0-2",
+    "ISCED11": 18,
+    "AVG": 5
   },
   {
     "Year": 2015,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "47,3"
+    "code": "3-4",
+    "ISCED11": 47,
+    "AVG": 3
   },
   {
     "Year": 2015,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "34,1"
+    "code": "5-8",
+    "ISCED11": 34,
+    "AVG": 1
   },
   {
     "Year": 2016,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "28,2"
+    "AVG": 28
   },
   {
     "Year": 2016,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,6"
+    "AVG": 38
   },
   {
     "Year": 2016,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "33,25"
+    "AVG": 33
   },
   {
     "Year": 2016,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "21,9"
+    "AVG": 21
   },
   {
     "Year": 2016,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,65"
+    "AVG": 53
   },
   {
     "Year": 2016,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "24,45"
+    "AVG": 24
   },
   {
     "Year": 2016,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,35"
+    "AVG": 12
   },
   {
     "Year": 2016,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "67,0"
+    "AVG": 67
   },
   {
     "Year": 2016,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "20,6"
+    "AVG": 20
   },
   {
     "Year": 2016,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "27,3"
+    "AVG": 27
   },
   {
     "Year": 2016,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,7"
+    "AVG": 41
   },
   {
     "Year": 2016,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "30,95"
+    "AVG": 30
   },
   {
     "Year": 2016,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,85"
+    "AVG": 19
   },
   {
     "Year": 2016,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "55,75"
+    "AVG": 55
   },
   {
     "Year": 2016,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "24,45"
+    "AVG": 24
   },
   {
     "Year": 2016,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "16,7"
+    "AVG": 16
   },
   {
     "Year": 2016,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "49,3"
+    "AVG": 49
   },
   {
     "Year": 2016,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "34,0"
+    "AVG": 34
   },
   {
     "Year": 2016,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "23,0"
+    "AVG": 23
   },
   {
     "Year": 2016,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "37,55"
+    "AVG": 37
   },
   {
     "Year": 2016,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "39,4"
+    "AVG": 39
   },
   {
     "Year": 2016,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "30,05"
+    "AVG": 30
   },
   {
     "Year": 2016,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "43,5"
+    "AVG": 43
   },
   {
     "Year": 2016,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "26,45"
+    "AVG": 26
   },
   {
     "Year": 2016,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "42,6"
+    "AVG": 42
   },
   {
     "Year": 2016,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "24,75"
+    "AVG": 24
   },
   {
     "Year": 2016,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "32,7"
+    "AVG": 32
   },
   {
     "Year": 2016,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "25,4"
+    "AVG": 25
   },
   {
     "Year": 2016,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "43,65"
+    "AVG": 43
   },
   {
     "Year": 2016,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "30,9"
+    "AVG": 30
   },
   {
     "Year": 2016,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "20,6"
+    "AVG": 20
   },
   {
     "Year": 2016,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,45"
+    "AVG": 59
   },
   {
     "Year": 2016,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "20,0"
+    "AVG": 20
   },
   {
     "Year": 2016,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "41,6"
+    "AVG": 41
   },
   {
     "Year": 2016,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,75"
+    "AVG": 42
   },
   {
     "Year": 2016,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "15,65"
+    "AVG": 15
   },
   {
     "Year": 2016,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "24,1"
+    "AVG": 24
   },
   {
     "Year": 2016,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,5"
+    "AVG": 38
   },
   {
     "Year": 2016,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "37,4"
+    "AVG": 37
   },
   {
     "Year": 2016,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "15,05"
+    "AVG": 15
   },
   {
     "Year": 2016,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "55,8"
+    "AVG": 55
   },
   {
     "Year": 2016,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "29,25"
+    "AVG": 29
   },
   {
     "Year": 2016,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "12,5"
+    "AVG": 12
   },
   {
     "Year": 2016,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "53,65"
+    "AVG": 53
   },
   {
     "Year": 2016,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "33,85"
+    "AVG": 33
   },
   {
     "Year": 2016,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "28,2"
+    "AVG": 28
   },
   {
     "Year": 2016,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "35,4"
+    "AVG": 35
   },
   {
     "Year": 2016,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "36,45"
+    "AVG": 36
   },
   {
     "Year": 2016,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "21,8"
+    "AVG": 21
   },
   {
     "Year": 2016,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,7"
+    "AVG": 57
   },
   {
     "Year": 2016,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "20,55"
+    "AVG": 20
   },
   {
     "Year": 2016,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "47,8"
+    "AVG": 47
   },
   {
     "Year": 2016,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "31,75"
+    "AVG": 31
   },
   {
     "Year": 2016,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "20,4"
+    "AVG": 20
   },
   {
     "Year": 2016,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "27,95"
+    "code": "0-2",
+    "ISCED11": 27,
+    "AVG": 95
   },
   {
     "Year": 2016,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,05"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": "05"
   },
   {
     "Year": 2016,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "31,0"
+    "code": "5-8",
+    "ISCED11": 31,
+    "AVG": 0
   },
   {
     "Year": 2016,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "19,55"
+    "AVG": 19
   },
   {
     "Year": 2016,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "51,45"
+    "AVG": 51
   },
   {
     "Year": 2016,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "28,9"
+    "AVG": 28
   },
   {
     "Year": 2016,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "14,6"
+    "AVG": 14
   },
   {
     "Year": 2016,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "60,2"
+    "AVG": 60
   },
   {
     "Year": 2016,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "25,2"
+    "AVG": 25
   },
   {
     "Year": 2016,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "53,0"
+    "AVG": 53
   },
   {
     "Year": 2016,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "25,65"
+    "AVG": 25
   },
   {
     "Year": 2016,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "21,3"
+    "AVG": 21
   },
   {
     "Year": 2016,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "28,05"
+    "AVG": 28
   },
   {
     "Year": 2016,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "56,85"
+    "AVG": 56
   },
   {
     "Year": 2016,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "15,1"
+    "AVG": 15
   },
   {
     "Year": 2016,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "17,25"
+    "AVG": 17
   },
   {
     "Year": 2016,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "55,45"
+    "AVG": 55
   },
   {
     "Year": 2016,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "27,3"
+    "AVG": 27
   },
   {
     "Year": 2016,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,25"
+    "AVG": 14
   },
   {
     "Year": 2016,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "66,0"
+    "AVG": 66
   },
   {
     "Year": 2016,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "19,75"
+    "AVG": 19
   },
   {
     "Year": 2016,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "18,55"
+    "AVG": 18
   },
   {
     "Year": 2016,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,5"
+    "AVG": 45
   },
   {
     "Year": 2016,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "35,95"
+    "AVG": 35
   },
   {
     "Year": 2016,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "21,1"
+    "AVG": 21
   },
   {
     "Year": 2016,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "43,55"
+    "AVG": 43
   },
   {
     "Year": 2016,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "35,45"
+    "AVG": 35
   },
   {
     "Year": 2016,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "18,25"
+    "code": "0-2",
+    "ISCED11": 18,
+    "AVG": 25
   },
   {
     "Year": 2016,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "46,35"
+    "code": "3-4",
+    "ISCED11": 46,
+    "AVG": 35
   },
   {
     "Year": 2016,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "35,45"
+    "code": "5-8",
+    "ISCED11": 35,
+    "AVG": 45
   },
   {
     "Year": 2017,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "27,2"
+    "AVG": 27
   },
   {
     "Year": 2017,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,15"
+    "AVG": 37
   },
   {
     "Year": 2017,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "35,65"
+    "AVG": 35
   },
   {
     "Year": 2017,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "21,35"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "54,05"
+    "AVG": 54
   },
   {
     "Year": 2017,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "24,6"
+    "AVG": 24
   },
   {
     "Year": 2017,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,15"
+    "AVG": 12
   },
   {
     "Year": 2017,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "66,45"
+    "AVG": 66
   },
   {
     "Year": 2017,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "21,45"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "26,65"
+    "AVG": 26
   },
   {
     "Year": 2017,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "41,15"
+    "AVG": 41
   },
   {
     "Year": 2017,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "32,15"
+    "AVG": 32
   },
   {
     "Year": 2017,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,85"
+    "AVG": 19
   },
   {
     "Year": 2017,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "55,5"
+    "AVG": 55
   },
   {
     "Year": 2017,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "24,75"
+    "AVG": 24
   },
   {
     "Year": 2017,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "16,9"
+    "AVG": 16
   },
   {
     "Year": 2017,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "48,5"
+    "AVG": 48
   },
   {
     "Year": 2017,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "34,7"
+    "AVG": 34
   },
   {
     "Year": 2017,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "21,85"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "37,75"
+    "AVG": 37
   },
   {
     "Year": 2017,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "40,4"
+    "AVG": 40
   },
   {
     "Year": 2017,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "29,3"
+    "AVG": 29
   },
   {
     "Year": 2017,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "43,6"
+    "AVG": 43
   },
   {
     "Year": 2017,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "27,15"
+    "AVG": 27
   },
   {
     "Year": 2017,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2017,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "24,95"
+    "AVG": 24
   },
   {
     "Year": 2017,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "33,2"
+    "AVG": 33
   },
   {
     "Year": 2017,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "25,2"
+    "AVG": 25
   },
   {
     "Year": 2017,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "43,4"
+    "AVG": 43
   },
   {
     "Year": 2017,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "31,35"
+    "AVG": 31
   },
   {
     "Year": 2017,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "19,9"
+    "AVG": 19
   },
   {
     "Year": 2017,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,55"
+    "AVG": 59
   },
   {
     "Year": 2017,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "20,55"
+    "AVG": 20
   },
   {
     "Year": 2017,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "40,85"
+    "AVG": 40
   },
   {
     "Year": 2017,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,6"
+    "AVG": 42
   },
   {
     "Year": 2017,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "16,5"
+    "AVG": 16
   },
   {
     "Year": 2017,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "22,9"
+    "AVG": 22
   },
   {
     "Year": 2017,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "39,1"
+    "AVG": 39
   },
   {
     "Year": 2017,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "37,95"
+    "AVG": 37
   },
   {
     "Year": 2017,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "15,35"
+    "AVG": 15
   },
   {
     "Year": 2017,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "54,9"
+    "AVG": 54
   },
   {
     "Year": 2017,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "29,75"
+    "AVG": 29
   },
   {
     "Year": 2017,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "12,1"
+    "AVG": 12
   },
   {
     "Year": 2017,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "53,3"
+    "AVG": 53
   },
   {
     "Year": 2017,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "34,6"
+    "AVG": 34
   },
   {
     "Year": 2017,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "30,5"
+    "AVG": 30
   },
   {
     "Year": 2017,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "35,4"
+    "AVG": 35
   },
   {
     "Year": 2017,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "34,1"
+    "AVG": 34
   },
   {
     "Year": 2017,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "21,05"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "58,1"
+    "AVG": 58
   },
   {
     "Year": 2017,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "20,85"
+    "AVG": 20
   },
   {
     "Year": 2017,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "45,6"
+    "AVG": 45
   },
   {
     "Year": 2017,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "32,35"
+    "AVG": 32
   },
   {
     "Year": 2017,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "22,15"
+    "AVG": 22
   },
   {
     "Year": 2017,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "26,6"
+    "code": "0-2",
+    "ISCED11": 26,
+    "AVG": 6
   },
   {
     "Year": 2017,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "41,3"
+    "code": "3-4",
+    "ISCED11": 41,
+    "AVG": 3
   },
   {
     "Year": 2017,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "32,1"
+    "code": "5-8",
+    "ISCED11": 32,
+    "AVG": 1
   },
   {
     "Year": 2017,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "19,3"
+    "AVG": 19
   },
   {
     "Year": 2017,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "50,95"
+    "AVG": 50
   },
   {
     "Year": 2017,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "29,7"
+    "AVG": 29
   },
   {
     "Year": 2017,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "13,9"
+    "AVG": 13
   },
   {
     "Year": 2017,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "59,8"
+    "AVG": 59
   },
   {
     "Year": 2017,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "26,3"
+    "AVG": 26
   },
   {
     "Year": 2017,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "51,8"
+    "AVG": 51
   },
   {
     "Year": 2017,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "26,6"
+    "AVG": 26
   },
   {
     "Year": 2017,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "21,55"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "26,95"
+    "AVG": 26
   },
   {
     "Year": 2017,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "57,7"
+    "AVG": 57
   },
   {
     "Year": 2017,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "15,35"
+    "AVG": 15
   },
   {
     "Year": 2017,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "16,75"
+    "AVG": 16
   },
   {
     "Year": 2017,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "54,45"
+    "AVG": 54
   },
   {
     "Year": 2017,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "28,8"
+    "AVG": 28
   },
   {
     "Year": 2017,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,75"
+    "AVG": 14
   },
   {
     "Year": 2017,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "64,5"
+    "AVG": 64
   },
   {
     "Year": 2017,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "20,75"
+    "AVG": 20
   },
   {
     "Year": 2017,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "18,35"
+    "AVG": 18
   },
   {
     "Year": 2017,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,15"
+    "AVG": 45
   },
   {
     "Year": 2017,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "36,5"
+    "AVG": 36
   },
   {
     "Year": 2017,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "21,1"
+    "AVG": 21
   },
   {
     "Year": 2017,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "42,8"
+    "AVG": 42
   },
   {
     "Year": 2017,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "36,05"
+    "AVG": 36
   },
   {
     "Year": 2017,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "17,8"
+    "code": "0-2",
+    "ISCED11": 17,
+    "AVG": 8
   },
   {
     "Year": 2017,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "45,5"
+    "code": "3-4",
+    "ISCED11": 45,
+    "AVG": 5
   },
   {
     "Year": 2017,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "36,7"
+    "code": "5-8",
+    "ISCED11": 36,
+    "AVG": 7
   },
   {
     "Year": 2018,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "26,35"
+    "AVG": 26
   },
   {
     "Year": 2018,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "37,7"
+    "AVG": 37
   },
   {
     "Year": 2018,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "36,0"
+    "AVG": 36
   },
   {
     "Year": 2018,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "21,55"
+    "AVG": 21
   },
   {
     "Year": 2018,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,6"
+    "AVG": 53
   },
   {
     "Year": 2018,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "24,9"
+    "AVG": 24
   },
   {
     "Year": 2018,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,1"
+    "AVG": 12
   },
   {
     "Year": 2018,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "66,15"
+    "AVG": 66
   },
   {
     "Year": 2018,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "21,75"
+    "AVG": 21
   },
   {
     "Year": 2018,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "26,6"
+    "AVG": 26
   },
   {
     "Year": 2018,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "40,95"
+    "AVG": 40
   },
   {
     "Year": 2018,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "32,4"
+    "AVG": 32
   },
   {
     "Year": 2018,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,65"
+    "AVG": 19
   },
   {
     "Year": 2018,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "55,2"
+    "AVG": 55
   },
   {
     "Year": 2018,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2018,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "16,8"
+    "AVG": 16
   },
   {
     "Year": 2018,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "47,35"
+    "AVG": 47
   },
   {
     "Year": 2018,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "35,85"
+    "AVG": 35
   },
   {
     "Year": 2018,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "21,5"
+    "AVG": 21
   },
   {
     "Year": 2018,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "38,05"
+    "AVG": 38
   },
   {
     "Year": 2018,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "40,45"
+    "AVG": 40
   },
   {
     "Year": 2018,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "28,7"
+    "AVG": 28
   },
   {
     "Year": 2018,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "43,65"
+    "AVG": 43
   },
   {
     "Year": 2018,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "27,65"
+    "AVG": 27
   },
   {
     "Year": 2018,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "40,85"
+    "AVG": 40
   },
   {
     "Year": 2018,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "25,15"
+    "AVG": 25
   },
   {
     "Year": 2018,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "34,0"
+    "AVG": 34
   },
   {
     "Year": 2018,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "24,45"
+    "AVG": 24
   },
   {
     "Year": 2018,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "42,85"
+    "AVG": 42
   },
   {
     "Year": 2018,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "32,7"
+    "AVG": 32
   },
   {
     "Year": 2018,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "18,7"
+    "AVG": 18
   },
   {
     "Year": 2018,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,3"
+    "AVG": 59
   },
   {
     "Year": 2018,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "22,0"
+    "AVG": 22
   },
   {
     "Year": 2018,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "40,3"
+    "AVG": 40
   },
   {
     "Year": 2018,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,6"
+    "AVG": 42
   },
   {
     "Year": 2018,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "17,1"
+    "AVG": 17
   },
   {
     "Year": 2018,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "21,9"
+    "AVG": 21
   },
   {
     "Year": 2018,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,8"
+    "AVG": 38
   },
   {
     "Year": 2018,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "39,3"
+    "AVG": 39
   },
   {
     "Year": 2018,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "15,35"
+    "AVG": 15
   },
   {
     "Year": 2018,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "54,8"
+    "AVG": 54
   },
   {
     "Year": 2018,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "29,8"
+    "AVG": 29
   },
   {
     "Year": 2018,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "11,7"
+    "AVG": 11
   },
   {
     "Year": 2018,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "52,4"
+    "AVG": 52
   },
   {
     "Year": 2018,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "35,9"
+    "AVG": 35
   },
   {
     "Year": 2018,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "27,55"
+    "AVG": 27
   },
   {
     "Year": 2018,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "34,1"
+    "AVG": 34
   },
   {
     "Year": 2018,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "38,3"
+    "AVG": 38
   },
   {
     "Year": 2018,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "20,25"
+    "AVG": 20
   },
   {
     "Year": 2018,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "58,1"
+    "AVG": 58
   },
   {
     "Year": 2018,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "21,7"
+    "AVG": 21
   },
   {
     "Year": 2018,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "42,9"
+    "AVG": 42
   },
   {
     "Year": 2018,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "32,4"
+    "AVG": 32
   },
   {
     "Year": 2018,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "24,65"
+    "AVG": 24
   },
   {
     "Year": 2018,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "26,05"
+    "code": "0-2",
+    "ISCED11": 26,
+    "AVG": "05"
   },
   {
     "Year": 2018,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "40,95"
+    "code": "3-4",
+    "ISCED11": 40,
+    "AVG": 95
   },
   {
     "Year": 2018,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "33,05"
+    "code": "5-8",
+    "ISCED11": 33,
+    "AVG": "05"
   },
   {
     "Year": 2018,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "18,85"
+    "AVG": 18
   },
   {
     "Year": 2018,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "51,05"
+    "AVG": 51
   },
   {
     "Year": 2018,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "30,1"
+    "AVG": 30
   },
   {
     "Year": 2018,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "13,45"
+    "AVG": 13
   },
   {
     "Year": 2018,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "59,3"
+    "AVG": 59
   },
   {
     "Year": 2018,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "27,25"
+    "AVG": 27
   },
   {
     "Year": 2018,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "50,0"
+    "AVG": 50
   },
   {
     "Year": 2018,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "27,6"
+    "AVG": 27
   },
   {
     "Year": 2018,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "22,35"
+    "AVG": 22
   },
   {
     "Year": 2018,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "26,3"
+    "AVG": 26
   },
   {
     "Year": 2018,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "58,2"
+    "AVG": 58
   },
   {
     "Year": 2018,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "15,5"
+    "AVG": 15
   },
   {
     "Year": 2018,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "16,45"
+    "AVG": 16
   },
   {
     "Year": 2018,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "54,7"
+    "AVG": 54
   },
   {
     "Year": 2018,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "28,9"
+    "AVG": 28
   },
   {
     "Year": 2018,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,45"
+    "AVG": 14
   },
   {
     "Year": 2018,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "63,55"
+    "AVG": 63
   },
   {
     "Year": 2018,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "22,1"
+    "AVG": 22
   },
   {
     "Year": 2018,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "17,65"
+    "AVG": 17
   },
   {
     "Year": 2018,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "45,0"
+    "AVG": 45
   },
   {
     "Year": 2018,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "37,35"
+    "AVG": 37
   },
   {
     "Year": 2018,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "20,95"
+    "AVG": 20
   },
   {
     "Year": 2018,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "41,85"
+    "AVG": 41
   },
   {
     "Year": 2018,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "37,2"
+    "AVG": 37
   },
   {
     "Year": 2018,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "17,25"
+    "code": "0-2",
+    "ISCED11": 17,
+    "AVG": 25
   },
   {
     "Year": 2018,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "45,05"
+    "code": "3-4",
+    "ISCED11": 45,
+    "AVG": "05"
   },
   {
     "Year": 2018,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "37,7"
+    "code": "5-8",
+    "ISCED11": 37,
+    "AVG": 7
   },
   {
     "Year": 2019,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "0-2",
-    "AVG": "25,85"
+    "AVG": 25
   },
   {
     "Year": 2019,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "3-4",
-    "AVG": "38,1"
+    "AVG": 38
   },
   {
     "Year": 2019,
     "Country": "Belgium",
+    "code": "BE",
     "ISCED11": "5-8",
-    "AVG": "36,05"
+    "AVG": 36
   },
   {
     "Year": 2019,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "0-2",
-    "AVG": "21,85"
+    "AVG": 21
   },
   {
     "Year": 2019,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "3-4",
-    "AVG": "53,4"
+    "AVG": 53
   },
   {
     "Year": 2019,
     "Country": "Bulgaria",
+    "code": "BG",
     "ISCED11": "5-8",
-    "AVG": "24,75"
+    "AVG": 24
   },
   {
     "Year": 2019,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "0-2",
-    "AVG": "12,35"
+    "AVG": 12
   },
   {
     "Year": 2019,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "3-4",
-    "AVG": "66,05"
+    "AVG": 66
   },
   {
     "Year": 2019,
     "Country": "Czechia",
+    "code": "CZ",
     "ISCED11": "5-8",
-    "AVG": "21,6"
+    "AVG": 21
   },
   {
     "Year": 2019,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "0-2",
-    "AVG": "26,1"
+    "AVG": 26
   },
   {
     "Year": 2019,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "3-4",
-    "AVG": "40,75"
+    "AVG": 40
   },
   {
     "Year": 2019,
     "Country": "Denmark",
+    "code": "DK",
     "ISCED11": "5-8",
-    "AVG": "33,1"
+    "AVG": 33
   },
   {
     "Year": 2019,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "0-2",
-    "AVG": "19,55"
+    "AVG": 19
   },
   {
     "Year": 2019,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "3-4",
-    "AVG": "54,5"
+    "AVG": 54
   },
   {
     "Year": 2019,
-    "Country": "Germany (u",
+    "Country": "Germany",
+    "code": "DE",
     "ISCED11": "5-8",
-    "AVG": "25,95"
+    "AVG": 25
   },
   {
     "Year": 2019,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "0-2",
-    "AVG": "15,8"
+    "AVG": 15
   },
   {
     "Year": 2019,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "3-4",
-    "AVG": "47,75"
+    "AVG": 47
   },
   {
     "Year": 2019,
     "Country": "Estonia",
+    "code": "EE",
     "ISCED11": "5-8",
-    "AVG": "36,45"
+    "AVG": 36
   },
   {
     "Year": 2019,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "0-2",
-    "AVG": "21,05"
+    "AVG": 21
   },
   {
     "Year": 2019,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "3-4",
-    "AVG": "38,3"
+    "AVG": 38
   },
   {
     "Year": 2019,
     "Country": "Ireland",
+    "code": "IE",
     "ISCED11": "5-8",
-    "AVG": "40,65"
+    "AVG": 40
   },
   {
     "Year": 2019,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "0-2",
-    "AVG": "25,9"
+    "AVG": 25
   },
   {
     "Year": 2019,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "3-4",
-    "AVG": "46,35"
+    "AVG": 46
   },
   {
     "Year": 2019,
     "Country": "Greece",
+    "code": "EL",
     "ISCED11": "5-8",
-    "AVG": "27,7"
+    "AVG": 27
   },
   {
     "Year": 2019,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "0-2",
-    "AVG": "39,65"
+    "AVG": 39
   },
   {
     "Year": 2019,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "3-4",
-    "AVG": "25,25"
+    "AVG": 25
   },
   {
     "Year": 2019,
     "Country": "Spain",
+    "code": "ES",
     "ISCED11": "5-8",
-    "AVG": "35,1"
+    "AVG": 35
   },
   {
     "Year": 2019,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "0-2",
-    "AVG": "23,45"
+    "AVG": 23
   },
   {
     "Year": 2019,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "3-4",
-    "AVG": "42,9"
+    "AVG": 42
   },
   {
     "Year": 2019,
     "Country": "France",
+    "code": "FR",
     "ISCED11": "5-8",
-    "AVG": "33,6"
+    "AVG": 33
   },
   {
     "Year": 2019,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "0-2",
-    "AVG": "18,1"
+    "AVG": 18
   },
   {
     "Year": 2019,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "3-4",
-    "AVG": "59,85"
+    "AVG": 59
   },
   {
     "Year": 2019,
     "Country": "Croatia",
+    "code": "HR",
     "ISCED11": "5-8",
-    "AVG": "22,05"
+    "AVG": 22
   },
   {
     "Year": 2019,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "0-2",
-    "AVG": "39,8"
+    "AVG": 39
   },
   {
     "Year": 2019,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "3-4",
-    "AVG": "42,75"
+    "AVG": 42
   },
   {
     "Year": 2019,
     "Country": "Italy",
+    "code": "IT",
     "ISCED11": "5-8",
-    "AVG": "17,4"
+    "AVG": 17
   },
   {
     "Year": 2019,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "0-2",
-    "AVG": "21,5"
+    "AVG": 21
   },
   {
     "Year": 2019,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "3-4",
-    "AVG": "38,65"
+    "AVG": 38
   },
   {
     "Year": 2019,
     "Country": "Cyprus",
+    "code": "CY",
     "ISCED11": "5-8",
-    "AVG": "39,85"
+    "AVG": 39
   },
   {
     "Year": 2019,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "0-2",
-    "AVG": "14,95"
+    "AVG": 14
   },
   {
     "Year": 2019,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "3-4",
-    "AVG": "53,9"
+    "AVG": 53
   },
   {
     "Year": 2019,
-    "Country": "Latvia",
+    "Country": "Liatvia",
+    "code": "LV",
     "ISCED11": "5-8",
-    "AVG": "31,15"
+    "AVG": 31
   },
   {
     "Year": 2019,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "0-2",
-    "AVG": "11,15"
+    "AVG": 11
   },
   {
     "Year": 2019,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "3-4",
-    "AVG": "51,05"
+    "AVG": 51
   },
   {
     "Year": 2019,
     "Country": "Lithuania",
+    "code": "LT",
     "ISCED11": "5-8",
-    "AVG": "37,75"
+    "AVG": 37
   },
   {
     "Year": 2019,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "0-2",
-    "AVG": "26,75"
+    "AVG": 26
   },
   {
     "Year": 2019,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "3-4",
-    "AVG": "32,25"
+    "AVG": 32
   },
   {
     "Year": 2019,
     "Country": "Luxembourg",
+    "code": "LU",
     "ISCED11": "5-8",
-    "AVG": "41,05"
+    "AVG": 41
   },
   {
     "Year": 2019,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "0-2",
-    "AVG": "19,95"
+    "AVG": 19
   },
   {
     "Year": 2019,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "3-4",
-    "AVG": "57,6"
+    "AVG": 57
   },
   {
     "Year": 2019,
     "Country": "Hungary",
+    "code": "HU",
     "ISCED11": "5-8",
-    "AVG": "22,45"
+    "AVG": 22
   },
   {
     "Year": 2019,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "0-2",
-    "AVG": "41,25"
+    "AVG": 41
   },
   {
     "Year": 2019,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "3-4",
-    "AVG": "32,0"
+    "AVG": 32
   },
   {
     "Year": 2019,
     "Country": "Malta",
+    "code": "MT",
     "ISCED11": "5-8",
-    "AVG": "26,8"
+    "AVG": 26
   },
   {
     "Year": 2019,
     "Country": "Netherland",
-    "ISCED11": "0-2",
-    "AVG": "25,55"
+    "code": "0-2",
+    "ISCED11": 25,
+    "AVG": 55
   },
   {
     "Year": 2019,
     "Country": "Netherland",
-    "ISCED11": "3-4",
-    "AVG": "39,75"
+    "code": "3-4",
+    "ISCED11": 39,
+    "AVG": 75
   },
   {
     "Year": 2019,
     "Country": "Netherland",
-    "ISCED11": "5-8",
-    "AVG": "34,75"
+    "code": "5-8",
+    "ISCED11": 34,
+    "AVG": 75
   },
   {
     "Year": 2019,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "0-2",
-    "AVG": "18,7"
+    "AVG": 18
   },
   {
     "Year": 2019,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "3-4",
-    "AVG": "50,15"
+    "AVG": 50
   },
   {
     "Year": 2019,
     "Country": "Austria",
+    "code": "AT",
     "ISCED11": "5-8",
-    "AVG": "31,1"
+    "AVG": 31
   },
   {
     "Year": 2019,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "0-2",
-    "AVG": "13,3"
+    "AVG": 13
   },
   {
     "Year": 2019,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "3-4",
-    "AVG": "58,45"
+    "AVG": 58
   },
   {
     "Year": 2019,
     "Country": "Poland",
+    "code": "PL",
     "ISCED11": "5-8",
-    "AVG": "28,2"
+    "AVG": 28
   },
   {
     "Year": 2019,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "0-2",
-    "AVG": "47,75"
+    "AVG": 47
   },
   {
     "Year": 2019,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "3-4",
-    "AVG": "28,7"
+    "AVG": 28
   },
   {
     "Year": 2019,
     "Country": "Portugal",
+    "code": "PT",
     "ISCED11": "5-8",
-    "AVG": "23,6"
+    "AVG": 23
   },
   {
     "Year": 2019,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "0-2",
-    "AVG": "25,1"
+    "AVG": 25
   },
   {
     "Year": 2019,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "3-4",
-    "AVG": "58,85"
+    "AVG": 58
   },
   {
     "Year": 2019,
     "Country": "Romania",
+    "code": "RO",
     "ISCED11": "5-8",
-    "AVG": "16,05"
+    "AVG": 16
   },
   {
     "Year": 2019,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "0-2",
-    "AVG": "15,8"
+    "AVG": 15
   },
   {
     "Year": 2019,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "3-4",
-    "AVG": "54,7"
+    "AVG": 54
   },
   {
     "Year": 2019,
     "Country": "Slovenia",
+    "code": "SI",
     "ISCED11": "5-8",
-    "AVG": "29,5"
+    "AVG": 29
   },
   {
     "Year": 2019,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "0-2",
-    "AVG": "14,5"
+    "AVG": 14
   },
   {
     "Year": 2019,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "3-4",
-    "AVG": "62,3"
+    "AVG": 62
   },
   {
     "Year": 2019,
     "Country": "Slovakia",
+    "code": "SK",
     "ISCED11": "5-8",
-    "AVG": "23,15"
+    "AVG": 23
   },
   {
     "Year": 2019,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "0-2",
-    "AVG": "16,9"
+    "AVG": 16
   },
   {
     "Year": 2019,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "3-4",
-    "AVG": "44,5"
+    "AVG": 44
   },
   {
     "Year": 2019,
     "Country": "Finland",
+    "code": "Fi",
     "ISCED11": "5-8",
-    "AVG": "38,6"
+    "AVG": 38
   },
   {
     "Year": 2019,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "0-2",
-    "AVG": "20,7"
+    "AVG": 20
   },
   {
     "Year": 2019,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "3-4",
-    "AVG": "41,3"
+    "AVG": 41
   },
   {
     "Year": 2019,
     "Country": "Sweden",
+    "code": "SE",
     "ISCED11": "5-8",
-    "AVG": "37,95"
+    "AVG": 37
   },
   {
     "Year": 2019,
     "Country": "Switzerlan",
-    "ISCED11": "0-2",
-    "AVG": "16,5"
+    "code": "0-2",
+    "ISCED11": 16,
+    "AVG": 5
   },
   {
     "Year": 2019,
     "Country": "Switzerlan",
-    "ISCED11": "3-4",
-    "AVG": "44,95"
+    "code": "3-4",
+    "ISCED11": 44,
+    "AVG": 95
   },
   {
     "Year": 2019,
     "Country": "Switzerlan",
-    "ISCED11": "5-8",
-    "AVG": "38,55"
+    "code": "5-8",
+    "ISCED11": 38,
+    "AVG": 55
   }
 ]

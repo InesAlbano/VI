@@ -26,12 +26,31 @@ var colorScale = d3.scaleThreshold()
 // Load external data and boot
 d3.queue()
   .defer(d3.json, "map.json")
-  .defer(d3.csv, "population.csv", function(d) { 
-    data.set(d.code, +d.pop);
-  })
-  .await(ready);
+  /*.defer(d3.csv, "population.csv", function(d) { 
+    data.set(d.code, +d.pop);*/
+  /*/.defer(d3.csv, "csv/Q1.csv", function(d) { 
+    for (var i = 0; i < d3.keys(d).length; i++) {  //[Year, Country, code, Education, AVG] for Q1
+      if(d3.values(d)[3] === '0-2'){
+        if(d3.values(d)[0] === '2005'){
+          data.set(d3.values(d)[2],+d3.values(d)[4]);
+        }
+      }
+    }*/
+    
+    
+  .defer(d3.json, "csv/Q1.json", function(d) { 
+    console.log('AAAA');
+    for (var i in d){
+      if(d[i].ISCED11 === '0-2'){
+        if(d[i].Year == '2005'){        
+          data.set(d[i]['Country'],+d[i]['AVG']);
+        }
+      }
+    }
+  }).await(ready);
 
 function ready(error, topo) {
+  console.log("BBBB");
   // Draw the map
   svg.append("g")
     .selectAll("path")
@@ -45,6 +64,7 @@ function ready(error, topo) {
       // set the color of each country
       .attr("fill", function (d) {
         d.total = data.get(d.id) || 0;
+        console.log(topo.features);
         return colorScale(d.total);
       });
     }
