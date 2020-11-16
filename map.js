@@ -3,7 +3,11 @@
 var width = 960,
     height = 500;
 
-var color = d3.scaleQuantize([1, 10], d3.schemeBlues[9]);
+//var color = d3.scaleQuantize([1, 10], d3.schemeBlues[9]);
+
+var colorScale = d3.scaleThreshold()
+  .domain([5, 10, 20, 30, 40, 50])
+  .range(d3.schemeBlues[7]);
 
 var projection = d3.geoMercator()
     .center([65, 50])
@@ -24,20 +28,35 @@ d3.json("csv/map.json").then(function(data) {
 
   d3.json("csv/Q1.json").then(function(data2) {
 
-    const country_value = {};
-    data2.forEach(d => { 
-      if (d.Year == "2005")
-        if (d.ISCED11 === '0-2'){
-          country_value[d.code] = d.AVG;
-          }
-    });
-    console.log(country_value);
-
-    console.log(data);
     g.selectAll("path")
-        .data(data.features)
-        .enter()
-        .append("path")
-        .attr("d", path);
-  });
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .attr("fill", function(d, val) {
+        data2.forEach(d2 => {
+          if (d2.Year == '2005'){
+            if (d2.ISCED11 === '0-2'){
+              if (d2.code === d.id) { // TODO need to correct NL because dataset of Q1 does not contain id NL
+                val = d2.AVG;
+                //console.log(d2.code + ' ' + val);
+              }
+            }
+          }
+          if (val){
+            return colorScale(val);
+          } else {
+            return "#1A1C1F";
+          }
+        });  // eu acho que a cor não está a ser adicionada ao id do obj    
+      })
+      .attr("id", function(d){
+        return d.id;
+      })
+      .attr("class", "country")
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+
+    });
+
 });
