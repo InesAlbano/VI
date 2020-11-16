@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="css/style.css">
     
     <!-- Load d3.js -->
-    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://d3js.org/d3.v6.js"></script>
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://unpkg.com/topojson@3"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
 </head>
 <body>
@@ -106,7 +107,7 @@
         <div class="two">
             <div class="container">
                 <div id="map-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
-                    <svg id="my_dataviz" width="1250" height="1520"></svg>
+                    <svg id="map-chart"></svg>
                     <script src="map.js"></script>
                     placeholder1
                 </div>
