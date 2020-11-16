@@ -27,28 +27,28 @@ var g = svg.append("g");
 d3.json("csv/map.json").then(function(data) {
 
   d3.json("csv/Q1.json").then(function(data2) {
-
+    var counter = 0;
     g.selectAll("path")
       .data(data.features)
       .enter()
       .append("path")
       .attr("d", path)
-      .attr("fill", function(d, val) {
+      .style("fill", function(d) {
+        var val;
         data2.forEach(d2 => {
           if (d2.Year == '2005'){
             if (d2.ISCED11 === '0-2'){
               if (d2.code === d.id) { // TODO need to correct NL because dataset of Q1 does not contain id NL
                 val = d2.AVG;
-                //console.log(d2.code + ' ' + val);
               }
             }
-          }
-          if (val){
+          } 
+        });
+        if (val){
             return colorScale(val);
           } else {
             return "#1A1C1F";
           }
-        });  // eu acho que a cor não está a ser adicionada ao id do obj    
       })
       .attr("id", function(d){
         return d.id;
