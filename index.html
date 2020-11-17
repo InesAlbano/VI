@@ -60,9 +60,9 @@
                     </li>
                     <li>
                         <div class="radio-toolbar-education">
-                            <input type="radio" id="ed02" name="education" value="ed02"><label for="ed02">ED0_2</label>
-                            <input type="radio" id="ed34" name="education" value="ed34"><label for="ed34">ED3-4</label>
-                            <input type="radio" id="ed58" name="education" value="ed58"><label for="ed58">ED5_8</label>
+                            <input type="radio" id="0-2" name="education" value="0-2"><label for="0-2">ED0_2</label>
+                            <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3-4</label>
+                            <input type="radio" id="5-8" name="education" value="5-8"><label for="5-8">ED5_8</label>
                         </div>
                     </li>
                     <li>
@@ -108,7 +108,7 @@
             <div class="container">
                 <div id="map-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
                     <svg id="map-chart"></svg>
-                    <script src="map.js"></script>
+                    <script src="map.js"></script> <!-- Needs to change, because if button of submit is clicked, need to recalculate chart -->
                     placeholder1
                 </div>
 
@@ -202,11 +202,12 @@
 
 <script>
     function myFunction(event) {
-
+        localStorage.clear();
         var countries = [];
         var education = '';
         var years = [];
         var variable = '';
+
 
         /*get countries */
         checkboxes = document.getElementsByName("country");
@@ -236,17 +237,16 @@
         for (let i=0; i < checkboxes.length; ++i){
             if(checkboxes[i].checked==true){
                 variable = checkboxes[i].value;
-                break;
             }
         }
 
         if (countries.length == 0 || education == '' || years.length == 0 || variable == '')
             alert('Complete all options.');
         else {
-            console.log(countries);
-            console.log(education);
-            console.log(years);
-            console.log(variable);
+            localStorage.setItem("countries", countries);
+            localStorage.setItem("education", education);
+            localStorage.setItem("years", years);
+            localStorage.setItem("variable", variable);
         }
 }
 </script>
