@@ -50,9 +50,36 @@ function init() {
         .attr("class", "country")
         .style('stroke', '#515151')
         .style('stroke-width', 1)
+        .on("mouseover", mouseOver)
+        .on("mouseleave", mouseLeave)      
     });
   });
 }
+
+// Hover effects - missing: countries' names appearing (and maybe variable value) 
+function mouseOver() {
+  d3.selectAll(".country")
+    .transition()
+    .duration(200)
+    .style("opacity", .5)
+  d3.select(this)
+    .transition()
+    .duration(200)
+    .style("opacity", 1)
+    .style("stroke", "#515151")
+}
+
+function mouseLeave() {
+  d3.selectAll(".country")
+    .transition()
+    .duration(200)
+    .style("opacity", .8)
+  d3.select(this)
+    .transition()
+    .duration(200)
+    .style("stroke", "transparent")
+}
+
 
 // still not working
 function addZoom() {
