@@ -99,7 +99,7 @@
                             <input type="radio" id="GWG" name="variables" value="GWG"><label for="GWG">Gender Wage Gap</label>
                         </div>
                     </li>
-                    <li><button type="button" value="Go"  onclick="myFunction(this)">Go</li>
+                    <li><button id="bt1" type="button" value="Go" onclick="myFunction(this)">Go</li>
                 </form>
             </ul>
         </div>
@@ -225,11 +225,11 @@
             }
         }
 
-        /*get countries */
+        /*get years */
         checkboxes = document.getElementsByName("year");
         for (let i=0; i < checkboxes.length; ++i){
             if(checkboxes[i].checked==true)
-                years.push(checkboxes[i].value);
+                years.push(parseInt(checkboxes[i].value));
         }
 
         /*get bottom variables*/
@@ -243,10 +243,21 @@
         if (countries.length == 0 || education == '' || years.length == 0 || variable == '')
             alert('Complete all options.');
         else {
-            localStorage.setItem("countries", countries);
             localStorage.setItem("education", education);
-            localStorage.setItem("years", years);
             localStorage.setItem("variable", variable);
+
+            if(countries.length > 1) { // Case: more than 1 country is selected
+                localStorage.setItem("countries", JSON.stringify(countries));
+            }
+            else{ // Case: only 1 country is selected
+                localStorage.setItem("countries", countries);
+            }
+            if(years.length > 1) { // Case: more than 1 year is selected
+                localStorage.setItem("years", JSON.stringify(years));
+            }
+            else { // Case: Only 1 year is selected
+                localStorage.setItem("years", years);
+            }
         }
-}
+    }
 </script>
