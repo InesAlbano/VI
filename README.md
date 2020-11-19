@@ -9,7 +9,7 @@
 |Inês Albano|87664|
 
 
-## Resoursces
+## Resources
 
 * [Google Drive](https://drive.google.com/drive/folders/1e7FayiFcECvirWzlyiW9u8PTjfHwWX7u?usp=sharing)
 
