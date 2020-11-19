@@ -106,19 +106,22 @@
 
         <div class="two">
             <div class="container">
-                <div id="map-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
-                    <script src="map.js"></script> <!-- Needs to change, because if button of submit is clicked, need to recalculate chart -->
+                <div id="cleveland-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
                     placeholder1
                 </div>
 
-                <div id="cleveland-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
+                <div id="map-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
+                    <script src="map.js"></script>
                     placeholder2
                 </div>
+
             </div>
             
             <div class="container" style="margin-top: 26%;">
-                <div id="line-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
-                    placeholder4
+                <div id="line_chart" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="left-div">
+                    <!-- radio button options diana: employment, poverty, GDP -->
+                    <script src="line_chart.js"></script> 
+                    placeholder3
                 </div>
 
                 <div id="slope-holder" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
