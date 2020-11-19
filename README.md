@@ -12,3 +12,7 @@
 ## Resoursces
 
 * [Google Drive](https://drive.google.com/drive/folders/1e7FayiFcECvirWzlyiW9u8PTjfHwWX7u?usp=sharing)
+
+
+## Figma Prototype
+![Image of Visualization](img/figma/reference.png)
