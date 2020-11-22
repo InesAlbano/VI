@@ -8,7 +8,6 @@ var colorScale = d3.scaleThreshold()
   .domain([5, 10, 20, 30, 40, 50])
   .range(d3.schemeBlues[7]);
 
-
 function updateMap(update = false){
   // retrieving values from index.html
   var e = localStorage.getItem("education");
@@ -17,7 +16,6 @@ function updateMap(update = false){
   var y = localStorage.getItem("years");
   init(e,v,c,y, update);
 }
-
 
 function init(e,v,c,y, update) {
   if (update) {
@@ -63,7 +61,7 @@ function init(e,v,c,y, update) {
           .style('stroke', '#515151')
           .style('stroke-width', 1)
           .on("mouseover", mouseOver)
-          .on("mouseleave", mouseLeave)      
+          .on("mouseleave", mouseLeave)          
       });
     });
   } else {
@@ -88,7 +86,16 @@ function init(e,v,c,y, update) {
         .style('stroke', '#515151')
         .style('stroke-width', 1)
         .on("mouseover", mouseOver)
-        .on("mouseleave", mouseLeave)      
+        .on("mouseleave", mouseLeave)
+        // add a mouseover action to show name label for feature/country
+        //.on("mouseover", function(d, i) {
+        //  d3.select("#Country" + d.properties.iso_a3).style("display", "block");
+        //})
+        //.on("mouseout", function(d, i) {
+        //  d3.select("#Country" + d.properties.iso_a3).style("display", "none");
+        //})
+      
+      addZoom();
     });
   }
 }
@@ -118,17 +125,18 @@ function mouseLeave() {
 }
 
 
-// still not working
+// working for every chart (wrong)
 function addZoom() {
   d3.select("svg").call(
     d3.zoom()
-      .extent([[0,0],[1000, 1000],])
+      .extent([[-300,-300],[300, 300],])
+      .extent([[0,0],[960, 500],])
       .scaleExtent([1,8])
       .on("zoom", zoomed)
   );
 }
 
-// still not working
+// working for every chart (wrong)
 function zoomed({ transform }) {
   d3.selectAll("path").attr("transform", transform);
 }
