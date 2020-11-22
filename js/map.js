@@ -14,6 +14,28 @@ function updateMap(update = false){
   var v = localStorage.getItem("variable");
   var c = localStorage.getItem("countries");
   var y = localStorage.getItem("years");
+
+  if (c.includes(",")){
+    c = c.replace('[', '');
+    c = c.replace(']', '');
+    c = c.split(',');
+    for (let i = 0; i < c.length; ++i){
+      c[i] = c[i].replace('"', '');
+      c[i] = c[i].replace('"', '');
+    }
+  }
+
+  if (y.includes(",")){
+    y = y.replace('[', '');
+    y = y.replace(']', '');
+    y = y.split(',');
+    for (let i = 0; i < y.length; ++i){
+      y[i] = y[i].replace('"', '');
+      y[i] = y[i].replace('"', '');
+      y[i] = parseInt(y[i])
+    }
+  }
+
   init(e,v,c,y, update);
 }
 
@@ -41,17 +63,16 @@ function init(e,v,c,y, update) {
           .append("path")
           .attr("d", path)
           .style("fill", function(d) {
-            var val;
+            var val = 0;
             data2.forEach(d2 => {
               if ((c.includes(d2.code)) && 
                   (y.includes(d2.Year)) && 
                   (e.includes(d2.ISCED11)) && 
                   (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-                val = d2.AVG;
+                val = val + d2.AVG;
               }
             });
-  
-            return (val) ? colorScale(val) : "#1A1C1F";
+            return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
   
           })
           .attr("name", function(d){
