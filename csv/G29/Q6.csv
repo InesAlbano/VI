@@ -1,4 +1,4 @@
-Country;Year;% female employees;% female employees in high position;% female employees in high position_1;growth rate % f high positions
+Country;Year;femaleEmployees;femaleEmployeesHighPosition;femaleEmployeesHighPosition1;growthRateWHP
 AT;2005;64;7.1;0;7.1
 AT;2006;65.2;5.9;7.1;-1.2
 AT;2007;66.2;5;5.9;-0.9

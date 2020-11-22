@@ -3,10 +3,6 @@ document.getElementById("button-forms").addEventListener("click", function(){
   updateMap(update=true);
 }); 
 
-//TODO color needs to change
-var colorScale = d3.scaleThreshold()
-  .domain([5, 10, 20, 30, 40, 50])
-  .range(d3.schemeBlues[7]);
 
 function updateMap(update = false){
   // retrieving values from index.html
@@ -43,47 +39,39 @@ function init(e,v,c,y, update) {
   if (update) {
     d3.select("#map-svg").remove();
     console.log()
-    d3.json("csv/map.json").then(function (data) {   // loading the JSON files
-      d3.json("csv/Q1.json").then(function (data2) {
-        var counter = 0;
+    d3.json("csv/map.json").then(function (data) {
+       
+      switch(v){
+        case "GDP":
+          filePath = "csv/CholoplethMap/gdp.json";
+          mapGDP(data, filePath, c, y);   
+          break;
+        case "Employment":
+          filePath = ""; // TODO
+          mapEmployment(data, filePath, c, y, e);  
+          break;
+        case "Income":
+          filePath = "csv/CholoplethMap/Q4.json";
+          mapIncome(data, filePath, c, y, e);  
+          break;
+        case "Education":
+          filePath = ""; // TODO
+          mapEducation(data, filePath, c, y, e);  
+          break;
+        case "Women-high-pos":
+          filePath = "csv/CholoplethMap/Q6.json";
+          mapWHP(data, filePath, c, y);  
+          break;
+        case "Poverty":
+          filePath = "csv/CholoplethMap/Q1.json";
+          mapPoverty(data, filePath, c, y, e);
+          break;
+        case "GWG":
+          filePath = "csv/CholoplethMap/Q4_b.json";
+          mapGWG(data, filePath, c, y, e);  
+          break;
+      }
   
-        var projection = d3.geoMercator()     // creates the mercator projection
-                           .center([75, 50])  // projection center [longitude, latitude]
-                           .scale(300)        // scale factor of the projection
-                           
-        var path = d3.geoPath().projection(projection);
-        
-        d3.select("#map-holder").append("svg") //this cannot be append
-          .attr("id", "map-svg")
-          .attr("width", 960)
-          .attr("height", 500)
-          .selectAll("path")
-          .data(data.features)
-          .enter()
-          .append("path")
-          .attr("d", path)
-          .style("fill", function(d) {
-            var val = 0;
-            data2.forEach(d2 => {
-              if ((c.includes(d2.code)) && 
-                  (y.includes(d2.Year)) && 
-                  (e.includes(d2.ISCED11)) && 
-                  (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-                val = val + d2.AVG;
-              }
-            });
-            return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
-  
-          })
-          .attr("name", function(d){
-            return d.id;
-          })
-          //.attr("class", "country")
-          .style('stroke', '#515151')
-          .style('stroke-width', 1)
-          .on("mouseover", mouseOver)
-          .on("mouseleave", mouseLeave)          
-      });
     });
   } else {
     d3.json("csv/map.json").then(function (data) {   // loading the JSON files
@@ -102,20 +90,11 @@ function init(e,v,c,y, update) {
         .enter()
         .append("path")
         .attr("d", path)
-        //.attr("class", "country")
         .style("fill", "#1A1C1F")
         .style('stroke', '#515151')
         .style('stroke-width', 1)
         .on("mouseover", mouseOver)
         .on("mouseleave", mouseLeave)
-        // add a mouseover action to show name label for feature/country
-        //.on("mouseover", function(d, i) {
-        //  d3.select("#Country" + d.properties.iso_a3).style("display", "block");
-        //})
-        //.on("mouseout", function(d, i) {
-        //  d3.select("#Country" + d.properties.iso_a3).style("display", "none");
-        //})
-      
       addZoom();
     });
   }
@@ -145,10 +124,8 @@ function mouseLeave() {
     .style("stroke", "transparent")
 }
 
-
-// working for every chart (wrong)
 function addZoom() {
-  d3.select("svg").call(
+  d3.select("#map-svg").call(
     d3.zoom()
       .extent([[-300,-300],[300, 300],])
       .extent([[0,0],[960, 500],])
@@ -157,8 +134,246 @@ function addZoom() {
   );
 }
 
-// working for every chart (wrong)
 function zoomed({ transform }) {
-  d3.selectAll("path").attr("transform", transform);
+  d3.selectAll("#map-svg").attr("transform", transform);
 }
-  
+ 
+
+/* ---- Auxiliary functions based on the variable chosen ---- */
+function mapGDP(data, filePath, c, y){
+  var colorScale = d3.scaleThreshold() //this needs to change!!!!! TODO
+  .domain([10000, 20000, 30000, 40000, 50000, 60000])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()
+                       .center([75, 50])
+                       .scale(300)
+                       
+    var path = d3.geoPath().projection(projection);
+    d3.select("#map-holder").append("svg")
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.Country)) && 
+              (y.includes(d2.Year)) &&
+              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            val = val + d2.GDP;
+            console.log(d2.Country, d2.GDP)
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
+}
+
+function mapEmployment(data, filePath, c, y, e){
+  // TODO implement after extracting csv
+}
+
+function mapIncome(data, filePath, c, y, e){
+  var colorScale = d3.scaleThreshold()
+  .domain([10000, 20000, 30000, 40000, 50000, 60000])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()     // creates the mercator projection
+                       .center([75, 50])  // projection center [longitude, latitude]
+                       .scale(300)        // scale factor of the projection
+                       
+    var path = d3.geoPath().projection(projection);
+    
+    d3.select("#map-holder").append("svg") //this cannot be append
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.Country)) && 
+              (y.includes(d2.Year)) && 
+              (e.includes(d2.ISCED11)) && 
+              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            if(d2.MoneyF == -1 || d2.MoneyH == -1){
+              val = -1
+            } else {
+              val = val + (d2.MoneyF + d2.MoneyM);
+            }
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
+}
+
+function mapEducation(data, filePath, c, y, e){
+  // TODO implement after extracting csv
+}
+
+function mapWHP(data, filePath, c, y){
+  var colorScale = d3.scaleThreshold() //this needs to change!!!!! TODO
+  .domain([1, 3, 5, 10, 15, 20])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()
+                       .center([75, 50])
+                       .scale(300)
+                       
+    var path = d3.geoPath().projection(projection);
+    d3.select("#map-holder").append("svg")
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.Country)) && 
+              (y.includes(d2.Year)) &&
+              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            val = val + d2.femaleEmployeesHighPosition;
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
+}
+
+function mapPoverty(data, filePath, c, y, e){
+  var colorScale = d3.scaleThreshold()
+  .domain([5, 10, 20, 30, 40, 50])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()     // creates the mercator projection
+                       .center([75, 50])  // projection center [longitude, latitude]
+                       .scale(300)        // scale factor of the projection
+                       
+    var path = d3.geoPath().projection(projection);
+    
+    d3.select("#map-holder").append("svg") //this cannot be append
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.code)) && 
+              (y.includes(d2.Year)) && 
+              (e.includes(d2.ISCED11)) && 
+              (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            val = val + d2.AVG;
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
+}
+
+function mapGWG(data, filePath, c, y, e){
+  var colorScale = d3.scaleThreshold()
+  .domain([-1, 1, 3, 5, 10, 20])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()     // creates the mercator projection
+                       .center([75, 50])  // projection center [longitude, latitude]
+                       .scale(300)        // scale factor of the projection
+                       
+    var path = d3.geoPath().projection(projection);
+    
+    d3.select("#map-holder").append("svg") //this cannot be append
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.Country)) && 
+              (y.includes(d2.Year)) && 
+              (e.includes(d2.ISCED11)) && 
+              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            if(d2.MoneyF == -1 || d2.MoneyH == -1){
+              val = -100
+            } else {
+              val = val + parseFloat(d2.GenderWageGap.replace(",", "."));
+            }
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
+}

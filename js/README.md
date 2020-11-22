@@ -10,7 +10,7 @@
 * Uses *Q4.json*, **but** needs to sum the income of males and income of females
 ### If Education:
 * Necessary variables: Countries, **Education level**, Years.
-* Uses *Q2.json*.
+* Uses *Q2.json*. **needs to download with TOTAL**
 ### If Women in High Positions:
 * Necessary variables: Countries, Years.
 * Uses *Q6.json*, it's a derived measure of the percentage of female employees in manager senior positions.
