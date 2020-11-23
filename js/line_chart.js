@@ -1,91 +1,41 @@
 var dataset;
-
 var width = 600;
 var height = 400;
 var padding = 60;
 var radius = 5;
 
-// TODO inserir só os eixos antes do click
 analyzer("Init")
 
 document.getElementById("button-forms").addEventListener("click", function(){
-  updateLine(update=true);
+  updateLine();
 }); 
 
-function updateLine(update = false){
-  // retrieving values from index.html
-  var e = localStorage.getItem("education");
+function updateLine(){
   var v = localStorage.getItem("variable");
-  var c = localStorage.getItem("countries");
-  var y = localStorage.getItem("years");
   analyzer(v);
 }
 
-//FUNCAO QUE ESCOLHE DATASET -> PASSADO PELO HTML_____________________________________________
 function analyzer(inequality) {
 	switch (inequality) {
-    case "GDP":
+    case "GDP": // no education
       d3.select("#line-svg").remove();
-      d3.json("csv/gdp.json").then(function (data) { //parse data
+      d3.json("csv/LineChart/gdp.json").then(function (data) {
         dataset = data;
-        // Dataset por Countries ______________________________
-/*         let at = dataset.filter(row => row.Country === 'AT');
-        let be = dataset.filter(row => row.Country === 'BE');
-        let bg = dataset.filter(row => row.Country === 'BG');
-        let cy = dataset.filter(row => row.Country === 'CY');
-        let cz = dataset.filter(row => row.Country === 'CZ');
-        let de = dataset.filter(row => row.Country === 'DE');
-        let dk = dataset.filter(row => row.Country === 'DK');
-        let ee = dataset.filter(row => row.Country === 'EE');
-        let el = dataset.filter(row => row.Country === 'EL');
-        let es = dataset.filter(row => row.Country === 'ES');
-        let fi = dataset.filter(row => row.Country === 'FI');
-        let fr = dataset.filter(row => row.Country === 'FR');
-        let hr = dataset.filter(row => row.Country === 'HR');
-        let hu = dataset.filter(row => row.Country === 'HU');
-        let ie = dataset.filter(row => row.Country === 'IE');
-        let it = dataset.filter(row => row.Country === 'IT');
-        let lt = dataset.filter(row => row.Country === 'LT');
-        let lu = dataset.filter(row => row.Country === 'LU');
-        let lv = dataset.filter(row => row.Country === 'LV');
-        let mt = dataset.filter(row => row.Country === 'MT');
-        let nl = dataset.filter(row => row.Country === 'NL');
-        let pl = dataset.filter(row => row.Country === 'PL');
-        let pt = dataset.filter(row => row.Country === 'PT');
-        let ro = dataset.filter(row => row.Country === 'RO');
-        let se = dataset.filter(row => row.Country === 'SE');
-        let si = dataset.filter(row => row.Country === 'SI');
-        let sk = dataset.filter(row => row.Country === 'SK');
-        let uk = dataset.filter(row => row.Country === 'UK'); */
-        // countries initials
-        //var paises = [at,be,bg,cy,cz,de,dk,ee,el,es,fi,fr,hr,hu,ie,it,lt,lu,lv,mt,nl,pl,pt,ro,se,si,sk,uk];
 
-        // is going to be filled with the contries from checked checkboxs
         var selected_countries = [];
-
         $('#checkboxes input:checked').each(function() {
           selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
         )});
               
-        //________________________________________________________
-
         var years=[];
-
-        $('#checkboxes1 input:checked').each(function() {
-          years.push($(this).attr('value'));
-        }); //BUT years is an array of strings (not numbers -.-)
-
-        //CONVERT TO AN ARRAY OF F* NUMBERS
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
         let yearsv2 = years.map(i=>Number(i));
-        console.log("anosv2",yearsv2);
-        //var yearslength = yearsv2.length();
 
         var maximo=0;
         var minimo=0;
         var countries_filtered_years=[];
 
         for(let i=0; i<selected_countries.length; i++) {
-          console.log("selected countries", selected_countries[i]);
           var aux=[];
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
@@ -103,20 +53,82 @@ function analyzer(inequality) {
           }
           countries_filtered_years.push(aux);
         }
-
-      line_chart(countries_filtered_years,maximo,minimo);
+      line_chart(countries_filtered_years,maximo,minimo, inequality);
       });
       break
-    case "Poverty":
+    case "Employment": // TODO get csv
       d3.select("#line-svg").remove();
-      d3.json("csv/poverty.json").then(function (data) { //parse data
+      d3.json("").then(function (data) { //parse data
         dataset = data;
         line_chart();
       });       
       break
-    case "Employment":
+    case "Income":
       d3.select("#line-svg").remove();
-      d3.json("csv/employment.json").then(function (data) { //parse data
+      d3.json("").then(function (data) { //parse data
+        dataset = data;
+        line_chart();
+      });       
+      break
+    case "Education": // TODO get csv
+      d3.select("#line-svg").remove();
+      d3.json("").then(function (data) { //parse data
+        dataset = data;
+        line_chart();
+      });       
+      break
+    case "Women-high-pos": // no education
+      d3.select("#line-svg").remove();
+      d3.json("csv/LineChart/Q6.json").then(function (data) {
+        dataset = data;
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              aux.push(selected_countries[i][j]);
+              if(maximo<selected_countries[i][j].femaleEmployeesHighPosition){
+                maximo=selected_countries[i][j].femaleEmployeesHighPosition;
+              }
+              if(minimo>selected_countries[i][j].femaleEmployeesHighPosition){
+                minimo=selected_countries[i][j].femaleEmployeesHighPosition;
+              }
+            }
+          }
+          if(minimo>0){
+            minimo=0;
+          } else {
+            minimo = minimo - 10;
+          }
+          countries_filtered_years.push(aux);
+        }
+      console.log("countries filtered", countries_filtered_years)
+      line_chart(countries_filtered_years,maximo,minimo, inequality);
+      });    
+      break
+    case "Poverty":
+      d3.select("#line-svg").remove();
+      d3.json("").then(function (data) { //parse data
+        dataset = data;
+        line_chart();
+      });       
+      break
+    case "GWG": 
+      d3.select("#line-svg").remove();
+      d3.json("").then(function (data) { //parse data
         dataset = data;
         line_chart();
       });       
@@ -130,10 +142,9 @@ function analyzer(inequality) {
       });
 	}
 }
-//_____________________________________________________________________
 
-//DISPLAY GDP
-function line_chart(paises, maximo,minimo) {
+/* --- DISPLAY GDP --- */
+function line_chart(paises, maximo,minimo, v) {
   console.log("paises",paises);
   var xscaleData = paises[0].map((a) => a.Year);
   console.log(xscaleData);
@@ -151,7 +162,7 @@ function line_chart(paises, maximo,minimo) {
   console.log("maximo?",maximo);
   var svg = d3
     .select("#line_chart")
-    .append("svg") // we are appending an svg to the div 'line_chart'
+    .append("svg")
     .attr("id", "line-svg")
     .attr("width", width)
     .attr("height", height);
@@ -172,7 +183,20 @@ function line_chart(paises, maximo,minimo) {
               return xscale(d.Year);
             })
             .y(function (d) {
-              return hscale(d.GDP);
+              if (v === "GDP")
+                return hscale(d.GDP);
+              else if (v === "Employment")
+                return hscale(); // TODO
+              else if (v === "Income")
+                return hscale(d.MoneyF + d.MoneyM);
+              else if (v === "Education")
+                return hscale(); //TODO
+              else if (v === "Women-high-pos")
+                return hscale(d.femaleEmployeesHighPosition);
+              else if (v === "Poverty")
+                return hscale(d.AVG);
+              else if (v === "GWG")
+                return hscale(d.GenderWageGap);
             })
         );  
       }

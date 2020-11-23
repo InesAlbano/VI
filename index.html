@@ -16,93 +16,92 @@
 <body>
     <section class="container">
         <div class="one">
-            <ul>
-                <form id="BookPackageForm" action="" method="POST">
-                    <span id="logo">Social Inequalities</span>
+          <form id="myForm" action="" method="POST">
+              <!--<span id="logo">Social Inequalities</span>-->
+              <img src="img/logo.png" style="width: 60%; text-align: center; margin-left: 35px">
 
-                    <li>
-                        <div class="multiselect">
-                            <div class="selectBox" onclick="showCheckboxes()">
-                                <select>
-                                    <option>Select the countries...</option>
-                                </select>
-                                <div class="overSelect"></div>
-                            </div>
-                            <div id="checkboxes">
-                                <label for="BE"></label><input type="checkbox" name="country" value="BE"  id="BE" />BE</label>
-                                <label for="BG"></label><input type="checkbox" name="country" value="BG"  id="BG" />BG</label>
-                                <label for="CZ"></label><input type="checkbox" name="country" value="CZ"  id="CZ" />CZ</label>
-                                <label for="DK"></label><input type="checkbox" name="country" value="DK"  id="DK" />DK</label>
-                                <label for="DE"></label><input type="checkbox" name="country" value="DE"  id="DE" />DE</label>
-                                <label for="EE"></label><input type="checkbox" name="country" value="EE"  id="EE" />EE</label>
-                                <label for="IE"></label><input type="checkbox" name="country" value="IE"  id="IE" />IE</label>
-                                <label for="EL"></label><input type="checkbox" name="country" value="EL"  id="EL" />EL</label>
-                                <label for="ES"></label><input type="checkbox" name="country" value="ES"  id="ES" />ES</label>
-                                <label for="FR"></label><input type="checkbox" name="country" value="FR"  id="FR" />FR</label>
-                                <label for="HR"></label><input type="checkbox" name="country" value="HR"  id="HR" />HR</label>
-                                <label for="IT"></label><input type="checkbox" name="country" value="IT"  id="IT" />IT</label>
-                                <label for="CY"></label><input type="checkbox" name="country" value="CY"  id="CY" />CY</label>
-                                <label for="LV"></label><input type="checkbox" name="country" value="LV"  id="LV" />LV</label>
-                                <label for="LT"></label><input type="checkbox" name="country" value="LT"  id="LT" />LT</label>
-                                <label for="LU"></label><input type="checkbox" name="country" value="LU"  id="LU" />LU</label>
-                                <label for="HU"></label><input type="checkbox" name="country" value="HU"  id="HU" />HU</label>
-                                <label for="MT"></label><input type="checkbox" name="country" value="MT"  id="MT" />MT</label>
-                                <label for="NL"></label><input type="checkbox" name="country" value="NL"  id="NL" />NL</label>
-                                <label for="AT"></label><input type="checkbox" name="country" value="AT"  id="AT" />AT</label>
-                                <label for="PL"></label><input type="checkbox" name="country" value="PL"  id="PL" />PL</label>
-                                <label for="PT"></label><input type="checkbox" name="country" value="PT"  id="PT" />PT</label>
-                                <label for="RO"></label><input type="checkbox" name="country" value="RO"  id="RO" />RO</label>
-                                <label for="SI"></label><input type="checkbox" name="country" value="SI"  id="SI" />SI</label>
-                                <label for="SK"></label><input type="checkbox" name="country" value="SK"  id="SK" />SK</label>
-                                <label for="FI"></label><input type="checkbox" name="country" value="FI"  id="FI" />FI</label>
-                                <label for="SE"></label><input type="checkbox" name="country" value="SE"  id="SE" />SE</label>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="radio-toolbar-education">
-                            <input type="radio" id="0-2" name="education" value="0-2"><label for="0-2">ED0_2</label>
-                            <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3_4</label>
-                            <input type="radio" id="5-8" name="education" value="5-8"><label for="5-8">ED5_8</label>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="multiselect">
-                            <div class="selectBox" onclick="showCheckboxes1()">
-                                <select>
-                                    <option>Year</option>
-                                </select>
-                                <div class="overSelect"></div>
-                            </div>
-                            <div id="checkboxes1">
-                                <label for="2010"><input type="checkbox" id="2010" name="year" value="2010"/>2010</label>
-                                <label for="2011"><input type="checkbox" id="2011" name="year" value="2011"/>2011</label>
-                                <label for="2012"><input type="checkbox" id="2012" name="year" value="2012"/>2012</label>
-                                <label for="2013"><input type="checkbox" id="2013" name="year" value="2013"/>2013</label>
-                                <label for="2014"><input type="checkbox" id="2014" name="year" value="2014"/>2014</label>
-                                <label for="2015"><input type="checkbox" id="2015" name="year" value="2015"/>2015</label>
-                                <label for="2016"><input type="checkbox" id="2016" name="year" value="2016"/>2016</label>
-                                <label for="2017"><input type="checkbox" id="2017" name="year" value="2017"/>2017</label>
-                                <label for="2018"><input type="checkbox" id="2018" name="year" value="2018"/>2018</label>
-                                <label for="2019"><input type="checkbox" id="2019" name="year" value="2019"/>2019</label>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <!--<input type="button" class="button-menu" value="GDP">-->
-                        <div class="radio-toolbar">
-                            <input type="radio" id="GDP" name="variables" value="GDP"><label for="GDP">GDP</label><br>
-                            <input type="radio" id="Employment" name="variables" value="Employment"><label for="Employment">Employment</label><br>
-                            <input type="radio" id="Income" name="variables" value="Income"><label for="Income">Income</label><br>
-                            <input type="radio" id="Education" name="variables" value="Education"><label for="Education">Education</label><br>
-                            <input type="radio" id="Women-high-pos" name="variables" value="Women-high-pos"><label for="Women-high-pos">Women in High Positions</label><br>
-                            <input type="radio" id="Poverty" name="variables" value="Poverty"><label for="Poverty">Poverty Level</label><br>
-                            <input type="radio" id="GWG" name="variables" value="GWG"><label for="GWG">Gender Wage Gap</label>
-                        </div>
-                    </li>
-                    <li><button type="button" id="button-forms" value="Go" onclick="myFunction(this)">Go</li>
-                </form>
-            </ul>
+              <li>
+                  <div class="multiselect">
+                      <div class="selectBox" onclick="showCheckboxes()">
+                          <select>
+                              <option>Select the countries...</option>
+                          </select>
+                          <div class="overSelect"></div>
+                      </div>
+                      <div id="checkboxes">
+                          <label for="BE"></label><input type="checkbox" name="country" value="BE"  id="BE" />BE</label>
+                          <label for="BG"></label><input type="checkbox" name="country" value="BG"  id="BG" />BG</label>
+                          <label for="CZ"></label><input type="checkbox" name="country" value="CZ"  id="CZ" />CZ</label>
+                          <label for="DK"></label><input type="checkbox" name="country" value="DK"  id="DK" />DK</label>
+                          <label for="DE"></label><input type="checkbox" name="country" value="DE"  id="DE" />DE</label>
+                          <label for="EE"></label><input type="checkbox" name="country" value="EE"  id="EE" />EE</label>
+                          <label for="IE"></label><input type="checkbox" name="country" value="IE"  id="IE" />IE</label>
+                          <label for="EL"></label><input type="checkbox" name="country" value="EL"  id="EL" />EL</label>
+                          <label for="ES"></label><input type="checkbox" name="country" value="ES"  id="ES" />ES</label>
+                          <label for="FR"></label><input type="checkbox" name="country" value="FR"  id="FR" />FR</label>
+                          <label for="HR"></label><input type="checkbox" name="country" value="HR"  id="HR" />HR</label>
+                          <label for="IT"></label><input type="checkbox" name="country" value="IT"  id="IT" />IT</label>
+                          <label for="CY"></label><input type="checkbox" name="country" value="CY"  id="CY" />CY</label>
+                          <label for="LV"></label><input type="checkbox" name="country" value="LV"  id="LV" />LV</label>
+                          <label for="LT"></label><input type="checkbox" name="country" value="LT"  id="LT" />LT</label>
+                          <label for="LU"></label><input type="checkbox" name="country" value="LU"  id="LU" />LU</label>
+                          <label for="HU"></label><input type="checkbox" name="country" value="HU"  id="HU" />HU</label>
+                          <label for="MT"></label><input type="checkbox" name="country" value="MT"  id="MT" />MT</label>
+                          <label for="NL"></label><input type="checkbox" name="country" value="NL"  id="NL" />NL</label>
+                          <label for="AT"></label><input type="checkbox" name="country" value="AT"  id="AT" />AT</label>
+                          <label for="PL"></label><input type="checkbox" name="country" value="PL"  id="PL" />PL</label>
+                          <label for="PT"></label><input type="checkbox" name="country" value="PT"  id="PT" />PT</label>
+                          <label for="RO"></label><input type="checkbox" name="country" value="RO"  id="RO" />RO</label>
+                          <label for="SI"></label><input type="checkbox" name="country" value="SI"  id="SI" />SI</label>
+                          <label for="SK"></label><input type="checkbox" name="country" value="SK"  id="SK" />SK</label>
+                          <label for="FI"></label><input type="checkbox" name="country" value="FI"  id="FI" />FI</label>
+                          <label for="SE"></label><input type="checkbox" name="country" value="SE"  id="SE" />SE</label>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <div class="radio-toolbar-education">
+                      <input type="radio" id="0-2" name="education" value="0-2"><label for="0-2">ED0_2</label>
+                      <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3_4</label>
+                      <input type="radio" id="5-8" name="education" value="5-8"><label for="5-8">ED5_8</label>
+                  </div>
+              </li>
+              <li>
+                  <div class="multiselect">
+                      <div class="selectBox" onclick="showCheckboxes1()">
+                          <select>
+                              <option>Year</option>
+                          </select>
+                          <div class="overSelect"></div>
+                      </div>
+                      <div id="checkboxes1">
+                          <label for="2010"><input type="checkbox" id="2010" name="year" value="2010"/>2010</label>
+                          <label for="2011"><input type="checkbox" id="2011" name="year" value="2011"/>2011</label>
+                          <label for="2012"><input type="checkbox" id="2012" name="year" value="2012"/>2012</label>
+                          <label for="2013"><input type="checkbox" id="2013" name="year" value="2013"/>2013</label>
+                          <label for="2014"><input type="checkbox" id="2014" name="year" value="2014"/>2014</label>
+                          <label for="2015"><input type="checkbox" id="2015" name="year" value="2015"/>2015</label>
+                          <label for="2016"><input type="checkbox" id="2016" name="year" value="2016"/>2016</label>
+                          <label for="2017"><input type="checkbox" id="2017" name="year" value="2017"/>2017</label>
+                          <label for="2018"><input type="checkbox" id="2018" name="year" value="2018"/>2018</label>
+                          <label for="2019"><input type="checkbox" id="2019" name="year" value="2019"/>2019</label>
+                      </div>
+                  </div>
+              </li>
+              <li>
+                  <!--<input type="button" class="button-menu" value="GDP">-->
+                  <div class="radio-toolbar">
+                      <input type="radio" id="GDP" name="variables" value="GDP"><label for="GDP">GDP</label><br>
+                      <input type="radio" id="Employment" name="variables" value="Employment"><label for="Employment">Employment</label><br>
+                      <input type="radio" id="Income" name="variables" value="Income"><label for="Income">Income</label><br>
+                      <input type="radio" id="Education" name="variables" value="Education"><label for="Education">Education</label><br>
+                      <input type="radio" id="Women-high-pos" name="variables" value="Women-high-pos"><label for="Women-high-pos">Women in High Positions</label><br>
+                      <input type="radio" id="Poverty" name="variables" value="Poverty"><label for="Poverty">Poverty Level</label><br>
+                      <input type="radio" id="GWG" name="variables" value="GWG"><label for="GWG">Gender Wage Gap</label>
+                  </div>
+              </li>
+              <li><button type="button" id="button-forms" value="Go" onclick="myFunction(this)">Go</li>
+          </form>
         </div>
 
         <div class="two">
@@ -151,14 +150,13 @@
   margin-left: 20px;
   width: 100%;
   height: 100%;
-  padding-right: 30px;
+  padding-right: 10px;
   padding-top: 10px;
   display:table;
   table-layout:fixed;
 }
 
 .left-div {
-  background: red;
   float: left;
   text-align: center;
   flex: 1;
@@ -170,6 +168,18 @@
   text-align: center;
   flex: 1;
   margin-left: 15px;
+}
+
+#myForm {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
 }
 
 </style>

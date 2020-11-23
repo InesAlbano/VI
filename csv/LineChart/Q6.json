@@ -1,0 +1,3122 @@
+[
+    {
+      "Country": "AT",
+      "Year": 2005,
+      "femaleEmployees": 64,
+      "femaleEmployeesHighPosition": 7.1,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 7.1
+    },
+    {
+      "Country": "AT",
+      "Year": 2006,
+      "femaleEmployees": 65.2,
+      "femaleEmployeesHighPosition": 5.9,
+      "femaleEmployeesHighPosition1": 7.1,
+      "growthRateWHP": -1.2
+    },
+    {
+      "Country": "AT",
+      "Year": 2007,
+      "femaleEmployees": 66.2,
+      "femaleEmployeesHighPosition": 5,
+      "femaleEmployeesHighPosition1": 5.9,
+      "growthRateWHP": -0.9
+    },
+    {
+      "Country": "AT",
+      "Year": 2008,
+      "femaleEmployees": 67.6,
+      "femaleEmployeesHighPosition": 6.4,
+      "femaleEmployeesHighPosition1": 5,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "AT",
+      "Year": 2009,
+      "femaleEmployees": 68.2,
+      "femaleEmployeesHighPosition": 7,
+      "femaleEmployeesHighPosition1": 6.4,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "AT",
+      "Year": 2010,
+      "femaleEmployees": 68.8,
+      "femaleEmployeesHighPosition": 8.7,
+      "femaleEmployeesHighPosition1": 7,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "AT",
+      "Year": 2011,
+      "femaleEmployees": 69.2,
+      "femaleEmployeesHighPosition": 11.1,
+      "femaleEmployeesHighPosition1": 8.7,
+      "growthRateWHP": 2.4
+    },
+    {
+      "Country": "AT",
+      "Year": 2012,
+      "femaleEmployees": 69.6,
+      "femaleEmployeesHighPosition": 11.9,
+      "femaleEmployeesHighPosition1": 11.1,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "AT",
+      "Year": 2013,
+      "femaleEmployees": 70,
+      "femaleEmployeesHighPosition": 12.6,
+      "femaleEmployeesHighPosition1": 11.9,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "AT",
+      "Year": 2014,
+      "femaleEmployees": 70.1,
+      "femaleEmployeesHighPosition": 17.1,
+      "femaleEmployeesHighPosition1": 12.6,
+      "growthRateWHP": 4.5
+    },
+    {
+      "Country": "AT",
+      "Year": 2015,
+      "femaleEmployees": 70.2,
+      "femaleEmployeesHighPosition": 20,
+      "femaleEmployeesHighPosition1": 17.1,
+      "growthRateWHP": 2.9
+    },
+    {
+      "Country": "AT",
+      "Year": 2016,
+      "femaleEmployees": 70.9,
+      "femaleEmployeesHighPosition": 18.1,
+      "femaleEmployeesHighPosition1": 20,
+      "growthRateWHP": -1.9
+    },
+    {
+      "Country": "AT",
+      "Year": 2017,
+      "femaleEmployees": 71.4,
+      "femaleEmployeesHighPosition": 19.2,
+      "femaleEmployeesHighPosition1": 18.1,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "AT",
+      "Year": 2018,
+      "femaleEmployees": 71.7,
+      "femaleEmployeesHighPosition": 26.1,
+      "femaleEmployeesHighPosition1": 19.2,
+      "growthRateWHP": 6.9
+    },
+    {
+      "Country": "AT",
+      "Year": 2019,
+      "femaleEmployees": 72.4,
+      "femaleEmployeesHighPosition": 31.3,
+      "femaleEmployeesHighPosition1": 26.1,
+      "growthRateWHP": 5.2
+    },
+    {
+      "Country": "BE",
+      "Year": 2005,
+      "femaleEmployees": 58.6,
+      "femaleEmployeesHighPosition": 6.2,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 6.2
+    },
+    {
+      "Country": "BE",
+      "Year": 2006,
+      "femaleEmployees": 58.8,
+      "femaleEmployeesHighPosition": 5.8,
+      "femaleEmployeesHighPosition1": 6.2,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "BE",
+      "Year": 2007,
+      "femaleEmployees": 60.3,
+      "femaleEmployeesHighPosition": 6.4,
+      "femaleEmployeesHighPosition1": 5.8,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "BE",
+      "Year": 2008,
+      "femaleEmployees": 61.3,
+      "femaleEmployeesHighPosition": 7.2,
+      "femaleEmployeesHighPosition1": 6.4,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "BE",
+      "Year": 2009,
+      "femaleEmployees": 61,
+      "femaleEmployeesHighPosition": 7.6,
+      "femaleEmployeesHighPosition1": 7.2,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "BE",
+      "Year": 2010,
+      "femaleEmployees": 61.6,
+      "femaleEmployeesHighPosition": 10.5,
+      "femaleEmployeesHighPosition1": 7.6,
+      "growthRateWHP": 2.9
+    },
+    {
+      "Country": "BE",
+      "Year": 2011,
+      "femaleEmployees": 61.5,
+      "femaleEmployeesHighPosition": 10.9,
+      "femaleEmployeesHighPosition1": 10.5,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "BE",
+      "Year": 2012,
+      "femaleEmployees": 61.7,
+      "femaleEmployeesHighPosition": 12.9,
+      "femaleEmployeesHighPosition1": 10.9,
+      "growthRateWHP": 2
+    },
+    {
+      "Country": "BE",
+      "Year": 2013,
+      "femaleEmployees": 62.1,
+      "femaleEmployeesHighPosition": 16.7,
+      "femaleEmployeesHighPosition1": 12.9,
+      "growthRateWHP": 3.8
+    },
+    {
+      "Country": "BE",
+      "Year": 2014,
+      "femaleEmployees": 62.9,
+      "femaleEmployeesHighPosition": 22.4,
+      "femaleEmployeesHighPosition1": 16.7,
+      "growthRateWHP": 5.7
+    },
+    {
+      "Country": "BE",
+      "Year": 2015,
+      "femaleEmployees": 63,
+      "femaleEmployeesHighPosition": 26,
+      "femaleEmployeesHighPosition1": 22.4,
+      "growthRateWHP": 3.6
+    },
+    {
+      "Country": "BE",
+      "Year": 2016,
+      "femaleEmployees": 63,
+      "femaleEmployeesHighPosition": 28.6,
+      "femaleEmployeesHighPosition1": 26,
+      "growthRateWHP": 2.6
+    },
+    {
+      "Country": "BE",
+      "Year": 2017,
+      "femaleEmployees": 63.6,
+      "femaleEmployeesHighPosition": 30.7,
+      "femaleEmployeesHighPosition1": 28.6,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "BE",
+      "Year": 2018,
+      "femaleEmployees": 65.5,
+      "femaleEmployeesHighPosition": 32,
+      "femaleEmployeesHighPosition1": 30.7,
+      "growthRateWHP": 1.3
+    },
+    {
+      "Country": "BE",
+      "Year": 2019,
+      "femaleEmployees": 66.5,
+      "femaleEmployeesHighPosition": 35.9,
+      "femaleEmployeesHighPosition1": 32,
+      "growthRateWHP": 3.9
+    },
+    {
+      "Country": "BG",
+      "Year": 2005,
+      "femaleEmployees": 57.1,
+      "femaleEmployeesHighPosition": 18.7,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 18.7
+    },
+    {
+      "Country": "BG",
+      "Year": 2006,
+      "femaleEmployees": 60.4,
+      "femaleEmployeesHighPosition": 17.1,
+      "femaleEmployeesHighPosition1": 18.7,
+      "growthRateWHP": -1.6
+    },
+    {
+      "Country": "BG",
+      "Year": 2007,
+      "femaleEmployees": 63.5,
+      "femaleEmployeesHighPosition": 14.5,
+      "femaleEmployeesHighPosition1": 17.1,
+      "growthRateWHP": -2.6
+    },
+    {
+      "Country": "BG",
+      "Year": 2008,
+      "femaleEmployees": 65.4,
+      "femaleEmployeesHighPosition": 11.6,
+      "femaleEmployeesHighPosition1": 14.5,
+      "growthRateWHP": -2.9
+    },
+    {
+      "Country": "BG",
+      "Year": 2009,
+      "femaleEmployees": 64,
+      "femaleEmployeesHighPosition": 17.2,
+      "femaleEmployeesHighPosition1": 11.6,
+      "growthRateWHP": 5.6
+    },
+    {
+      "Country": "BG",
+      "Year": 2010,
+      "femaleEmployees": 60.8,
+      "femaleEmployeesHighPosition": 11.2,
+      "femaleEmployeesHighPosition1": 17.2,
+      "growthRateWHP": -6
+    },
+    {
+      "Country": "BG",
+      "Year": 2011,
+      "femaleEmployees": 59.8,
+      "femaleEmployeesHighPosition": 15.2,
+      "femaleEmployeesHighPosition1": 11.2,
+      "growthRateWHP": 4
+    },
+    {
+      "Country": "BG",
+      "Year": 2012,
+      "femaleEmployees": 60.2,
+      "femaleEmployeesHighPosition": 11.6,
+      "femaleEmployeesHighPosition1": 15.2,
+      "growthRateWHP": -3.6
+    },
+    {
+      "Country": "BG",
+      "Year": 2013,
+      "femaleEmployees": 60.7,
+      "femaleEmployeesHighPosition": 16.7,
+      "femaleEmployeesHighPosition1": 11.6,
+      "growthRateWHP": 5.1
+    },
+    {
+      "Country": "BG",
+      "Year": 2014,
+      "femaleEmployees": 62,
+      "femaleEmployeesHighPosition": 17.6,
+      "femaleEmployeesHighPosition1": 16.7,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "BG",
+      "Year": 2015,
+      "femaleEmployees": 63.8,
+      "femaleEmployeesHighPosition": 19,
+      "femaleEmployeesHighPosition1": 17.6,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "BG",
+      "Year": 2016,
+      "femaleEmployees": 64,
+      "femaleEmployeesHighPosition": 15.3,
+      "femaleEmployeesHighPosition1": 19,
+      "growthRateWHP": -3.7
+    },
+    {
+      "Country": "BG",
+      "Year": 2017,
+      "femaleEmployees": 67.3,
+      "femaleEmployeesHighPosition": 17.1,
+      "femaleEmployeesHighPosition1": 15.3,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "BG",
+      "Year": 2018,
+      "femaleEmployees": 68.3,
+      "femaleEmployeesHighPosition": 14.5,
+      "femaleEmployeesHighPosition1": 17.1,
+      "growthRateWHP": -2.6
+    },
+    {
+      "Country": "BG",
+      "Year": 2019,
+      "femaleEmployees": 70.7,
+      "femaleEmployeesHighPosition": 18.5,
+      "femaleEmployeesHighPosition1": 14.5,
+      "growthRateWHP": 4
+    },
+    {
+      "Country": "CY",
+      "Year": 2005,
+      "femaleEmployees": 63.8,
+      "femaleEmployeesHighPosition": 6.9,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 6.9
+    },
+    {
+      "Country": "CY",
+      "Year": 2006,
+      "femaleEmployees": 65.9,
+      "femaleEmployeesHighPosition": 5.9,
+      "femaleEmployeesHighPosition1": 6.9,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "CY",
+      "Year": 2007,
+      "femaleEmployees": 67.7,
+      "femaleEmployeesHighPosition": 2.1,
+      "femaleEmployeesHighPosition1": 5.9,
+      "growthRateWHP": -3.8
+    },
+    {
+      "Country": "CY",
+      "Year": 2008,
+      "femaleEmployees": 68.2,
+      "femaleEmployeesHighPosition": 2.8,
+      "femaleEmployeesHighPosition1": 2.1,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "CY",
+      "Year": 2009,
+      "femaleEmployees": 68.3,
+      "femaleEmployeesHighPosition": 3.3,
+      "femaleEmployeesHighPosition1": 2.8,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "CY",
+      "Year": 2010,
+      "femaleEmployees": 68.8,
+      "femaleEmployeesHighPosition": 4,
+      "femaleEmployeesHighPosition1": 3.3,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "CY",
+      "Year": 2011,
+      "femaleEmployees": 67.7,
+      "femaleEmployeesHighPosition": 4.6,
+      "femaleEmployeesHighPosition1": 4,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "CY",
+      "Year": 2012,
+      "femaleEmployees": 64.8,
+      "femaleEmployeesHighPosition": 7.7,
+      "femaleEmployeesHighPosition1": 4.6,
+      "growthRateWHP": 3.1
+    },
+    {
+      "Country": "CY",
+      "Year": 2013,
+      "femaleEmployees": 62.2,
+      "femaleEmployeesHighPosition": 7.3,
+      "femaleEmployeesHighPosition1": 7.7,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "CY",
+      "Year": 2014,
+      "femaleEmployees": 63.9,
+      "femaleEmployeesHighPosition": 9.3,
+      "femaleEmployeesHighPosition1": 7.3,
+      "growthRateWHP": 2
+    },
+    {
+      "Country": "CY",
+      "Year": 2015,
+      "femaleEmployees": 64,
+      "femaleEmployeesHighPosition": 9,
+      "femaleEmployeesHighPosition1": 9.3,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "CY",
+      "Year": 2016,
+      "femaleEmployees": 64.1,
+      "femaleEmployeesHighPosition": 10.8,
+      "femaleEmployeesHighPosition1": 9,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "CY",
+      "Year": 2017,
+      "femaleEmployees": 66.2,
+      "femaleEmployeesHighPosition": 10.4,
+      "femaleEmployeesHighPosition1": 10.8,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "CY",
+      "Year": 2018,
+      "femaleEmployees": 68.9,
+      "femaleEmployeesHighPosition": 11.9,
+      "femaleEmployeesHighPosition1": 10.4,
+      "growthRateWHP": 1.5
+    },
+    {
+      "Country": "CY",
+      "Year": 2019,
+      "femaleEmployees": 70.1,
+      "femaleEmployeesHighPosition": 9.4,
+      "femaleEmployeesHighPosition1": 11.9,
+      "growthRateWHP": -2.5
+    },
+    {
+      "Country": "CZ",
+      "Year": 2005,
+      "femaleEmployees": 61.3,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 11.3
+    },
+    {
+      "Country": "CZ",
+      "Year": 2006,
+      "femaleEmployees": 61.8,
+      "femaleEmployeesHighPosition": 7.6,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": -3.7
+    },
+    {
+      "Country": "CZ",
+      "Year": 2007,
+      "femaleEmployees": 62.4,
+      "femaleEmployeesHighPosition": 10.6,
+      "femaleEmployeesHighPosition1": 7.6,
+      "growthRateWHP": 3
+    },
+    {
+      "Country": "CZ",
+      "Year": 2008,
+      "femaleEmployees": 62.5,
+      "femaleEmployeesHighPosition": 13.1,
+      "femaleEmployeesHighPosition1": 10.6,
+      "growthRateWHP": 2.5
+    },
+    {
+      "Country": "CZ",
+      "Year": 2009,
+      "femaleEmployees": 61.4,
+      "femaleEmployeesHighPosition": 13.3,
+      "femaleEmployeesHighPosition1": 13.1,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "CZ",
+      "Year": 2010,
+      "femaleEmployees": 60.9,
+      "femaleEmployeesHighPosition": 12.2,
+      "femaleEmployeesHighPosition1": 13.3,
+      "growthRateWHP": -1.1
+    },
+    {
+      "Country": "CZ",
+      "Year": 2011,
+      "femaleEmployees": 61.7,
+      "femaleEmployeesHighPosition": 15.9,
+      "femaleEmployeesHighPosition1": 12.2,
+      "growthRateWHP": 3.7
+    },
+    {
+      "Country": "CZ",
+      "Year": 2012,
+      "femaleEmployees": 62.5,
+      "femaleEmployeesHighPosition": 16.4,
+      "femaleEmployeesHighPosition1": 15.9,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "CZ",
+      "Year": 2013,
+      "femaleEmployees": 63.8,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 16.4,
+      "growthRateWHP": -5.1
+    },
+    {
+      "Country": "CZ",
+      "Year": 2014,
+      "femaleEmployees": 64.7,
+      "femaleEmployeesHighPosition": 3.5,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": -7.8
+    },
+    {
+      "Country": "CZ",
+      "Year": 2015,
+      "femaleEmployees": 66.4,
+      "femaleEmployeesHighPosition": 10.4,
+      "femaleEmployeesHighPosition1": 3.5,
+      "growthRateWHP": 6.9
+    },
+    {
+      "Country": "CZ",
+      "Year": 2016,
+      "femaleEmployees": 68.6,
+      "femaleEmployeesHighPosition": 10.1,
+      "femaleEmployeesHighPosition1": 10.4,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "CZ",
+      "Year": 2017,
+      "femaleEmployees": 70.5,
+      "femaleEmployeesHighPosition": 14.5,
+      "femaleEmployeesHighPosition1": 10.1,
+      "growthRateWHP": 4.4
+    },
+    {
+      "Country": "CZ",
+      "Year": 2018,
+      "femaleEmployees": 72.2,
+      "femaleEmployeesHighPosition": 13.8,
+      "femaleEmployeesHighPosition1": 14.5,
+      "growthRateWHP": -0.7
+    },
+    {
+      "Country": "CZ",
+      "Year": 2019,
+      "femaleEmployees": 72.7,
+      "femaleEmployeesHighPosition": 18.2,
+      "femaleEmployeesHighPosition1": 13.8,
+      "growthRateWHP": 4.4
+    },
+    {
+      "Country": "DE",
+      "Year": 2005,
+      "femaleEmployees": 63.1,
+      "femaleEmployeesHighPosition": 12.2,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 12.2
+    },
+    {
+      "Country": "DE",
+      "Year": 2006,
+      "femaleEmployees": 65,
+      "femaleEmployeesHighPosition": 11.2,
+      "femaleEmployeesHighPosition1": 12.2,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "DE",
+      "Year": 2007,
+      "femaleEmployees": 66.7,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 11.2,
+      "growthRateWHP": 0.1
+    },
+    {
+      "Country": "DE",
+      "Year": 2008,
+      "femaleEmployees": 67.8,
+      "femaleEmployeesHighPosition": 13.3,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": 2
+    },
+    {
+      "Country": "DE",
+      "Year": 2009,
+      "femaleEmployees": 68.7,
+      "femaleEmployeesHighPosition": 12.9,
+      "femaleEmployeesHighPosition1": 13.3,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "DE",
+      "Year": 2010,
+      "femaleEmployees": 69.7,
+      "femaleEmployeesHighPosition": 12.6,
+      "femaleEmployeesHighPosition1": 12.9,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "DE",
+      "Year": 2011,
+      "femaleEmployees": 71.3,
+      "femaleEmployeesHighPosition": 15.2,
+      "femaleEmployeesHighPosition1": 12.6,
+      "growthRateWHP": 2.6
+    },
+    {
+      "Country": "DE",
+      "Year": 2012,
+      "femaleEmployees": 71.6,
+      "femaleEmployeesHighPosition": 17.9,
+      "femaleEmployeesHighPosition1": 15.2,
+      "growthRateWHP": 2.7
+    },
+    {
+      "Country": "DE",
+      "Year": 2013,
+      "femaleEmployees": 72.5,
+      "femaleEmployeesHighPosition": 21.5,
+      "femaleEmployeesHighPosition1": 17.9,
+      "growthRateWHP": 3.6
+    },
+    {
+      "Country": "DE",
+      "Year": 2014,
+      "femaleEmployees": 73.1,
+      "femaleEmployeesHighPosition": 24.4,
+      "femaleEmployeesHighPosition1": 21.5,
+      "growthRateWHP": 2.9
+    },
+    {
+      "Country": "DE",
+      "Year": 2015,
+      "femaleEmployees": 73.6,
+      "femaleEmployeesHighPosition": 26.1,
+      "femaleEmployeesHighPosition1": 24.4,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "DE",
+      "Year": 2016,
+      "femaleEmployees": 74.5,
+      "femaleEmployeesHighPosition": 29.5,
+      "femaleEmployeesHighPosition1": 26.1,
+      "growthRateWHP": 3.4
+    },
+    {
+      "Country": "DE",
+      "Year": 2017,
+      "femaleEmployees": 75.2,
+      "femaleEmployeesHighPosition": 31.9,
+      "femaleEmployeesHighPosition1": 29.5,
+      "growthRateWHP": 2.4
+    },
+    {
+      "Country": "DE",
+      "Year": 2018,
+      "femaleEmployees": 75.8,
+      "femaleEmployeesHighPosition": 33.8,
+      "femaleEmployeesHighPosition1": 31.9,
+      "growthRateWHP": 1.9
+    },
+    {
+      "Country": "DE",
+      "Year": 2019,
+      "femaleEmployees": 76.6,
+      "femaleEmployeesHighPosition": 35.6,
+      "femaleEmployeesHighPosition1": 33.8,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "DK",
+      "Year": 2005,
+      "femaleEmployees": 73.7,
+      "femaleEmployeesHighPosition": 11,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 11
+    },
+    {
+      "Country": "DK",
+      "Year": 2006,
+      "femaleEmployees": 74.8,
+      "femaleEmployeesHighPosition": 12.1,
+      "femaleEmployeesHighPosition1": 11,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "DK",
+      "Year": 2007,
+      "femaleEmployees": 74.7,
+      "femaleEmployeesHighPosition": 15.3,
+      "femaleEmployeesHighPosition1": 12.1,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "DK",
+      "Year": 2008,
+      "femaleEmployees": 74.3,
+      "femaleEmployeesHighPosition": 16.9,
+      "femaleEmployeesHighPosition1": 15.3,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "DK",
+      "Year": 2009,
+      "femaleEmployees": 73.1,
+      "femaleEmployeesHighPosition": 17.6,
+      "femaleEmployeesHighPosition1": 16.9,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "DK",
+      "Year": 2010,
+      "femaleEmployees": 72,
+      "femaleEmployeesHighPosition": 17.7,
+      "femaleEmployeesHighPosition1": 17.6,
+      "growthRateWHP": 0.1
+    },
+    {
+      "Country": "DK",
+      "Year": 2011,
+      "femaleEmployees": 71.4,
+      "femaleEmployeesHighPosition": 16.3,
+      "femaleEmployeesHighPosition1": 17.7,
+      "growthRateWHP": -1.4
+    },
+    {
+      "Country": "DK",
+      "Year": 2012,
+      "femaleEmployees": 71.1,
+      "femaleEmployeesHighPosition": 20.8,
+      "femaleEmployeesHighPosition1": 16.3,
+      "growthRateWHP": 4.5
+    },
+    {
+      "Country": "DK",
+      "Year": 2013,
+      "femaleEmployees": 71.2,
+      "femaleEmployeesHighPosition": 22.9,
+      "femaleEmployeesHighPosition1": 20.8,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "DK",
+      "Year": 2014,
+      "femaleEmployees": 71,
+      "femaleEmployeesHighPosition": 24,
+      "femaleEmployeesHighPosition1": 22.9,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "DK",
+      "Year": 2015,
+      "femaleEmployees": 71.5,
+      "femaleEmployeesHighPosition": 25.8,
+      "femaleEmployeesHighPosition1": 24,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "DK",
+      "Year": 2016,
+      "femaleEmployees": 72.5,
+      "femaleEmployeesHighPosition": 27.1,
+      "femaleEmployeesHighPosition1": 25.8,
+      "growthRateWHP": 1.3
+    },
+    {
+      "Country": "DK",
+      "Year": 2017,
+      "femaleEmployees": 73.2,
+      "femaleEmployeesHighPosition": 30.3,
+      "femaleEmployeesHighPosition1": 27.1,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "DK",
+      "Year": 2018,
+      "femaleEmployees": 73.9,
+      "femaleEmployeesHighPosition": 27.7,
+      "femaleEmployeesHighPosition1": 30.3,
+      "growthRateWHP": -2.6
+    },
+    {
+      "Country": "DK",
+      "Year": 2019,
+      "femaleEmployees": 74.7,
+      "femaleEmployeesHighPosition": 30,
+      "femaleEmployeesHighPosition1": 27.7,
+      "growthRateWHP": 2.3
+    },
+    {
+      "Country": "EE",
+      "Year": 2005,
+      "femaleEmployees": 69.7,
+      "femaleEmployeesHighPosition": 12.7,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 12.7
+    },
+    {
+      "Country": "EE",
+      "Year": 2006,
+      "femaleEmployees": 72.5,
+      "femaleEmployeesHighPosition": 13.1,
+      "femaleEmployeesHighPosition1": 12.7,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "EE",
+      "Year": 2007,
+      "femaleEmployees": 72.6,
+      "femaleEmployeesHighPosition": 10.1,
+      "femaleEmployeesHighPosition1": 13.1,
+      "growthRateWHP": -3
+    },
+    {
+      "Country": "EE",
+      "Year": 2008,
+      "femaleEmployees": 72.9,
+      "femaleEmployeesHighPosition": 8.4,
+      "femaleEmployeesHighPosition1": 10.1,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "EE",
+      "Year": 2009,
+      "femaleEmployees": 69,
+      "femaleEmployeesHighPosition": 6.4,
+      "femaleEmployeesHighPosition1": 8.4,
+      "growthRateWHP": -2
+    },
+    {
+      "Country": "EE",
+      "Year": 2010,
+      "femaleEmployees": 65.9,
+      "femaleEmployeesHighPosition": 7,
+      "femaleEmployeesHighPosition1": 6.4,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "EE",
+      "Year": 2011,
+      "femaleEmployees": 67.8,
+      "femaleEmployeesHighPosition": 6.7,
+      "femaleEmployeesHighPosition1": 7,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "EE",
+      "Year": 2012,
+      "femaleEmployees": 69.4,
+      "femaleEmployeesHighPosition": 7.8,
+      "femaleEmployeesHighPosition1": 6.7,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "EE",
+      "Year": 2013,
+      "femaleEmployees": 70.1,
+      "femaleEmployeesHighPosition": 7.3,
+      "femaleEmployeesHighPosition1": 7.8,
+      "growthRateWHP": -0.5
+    },
+    {
+      "Country": "EE",
+      "Year": 2014,
+      "femaleEmployees": 70.6,
+      "femaleEmployeesHighPosition": 7.1,
+      "femaleEmployeesHighPosition1": 7.3,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "EE",
+      "Year": 2015,
+      "femaleEmployees": 72.6,
+      "femaleEmployeesHighPosition": 8.1,
+      "femaleEmployeesHighPosition1": 7.1,
+      "growthRateWHP": 1
+    },
+    {
+      "Country": "EE",
+      "Year": 2016,
+      "femaleEmployees": 72.6,
+      "femaleEmployeesHighPosition": 8.8,
+      "femaleEmployeesHighPosition1": 8.1,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "EE",
+      "Year": 2017,
+      "femaleEmployees": 75.1,
+      "femaleEmployeesHighPosition": 7.4,
+      "femaleEmployeesHighPosition1": 8.8,
+      "growthRateWHP": -1.4
+    },
+    {
+      "Country": "EE",
+      "Year": 2018,
+      "femaleEmployees": 75.6,
+      "femaleEmployeesHighPosition": 8,
+      "femaleEmployeesHighPosition1": 7.4,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "EE",
+      "Year": 2019,
+      "femaleEmployees": 76.3,
+      "femaleEmployeesHighPosition": 9.4,
+      "femaleEmployeesHighPosition1": 8,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "EL",
+      "Year": 2005,
+      "femaleEmployees": 49.7,
+      "femaleEmployeesHighPosition": 7.1,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 7.1
+    },
+    {
+      "Country": "EL",
+      "Year": 2006,
+      "femaleEmployees": 51.3,
+      "femaleEmployeesHighPosition": 7.9,
+      "femaleEmployeesHighPosition1": 7.1,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "EL",
+      "Year": 2007,
+      "femaleEmployees": 51.7,
+      "femaleEmployeesHighPosition": 11.2,
+      "femaleEmployeesHighPosition1": 7.9,
+      "growthRateWHP": 3.3
+    },
+    {
+      "Country": "EL",
+      "Year": 2008,
+      "femaleEmployees": 52.6,
+      "femaleEmployeesHighPosition": 5.7,
+      "femaleEmployeesHighPosition1": 11.2,
+      "growthRateWHP": -5.5
+    },
+    {
+      "Country": "EL",
+      "Year": 2009,
+      "femaleEmployees": 52.9,
+      "femaleEmployeesHighPosition": 5.1,
+      "femaleEmployeesHighPosition1": 5.7,
+      "growthRateWHP": -0.6
+    },
+    {
+      "Country": "EL",
+      "Year": 2010,
+      "femaleEmployees": 51.8,
+      "femaleEmployeesHighPosition": 6.2,
+      "femaleEmployeesHighPosition1": 5.1,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "EL",
+      "Year": 2011,
+      "femaleEmployees": 48.7,
+      "femaleEmployeesHighPosition": 6.5,
+      "femaleEmployeesHighPosition1": 6.2,
+      "growthRateWHP": 0.3
+    },
+    {
+      "Country": "EL",
+      "Year": 2012,
+      "femaleEmployees": 45.2,
+      "femaleEmployeesHighPosition": 7.9,
+      "femaleEmployeesHighPosition1": 6.5,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "EL",
+      "Year": 2013,
+      "femaleEmployees": 43.3,
+      "femaleEmployeesHighPosition": 8.4,
+      "femaleEmployeesHighPosition1": 7.9,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "EL",
+      "Year": 2014,
+      "femaleEmployees": 44.3,
+      "femaleEmployeesHighPosition": 8.9,
+      "femaleEmployeesHighPosition1": 8.4,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "EL",
+      "Year": 2015,
+      "femaleEmployees": 46,
+      "femaleEmployeesHighPosition": 9.8,
+      "femaleEmployeesHighPosition1": 8.9,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "EL",
+      "Year": 2016,
+      "femaleEmployees": 46.8,
+      "femaleEmployeesHighPosition": 9.1,
+      "femaleEmployeesHighPosition1": 9.8,
+      "growthRateWHP": -0.7
+    },
+    {
+      "Country": "EL",
+      "Year": 2017,
+      "femaleEmployees": 48,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 9.1,
+      "growthRateWHP": 2.2
+    },
+    {
+      "Country": "EL",
+      "Year": 2018,
+      "femaleEmployees": 49.1,
+      "femaleEmployeesHighPosition": 9.1,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": -2.2
+    },
+    {
+      "Country": "EL",
+      "Year": 2019,
+      "femaleEmployees": 51.3,
+      "femaleEmployeesHighPosition": 10.3,
+      "femaleEmployeesHighPosition1": 9.1,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "ES",
+      "Year": 2005,
+      "femaleEmployees": 55.1,
+      "femaleEmployeesHighPosition": 4.3,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 4.3
+    },
+    {
+      "Country": "ES",
+      "Year": 2006,
+      "femaleEmployees": 57.1,
+      "femaleEmployeesHighPosition": 4.5,
+      "femaleEmployeesHighPosition1": 4.3,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "ES",
+      "Year": 2007,
+      "femaleEmployees": 58.6,
+      "femaleEmployeesHighPosition": 6.2,
+      "femaleEmployeesHighPosition1": 4.5,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "ES",
+      "Year": 2008,
+      "femaleEmployees": 58.9,
+      "femaleEmployeesHighPosition": 8,
+      "femaleEmployeesHighPosition1": 6.2,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "ES",
+      "Year": 2009,
+      "femaleEmployees": 56.8,
+      "femaleEmployeesHighPosition": 9.6,
+      "femaleEmployeesHighPosition1": 8,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "ES",
+      "Year": 2010,
+      "femaleEmployees": 56.3,
+      "femaleEmployeesHighPosition": 9.5,
+      "femaleEmployeesHighPosition1": 9.6,
+      "growthRateWHP": -0.1
+    },
+    {
+      "Country": "ES",
+      "Year": 2011,
+      "femaleEmployees": 56.1,
+      "femaleEmployeesHighPosition": 11.1,
+      "femaleEmployeesHighPosition1": 9.5,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "ES",
+      "Year": 2012,
+      "femaleEmployees": 54.6,
+      "femaleEmployeesHighPosition": 12.3,
+      "femaleEmployeesHighPosition1": 11.1,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "ES",
+      "Year": 2013,
+      "femaleEmployees": 53.8,
+      "femaleEmployeesHighPosition": 14.8,
+      "femaleEmployeesHighPosition1": 12.3,
+      "growthRateWHP": 2.5
+    },
+    {
+      "Country": "ES",
+      "Year": 2014,
+      "femaleEmployees": 54.8,
+      "femaleEmployeesHighPosition": 16.9,
+      "femaleEmployeesHighPosition1": 14.8,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "ES",
+      "Year": 2015,
+      "femaleEmployees": 56.4,
+      "femaleEmployeesHighPosition": 18.7,
+      "femaleEmployeesHighPosition1": 16.9,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "ES",
+      "Year": 2016,
+      "femaleEmployees": 58.1,
+      "femaleEmployeesHighPosition": 20.3,
+      "femaleEmployeesHighPosition1": 18.7,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "ES",
+      "Year": 2017,
+      "femaleEmployees": 59.6,
+      "femaleEmployeesHighPosition": 22,
+      "femaleEmployeesHighPosition1": 20.3,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "ES",
+      "Year": 2018,
+      "femaleEmployees": 61,
+      "femaleEmployeesHighPosition": 23.7,
+      "femaleEmployeesHighPosition1": 22,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "ES",
+      "Year": 2019,
+      "femaleEmployees": 62.1,
+      "femaleEmployeesHighPosition": 26.4,
+      "femaleEmployeesHighPosition1": 23.7,
+      "growthRateWHP": 2.7
+    },
+    {
+      "Country": "FR",
+      "Year": 2005,
+      "femaleEmployees": 63.2,
+      "femaleEmployeesHighPosition": 7.3,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 7.3
+    },
+    {
+      "Country": "FR",
+      "Year": 2006,
+      "femaleEmployees": 63.4,
+      "femaleEmployeesHighPosition": 7.6,
+      "femaleEmployeesHighPosition1": 7.3,
+      "growthRateWHP": 0.3
+    },
+    {
+      "Country": "FR",
+      "Year": 2007,
+      "femaleEmployees": 64.3,
+      "femaleEmployeesHighPosition": 8.8,
+      "femaleEmployeesHighPosition1": 7.6,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "FR",
+      "Year": 2008,
+      "femaleEmployees": 65,
+      "femaleEmployeesHighPosition": 9.3,
+      "femaleEmployeesHighPosition1": 8.8,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "FR",
+      "Year": 2009,
+      "femaleEmployees": 64.4,
+      "femaleEmployeesHighPosition": 10.2,
+      "femaleEmployeesHighPosition1": 9.3,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "FR",
+      "Year": 2010,
+      "femaleEmployees": 64.3,
+      "femaleEmployeesHighPosition": 12.3,
+      "femaleEmployeesHighPosition1": 10.2,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "FR",
+      "Year": 2011,
+      "femaleEmployees": 64.1,
+      "femaleEmployeesHighPosition": 21.6,
+      "femaleEmployeesHighPosition1": 12.3,
+      "growthRateWHP": 9.3
+    },
+    {
+      "Country": "FR",
+      "Year": 2012,
+      "femaleEmployees": 64.6,
+      "femaleEmployeesHighPosition": 25.1,
+      "femaleEmployeesHighPosition1": 21.6,
+      "growthRateWHP": 3.5
+    },
+    {
+      "Country": "FR",
+      "Year": 2013,
+      "femaleEmployees": 64.9,
+      "femaleEmployeesHighPosition": 29.7,
+      "femaleEmployeesHighPosition1": 25.1,
+      "growthRateWHP": 4.6
+    },
+    {
+      "Country": "FR",
+      "Year": 2014,
+      "femaleEmployees": 65.6,
+      "femaleEmployeesHighPosition": 32.4,
+      "femaleEmployeesHighPosition1": 29.7,
+      "growthRateWHP": 2.7
+    },
+    {
+      "Country": "FR",
+      "Year": 2015,
+      "femaleEmployees": 66,
+      "femaleEmployeesHighPosition": 35.6,
+      "femaleEmployeesHighPosition1": 32.4,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "FR",
+      "Year": 2016,
+      "femaleEmployees": 66.4,
+      "femaleEmployeesHighPosition": 41.2,
+      "femaleEmployeesHighPosition1": 35.6,
+      "growthRateWHP": 5.6
+    },
+    {
+      "Country": "FR",
+      "Year": 2017,
+      "femaleEmployees": 66.8,
+      "femaleEmployeesHighPosition": 43.4,
+      "femaleEmployeesHighPosition1": 41.2,
+      "growthRateWHP": 2.2
+    },
+    {
+      "Country": "FR",
+      "Year": 2018,
+      "femaleEmployees": 67.6,
+      "femaleEmployeesHighPosition": 44,
+      "femaleEmployeesHighPosition1": 43.4,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "FR",
+      "Year": 2019,
+      "femaleEmployees": 68.1,
+      "femaleEmployeesHighPosition": 45.2,
+      "femaleEmployeesHighPosition1": 44,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "HR",
+      "Year": 2005,
+      "femaleEmployees": 52.8,
+      "femaleEmployeesHighPosition": -1,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "HR",
+      "Year": 2006,
+      "femaleEmployees": 53.6,
+      "femaleEmployeesHighPosition": -1,
+      "femaleEmployeesHighPosition1": -1,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "HR",
+      "Year": 2007,
+      "femaleEmployees": 55.9,
+      "femaleEmployeesHighPosition": 13.7,
+      "femaleEmployeesHighPosition1": -1,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "HR",
+      "Year": 2008,
+      "femaleEmployees": 57,
+      "femaleEmployeesHighPosition": 11.5,
+      "femaleEmployeesHighPosition1": 13.7,
+      "growthRateWHP": -2.2
+    },
+    {
+      "Country": "HR",
+      "Year": 2009,
+      "femaleEmployees": 58,
+      "femaleEmployeesHighPosition": 15,
+      "femaleEmployeesHighPosition1": 11.5,
+      "growthRateWHP": 3.5
+    },
+    {
+      "Country": "HR",
+      "Year": 2010,
+      "femaleEmployees": 56.4,
+      "femaleEmployeesHighPosition": 15.6,
+      "femaleEmployeesHighPosition1": 15,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "HR",
+      "Year": 2011,
+      "femaleEmployees": 53.6,
+      "femaleEmployeesHighPosition": 19,
+      "femaleEmployeesHighPosition1": 15.6,
+      "growthRateWHP": 3.4
+    },
+    {
+      "Country": "HR",
+      "Year": 2012,
+      "femaleEmployees": 52.6,
+      "femaleEmployeesHighPosition": 15.1,
+      "femaleEmployeesHighPosition1": 19,
+      "growthRateWHP": -3.9
+    },
+    {
+      "Country": "HR",
+      "Year": 2013,
+      "femaleEmployees": 52.8,
+      "femaleEmployeesHighPosition": 15.1,
+      "femaleEmployeesHighPosition1": 15.1,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "HR",
+      "Year": 2014,
+      "femaleEmployees": 54.2,
+      "femaleEmployeesHighPosition": 19,
+      "femaleEmployeesHighPosition1": 15.1,
+      "growthRateWHP": 3.9
+    },
+    {
+      "Country": "HR",
+      "Year": 2015,
+      "femaleEmployees": 55.9,
+      "femaleEmployeesHighPosition": 22.2,
+      "femaleEmployeesHighPosition1": 19,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "HR",
+      "Year": 2016,
+      "femaleEmployees": 56.6,
+      "femaleEmployeesHighPosition": 19.9,
+      "femaleEmployeesHighPosition1": 22.2,
+      "growthRateWHP": -2.3
+    },
+    {
+      "Country": "HR",
+      "Year": 2017,
+      "femaleEmployees": 58.3,
+      "femaleEmployeesHighPosition": 21.6,
+      "femaleEmployeesHighPosition1": 19.9,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "HR",
+      "Year": 2018,
+      "femaleEmployees": 60.1,
+      "femaleEmployeesHighPosition": 17.2,
+      "femaleEmployeesHighPosition1": 21.6,
+      "growthRateWHP": -4.4
+    },
+    {
+      "Country": "HR",
+      "Year": 2019,
+      "femaleEmployees": 61.5,
+      "femaleEmployeesHighPosition": 27,
+      "femaleEmployeesHighPosition1": 17.2,
+      "growthRateWHP": 9.8
+    },
+    {
+      "Country": "HU",
+      "Year": 2005,
+      "femaleEmployees": 55.6,
+      "femaleEmployeesHighPosition": 9.6,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 9.6
+    },
+    {
+      "Country": "HU",
+      "Year": 2006,
+      "femaleEmployees": 55.6,
+      "femaleEmployeesHighPosition": 11.5,
+      "femaleEmployeesHighPosition1": 9.6,
+      "growthRateWHP": 1.9
+    },
+    {
+      "Country": "HU",
+      "Year": 2007,
+      "femaleEmployees": 55.2,
+      "femaleEmployeesHighPosition": 10.8,
+      "femaleEmployeesHighPosition1": 11.5,
+      "growthRateWHP": -0.7
+    },
+    {
+      "Country": "HU",
+      "Year": 2008,
+      "femaleEmployees": 54.8,
+      "femaleEmployeesHighPosition": 16.3,
+      "femaleEmployeesHighPosition1": 10.8,
+      "growthRateWHP": 5.5
+    },
+    {
+      "Country": "HU",
+      "Year": 2009,
+      "femaleEmployees": 54,
+      "femaleEmployeesHighPosition": 13.3,
+      "femaleEmployeesHighPosition1": 16.3,
+      "growthRateWHP": -3
+    },
+    {
+      "Country": "HU",
+      "Year": 2010,
+      "femaleEmployees": 54.6,
+      "femaleEmployeesHighPosition": 13.6,
+      "femaleEmployeesHighPosition1": 13.3,
+      "growthRateWHP": 0.3
+    },
+    {
+      "Country": "HU",
+      "Year": 2011,
+      "femaleEmployees": 54.7,
+      "femaleEmployeesHighPosition": 5.3,
+      "femaleEmployeesHighPosition1": 13.6,
+      "growthRateWHP": -8.3
+    },
+    {
+      "Country": "HU",
+      "Year": 2012,
+      "femaleEmployees": 56.2,
+      "femaleEmployeesHighPosition": 7.4,
+      "femaleEmployeesHighPosition1": 5.3,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "HU",
+      "Year": 2013,
+      "femaleEmployees": 56.9,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 7.4,
+      "growthRateWHP": 3.9
+    },
+    {
+      "Country": "HU",
+      "Year": 2014,
+      "femaleEmployees": 60.2,
+      "femaleEmployeesHighPosition": 11.8,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "HU",
+      "Year": 2015,
+      "femaleEmployees": 62.1,
+      "femaleEmployeesHighPosition": 17.8,
+      "femaleEmployeesHighPosition1": 11.8,
+      "growthRateWHP": 6
+    },
+    {
+      "Country": "HU",
+      "Year": 2016,
+      "femaleEmployees": 64.6,
+      "femaleEmployeesHighPosition": 12.3,
+      "femaleEmployeesHighPosition1": 17.8,
+      "growthRateWHP": -5.5
+    },
+    {
+      "Country": "HU",
+      "Year": 2017,
+      "femaleEmployees": 65.7,
+      "femaleEmployeesHighPosition": 14.5,
+      "femaleEmployeesHighPosition1": 12.3,
+      "growthRateWHP": 2.2
+    },
+    {
+      "Country": "HU",
+      "Year": 2018,
+      "femaleEmployees": 66.8,
+      "femaleEmployeesHighPosition": 14.9,
+      "femaleEmployeesHighPosition1": 14.5,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "HU",
+      "Year": 2019,
+      "femaleEmployees": 67.6,
+      "femaleEmployeesHighPosition": 12.9,
+      "femaleEmployeesHighPosition1": 14.9,
+      "growthRateWHP": -2
+    },
+    {
+      "Country": "IE",
+      "Year": 2005,
+      "femaleEmployees": 63.7,
+      "femaleEmployeesHighPosition": 6,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 6
+    },
+    {
+      "Country": "IE",
+      "Year": 2006,
+      "femaleEmployees": 64.6,
+      "femaleEmployeesHighPosition": 5.1,
+      "femaleEmployeesHighPosition1": 6,
+      "growthRateWHP": -0.9
+    },
+    {
+      "Country": "IE",
+      "Year": 2007,
+      "femaleEmployees": 65.8,
+      "femaleEmployeesHighPosition": 6.7,
+      "femaleEmployeesHighPosition1": 5.1,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "IE",
+      "Year": 2008,
+      "femaleEmployees": 65.4,
+      "femaleEmployeesHighPosition": 7.1,
+      "femaleEmployeesHighPosition1": 6.7,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "IE",
+      "Year": 2009,
+      "femaleEmployees": 62.9,
+      "femaleEmployeesHighPosition": 8.3,
+      "femaleEmployeesHighPosition1": 7.1,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "IE",
+      "Year": 2010,
+      "femaleEmployees": 61.1,
+      "femaleEmployeesHighPosition": 8.4,
+      "femaleEmployeesHighPosition1": 8.3,
+      "growthRateWHP": 0.1
+    },
+    {
+      "Country": "IE",
+      "Year": 2011,
+      "femaleEmployees": 60.2,
+      "femaleEmployeesHighPosition": 8.8,
+      "femaleEmployeesHighPosition1": 8.4,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "IE",
+      "Year": 2012,
+      "femaleEmployees": 60.2,
+      "femaleEmployeesHighPosition": 8.7,
+      "femaleEmployeesHighPosition1": 8.8,
+      "growthRateWHP": -0.1
+    },
+    {
+      "Country": "IE",
+      "Year": 2013,
+      "femaleEmployees": 61.3,
+      "femaleEmployeesHighPosition": 11.1,
+      "femaleEmployeesHighPosition1": 8.7,
+      "growthRateWHP": 2.4
+    },
+    {
+      "Country": "IE",
+      "Year": 2014,
+      "femaleEmployees": 62.3,
+      "femaleEmployeesHighPosition": 10.9,
+      "femaleEmployeesHighPosition1": 11.1,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "IE",
+      "Year": 2015,
+      "femaleEmployees": 63.8,
+      "femaleEmployeesHighPosition": 15.3,
+      "femaleEmployeesHighPosition1": 10.9,
+      "growthRateWHP": 4.4
+    },
+    {
+      "Country": "IE",
+      "Year": 2016,
+      "femaleEmployees": 65.4,
+      "femaleEmployeesHighPosition": 16.5,
+      "femaleEmployeesHighPosition1": 15.3,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "IE",
+      "Year": 2017,
+      "femaleEmployees": 67,
+      "femaleEmployeesHighPosition": 17.6,
+      "femaleEmployeesHighPosition1": 16.5,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "IE",
+      "Year": 2018,
+      "femaleEmployees": 68.1,
+      "femaleEmployeesHighPosition": 18.7,
+      "femaleEmployeesHighPosition1": 17.6,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "IE",
+      "Year": 2019,
+      "femaleEmployees": 69,
+      "femaleEmployeesHighPosition": 26,
+      "femaleEmployeesHighPosition1": 18.7,
+      "growthRateWHP": 7.3
+    },
+    {
+      "Country": "IT",
+      "Year": 2005,
+      "femaleEmployees": 48.5,
+      "femaleEmployeesHighPosition": 2.7,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 2.7
+    },
+    {
+      "Country": "IT",
+      "Year": 2006,
+      "femaleEmployees": 49.6,
+      "femaleEmployeesHighPosition": 3.6,
+      "femaleEmployeesHighPosition1": 2.7,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "IT",
+      "Year": 2007,
+      "femaleEmployees": 49.9,
+      "femaleEmployeesHighPosition": 3.2,
+      "femaleEmployeesHighPosition1": 3.6,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "IT",
+      "Year": 2008,
+      "femaleEmployees": 50.6,
+      "femaleEmployeesHighPosition": 3.9,
+      "femaleEmployeesHighPosition1": 3.2,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "IT",
+      "Year": 2009,
+      "femaleEmployees": 49.7,
+      "femaleEmployeesHighPosition": 4,
+      "femaleEmployeesHighPosition1": 3.9,
+      "growthRateWHP": 0.1
+    },
+    {
+      "Country": "IT",
+      "Year": 2010,
+      "femaleEmployees": 49.5,
+      "femaleEmployeesHighPosition": 4.5,
+      "femaleEmployeesHighPosition1": 4,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "IT",
+      "Year": 2011,
+      "femaleEmployees": 49.9,
+      "femaleEmployeesHighPosition": 5.9,
+      "femaleEmployeesHighPosition1": 4.5,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "IT",
+      "Year": 2012,
+      "femaleEmployees": 50.5,
+      "femaleEmployeesHighPosition": 10.8,
+      "femaleEmployeesHighPosition1": 5.9,
+      "growthRateWHP": 4.9
+    },
+    {
+      "Country": "IT",
+      "Year": 2013,
+      "femaleEmployees": 49.9,
+      "femaleEmployeesHighPosition": 15,
+      "femaleEmployeesHighPosition1": 10.8,
+      "growthRateWHP": 4.2
+    },
+    {
+      "Country": "IT",
+      "Year": 2014,
+      "femaleEmployees": 50.3,
+      "femaleEmployeesHighPosition": 24.1,
+      "femaleEmployeesHighPosition1": 15,
+      "growthRateWHP": 9.1
+    },
+    {
+      "Country": "IT",
+      "Year": 2015,
+      "femaleEmployees": 50.6,
+      "femaleEmployeesHighPosition": 28.6,
+      "femaleEmployeesHighPosition1": 24.1,
+      "growthRateWHP": 4.5
+    },
+    {
+      "Country": "IT",
+      "Year": 2016,
+      "femaleEmployees": 51.6,
+      "femaleEmployeesHighPosition": 32.3,
+      "femaleEmployeesHighPosition1": 28.6,
+      "growthRateWHP": 3.7
+    },
+    {
+      "Country": "IT",
+      "Year": 2017,
+      "femaleEmployees": 52.5,
+      "femaleEmployeesHighPosition": 34,
+      "femaleEmployeesHighPosition1": 32.3,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "IT",
+      "Year": 2018,
+      "femaleEmployees": 53.1,
+      "femaleEmployeesHighPosition": 36.4,
+      "femaleEmployeesHighPosition1": 34,
+      "growthRateWHP": 2.4
+    },
+    {
+      "Country": "IT",
+      "Year": 2019,
+      "femaleEmployees": 53.8,
+      "femaleEmployeesHighPosition": 36.1,
+      "femaleEmployeesHighPosition1": 36.4,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "LT",
+      "Year": 2005,
+      "femaleEmployees": 66.6,
+      "femaleEmployeesHighPosition": 10.7,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 10.7
+    },
+    {
+      "Country": "LT",
+      "Year": 2006,
+      "femaleEmployees": 68,
+      "femaleEmployeesHighPosition": 15.6,
+      "femaleEmployeesHighPosition1": 10.7,
+      "growthRateWHP": 4.9
+    },
+    {
+      "Country": "LT",
+      "Year": 2007,
+      "femaleEmployees": 69.1,
+      "femaleEmployeesHighPosition": 17.5,
+      "femaleEmployeesHighPosition1": 15.6,
+      "growthRateWHP": 1.9
+    },
+    {
+      "Country": "LT",
+      "Year": 2008,
+      "femaleEmployees": 68.7,
+      "femaleEmployeesHighPosition": 16.2,
+      "femaleEmployeesHighPosition1": 17.5,
+      "growthRateWHP": -1.3
+    },
+    {
+      "Country": "LT",
+      "Year": 2009,
+      "femaleEmployees": 67.2,
+      "femaleEmployeesHighPosition": 15,
+      "femaleEmployeesHighPosition1": 16.2,
+      "growthRateWHP": -1.2
+    },
+    {
+      "Country": "LT",
+      "Year": 2010,
+      "femaleEmployees": 65,
+      "femaleEmployeesHighPosition": 13.1,
+      "femaleEmployeesHighPosition1": 15,
+      "growthRateWHP": -1.9
+    },
+    {
+      "Country": "LT",
+      "Year": 2011,
+      "femaleEmployees": 66.6,
+      "femaleEmployeesHighPosition": 14,
+      "femaleEmployeesHighPosition1": 13.1,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "LT",
+      "Year": 2012,
+      "femaleEmployees": 67.9,
+      "femaleEmployeesHighPosition": 17.8,
+      "femaleEmployeesHighPosition1": 14,
+      "growthRateWHP": 3.8
+    },
+    {
+      "Country": "LT",
+      "Year": 2013,
+      "femaleEmployees": 68.6,
+      "femaleEmployeesHighPosition": 16.1,
+      "femaleEmployeesHighPosition1": 17.8,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "LT",
+      "Year": 2014,
+      "femaleEmployees": 70.6,
+      "femaleEmployeesHighPosition": 16.5,
+      "femaleEmployeesHighPosition1": 16.1,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "LT",
+      "Year": 2015,
+      "femaleEmployees": 72.2,
+      "femaleEmployeesHighPosition": 14.3,
+      "femaleEmployeesHighPosition1": 16.5,
+      "growthRateWHP": -2.2
+    },
+    {
+      "Country": "LT",
+      "Year": 2016,
+      "femaleEmployees": 74.3,
+      "femaleEmployeesHighPosition": 14.3,
+      "femaleEmployeesHighPosition1": 14.3,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "LT",
+      "Year": 2017,
+      "femaleEmployees": 75.5,
+      "femaleEmployeesHighPosition": 14.3,
+      "femaleEmployeesHighPosition1": 14.3,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "LT",
+      "Year": 2018,
+      "femaleEmployees": 76.7,
+      "femaleEmployeesHighPosition": 10.8,
+      "femaleEmployeesHighPosition1": 14.3,
+      "growthRateWHP": -3.5
+    },
+    {
+      "Country": "LT",
+      "Year": 2019,
+      "femaleEmployees": 77.4,
+      "femaleEmployeesHighPosition": 12,
+      "femaleEmployeesHighPosition1": 10.8,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "LU",
+      "Year": 2005,
+      "femaleEmployees": 58.4,
+      "femaleEmployeesHighPosition": 3.2,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "LU",
+      "Year": 2006,
+      "femaleEmployees": 59.4,
+      "femaleEmployeesHighPosition": 1,
+      "femaleEmployeesHighPosition1": 3.2,
+      "growthRateWHP": -2.2
+    },
+    {
+      "Country": "LU",
+      "Year": 2007,
+      "femaleEmployees": 61,
+      "femaleEmployeesHighPosition": 2.6,
+      "femaleEmployeesHighPosition1": 1,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "LU",
+      "Year": 2008,
+      "femaleEmployees": 60.1,
+      "femaleEmployeesHighPosition": 2.6,
+      "femaleEmployeesHighPosition1": 2.6,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "LU",
+      "Year": 2009,
+      "femaleEmployees": 61.5,
+      "femaleEmployeesHighPosition": 2.7,
+      "femaleEmployeesHighPosition1": 2.6,
+      "growthRateWHP": 0.1
+    },
+    {
+      "Country": "LU",
+      "Year": 2010,
+      "femaleEmployees": 62,
+      "femaleEmployeesHighPosition": 3.5,
+      "femaleEmployeesHighPosition1": 2.7,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "LU",
+      "Year": 2011,
+      "femaleEmployees": 61.9,
+      "femaleEmployeesHighPosition": 5.6,
+      "femaleEmployeesHighPosition1": 3.5,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "LU",
+      "Year": 2012,
+      "femaleEmployees": 64.1,
+      "femaleEmployeesHighPosition": 9.7,
+      "femaleEmployeesHighPosition1": 5.6,
+      "growthRateWHP": 4.1
+    },
+    {
+      "Country": "LU",
+      "Year": 2013,
+      "femaleEmployees": 63.9,
+      "femaleEmployeesHighPosition": 11.3,
+      "femaleEmployeesHighPosition1": 9.7,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "LU",
+      "Year": 2014,
+      "femaleEmployees": 65.5,
+      "femaleEmployeesHighPosition": 11.7,
+      "femaleEmployeesHighPosition1": 11.3,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "LU",
+      "Year": 2015,
+      "femaleEmployees": 65,
+      "femaleEmployeesHighPosition": 12.1,
+      "femaleEmployeesHighPosition1": 11.7,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "LU",
+      "Year": 2016,
+      "femaleEmployees": 65.1,
+      "femaleEmployeesHighPosition": 12.9,
+      "femaleEmployeesHighPosition1": 12.1,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "LU",
+      "Year": 2017,
+      "femaleEmployees": 67.5,
+      "femaleEmployeesHighPosition": 12,
+      "femaleEmployeesHighPosition1": 12.9,
+      "growthRateWHP": -0.9
+    },
+    {
+      "Country": "LU",
+      "Year": 2018,
+      "femaleEmployees": 68,
+      "femaleEmployeesHighPosition": 13.3,
+      "femaleEmployeesHighPosition1": 12,
+      "growthRateWHP": 1.3
+    },
+    {
+      "Country": "LU",
+      "Year": 2019,
+      "femaleEmployees": 68.1,
+      "femaleEmployeesHighPosition": 13.1,
+      "femaleEmployeesHighPosition1": 13.3,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "LV",
+      "Year": 2005,
+      "femaleEmployees": 64.5,
+      "femaleEmployeesHighPosition": 19.3,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 19.3
+    },
+    {
+      "Country": "LV",
+      "Year": 2006,
+      "femaleEmployees": 68.4,
+      "femaleEmployeesHighPosition": 20.9,
+      "femaleEmployeesHighPosition1": 19.3,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "LV",
+      "Year": 2007,
+      "femaleEmployees": 70.3,
+      "femaleEmployeesHighPosition": 17.4,
+      "femaleEmployeesHighPosition1": 20.9,
+      "growthRateWHP": -3.5
+    },
+    {
+      "Country": "LV",
+      "Year": 2008,
+      "femaleEmployees": 71.9,
+      "femaleEmployeesHighPosition": 15.8,
+      "femaleEmployeesHighPosition1": 17.4,
+      "growthRateWHP": -1.6
+    },
+    {
+      "Country": "LV",
+      "Year": 2009,
+      "femaleEmployees": 66.5,
+      "femaleEmployeesHighPosition": 17.1,
+      "femaleEmployeesHighPosition1": 15.8,
+      "growthRateWHP": 1.3
+    },
+    {
+      "Country": "LV",
+      "Year": 2010,
+      "femaleEmployees": 64.5,
+      "femaleEmployeesHighPosition": 23.5,
+      "femaleEmployeesHighPosition1": 17.1,
+      "growthRateWHP": 6.4
+    },
+    {
+      "Country": "LV",
+      "Year": 2011,
+      "femaleEmployees": 65.3,
+      "femaleEmployeesHighPosition": 26.6,
+      "femaleEmployeesHighPosition1": 23.5,
+      "growthRateWHP": 3.1
+    },
+    {
+      "Country": "LV",
+      "Year": 2012,
+      "femaleEmployees": 66.4,
+      "femaleEmployeesHighPosition": 28.2,
+      "femaleEmployeesHighPosition1": 26.6,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "LV",
+      "Year": 2013,
+      "femaleEmployees": 67.7,
+      "femaleEmployeesHighPosition": 28.6,
+      "femaleEmployeesHighPosition1": 28.2,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "LV",
+      "Year": 2014,
+      "femaleEmployees": 68.5,
+      "femaleEmployeesHighPosition": 31.7,
+      "femaleEmployeesHighPosition1": 28.6,
+      "growthRateWHP": 3.1
+    },
+    {
+      "Country": "LV",
+      "Year": 2015,
+      "femaleEmployees": 70.5,
+      "femaleEmployeesHighPosition": 30.4,
+      "femaleEmployeesHighPosition1": 31.7,
+      "growthRateWHP": -1.3
+    },
+    {
+      "Country": "LV",
+      "Year": 2016,
+      "femaleEmployees": 71.8,
+      "femaleEmployeesHighPosition": 28.5,
+      "femaleEmployeesHighPosition1": 30.4,
+      "growthRateWHP": -1.9
+    },
+    {
+      "Country": "LV",
+      "Year": 2017,
+      "femaleEmployees": 72.7,
+      "femaleEmployeesHighPosition": 28.8,
+      "femaleEmployeesHighPosition1": 28.5,
+      "growthRateWHP": 0.3
+    },
+    {
+      "Country": "LV",
+      "Year": 2018,
+      "femaleEmployees": 74.8,
+      "femaleEmployeesHighPosition": 29,
+      "femaleEmployeesHighPosition1": 28.8,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "LV",
+      "Year": 2019,
+      "femaleEmployees": 75.5,
+      "femaleEmployeesHighPosition": 31.7,
+      "femaleEmployeesHighPosition1": 29,
+      "growthRateWHP": 2.7
+    },
+    {
+      "Country": "MT",
+      "Year": 2005,
+      "femaleEmployees": 34.8,
+      "femaleEmployeesHighPosition": 3.3,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 3.3
+    },
+    {
+      "Country": "MT",
+      "Year": 2006,
+      "femaleEmployees": 35.7,
+      "femaleEmployeesHighPosition": 4.1,
+      "femaleEmployeesHighPosition1": 3.3,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "MT",
+      "Year": 2007,
+      "femaleEmployees": 37.7,
+      "femaleEmployeesHighPosition": 4.1,
+      "femaleEmployeesHighPosition1": 4.1,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "MT",
+      "Year": 2008,
+      "femaleEmployees": 39.4,
+      "femaleEmployeesHighPosition": 4.3,
+      "femaleEmployeesHighPosition1": 4.1,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "MT",
+      "Year": 2009,
+      "femaleEmployees": 40,
+      "femaleEmployeesHighPosition": 4.1,
+      "femaleEmployeesHighPosition1": 4.3,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "MT",
+      "Year": 2010,
+      "femaleEmployees": 41.6,
+      "femaleEmployeesHighPosition": 2.4,
+      "femaleEmployeesHighPosition1": 4.1,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "MT",
+      "Year": 2011,
+      "femaleEmployees": 43.8,
+      "femaleEmployeesHighPosition": 2.3,
+      "femaleEmployeesHighPosition1": 2.4,
+      "growthRateWHP": -0.1
+    },
+    {
+      "Country": "MT",
+      "Year": 2012,
+      "femaleEmployees": 48,
+      "femaleEmployeesHighPosition": 3.5,
+      "femaleEmployeesHighPosition1": 2.3,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "MT",
+      "Year": 2013,
+      "femaleEmployees": 51.7,
+      "femaleEmployeesHighPosition": 2.1,
+      "femaleEmployeesHighPosition1": 3.5,
+      "growthRateWHP": -1.4
+    },
+    {
+      "Country": "MT",
+      "Year": 2014,
+      "femaleEmployees": 54.3,
+      "femaleEmployeesHighPosition": 2.7,
+      "femaleEmployeesHighPosition1": 2.1,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "MT",
+      "Year": 2015,
+      "femaleEmployees": 55.3,
+      "femaleEmployeesHighPosition": 4.5,
+      "femaleEmployeesHighPosition1": 2.7,
+      "growthRateWHP": 1.8
+    },
+    {
+      "Country": "MT",
+      "Year": 2016,
+      "femaleEmployees": 58,
+      "femaleEmployeesHighPosition": 4.5,
+      "femaleEmployeesHighPosition1": 4.5,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "MT",
+      "Year": 2017,
+      "femaleEmployees": 60.6,
+      "femaleEmployeesHighPosition": 8.4,
+      "femaleEmployeesHighPosition1": 4.5,
+      "growthRateWHP": 3.9
+    },
+    {
+      "Country": "MT",
+      "Year": 2018,
+      "femaleEmployees": 64.1,
+      "femaleEmployeesHighPosition": 9.6,
+      "femaleEmployeesHighPosition1": 8.4,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "MT",
+      "Year": 2019,
+      "femaleEmployees": 65.8,
+      "femaleEmployeesHighPosition": 10,
+      "femaleEmployeesHighPosition1": 9.6,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "NL",
+      "Year": 2005,
+      "femaleEmployees": 64.4,
+      "femaleEmployeesHighPosition": 6.9,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 6.9
+    },
+    {
+      "Country": "NL",
+      "Year": 2006,
+      "femaleEmployees": 65.7,
+      "femaleEmployeesHighPosition": 8.4,
+      "femaleEmployeesHighPosition1": 6.9,
+      "growthRateWHP": 1.5
+    },
+    {
+      "Country": "NL",
+      "Year": 2007,
+      "femaleEmployees": 67.7,
+      "femaleEmployeesHighPosition": 13.9,
+      "femaleEmployeesHighPosition1": 8.4,
+      "growthRateWHP": 5.5
+    },
+    {
+      "Country": "NL",
+      "Year": 2008,
+      "femaleEmployees": 69.4,
+      "femaleEmployeesHighPosition": 14.5,
+      "femaleEmployeesHighPosition1": 13.9,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "NL",
+      "Year": 2009,
+      "femaleEmployees": 69.9,
+      "femaleEmployeesHighPosition": 15,
+      "femaleEmployeesHighPosition1": 14.5,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "NL",
+      "Year": 2010,
+      "femaleEmployees": 69.8,
+      "femaleEmployeesHighPosition": 14.9,
+      "femaleEmployeesHighPosition1": 15,
+      "growthRateWHP": -0.1
+    },
+    {
+      "Country": "NL",
+      "Year": 2011,
+      "femaleEmployees": 70.4,
+      "femaleEmployeesHighPosition": 17.8,
+      "femaleEmployeesHighPosition1": 14.9,
+      "growthRateWHP": 2.9
+    },
+    {
+      "Country": "NL",
+      "Year": 2012,
+      "femaleEmployees": 71,
+      "femaleEmployeesHighPosition": 21.5,
+      "femaleEmployeesHighPosition1": 17.8,
+      "growthRateWHP": 3.7
+    },
+    {
+      "Country": "NL",
+      "Year": 2013,
+      "femaleEmployees": 70.6,
+      "femaleEmployeesHighPosition": 25.1,
+      "femaleEmployeesHighPosition1": 21.5,
+      "growthRateWHP": 3.6
+    },
+    {
+      "Country": "NL",
+      "Year": 2014,
+      "femaleEmployees": 69.7,
+      "femaleEmployeesHighPosition": 24.9,
+      "femaleEmployeesHighPosition1": 25.1,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "NL",
+      "Year": 2015,
+      "femaleEmployees": 70.8,
+      "femaleEmployeesHighPosition": 25.5,
+      "femaleEmployeesHighPosition1": 24.9,
+      "growthRateWHP": 0.6
+    },
+    {
+      "Country": "NL",
+      "Year": 2016,
+      "femaleEmployees": 71.6,
+      "femaleEmployeesHighPosition": 27.5,
+      "femaleEmployeesHighPosition1": 25.5,
+      "growthRateWHP": 2
+    },
+    {
+      "Country": "NL",
+      "Year": 2017,
+      "femaleEmployees": 72.8,
+      "femaleEmployeesHighPosition": 29.5,
+      "femaleEmployeesHighPosition1": 27.5,
+      "growthRateWHP": 2
+    },
+    {
+      "Country": "NL",
+      "Year": 2018,
+      "femaleEmployees": 74.2,
+      "femaleEmployeesHighPosition": 30.7,
+      "femaleEmployeesHighPosition1": 29.5,
+      "growthRateWHP": 1.2
+    },
+    {
+      "Country": "NL",
+      "Year": 2019,
+      "femaleEmployees": 75.5,
+      "femaleEmployeesHighPosition": 34.2,
+      "femaleEmployeesHighPosition1": 30.7,
+      "growthRateWHP": 3.5
+    },
+    {
+      "Country": "PL",
+      "Year": 2005,
+      "femaleEmployees": 51.7,
+      "femaleEmployeesHighPosition": 10.7,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 10.7
+    },
+    {
+      "Country": "PL",
+      "Year": 2006,
+      "femaleEmployees": 53.1,
+      "femaleEmployeesHighPosition": 9.4,
+      "femaleEmployeesHighPosition1": 10.7,
+      "growthRateWHP": -1.3
+    },
+    {
+      "Country": "PL",
+      "Year": 2007,
+      "femaleEmployees": 55.5,
+      "femaleEmployeesHighPosition": 11.9,
+      "femaleEmployeesHighPosition1": 9.4,
+      "growthRateWHP": 2.5
+    },
+    {
+      "Country": "PL",
+      "Year": 2008,
+      "femaleEmployees": 57.3,
+      "femaleEmployeesHighPosition": 10.4,
+      "femaleEmployeesHighPosition1": 11.9,
+      "growthRateWHP": -1.5
+    },
+    {
+      "Country": "PL",
+      "Year": 2009,
+      "femaleEmployees": 57.6,
+      "femaleEmployeesHighPosition": 9.5,
+      "femaleEmployeesHighPosition1": 10.4,
+      "growthRateWHP": -0.9
+    },
+    {
+      "Country": "PL",
+      "Year": 2010,
+      "femaleEmployees": 57.3,
+      "femaleEmployeesHighPosition": 11.6,
+      "femaleEmployeesHighPosition1": 9.5,
+      "growthRateWHP": 2.1
+    },
+    {
+      "Country": "PL",
+      "Year": 2011,
+      "femaleEmployees": 57.2,
+      "femaleEmployeesHighPosition": 11.8,
+      "femaleEmployeesHighPosition1": 11.6,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "PL",
+      "Year": 2012,
+      "femaleEmployees": 57.5,
+      "femaleEmployeesHighPosition": 11.8,
+      "femaleEmployeesHighPosition1": 11.8,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "PL",
+      "Year": 2013,
+      "femaleEmployees": 57.6,
+      "femaleEmployeesHighPosition": 12.3,
+      "femaleEmployeesHighPosition1": 11.8,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "PL",
+      "Year": 2014,
+      "femaleEmployees": 59.4,
+      "femaleEmployeesHighPosition": 14.6,
+      "femaleEmployeesHighPosition1": 12.3,
+      "growthRateWHP": 2.3
+    },
+    {
+      "Country": "PL",
+      "Year": 2015,
+      "femaleEmployees": 60.9,
+      "femaleEmployeesHighPosition": 19.4,
+      "femaleEmployeesHighPosition1": 14.6,
+      "growthRateWHP": 4.8
+    },
+    {
+      "Country": "PL",
+      "Year": 2016,
+      "femaleEmployees": 62.2,
+      "femaleEmployeesHighPosition": 18.8,
+      "femaleEmployeesHighPosition1": 19.4,
+      "growthRateWHP": -0.6
+    },
+    {
+      "Country": "PL",
+      "Year": 2017,
+      "femaleEmployees": 63.6,
+      "femaleEmployeesHighPosition": 20.1,
+      "femaleEmployeesHighPosition1": 18.8,
+      "growthRateWHP": 1.3
+    },
+    {
+      "Country": "PL",
+      "Year": 2018,
+      "femaleEmployees": 65,
+      "femaleEmployeesHighPosition": 21,
+      "femaleEmployeesHighPosition1": 20.1,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "PL",
+      "Year": 2019,
+      "femaleEmployees": 65.3,
+      "femaleEmployeesHighPosition": 23.5,
+      "femaleEmployeesHighPosition1": 21,
+      "growthRateWHP": 2.5
+    },
+    {
+      "Country": "PT",
+      "Year": 2005,
+      "femaleEmployees": 66,
+      "femaleEmployeesHighPosition": 6.1,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 6.1
+    },
+    {
+      "Country": "PT",
+      "Year": 2006,
+      "femaleEmployees": 66.3,
+      "femaleEmployeesHighPosition": 6.8,
+      "femaleEmployeesHighPosition1": 6.1,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "PT",
+      "Year": 2007,
+      "femaleEmployees": 66.3,
+      "femaleEmployeesHighPosition": 3.2,
+      "femaleEmployeesHighPosition1": 6.8,
+      "growthRateWHP": -3.6
+    },
+    {
+      "Country": "PT",
+      "Year": 2008,
+      "femaleEmployees": 67.1,
+      "femaleEmployeesHighPosition": 2.6,
+      "femaleEmployeesHighPosition1": 3.2,
+      "growthRateWHP": -0.6
+    },
+    {
+      "Country": "PT",
+      "Year": 2009,
+      "femaleEmployees": 66.1,
+      "femaleEmployeesHighPosition": 3.7,
+      "femaleEmployeesHighPosition1": 2.6,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "PT",
+      "Year": 2010,
+      "femaleEmployees": 65.6,
+      "femaleEmployeesHighPosition": 5.4,
+      "femaleEmployeesHighPosition1": 3.7,
+      "growthRateWHP": 1.7
+    },
+    {
+      "Country": "PT",
+      "Year": 2011,
+      "femaleEmployees": 64.6,
+      "femaleEmployeesHighPosition": 5.9,
+      "femaleEmployeesHighPosition1": 5.4,
+      "growthRateWHP": 0.5
+    },
+    {
+      "Country": "PT",
+      "Year": 2012,
+      "femaleEmployees": 63,
+      "femaleEmployeesHighPosition": 7.4,
+      "femaleEmployeesHighPosition1": 5.9,
+      "growthRateWHP": 1.5
+    },
+    {
+      "Country": "PT",
+      "Year": 2013,
+      "femaleEmployees": 62.3,
+      "femaleEmployeesHighPosition": 8.8,
+      "femaleEmployeesHighPosition1": 7.4,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "PT",
+      "Year": 2014,
+      "femaleEmployees": 64.2,
+      "femaleEmployeesHighPosition": 9.5,
+      "femaleEmployeesHighPosition1": 8.8,
+      "growthRateWHP": 0.7
+    },
+    {
+      "Country": "PT",
+      "Year": 2015,
+      "femaleEmployees": 65.9,
+      "femaleEmployeesHighPosition": 13.5,
+      "femaleEmployeesHighPosition1": 9.5,
+      "growthRateWHP": 4
+    },
+    {
+      "Country": "PT",
+      "Year": 2016,
+      "femaleEmployees": 67.4,
+      "femaleEmployeesHighPosition": 14.3,
+      "femaleEmployeesHighPosition1": 13.5,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "PT",
+      "Year": 2017,
+      "femaleEmployees": 69.8,
+      "femaleEmployeesHighPosition": 16.2,
+      "femaleEmployeesHighPosition1": 14.3,
+      "growthRateWHP": 1.9
+    },
+    {
+      "Country": "PT",
+      "Year": 2018,
+      "femaleEmployees": 72.1,
+      "femaleEmployeesHighPosition": 21.6,
+      "femaleEmployeesHighPosition1": 16.2,
+      "growthRateWHP": 5.4
+    },
+    {
+      "Country": "PT",
+      "Year": 2019,
+      "femaleEmployees": 72.7,
+      "femaleEmployeesHighPosition": 24.6,
+      "femaleEmployeesHighPosition1": 21.6,
+      "growthRateWHP": 3
+    },
+    {
+      "Country": "RO",
+      "Year": 2005,
+      "femaleEmployees": 56.9,
+      "femaleEmployeesHighPosition": 12.8,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 12.8
+    },
+    {
+      "Country": "RO",
+      "Year": 2006,
+      "femaleEmployees": 58.5,
+      "femaleEmployeesHighPosition": 13,
+      "femaleEmployeesHighPosition1": 12.8,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "RO",
+      "Year": 2007,
+      "femaleEmployees": 57.9,
+      "femaleEmployeesHighPosition": 17.6,
+      "femaleEmployeesHighPosition1": 13,
+      "growthRateWHP": 4.6
+    },
+    {
+      "Country": "RO",
+      "Year": 2008,
+      "femaleEmployees": 57.3,
+      "femaleEmployeesHighPosition": 12,
+      "femaleEmployeesHighPosition1": 17.6,
+      "growthRateWHP": -5.6
+    },
+    {
+      "Country": "RO",
+      "Year": 2009,
+      "femaleEmployees": 56.3,
+      "femaleEmployeesHighPosition": 11.7,
+      "femaleEmployeesHighPosition1": 12,
+      "growthRateWHP": -0.3
+    },
+    {
+      "Country": "RO",
+      "Year": 2010,
+      "femaleEmployees": 56.5,
+      "femaleEmployeesHighPosition": 21.3,
+      "femaleEmployeesHighPosition1": 11.7,
+      "growthRateWHP": 9.6
+    },
+    {
+      "Country": "RO",
+      "Year": 2011,
+      "femaleEmployees": 56.2,
+      "femaleEmployeesHighPosition": 10.4,
+      "femaleEmployeesHighPosition1": 21.3,
+      "growthRateWHP": -10.9
+    },
+    {
+      "Country": "RO",
+      "Year": 2012,
+      "femaleEmployees": 56.7,
+      "femaleEmployeesHighPosition": 11.9,
+      "femaleEmployeesHighPosition1": 10.4,
+      "growthRateWHP": 1.5
+    },
+    {
+      "Country": "RO",
+      "Year": 2013,
+      "femaleEmployees": 56.5,
+      "femaleEmployeesHighPosition": 7.8,
+      "femaleEmployeesHighPosition1": 11.9,
+      "growthRateWHP": -4.1
+    },
+    {
+      "Country": "RO",
+      "Year": 2014,
+      "femaleEmployees": 57.3,
+      "femaleEmployeesHighPosition": 11,
+      "femaleEmployeesHighPosition1": 7.8,
+      "growthRateWHP": 3.2
+    },
+    {
+      "Country": "RO",
+      "Year": 2015,
+      "femaleEmployees": 57.2,
+      "femaleEmployeesHighPosition": 11.8,
+      "femaleEmployeesHighPosition1": 11,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "RO",
+      "Year": 2016,
+      "femaleEmployees": 57.4,
+      "femaleEmployeesHighPosition": 10.1,
+      "femaleEmployeesHighPosition1": 11.8,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "RO",
+      "Year": 2017,
+      "femaleEmployees": 60.2,
+      "femaleEmployeesHighPosition": 11,
+      "femaleEmployeesHighPosition1": 10.1,
+      "growthRateWHP": 0.9
+    },
+    {
+      "Country": "RO",
+      "Year": 2018,
+      "femaleEmployees": 60.6,
+      "femaleEmployeesHighPosition": 11,
+      "femaleEmployeesHighPosition1": 11,
+      "growthRateWHP": 0
+    },
+    {
+      "Country": "RO",
+      "Year": 2019,
+      "femaleEmployees": 61.3,
+      "femaleEmployeesHighPosition": 12.6,
+      "femaleEmployeesHighPosition1": 11,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "SE",
+      "Year": 2005,
+      "femaleEmployees": 75.2,
+      "femaleEmployeesHighPosition": 24,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 24
+    },
+    {
+      "Country": "SE",
+      "Year": 2006,
+      "femaleEmployees": 75.8,
+      "femaleEmployeesHighPosition": 24.4,
+      "femaleEmployeesHighPosition1": 24,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "SE",
+      "Year": 2007,
+      "femaleEmployees": 77.1,
+      "femaleEmployeesHighPosition": 23.8,
+      "femaleEmployeesHighPosition1": 24.4,
+      "growthRateWHP": -0.6
+    },
+    {
+      "Country": "SE",
+      "Year": 2008,
+      "femaleEmployees": 77.2,
+      "femaleEmployeesHighPosition": 26.9,
+      "femaleEmployeesHighPosition1": 23.8,
+      "growthRateWHP": 3.1
+    },
+    {
+      "Country": "SE",
+      "Year": 2009,
+      "femaleEmployees": 75.7,
+      "femaleEmployeesHighPosition": 26.8,
+      "femaleEmployeesHighPosition1": 26.9,
+      "growthRateWHP": -0.1
+    },
+    {
+      "Country": "SE",
+      "Year": 2010,
+      "femaleEmployees": 75,
+      "femaleEmployeesHighPosition": 26.4,
+      "femaleEmployeesHighPosition1": 26.8,
+      "growthRateWHP": -0.4
+    },
+    {
+      "Country": "SE",
+      "Year": 2011,
+      "femaleEmployees": 76.5,
+      "femaleEmployeesHighPosition": 24.7,
+      "femaleEmployeesHighPosition1": 26.4,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "SE",
+      "Year": 2012,
+      "femaleEmployees": 76.8,
+      "femaleEmployeesHighPosition": 25.5,
+      "femaleEmployeesHighPosition1": 24.7,
+      "growthRateWHP": 0.8
+    },
+    {
+      "Country": "SE",
+      "Year": 2013,
+      "femaleEmployees": 77.2,
+      "femaleEmployeesHighPosition": 26.5,
+      "femaleEmployeesHighPosition1": 25.5,
+      "growthRateWHP": 1
+    },
+    {
+      "Country": "SE",
+      "Year": 2014,
+      "femaleEmployees": 77.6,
+      "femaleEmployeesHighPosition": 27.6,
+      "femaleEmployeesHighPosition1": 26.5,
+      "growthRateWHP": 1.1
+    },
+    {
+      "Country": "SE",
+      "Year": 2015,
+      "femaleEmployees": 78.3,
+      "femaleEmployeesHighPosition": 32.6,
+      "femaleEmployeesHighPosition1": 27.6,
+      "growthRateWHP": 5
+    },
+    {
+      "Country": "SE",
+      "Year": 2016,
+      "femaleEmployees": 79.2,
+      "femaleEmployeesHighPosition": 36.9,
+      "femaleEmployeesHighPosition1": 32.6,
+      "growthRateWHP": 4.3
+    },
+    {
+      "Country": "SE",
+      "Year": 2017,
+      "femaleEmployees": 79.8,
+      "femaleEmployeesHighPosition": 35.9,
+      "femaleEmployeesHighPosition1": 36.9,
+      "growthRateWHP": -1
+    },
+    {
+      "Country": "SE",
+      "Year": 2018,
+      "femaleEmployees": 80.2,
+      "femaleEmployeesHighPosition": 36.1,
+      "femaleEmployeesHighPosition1": 35.9,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "SE",
+      "Year": 2019,
+      "femaleEmployees": 79.7,
+      "femaleEmployeesHighPosition": 37.5,
+      "femaleEmployeesHighPosition1": 36.1,
+      "growthRateWHP": 1.4
+    },
+    {
+      "Country": "SI",
+      "Year": 2005,
+      "femaleEmployees": 66.2,
+      "femaleEmployeesHighPosition": 18.9,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 18.9
+    },
+    {
+      "Country": "SI",
+      "Year": 2006,
+      "femaleEmployees": 66.5,
+      "femaleEmployeesHighPosition": 19.3,
+      "femaleEmployeesHighPosition1": 18.9,
+      "growthRateWHP": 0.4
+    },
+    {
+      "Country": "SI",
+      "Year": 2007,
+      "femaleEmployees": 67.1,
+      "femaleEmployeesHighPosition": 15.4,
+      "femaleEmployeesHighPosition1": 19.3,
+      "growthRateWHP": -3.9
+    },
+    {
+      "Country": "SI",
+      "Year": 2008,
+      "femaleEmployees": 68.5,
+      "femaleEmployeesHighPosition": 18.4,
+      "femaleEmployeesHighPosition1": 15.4,
+      "growthRateWHP": 3
+    },
+    {
+      "Country": "SI",
+      "Year": 2009,
+      "femaleEmployees": 67.9,
+      "femaleEmployeesHighPosition": 10,
+      "femaleEmployeesHighPosition1": 18.4,
+      "growthRateWHP": -8.4
+    },
+    {
+      "Country": "SI",
+      "Year": 2010,
+      "femaleEmployees": 66.5,
+      "femaleEmployeesHighPosition": 9.8,
+      "femaleEmployeesHighPosition1": 10,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "SI",
+      "Year": 2011,
+      "femaleEmployees": 64.8,
+      "femaleEmployeesHighPosition": 14.2,
+      "femaleEmployeesHighPosition1": 9.8,
+      "growthRateWHP": 4.4
+    },
+    {
+      "Country": "SI",
+      "Year": 2012,
+      "femaleEmployees": 64.6,
+      "femaleEmployeesHighPosition": 18.7,
+      "femaleEmployeesHighPosition1": 14.2,
+      "growthRateWHP": 4.5
+    },
+    {
+      "Country": "SI",
+      "Year": 2013,
+      "femaleEmployees": 63,
+      "femaleEmployeesHighPosition": 21.6,
+      "femaleEmployeesHighPosition1": 18.7,
+      "growthRateWHP": 2.9
+    },
+    {
+      "Country": "SI",
+      "Year": 2014,
+      "femaleEmployees": 63.6,
+      "femaleEmployeesHighPosition": 19.9,
+      "femaleEmployeesHighPosition1": 21.6,
+      "growthRateWHP": -1.7
+    },
+    {
+      "Country": "SI",
+      "Year": 2015,
+      "femaleEmployees": 64.7,
+      "femaleEmployeesHighPosition": 21.5,
+      "femaleEmployeesHighPosition1": 19.9,
+      "growthRateWHP": 1.6
+    },
+    {
+      "Country": "SI",
+      "Year": 2016,
+      "femaleEmployees": 66.7,
+      "femaleEmployeesHighPosition": 24.8,
+      "femaleEmployeesHighPosition1": 21.5,
+      "growthRateWHP": 3.3
+    },
+    {
+      "Country": "SI",
+      "Year": 2017,
+      "femaleEmployees": 69.7,
+      "femaleEmployeesHighPosition": 22.6,
+      "femaleEmployeesHighPosition1": 24.8,
+      "growthRateWHP": -2.2
+    },
+    {
+      "Country": "SI",
+      "Year": 2018,
+      "femaleEmployees": 71.7,
+      "femaleEmployeesHighPosition": 27.9,
+      "femaleEmployeesHighPosition1": 22.6,
+      "growthRateWHP": 5.3
+    },
+    {
+      "Country": "SI",
+      "Year": 2019,
+      "femaleEmployees": 72.9,
+      "femaleEmployeesHighPosition": 24.6,
+      "femaleEmployeesHighPosition1": 27.9,
+      "growthRateWHP": -3.3
+    },
+    {
+      "Country": "SK",
+      "Year": 2005,
+      "femaleEmployees": 56.7,
+      "femaleEmployeesHighPosition": 11.1,
+      "femaleEmployeesHighPosition1": 0,
+      "growthRateWHP": 11.1
+    },
+    {
+      "Country": "SK",
+      "Year": 2006,
+      "femaleEmployees": 57.5,
+      "femaleEmployeesHighPosition": 9.7,
+      "femaleEmployeesHighPosition1": 11.1,
+      "growthRateWHP": -1.4
+    },
+    {
+      "Country": "SK",
+      "Year": 2007,
+      "femaleEmployees": 58.7,
+      "femaleEmployeesHighPosition": 23.5,
+      "femaleEmployeesHighPosition1": 9.7,
+      "growthRateWHP": 13.8
+    },
+    {
+      "Country": "SK",
+      "Year": 2008,
+      "femaleEmployees": 60.3,
+      "femaleEmployeesHighPosition": 18,
+      "femaleEmployeesHighPosition1": 23.5,
+      "growthRateWHP": -5.5
+    },
+    {
+      "Country": "SK",
+      "Year": 2009,
+      "femaleEmployees": 58.2,
+      "femaleEmployeesHighPosition": 18.2,
+      "femaleEmployeesHighPosition1": 18,
+      "growthRateWHP": 0.2
+    },
+    {
+      "Country": "SK",
+      "Year": 2010,
+      "femaleEmployees": 57.4,
+      "femaleEmployeesHighPosition": 21.6,
+      "femaleEmployeesHighPosition1": 18.2,
+      "growthRateWHP": 3.4
+    },
+    {
+      "Country": "SK",
+      "Year": 2011,
+      "femaleEmployees": 57.4,
+      "femaleEmployeesHighPosition": 14.6,
+      "femaleEmployeesHighPosition1": 21.6,
+      "growthRateWHP": -7
+    },
+    {
+      "Country": "SK",
+      "Year": 2012,
+      "femaleEmployees": 57.3,
+      "femaleEmployeesHighPosition": 13.8,
+      "femaleEmployeesHighPosition1": 14.6,
+      "growthRateWHP": -0.8
+    },
+    {
+      "Country": "SK",
+      "Year": 2013,
+      "femaleEmployees": 57.8,
+      "femaleEmployeesHighPosition": 24,
+      "femaleEmployeesHighPosition1": 13.8,
+      "growthRateWHP": 10.2
+    },
+    {
+      "Country": "SK",
+      "Year": 2014,
+      "femaleEmployees": 58.6,
+      "femaleEmployeesHighPosition": 18.2,
+      "femaleEmployeesHighPosition1": 24,
+      "growthRateWHP": -5.8
+    },
+    {
+      "Country": "SK",
+      "Year": 2015,
+      "femaleEmployees": 60.3,
+      "femaleEmployeesHighPosition": 12.7,
+      "femaleEmployeesHighPosition1": 18.2,
+      "growthRateWHP": -5.5
+    },
+    {
+      "Country": "SK",
+      "Year": 2016,
+      "femaleEmployees": 62.7,
+      "femaleEmployeesHighPosition": 12.5,
+      "femaleEmployeesHighPosition1": 12.7,
+      "growthRateWHP": -0.2
+    },
+    {
+      "Country": "SK",
+      "Year": 2017,
+      "femaleEmployees": 64.7,
+      "femaleEmployeesHighPosition": 15.1,
+      "femaleEmployeesHighPosition1": 12.5,
+      "growthRateWHP": 2.6
+    },
+    {
+      "Country": "SK",
+      "Year": 2018,
+      "femaleEmployees": 65.5,
+      "femaleEmployeesHighPosition": 24.1,
+      "femaleEmployeesHighPosition1": 15.1,
+      "growthRateWHP": 9
+    },
+    {
+      "Country": "SK",
+      "Year": 2019,
+      "femaleEmployees": 66.9,
+      "femaleEmployeesHighPosition": 29.1,
+      "femaleEmployeesHighPosition1": 24.1,
+      "growthRateWHP": 5
+    }
+   ]

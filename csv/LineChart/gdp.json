@@ -1,0 +1,2102 @@
+[
+  {
+    "Country": "AT",
+    "Year": 2005,
+    "GDP": 254075
+  },
+  {
+    "Country": "AT",
+    "Year": 2006,
+    "GDP": 267824.5
+  },
+  {
+    "Country": "AT",
+    "Year": 2007,
+    "GDP": 283978
+  },
+  {
+    "Country": "AT",
+    "Year": 2008,
+    "GDP": 293761.9
+  },
+  {
+    "Country": "AT",
+    "Year": 2009,
+    "GDP": 288044
+  },
+  {
+    "Country": "AT",
+    "Year": 2010,
+    "GDP": 295896.6
+  },
+  {
+    "Country": "AT",
+    "Year": 2011,
+    "GDP": 310128.7
+  },
+  {
+    "Country": "AT",
+    "Year": 2012,
+    "GDP": 318653
+  },
+  {
+    "Country": "AT",
+    "Year": 2013,
+    "GDP": 323910.2
+  },
+  {
+    "Country": "AT",
+    "Year": 2014,
+    "GDP": 333146.1
+  },
+  {
+    "Country": "AT",
+    "Year": 2015,
+    "GDP": 344269.2
+  },
+  {
+    "Country": "AT",
+    "Year": 2016,
+    "GDP": 357608
+  },
+  {
+    "Country": "AT",
+    "Year": 2017,
+    "GDP": 369341.3
+  },
+  {
+    "Country": "AT",
+    "Year": 2018,
+    "GDP": 385361.9
+  },
+  {
+    "Country": "AT",
+    "Year": 2019,
+    "GDP": 397575.3
+  },
+  {
+    "Country": "BE",
+    "Year": 2005,
+    "GDP": 310037.6
+  },
+  {
+    "Country": "BE",
+    "Year": 2006,
+    "GDP": 325151.5
+  },
+  {
+    "Country": "BE",
+    "Year": 2007,
+    "GDP": 343618.9
+  },
+  {
+    "Country": "BE",
+    "Year": 2008,
+    "GDP": 351743.1
+  },
+  {
+    "Country": "BE",
+    "Year": 2009,
+    "GDP": 346472.8
+  },
+  {
+    "Country": "BE",
+    "Year": 2010,
+    "GDP": 363140.1
+  },
+  {
+    "Country": "BE",
+    "Year": 2011,
+    "GDP": 375967.8
+  },
+  {
+    "Country": "BE",
+    "Year": 2012,
+    "GDP": 386174.7
+  },
+  {
+    "Country": "BE",
+    "Year": 2013,
+    "GDP": 392880
+  },
+  {
+    "Country": "BE",
+    "Year": 2014,
+    "GDP": 403003.3
+  },
+  {
+    "Country": "BE",
+    "Year": 2015,
+    "GDP": 416701.4
+  },
+  {
+    "Country": "BE",
+    "Year": 2016,
+    "GDP": 430231.1
+  },
+  {
+    "Country": "BE",
+    "Year": 2017,
+    "GDP": 445956.6
+  },
+  {
+    "Country": "BE",
+    "Year": 2018,
+    "GDP": 459531.6
+  },
+  {
+    "Country": "BE",
+    "Year": 2019,
+    "GDP": 473085.1
+  },
+  {
+    "Country": "BG",
+    "Year": 2005,
+    "GDP": 47017.2
+  },
+  {
+    "Country": "BG",
+    "Year": 2006,
+    "GDP": 53608.4
+  },
+  {
+    "Country": "BG",
+    "Year": 2007,
+    "GDP": 63454.9
+  },
+  {
+    "Country": "BG",
+    "Year": 2008,
+    "GDP": 72790.3
+  },
+  {
+    "Country": "BG",
+    "Year": 2009,
+    "GDP": 73181.5
+  },
+  {
+    "Country": "BG",
+    "Year": 2010,
+    "GDP": 74434.1
+  },
+  {
+    "Country": "BG",
+    "Year": 2011,
+    "GDP": 80713.7
+  },
+  {
+    "Country": "BG",
+    "Year": 2012,
+    "GDP": 82238.6
+  },
+  {
+    "Country": "BG",
+    "Year": 2013,
+    "GDP": 81954.9
+  },
+  {
+    "Country": "BG",
+    "Year": 2014,
+    "GDP": 83884.9
+  },
+  {
+    "Country": "BG",
+    "Year": 2015,
+    "GDP": 89362.3
+  },
+  {
+    "Country": "BG",
+    "Year": 2016,
+    "GDP": 95130.6
+  },
+  {
+    "Country": "BG",
+    "Year": 2017,
+    "GDP": 102345.1
+  },
+  {
+    "Country": "BG",
+    "Year": 2018,
+    "GDP": 109743.4
+  },
+  {
+    "Country": "BG",
+    "Year": 2019,
+    "GDP": 118668.8
+  },
+  {
+    "Country": "CY",
+    "Year": 2005,
+    "GDP": 14822.3
+  },
+  {
+    "Country": "CY",
+    "Year": 2006,
+    "GDP": 16000
+  },
+  {
+    "Country": "CY",
+    "Year": 2007,
+    "GDP": 17511.6
+  },
+  {
+    "Country": "CY",
+    "Year": 2008,
+    "GDP": 19009.6
+  },
+  {
+    "Country": "CY",
+    "Year": 2009,
+    "GDP": 18675.5
+  },
+  {
+    "Country": "CY",
+    "Year": 2010,
+    "GDP": 19410
+  },
+  {
+    "Country": "CY",
+    "Year": 2011,
+    "GDP": 19803
+  },
+  {
+    "Country": "CY",
+    "Year": 2012,
+    "GDP": 19440.8
+  },
+  {
+    "Country": "CY",
+    "Year": 2013,
+    "GDP": 17995
+  },
+  {
+    "Country": "CY",
+    "Year": 2014,
+    "GDP": 17430.2
+  },
+  {
+    "Country": "CY",
+    "Year": 2015,
+    "GDP": 17884
+  },
+  {
+    "Country": "CY",
+    "Year": 2016,
+    "GDP": 18929.3
+  },
+  {
+    "Country": "CY",
+    "Year": 2017,
+    "GDP": 20119.9
+  },
+  {
+    "Country": "CY",
+    "Year": 2018,
+    "GDP": 21432.4
+  },
+  {
+    "Country": "CY",
+    "Year": 2019,
+    "GDP": 22286.9
+  },
+  {
+    "Country": "CZ",
+    "Year": 2005,
+    "GDP": 3285601
+  },
+  {
+    "Country": "CZ",
+    "Year": 2006,
+    "GDP": 3530881
+  },
+  {
+    "Country": "CZ",
+    "Year": 2007,
+    "GDP": 3859533
+  },
+  {
+    "Country": "CZ",
+    "Year": 2008,
+    "GDP": 4042860
+  },
+  {
+    "Country": "CZ",
+    "Year": 2009,
+    "GDP": 3954320
+  },
+  {
+    "Country": "CZ",
+    "Year": 2010,
+    "GDP": 3992870
+  },
+  {
+    "Country": "CZ",
+    "Year": 2011,
+    "GDP": 4062323
+  },
+  {
+    "Country": "CZ",
+    "Year": 2012,
+    "GDP": 4088912
+  },
+  {
+    "Country": "CZ",
+    "Year": 2013,
+    "GDP": 4142811
+  },
+  {
+    "Country": "CZ",
+    "Year": 2014,
+    "GDP": 4345766
+  },
+  {
+    "Country": "CZ",
+    "Year": 2015,
+    "GDP": 4625378
+  },
+  {
+    "Country": "CZ",
+    "Year": 2016,
+    "GDP": 4796873
+  },
+  {
+    "Country": "CZ",
+    "Year": 2017,
+    "GDP": 5110743
+  },
+  {
+    "Country": "CZ",
+    "Year": 2018,
+    "GDP": 5408766
+  },
+  {
+    "Country": "CZ",
+    "Year": 2019,
+    "GDP": 5748668
+  },
+  {
+    "Country": "DE",
+    "Year": 2005,
+    "GDP": 2288310
+  },
+  {
+    "Country": "DE",
+    "Year": 2006,
+    "GDP": 2385080
+  },
+  {
+    "Country": "DE",
+    "Year": 2007,
+    "GDP": 2499550
+  },
+  {
+    "Country": "DE",
+    "Year": 2008,
+    "GDP": 2546490
+  },
+  {
+    "Country": "DE",
+    "Year": 2009,
+    "GDP": 2445730
+  },
+  {
+    "Country": "DE",
+    "Year": 2010,
+    "GDP": 2564400
+  },
+  {
+    "Country": "DE",
+    "Year": 2011,
+    "GDP": 2693560
+  },
+  {
+    "Country": "DE",
+    "Year": 2012,
+    "GDP": 2745310
+  },
+  {
+    "Country": "DE",
+    "Year": 2013,
+    "GDP": 2811350
+  },
+  {
+    "Country": "DE",
+    "Year": 2014,
+    "GDP": 2927430
+  },
+  {
+    "Country": "DE",
+    "Year": 2015,
+    "GDP": 3026180
+  },
+  {
+    "Country": "DE",
+    "Year": 2016,
+    "GDP": 3134740
+  },
+  {
+    "Country": "DE",
+    "Year": 2017,
+    "GDP": 3259860
+  },
+  {
+    "Country": "DE",
+    "Year": 2018,
+    "GDP": 3356410
+  },
+  {
+    "Country": "DE",
+    "Year": 2019,
+    "GDP": 3449050
+  },
+  {
+    "Country": "DK",
+    "Year": 2005,
+    "GDP": 1585984.2
+  },
+  {
+    "Country": "DK",
+    "Year": 2006,
+    "GDP": 1682260.2
+  },
+  {
+    "Country": "DK",
+    "Year": 2007,
+    "GDP": 1738845.3
+  },
+  {
+    "Country": "DK",
+    "Year": 2008,
+    "GDP": 1801469.9
+  },
+  {
+    "Country": "DK",
+    "Year": 2009,
+    "GDP": 1722142.5
+  },
+  {
+    "Country": "DK",
+    "Year": 2010,
+    "GDP": 1810925.6
+  },
+  {
+    "Country": "DK",
+    "Year": 2011,
+    "GDP": 1846853.6
+  },
+  {
+    "Country": "DK",
+    "Year": 2012,
+    "GDP": 1895002.3
+  },
+  {
+    "Country": "DK",
+    "Year": 2013,
+    "GDP": 1929677
+  },
+  {
+    "Country": "DK",
+    "Year": 2014,
+    "GDP": 1981165
+  },
+  {
+    "Country": "DK",
+    "Year": 2015,
+    "GDP": 2036356.2
+  },
+  {
+    "Country": "DK",
+    "Year": 2016,
+    "GDP": 2107808.2
+  },
+  {
+    "Country": "DK",
+    "Year": 2017,
+    "GDP": 2192960
+  },
+  {
+    "Country": "DK",
+    "Year": 2018,
+    "GDP": 2253558
+  },
+  {
+    "Country": "DK",
+    "Year": 2019,
+    "GDP": 2335002.1
+  },
+  {
+    "Country": "EE",
+    "Year": 2005,
+    "GDP": 11336.5
+  },
+  {
+    "Country": "EE",
+    "Year": 2006,
+    "GDP": 13560.5
+  },
+  {
+    "Country": "EE",
+    "Year": 2007,
+    "GDP": 16398.7
+  },
+  {
+    "Country": "EE",
+    "Year": 2008,
+    "GDP": 16638.3
+  },
+  {
+    "Country": "EE",
+    "Year": 2009,
+    "GDP": 14211.8
+  },
+  {
+    "Country": "EE",
+    "Year": 2010,
+    "GDP": 14860.7
+  },
+  {
+    "Country": "EE",
+    "Year": 2011,
+    "GDP": 16826.8
+  },
+  {
+    "Country": "EE",
+    "Year": 2012,
+    "GDP": 18050.7
+  },
+  {
+    "Country": "EE",
+    "Year": 2013,
+    "GDP": 19033.4
+  },
+  {
+    "Country": "EE",
+    "Year": 2014,
+    "GDP": 20180
+  },
+  {
+    "Country": "EE",
+    "Year": 2015,
+    "GDP": 20782.2
+  },
+  {
+    "Country": "EE",
+    "Year": 2016,
+    "GDP": 21931.5
+  },
+  {
+    "Country": "EE",
+    "Year": 2017,
+    "GDP": 23857.7
+  },
+  {
+    "Country": "EE",
+    "Year": 2018,
+    "GDP": 25937.6
+  },
+  {
+    "Country": "EE",
+    "Year": 2019,
+    "GDP": 28112.4
+  },
+  {
+    "Country": "EL",
+    "Year": 2005,
+    "GDP": 199242.3
+  },
+  {
+    "Country": "EL",
+    "Year": 2006,
+    "GDP": 217861.6
+  },
+  {
+    "Country": "EL",
+    "Year": 2007,
+    "GDP": 232694.6
+  },
+  {
+    "Country": "EL",
+    "Year": 2008,
+    "GDP": 241990.4
+  },
+  {
+    "Country": "EL",
+    "Year": 2009,
+    "GDP": 237534.2
+  },
+  {
+    "Country": "EL",
+    "Year": 2010,
+    "GDP": 226031.4
+  },
+  {
+    "Country": "EL",
+    "Year": 2011,
+    "GDP": 207028.9
+  },
+  {
+    "Country": "EL",
+    "Year": 2012,
+    "GDP": 191203.9
+  },
+  {
+    "Country": "EL",
+    "Year": 2013,
+    "GDP": 180654.3
+  },
+  {
+    "Country": "EL",
+    "Year": 2014,
+    "GDP": 178656.5
+  },
+  {
+    "Country": "EL",
+    "Year": 2015,
+    "GDP": 177258.4
+  },
+  {
+    "Country": "EL",
+    "Year": 2016,
+    "GDP": 176487.9
+  },
+  {
+    "Country": "EL",
+    "Year": 2017,
+    "GDP": 180217.6
+  },
+  {
+    "Country": "EL",
+    "Year": 2018,
+    "GDP": 184713.6
+  },
+  {
+    "Country": "EL",
+    "Year": 2019,
+    "GDP": 187456.5
+  },
+  {
+    "Country": "ES",
+    "Year": 2005,
+    "GDP": 927357
+  },
+  {
+    "Country": "ES",
+    "Year": 2006,
+    "GDP": 1003823
+  },
+  {
+    "Country": "ES",
+    "Year": 2007,
+    "GDP": 1075539
+  },
+  {
+    "Country": "ES",
+    "Year": 2008,
+    "GDP": 1109541
+  },
+  {
+    "Country": "ES",
+    "Year": 2009,
+    "GDP": 1069323
+  },
+  {
+    "Country": "ES",
+    "Year": 2010,
+    "GDP": 1072709
+  },
+  {
+    "Country": "ES",
+    "Year": 2011,
+    "GDP": 1063763
+  },
+  {
+    "Country": "ES",
+    "Year": 2012,
+    "GDP": 1031099
+  },
+  {
+    "Country": "ES",
+    "Year": 2013,
+    "GDP": 1020348
+  },
+  {
+    "Country": "ES",
+    "Year": 2014,
+    "GDP": 1032158
+  },
+  {
+    "Country": "ES",
+    "Year": 2015,
+    "GDP": 1077590
+  },
+  {
+    "Country": "ES",
+    "Year": 2016,
+    "GDP": 1113840
+  },
+  {
+    "Country": "ES",
+    "Year": 2017,
+    "GDP": 1161867
+  },
+  {
+    "Country": "ES",
+    "Year": 2018,
+    "GDP": 1204241
+  },
+  {
+    "Country": "ES",
+    "Year": 2019,
+    "GDP": 1244772
+  },
+  {
+    "Country": "FI",
+    "Year": 2005,
+    "GDP": 164687
+  },
+  {
+    "Country": "FI",
+    "Year": 2006,
+    "GDP": 172897
+  },
+  {
+    "Country": "FI",
+    "Year": 2007,
+    "GDP": 187072
+  },
+  {
+    "Country": "FI",
+    "Year": 2008,
+    "GDP": 194265
+  },
+  {
+    "Country": "FI",
+    "Year": 2009,
+    "GDP": 181747
+  },
+  {
+    "Country": "FI",
+    "Year": 2010,
+    "GDP": 188143
+  },
+  {
+    "Country": "FI",
+    "Year": 2011,
+    "GDP": 197998
+  },
+  {
+    "Country": "FI",
+    "Year": 2012,
+    "GDP": 201037
+  },
+  {
+    "Country": "FI",
+    "Year": 2013,
+    "GDP": 204321
+  },
+  {
+    "Country": "FI",
+    "Year": 2014,
+    "GDP": 206897
+  },
+  {
+    "Country": "FI",
+    "Year": 2015,
+    "GDP": 211385
+  },
+  {
+    "Country": "FI",
+    "Year": 2016,
+    "GDP": 217518
+  },
+  {
+    "Country": "FI",
+    "Year": 2017,
+    "GDP": 225933
+  },
+  {
+    "Country": "FI",
+    "Year": 2018,
+    "GDP": 233664
+  },
+  {
+    "Country": "FI",
+    "Year": 2019,
+    "GDP": 240556
+  },
+  {
+    "Country": "FR",
+    "Year": 2005,
+    "GDP": 1765905
+  },
+  {
+    "Country": "FR",
+    "Year": 2006,
+    "GDP": 1848151
+  },
+  {
+    "Country": "FR",
+    "Year": 2007,
+    "GDP": 1941360
+  },
+  {
+    "Country": "FR",
+    "Year": 2008,
+    "GDP": 1992380
+  },
+  {
+    "Country": "FR",
+    "Year": 2009,
+    "GDP": 1936422
+  },
+  {
+    "Country": "FR",
+    "Year": 2010,
+    "GDP": 1995289
+  },
+  {
+    "Country": "FR",
+    "Year": 2011,
+    "GDP": 2058369
+  },
+  {
+    "Country": "FR",
+    "Year": 2012,
+    "GDP": 2088804
+  },
+  {
+    "Country": "FR",
+    "Year": 2013,
+    "GDP": 2117189
+  },
+  {
+    "Country": "FR",
+    "Year": 2014,
+    "GDP": 2149765
+  },
+  {
+    "Country": "FR",
+    "Year": 2015,
+    "GDP": 2198432
+  },
+  {
+    "Country": "FR",
+    "Year": 2016,
+    "GDP": 2234129
+  },
+  {
+    "Country": "FR",
+    "Year": 2017,
+    "GDP": 2297242
+  },
+  {
+    "Country": "FR",
+    "Year": 2018,
+    "GDP": 2360687
+  },
+  {
+    "Country": "FR",
+    "Year": 2019,
+    "GDP": 2425708
+  },
+  {
+    "Country": "HR",
+    "Year": 2005,
+    "GDP": 270014.9
+  },
+  {
+    "Country": "HR",
+    "Year": 2006,
+    "GDP": 294444.7
+  },
+  {
+    "Country": "HR",
+    "Year": 2007,
+    "GDP": 322791.4
+  },
+  {
+    "Country": "HR",
+    "Year": 2008,
+    "GDP": 346735.2
+  },
+  {
+    "Country": "HR",
+    "Year": 2009,
+    "GDP": 330770.8
+  },
+  {
+    "Country": "HR",
+    "Year": 2010,
+    "GDP": 328824.2
+  },
+  {
+    "Country": "HR",
+    "Year": 2011,
+    "GDP": 333214.8
+  },
+  {
+    "Country": "HR",
+    "Year": 2012,
+    "GDP": 330509.4
+  },
+  {
+    "Country": "HR",
+    "Year": 2013,
+    "GDP": 331209.1
+  },
+  {
+    "Country": "HR",
+    "Year": 2014,
+    "GDP": 331342.8
+  },
+  {
+    "Country": "HR",
+    "Year": 2015,
+    "GDP": 339696.1
+  },
+  {
+    "Country": "HR",
+    "Year": 2016,
+    "GDP": 351168.7
+  },
+  {
+    "Country": "HR",
+    "Year": 2017,
+    "GDP": 366426.1
+  },
+  {
+    "Country": "HR",
+    "Year": 2018,
+    "GDP": 382965.2
+  },
+  {
+    "Country": "HR",
+    "Year": 2019,
+    "GDP": 400102.2
+  },
+  {
+    "Country": "HU",
+    "Year": 2005,
+    "GDP": 22549020
+  },
+  {
+    "Country": "HU",
+    "Year": 2006,
+    "GDP": 24316299
+  },
+  {
+    "Country": "HU",
+    "Year": 2007,
+    "GDP": 25701369
+  },
+  {
+    "Country": "HU",
+    "Year": 2008,
+    "GDP": 27217365
+  },
+  {
+    "Country": "HU",
+    "Year": 2009,
+    "GDP": 26458264
+  },
+  {
+    "Country": "HU",
+    "Year": 2010,
+    "GDP": 27431270
+  },
+  {
+    "Country": "HU",
+    "Year": 2011,
+    "GDP": 28501501
+  },
+  {
+    "Country": "HU",
+    "Year": 2012,
+    "GDP": 28920370
+  },
+  {
+    "Country": "HU",
+    "Year": 2013,
+    "GDP": 30290920
+  },
+  {
+    "Country": "HU",
+    "Year": 2014,
+    "GDP": 32742178
+  },
+  {
+    "Country": "HU",
+    "Year": 2015,
+    "GDP": 34937313
+  },
+  {
+    "Country": "HU",
+    "Year": 2016,
+    "GDP": 36167453
+  },
+  {
+    "Country": "HU",
+    "Year": 2017,
+    "GDP": 39233430
+  },
+  {
+    "Country": "HU",
+    "Year": 2018,
+    "GDP": 43347041
+  },
+  {
+    "Country": "HU",
+    "Year": 2019,
+    "GDP": 47513912
+  },
+  {
+    "Country": "IE",
+    "Year": 2005,
+    "GDP": 170230.9
+  },
+  {
+    "Country": "IE",
+    "Year": 2006,
+    "GDP": 184914.1
+  },
+  {
+    "Country": "IE",
+    "Year": 2007,
+    "GDP": 197129.5
+  },
+  {
+    "Country": "IE",
+    "Year": 2008,
+    "GDP": 187619.5
+  },
+  {
+    "Country": "IE",
+    "Year": 2009,
+    "GDP": 169785.8
+  },
+  {
+    "Country": "IE",
+    "Year": 2010,
+    "GDP": 167673.7
+  },
+  {
+    "Country": "IE",
+    "Year": 2011,
+    "GDP": 170950.9
+  },
+  {
+    "Country": "IE",
+    "Year": 2012,
+    "GDP": 175103.9
+  },
+  {
+    "Country": "IE",
+    "Year": 2013,
+    "GDP": 179616.3
+  },
+  {
+    "Country": "IE",
+    "Year": 2014,
+    "GDP": 195148.1
+  },
+  {
+    "Country": "IE",
+    "Year": 2015,
+    "GDP": 262853.3
+  },
+  {
+    "Country": "IE",
+    "Year": 2016,
+    "GDP": 270809.5
+  },
+  {
+    "Country": "IE",
+    "Year": 2017,
+    "GDP": 300386.9
+  },
+  {
+    "Country": "IE",
+    "Year": 2018,
+    "GDP": 326986.1
+  },
+  {
+    "Country": "IE",
+    "Year": 2019,
+    "GDP": 356051.2
+  },
+  {
+    "Country": "IT",
+    "Year": 2005,
+    "GDP": 1493635.3
+  },
+  {
+    "Country": "IT",
+    "Year": 2006,
+    "GDP": 1552686.8
+  },
+  {
+    "Country": "IT",
+    "Year": 2007,
+    "GDP": 1614839.8
+  },
+  {
+    "Country": "IT",
+    "Year": 2008,
+    "GDP": 1637699.4
+  },
+  {
+    "Country": "IT",
+    "Year": 2009,
+    "GDP": 1577255.9
+  },
+  {
+    "Country": "IT",
+    "Year": 2010,
+    "GDP": 1611279.4
+  },
+  {
+    "Country": "IT",
+    "Year": 2011,
+    "GDP": 1648755.8
+  },
+  {
+    "Country": "IT",
+    "Year": 2012,
+    "GDP": 1624358.7
+  },
+  {
+    "Country": "IT",
+    "Year": 2013,
+    "GDP": 1612751.3
+  },
+  {
+    "Country": "IT",
+    "Year": 2014,
+    "GDP": 1627405.6
+  },
+  {
+    "Country": "IT",
+    "Year": 2015,
+    "GDP": 1655355
+  },
+  {
+    "Country": "IT",
+    "Year": 2016,
+    "GDP": 1695786.8
+  },
+  {
+    "Country": "IT",
+    "Year": 2017,
+    "GDP": 1736592.8
+  },
+  {
+    "Country": "IT",
+    "Year": 2018,
+    "GDP": 1771063.1
+  },
+  {
+    "Country": "IT",
+    "Year": 2019,
+    "GDP": 1789747
+  },
+  {
+    "Country": "LT",
+    "Year": 2005,
+    "GDP": 20979.9
+  },
+  {
+    "Country": "LT",
+    "Year": 2006,
+    "GDP": 24053.3
+  },
+  {
+    "Country": "LT",
+    "Year": 2007,
+    "GDP": 29011.2
+  },
+  {
+    "Country": "LT",
+    "Year": 2008,
+    "GDP": 32660.1
+  },
+  {
+    "Country": "LT",
+    "Year": 2009,
+    "GDP": 26897
+  },
+  {
+    "Country": "LT",
+    "Year": 2010,
+    "GDP": 28033.8
+  },
+  {
+    "Country": "LT",
+    "Year": 2011,
+    "GDP": 31317.2
+  },
+  {
+    "Country": "LT",
+    "Year": 2012,
+    "GDP": 33410.2
+  },
+  {
+    "Country": "LT",
+    "Year": 2013,
+    "GDP": 35039.5
+  },
+  {
+    "Country": "LT",
+    "Year": 2014,
+    "GDP": 36581.3
+  },
+  {
+    "Country": "LT",
+    "Year": 2015,
+    "GDP": 37345.7
+  },
+  {
+    "Country": "LT",
+    "Year": 2016,
+    "GDP": 38889.9
+  },
+  {
+    "Country": "LT",
+    "Year": 2017,
+    "GDP": 42276.3
+  },
+  {
+    "Country": "LT",
+    "Year": 2018,
+    "GDP": 45491.1
+  },
+  {
+    "Country": "LT",
+    "Year": 2019,
+    "GDP": 48797.4
+  },
+  {
+    "Country": "LU",
+    "Year": 2005,
+    "GDP": 30031
+  },
+  {
+    "Country": "LU",
+    "Year": 2006,
+    "GDP": 33808.4
+  },
+  {
+    "Country": "LU",
+    "Year": 2007,
+    "GDP": 37178.9
+  },
+  {
+    "Country": "LU",
+    "Year": 2008,
+    "GDP": 38128.6
+  },
+  {
+    "Country": "LU",
+    "Year": 2009,
+    "GDP": 36976.5
+  },
+  {
+    "Country": "LU",
+    "Year": 2010,
+    "GDP": 40177.8
+  },
+  {
+    "Country": "LU",
+    "Year": 2011,
+    "GDP": 43164.6
+  },
+  {
+    "Country": "LU",
+    "Year": 2012,
+    "GDP": 44112.1
+  },
+  {
+    "Country": "LU",
+    "Year": 2013,
+    "GDP": 46499.6
+  },
+  {
+    "Country": "LU",
+    "Year": 2014,
+    "GDP": 49824.5
+  },
+  {
+    "Country": "LU",
+    "Year": 2015,
+    "GDP": 52065.8
+  },
+  {
+    "Country": "LU",
+    "Year": 2016,
+    "GDP": 54867.2
+  },
+  {
+    "Country": "LU",
+    "Year": 2017,
+    "GDP": 56814.2
+  },
+  {
+    "Country": "LU",
+    "Year": 2018,
+    "GDP": 60053.1
+  },
+  {
+    "Country": "LU",
+    "Year": 2019,
+    "GDP": 63516.3
+  },
+  {
+    "Country": "LV",
+    "Year": 2005,
+    "GDP": 13626.8
+  },
+  {
+    "Country": "LV",
+    "Year": 2006,
+    "GDP": 17158
+  },
+  {
+    "Country": "LV",
+    "Year": 2007,
+    "GDP": 22667.7
+  },
+  {
+    "Country": "LV",
+    "Year": 2008,
+    "GDP": 24460.8
+  },
+  {
+    "Country": "LV",
+    "Year": 2009,
+    "GDP": 18932.7
+  },
+  {
+    "Country": "LV",
+    "Year": 2010,
+    "GDP": 18022.7
+  },
+  {
+    "Country": "LV",
+    "Year": 2011,
+    "GDP": 20411.5
+  },
+  {
+    "Country": "LV",
+    "Year": 2012,
+    "GDP": 22045
+  },
+  {
+    "Country": "LV",
+    "Year": 2013,
+    "GDP": 22923.7
+  },
+  {
+    "Country": "LV",
+    "Year": 2014,
+    "GDP": 23613.9
+  },
+  {
+    "Country": "LV",
+    "Year": 2015,
+    "GDP": 24560.9
+  },
+  {
+    "Country": "LV",
+    "Year": 2016,
+    "GDP": 25360.3
+  },
+  {
+    "Country": "LV",
+    "Year": 2017,
+    "GDP": 26962.3
+  },
+  {
+    "Country": "LV",
+    "Year": 2018,
+    "GDP": 29142.5
+  },
+  {
+    "Country": "LV",
+    "Year": 2019,
+    "GDP": 30463.3
+  },
+  {
+    "Country": "MT",
+    "Year": 2005,
+    "GDP": 5159.3
+  },
+  {
+    "Country": "MT",
+    "Year": 2006,
+    "GDP": 5403
+  },
+  {
+    "Country": "MT",
+    "Year": 2007,
+    "GDP": 5790.3
+  },
+  {
+    "Country": "MT",
+    "Year": 2008,
+    "GDP": 6206
+  },
+  {
+    "Country": "MT",
+    "Year": 2009,
+    "GDP": 6259.6
+  },
+  {
+    "Country": "MT",
+    "Year": 2010,
+    "GDP": 6815.8
+  },
+  {
+    "Country": "MT",
+    "Year": 2011,
+    "GDP": 6924.6
+  },
+  {
+    "Country": "MT",
+    "Year": 2012,
+    "GDP": 7364.5
+  },
+  {
+    "Country": "MT",
+    "Year": 2013,
+    "GDP": 7944.3
+  },
+  {
+    "Country": "MT",
+    "Year": 2014,
+    "GDP": 8751.1
+  },
+  {
+    "Country": "MT",
+    "Year": 2015,
+    "GDP": 9996.7
+  },
+  {
+    "Country": "MT",
+    "Year": 2016,
+    "GDP": 10538.4
+  },
+  {
+    "Country": "MT",
+    "Year": 2017,
+    "GDP": 11637.7
+  },
+  {
+    "Country": "MT",
+    "Year": 2018,
+    "GDP": 12491
+  },
+  {
+    "Country": "MT",
+    "Year": 2019,
+    "GDP": 13390
+  },
+  {
+    "Country": "NL",
+    "Year": 2005,
+    "GDP": 550883
+  },
+  {
+    "Country": "NL",
+    "Year": 2006,
+    "GDP": 584546
+  },
+  {
+    "Country": "NL",
+    "Year": 2007,
+    "GDP": 619170
+  },
+  {
+    "Country": "NL",
+    "Year": 2008,
+    "GDP": 647198
+  },
+  {
+    "Country": "NL",
+    "Year": 2009,
+    "GDP": 624842
+  },
+  {
+    "Country": "NL",
+    "Year": 2010,
+    "GDP": 639187
+  },
+  {
+    "Country": "NL",
+    "Year": 2011,
+    "GDP": 650359
+  },
+  {
+    "Country": "NL",
+    "Year": 2012,
+    "GDP": 652966
+  },
+  {
+    "Country": "NL",
+    "Year": 2013,
+    "GDP": 660463
+  },
+  {
+    "Country": "NL",
+    "Year": 2014,
+    "GDP": 671560
+  },
+  {
+    "Country": "NL",
+    "Year": 2015,
+    "GDP": 690008
+  },
+  {
+    "Country": "NL",
+    "Year": 2016,
+    "GDP": 708337
+  },
+  {
+    "Country": "NL",
+    "Year": 2017,
+    "GDP": 738146
+  },
+  {
+    "Country": "NL",
+    "Year": 2018,
+    "GDP": 773987
+  },
+  {
+    "Country": "NL",
+    "Year": 2019,
+    "GDP": 810247
+  },
+  {
+    "Country": "PL",
+    "Year": 2005,
+    "GDP": 990530
+  },
+  {
+    "Country": "PL",
+    "Year": 2006,
+    "GDP": 1069431
+  },
+  {
+    "Country": "PL",
+    "Year": 2007,
+    "GDP": 1187508
+  },
+  {
+    "Country": "PL",
+    "Year": 2008,
+    "GDP": 1285571
+  },
+  {
+    "Country": "PL",
+    "Year": 2009,
+    "GDP": 1372025
+  },
+  {
+    "Country": "PL",
+    "Year": 2010,
+    "GDP": 1446844
+  },
+  {
+    "Country": "PL",
+    "Year": 2011,
+    "GDP": 1565251
+  },
+  {
+    "Country": "PL",
+    "Year": 2012,
+    "GDP": 1623442
+  },
+  {
+    "Country": "PL",
+    "Year": 2013,
+    "GDP": 1646724
+  },
+  {
+    "Country": "PL",
+    "Year": 2014,
+    "GDP": 1711244
+  },
+  {
+    "Country": "PL",
+    "Year": 2015,
+    "GDP": 1801112
+  },
+  {
+    "Country": "PL",
+    "Year": 2016,
+    "GDP": 1863487
+  },
+  {
+    "Country": "PL",
+    "Year": 2017,
+    "GDP": 1989835
+  },
+  {
+    "Country": "PL",
+    "Year": 2018,
+    "GDP": 2121555
+  },
+  {
+    "Country": "PL",
+    "Year": 2019,
+    "GDP": 2287738
+  },
+  {
+    "Country": "PT",
+    "Year": 2005,
+    "GDP": 158552.7
+  },
+  {
+    "Country": "PT",
+    "Year": 2006,
+    "GDP": 166260.5
+  },
+  {
+    "Country": "PT",
+    "Year": 2007,
+    "GDP": 175483.4
+  },
+  {
+    "Country": "PT",
+    "Year": 2008,
+    "GDP": 179102.8
+  },
+  {
+    "Country": "PT",
+    "Year": 2009,
+    "GDP": 175416.4
+  },
+  {
+    "Country": "PT",
+    "Year": 2010,
+    "GDP": 179610.8
+  },
+  {
+    "Country": "PT",
+    "Year": 2011,
+    "GDP": 176096.2
+  },
+  {
+    "Country": "PT",
+    "Year": 2012,
+    "GDP": 168295.6
+  },
+  {
+    "Country": "PT",
+    "Year": 2013,
+    "GDP": 170492.3
+  },
+  {
+    "Country": "PT",
+    "Year": 2014,
+    "GDP": 173053.7
+  },
+  {
+    "Country": "PT",
+    "Year": 2015,
+    "GDP": 179713.2
+  },
+  {
+    "Country": "PT",
+    "Year": 2016,
+    "GDP": 186489.8
+  },
+  {
+    "Country": "PT",
+    "Year": 2017,
+    "GDP": 195947.2
+  },
+  {
+    "Country": "PT",
+    "Year": 2018,
+    "GDP": 205184.1
+  },
+  {
+    "Country": "PT",
+    "Year": 2019,
+    "GDP": 213301
+  },
+  {
+    "Country": "RO",
+    "Year": 2005,
+    "GDP": 286861.9
+  },
+  {
+    "Country": "RO",
+    "Year": 2006,
+    "GDP": 342762.6
+  },
+  {
+    "Country": "RO",
+    "Year": 2007,
+    "GDP": 425691.1
+  },
+  {
+    "Country": "RO",
+    "Year": 2008,
+    "GDP": 539834.6
+  },
+  {
+    "Country": "RO",
+    "Year": 2009,
+    "GDP": 530894.4
+  },
+  {
+    "Country": "RO",
+    "Year": 2010,
+    "GDP": 528514.5
+  },
+  {
+    "Country": "RO",
+    "Year": 2011,
+    "GDP": 558889.9
+  },
+  {
+    "Country": "RO",
+    "Year": 2012,
+    "GDP": 591799.1
+  },
+  {
+    "Country": "RO",
+    "Year": 2013,
+    "GDP": 634967.8
+  },
+  {
+    "Country": "RO",
+    "Year": 2014,
+    "GDP": 669703.9
+  },
+  {
+    "Country": "RO",
+    "Year": 2015,
+    "GDP": 711929.9
+  },
+  {
+    "Country": "RO",
+    "Year": 2016,
+    "GDP": 763652.5
+  },
+  {
+    "Country": "RO",
+    "Year": 2017,
+    "GDP": 857895.7
+  },
+  {
+    "Country": "RO",
+    "Year": 2018,
+    "GDP": 951728.5
+  },
+  {
+    "Country": "RO",
+    "Year": 2019,
+    "GDP": 1059803.2
+  },
+  {
+    "Country": "SE",
+    "Year": 2005,
+    "GDP": 2931085
+  },
+  {
+    "Country": "SE",
+    "Year": 2006,
+    "GDP": 3121668
+  },
+  {
+    "Country": "SE",
+    "Year": 2007,
+    "GDP": 3320278
+  },
+  {
+    "Country": "SE",
+    "Year": 2008,
+    "GDP": 3412253
+  },
+  {
+    "Country": "SE",
+    "Year": 2009,
+    "GDP": 3341167
+  },
+  {
+    "Country": "SE",
+    "Year": 2010,
+    "GDP": 3573581
+  },
+  {
+    "Country": "SE",
+    "Year": 2011,
+    "GDP": 3727905
+  },
+  {
+    "Country": "SE",
+    "Year": 2012,
+    "GDP": 3743086
+  },
+  {
+    "Country": "SE",
+    "Year": 2013,
+    "GDP": 3822671
+  },
+  {
+    "Country": "SE",
+    "Year": 2014,
+    "GDP": 3992730
+  },
+  {
+    "Country": "SE",
+    "Year": 2015,
+    "GDP": 4260470
+  },
+  {
+    "Country": "SE",
+    "Year": 2016,
+    "GDP": 4415031
+  },
+  {
+    "Country": "SE",
+    "Year": 2017,
+    "GDP": 4625094
+  },
+  {
+    "Country": "SE",
+    "Year": 2018,
+    "GDP": 4828306
+  },
+  {
+    "Country": "SE",
+    "Year": 2019,
+    "GDP": 5021285
+  },
+  {
+    "Country": "SI",
+    "Year": 2005,
+    "GDP": 29113.6
+  },
+  {
+    "Country": "SI",
+    "Year": 2006,
+    "GDP": 31470.3
+  },
+  {
+    "Country": "SI",
+    "Year": 2007,
+    "GDP": 35073.5
+  },
+  {
+    "Country": "SI",
+    "Year": 2008,
+    "GDP": 37925.7
+  },
+  {
+    "Country": "SI",
+    "Year": 2009,
+    "GDP": 36254.9
+  },
+  {
+    "Country": "SI",
+    "Year": 2010,
+    "GDP": 36363.9
+  },
+  {
+    "Country": "SI",
+    "Year": 2011,
+    "GDP": 37058.6
+  },
+  {
+    "Country": "SI",
+    "Year": 2012,
+    "GDP": 36253.3
+  },
+  {
+    "Country": "SI",
+    "Year": 2013,
+    "GDP": 36454.3
+  },
+  {
+    "Country": "SI",
+    "Year": 2014,
+    "GDP": 37634.3
+  },
+  {
+    "Country": "SI",
+    "Year": 2015,
+    "GDP": 38852.6
+  },
+  {
+    "Country": "SI",
+    "Year": 2016,
+    "GDP": 40443.2
+  },
+  {
+    "Country": "SI",
+    "Year": 2017,
+    "GDP": 43009.1
+  },
+  {
+    "Country": "SI",
+    "Year": 2018,
+    "GDP": 45862.6
+  },
+  {
+    "Country": "SI",
+    "Year": 2019,
+    "GDP": 48392.6
+  },
+  {
+    "Country": "SK",
+    "Year": 2005,
+    "GDP": 50485.7
+  },
+  {
+    "Country": "SK",
+    "Year": 2006,
+    "GDP": 56361.4
+  },
+  {
+    "Country": "SK",
+    "Year": 2007,
+    "GDP": 63163.4
+  },
+  {
+    "Country": "SK",
+    "Year": 2008,
+    "GDP": 68590.5
+  },
+  {
+    "Country": "SK",
+    "Year": 2009,
+    "GDP": 64095.5
+  },
+  {
+    "Country": "SK",
+    "Year": 2010,
+    "GDP": 68188.7
+  },
+  {
+    "Country": "SK",
+    "Year": 2011,
+    "GDP": 71304.5
+  },
+  {
+    "Country": "SK",
+    "Year": 2012,
+    "GDP": 73575.8
+  },
+  {
+    "Country": "SK",
+    "Year": 2013,
+    "GDP": 74448.8
+  },
+  {
+    "Country": "SK",
+    "Year": 2014,
+    "GDP": 76269.8
+  },
+  {
+    "Country": "SK",
+    "Year": 2015,
+    "GDP": 79767.6
+  },
+  {
+    "Country": "SK",
+    "Year": 2016,
+    "GDP": 81051.5
+  },
+  {
+    "Country": "SK",
+    "Year": 2017,
+    "GDP": 84532.2
+  },
+  {
+    "Country": "SK",
+    "Year": 2018,
+    "GDP": 89505.5
+  },
+  {
+    "Country": "SK",
+    "Year": 2019,
+    "GDP": 93865.2
+  },
+  {
+    "Country": "UK",
+    "Year": 2005,
+    "GDP": 1393038
+  },
+  {
+    "Country": "UK",
+    "Year": 2006,
+    "GDP": 1470719
+  },
+  {
+    "Country": "UK",
+    "Year": 2007,
+    "GDP": 1546085
+  },
+  {
+    "Country": "UK",
+    "Year": 2008,
+    "GDP": 1589259
+  },
+  {
+    "Country": "UK",
+    "Year": 2009,
+    "GDP": 1548513
+  },
+  {
+    "Country": "UK",
+    "Year": 2010,
+    "GDP": 1606027
+  },
+  {
+    "Country": "UK",
+    "Year": 2011,
+    "GDP": 1660141
+  },
+  {
+    "Country": "UK",
+    "Year": 2012,
+    "GDP": 1711770
+  },
+  {
+    "Country": "UK",
+    "Year": 2013,
+    "GDP": 1780336
+  },
+  {
+    "Country": "UK",
+    "Year": 2014,
+    "GDP": 1863008
+  },
+  {
+    "Country": "UK",
+    "Year": 2015,
+    "GDP": 1919641
+  },
+  {
+    "Country": "UK",
+    "Year": 2016,
+    "GDP": 1994712
+  },
+  {
+    "Country": "UK",
+    "Year": 2017,
+    "GDP": 2068757
+  },
+  {
+    "Country": "UK",
+    "Year": 2018,
+    "GDP": 2141792
+  },
+  {
+    "Country": "UK",
+    "Year": 2019,
+    "GDP": 2214362
+  }
+]
