@@ -81,6 +81,7 @@ function analyzer(inequality) {
         //var yearslength = yearsv2.length();
 
         var maximo=0;
+        var minimo=0;
         var countries_filtered_years=[];
 
         for(let i=0; i<selected_countries.length; i++) {
@@ -89,17 +90,21 @@ function analyzer(inequality) {
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
               aux.push(selected_countries[i][j]);
-              console.log("TOU AQUI",selected_countries[i][j].GDP);
               if(maximo<selected_countries[i][j].GDP){
                 maximo=selected_countries[i][j].GDP;
               }
+              if(minimo>selected_countries[i][j].GDP){
+                minimo=selected_countries[i][j].GDP;
+              }
             }
           }
+          if(minimo>0){
+            minimo=0;
+          }
           countries_filtered_years.push(aux);
-          console.log("dps da lista",maximo);
         }
 
-      line_chart(countries_filtered_years,maximo);
+      line_chart(countries_filtered_years,maximo,minimo);
       });
       break
     case "Poverty":
@@ -128,7 +133,7 @@ function analyzer(inequality) {
 //_____________________________________________________________________
 
 //DISPLAY GDP
-function line_chart(paises, maximo) {
+function line_chart(paises, maximo,minimo) {
   console.log("paises",paises);
   var xscaleData = paises[0].map((a) => a.Year);
   console.log(xscaleData);
@@ -140,7 +145,7 @@ function line_chart(paises, maximo) {
 
   var hscale = d3
     .scaleLinear()
-    .domain([0,maximo])
+    .domain([minimo,maximo])
     .range([height - padding, padding]);
 
   console.log("maximo?",maximo);
