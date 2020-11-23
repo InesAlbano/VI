@@ -12,10 +12,11 @@ document.getElementById("button-forms").addEventListener("click", function(){
 
 function updateLine(){
   var v = localStorage.getItem("variable");
-  analyzer(v);
+  var e = localStorage.getItem("education");
+  analyzer(v, e);
 }
 
-function analyzer(inequality) {
+function analyzer(inequality, education) {
 	switch (inequality) {
     case "GDP": // no education
       d3.select("#line-svg").remove();
@@ -63,12 +64,47 @@ function analyzer(inequality) {
         line_chart();
       });       
       break
-    case "Income":
+    case "Income": //this is not workingggggggg
       d3.select("#line-svg").remove();
-      d3.json("").then(function (data) { //parse data
+      d3.json("csv/LineChart/Q4.json").then(function (data) {
         dataset = data;
-        line_chart();
-      });       
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              aux.push(selected_countries[i][j]);
+              if(maximo<(selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM)){
+                maximo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyMn;
+              }
+              if(minimo>selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM){
+                minimo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM;
+              }
+            }
+          }
+          if(minimo>0){
+            minimo=0;
+          } else {
+            minimo = minimo * 2;
+          }
+          console.log("filtered years", countries_filtered_years)
+          countries_filtered_years.push(aux);
+        }
+      line_chart(countries_filtered_years,maximo,minimo, inequality);
+      });          
       break
     case "Education": // TODO get csv
       d3.select("#line-svg").remove();
@@ -111,28 +147,102 @@ function analyzer(inequality) {
           if(minimo>0){
             minimo=0;
           } else {
-            minimo = minimo - 10;
+            minimo = minimo  * 2;
           }
           countries_filtered_years.push(aux);
         }
-      console.log("countries filtered", countries_filtered_years)
       line_chart(countries_filtered_years,maximo,minimo, inequality);
       });    
       break
     case "Poverty":
       d3.select("#line-svg").remove();
-      d3.json("").then(function (data) { //parse data
+      d3.json("csv/LineChart/Q1.json").then(function (data) {
         dataset = data;
-        line_chart();
-      });       
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.code === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              if (education === selected_countries[i][j].ISCED11) {
+                
+                aux.push(selected_countries[i][j]);
+                if(maximo<selected_countries[i][j].AVG){
+                  maximo=selected_countries[i][j].AVG;
+                }
+                if(minimo>selected_countries[i][j].AVG){
+                  minimo=selected_countries[i][j].AVG;
+                }
+              }
+            }
+          }
+          if(minimo>0){
+            minimo = 0;
+          } else {
+            minimo = minimo * 2;
+          }
+          countries_filtered_years.push(aux);
+        }
+      line_chart(countries_filtered_years,maximo,minimo, inequality);
+      });
       break
     case "GWG": 
-      d3.select("#line-svg").remove();
-      d3.json("").then(function (data) { //parse data
-        dataset = data;
-        line_chart();
-      });       
-      break
+    d3.select("#line-svg").remove();
+    d3.json("csv/LineChart/Q4_b.json").then(function (data) {
+      dataset = data;
+
+      var selected_countries = [];
+      $('#checkboxes input:checked').each(function() {
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+      )});
+            
+      var years=[];
+      $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+      let yearsv2 = years.map(i=>Number(i));
+
+      var maximo=0;
+      var minimo=0;
+      var countries_filtered_years=[];
+
+      for(let i=0; i<selected_countries.length; i++) {
+        var aux=[];
+        for(let j=0; j<selected_countries[i].length; j++){
+          if(yearsv2.includes(selected_countries[i][j].Year)) {
+            if (education === selected_countries[i][j].ISCED11) {
+              
+              aux.push(selected_countries[i][j]);
+              if(maximo<selected_countries[i][j].GenderWageGap){
+                maximo=selected_countries[i][j].GenderWageGap;
+              }
+              if(minimo>selected_countries[i][j].GenderWageGap){
+                minimo=selected_countries[i][j].GenderWageGap;
+              }
+            }
+          }
+        }
+        if(minimo>0){
+          minimo = 0;
+        } else {
+          minimo = minimo * 2;
+        }
+        countries_filtered_years.push(aux);
+      }
+    console.log("countries", countries_filtered_years)
+    line_chart(countries_filtered_years, maximo, minimo, inequality);
+    });
+    break
     default:
       d3.select("#line-svg").remove();
       inequality="Gdp";
@@ -145,9 +255,7 @@ function analyzer(inequality) {
 
 /* --- DISPLAY GDP --- */
 function line_chart(paises, maximo,minimo, v) {
-  console.log("paises",paises);
   var xscaleData = paises[0].map((a) => a.Year);
-  console.log(xscaleData);
 
   var xscale = d3
     .scalePoint()
@@ -159,7 +267,6 @@ function line_chart(paises, maximo,minimo, v) {
     .domain([minimo,maximo])
     .range([height - padding, padding]);
 
-  console.log("maximo?",maximo);
   var svg = d3
     .select("#line_chart")
     .append("svg")
@@ -187,16 +294,26 @@ function line_chart(paises, maximo,minimo, v) {
                 return hscale(d.GDP);
               else if (v === "Employment")
                 return hscale(); // TODO
-              else if (v === "Income")
-                return hscale(d.MoneyF + d.MoneyM);
+              else if (v === "Income"){ //THIS IS NOT WORKINGGGGG
+                var aux = 0;
+                if (d.MoneyF == -1 || d.MoneyM == -1)
+                  aux = 0 //outlier
+                else
+                  aux = parseInt(d.MoneyF) + parseInt(d.MoneyM);
+                console.log("aux", aux)
+                return hscale(aux);
+              }
               else if (v === "Education")
                 return hscale(); //TODO
               else if (v === "Women-high-pos")
                 return hscale(d.femaleEmployeesHighPosition);
-              else if (v === "Poverty")
-                return hscale(d.AVG);
-              else if (v === "GWG")
-                return hscale(d.GenderWageGap);
+              else if (v === "Poverty"){console.log(d.AVG)
+                return hscale(d.AVG);}
+              else if (v === "GWG"){ // its not displaying correctly even though aux is correct
+                var aux = parseFloat(d.GenderWageGap.replace(",", "."))
+                console.log("aux", hscale(aux))
+                return hscale(aux);
+              }
             })
         );  
       }
