@@ -11,6 +11,7 @@
     <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
     <script src="https://unpkg.com/topojson@3"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
 <body>
     <section class="container">
@@ -61,7 +62,7 @@
                     <li>
                         <div class="radio-toolbar-education">
                             <input type="radio" id="0-2" name="education" value="0-2"><label for="0-2">ED0_2</label>
-                            <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3-4</label>
+                            <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3_4</label>
                             <input type="radio" id="5-8" name="education" value="5-8"><label for="5-8">ED5_8</label>
                         </div>
                     </li>
@@ -178,7 +179,7 @@
     var expanded1 = false;
 
     function showCheckboxes() {
-        var checkboxes = document.getElementById("checkboxes");
+        var checkboxes = document.getElementById("checkboxes"); //countries
         if (!expanded) {
             checkboxes.style.display = "block";
             expanded = true;
@@ -190,7 +191,7 @@
 
     /* to remove after */
     function showCheckboxes1() {
-        var checkboxes1 = document.getElementById("checkboxes1");
+        var checkboxes1 = document.getElementById("checkboxes1"); //years
         if (!expanded1) {
             checkboxes1.style.display = "block";
             expanded1 = true;

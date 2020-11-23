@@ -28,8 +28,8 @@ function analyzer(inequality) {
       d3.select("#line-svg").remove();
       d3.json("csv/gdp.json").then(function (data) { //parse data
         dataset = data;
-        // DATASET GDP TRATADINHO HIHIHIHI____________________
-        let at = dataset.filter(row => row.Country === 'AT');
+        // Dataset por Countries ______________________________
+/*         let at = dataset.filter(row => row.Country === 'AT');
         let be = dataset.filter(row => row.Country === 'BE');
         let bg = dataset.filter(row => row.Country === 'BG');
         let cy = dataset.filter(row => row.Country === 'CY');
@@ -56,13 +56,59 @@ function analyzer(inequality) {
         let se = dataset.filter(row => row.Country === 'SE');
         let si = dataset.filter(row => row.Country === 'SI');
         let sk = dataset.filter(row => row.Country === 'SK');
-        let uk = dataset.filter(row => row.Country === 'UK');
-
+        let uk = dataset.filter(row => row.Country === 'UK'); */
         // countries initials
-        var paises = [at,be,bg,cy,cz,de,dk,ee,el,es,fi,fr,hr,hu,ie,it,lt,lu,lv,mt,nl,pl,pt,ro,se,si,sk,uk];
+        //var paises = [at,be,bg,cy,cz,de,dk,ee,el,es,fi,fr,hr,hu,ie,it,lt,lu,lv,mt,nl,pl,pt,ro,se,si,sk,uk];
 
-        //______________________________________________________
-        line_chart(paises);
+        // is going to be filled with the contries from checked checkboxs
+        var selected_countries = [];
+
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        //________________________________________________________
+
+        var years=[];
+        //var countries_filtered_years = [];
+
+
+        $('#checkboxes1 input:checked').each(function() {
+          years.push($(this).attr('value'));
+        }); //BUT years is an array of strings (not numbers -.-)
+
+        //CONVERT TO AN ARRAY OF F* NUMBERS
+        let yearsv2 = years.map(i=>Number(i));
+        console.log(yearsv2);
+        //var yearslength = yearsv2.length();
+
+        //creates as many arrays as the length of years
+/*         function(yearslength){
+          for(let i=0; i<years.length; i++){
+            return var yo+i=0;
+          }
+        }
+
+        for(let i=0; i<yearsv2.length; i++){
+          
+          dataset.filter(row => row.Year === yearsv2[i]);          
+        } */
+
+/*         $('#checkboxes1 input:checked').each(function() {
+          years.push($(this).attr('value'));
+        }); */
+
+/*         $('#checkboxes1 input:checked').each(function() {
+          countries_filtered_years.push(selected_countries.filter(function(obj){
+            return obj.Year===$(this).attr('value');
+          }))
+        }); */
+
+/*         console.log(dataset);
+        console.log(years);
+        console.log(selected_countries);
+        console.log(countries_filtered_years); */
+        line_chart(selected_countries);
       });
       break
     case "Poverty":
