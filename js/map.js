@@ -56,7 +56,7 @@ function init(e,v,c,y, update) {
           mapIncome(data, filePath, c, y, e);  
           break;
         case "Education":
-          filePath = ""; // TODO
+          filePath = "csv/CholoplethMap/Q2_b.json"; // TODO
           mapEducation(data, filePath, c, y, e);  
           break;
         case "Women-high-pos":
@@ -246,7 +246,52 @@ function mapIncome(data, filePath, c, y, e){
 }
 
 function mapEducation(data, filePath, c, y, e){
-  // TODO implement after extracting csv
+  var colorScale = d3.scaleThreshold()
+  .domain([10, 30, 50, 60, 70, 90])
+  .range(d3.schemeBlues[7]);
+
+  d3.json(filePath).then(function (data2) {
+    var projection = d3.geoMercator()     // creates the mercator projection
+                       .center([75, 50])  // projection center [longitude, latitude]
+                       .scale(300)        // scale factor of the projection
+                       
+    var path = d3.geoPath().projection(projection);
+    
+    d3.select("#map-holder").append("svg") //this cannot be append
+      .attr("id", "map-svg")
+      .attr("width", 960)
+      .attr("height", 500)
+      .selectAll("path")
+      .data(data.features)
+      .enter()
+      .append("path")
+      .attr("d", path)
+      .style("fill", function(d) {
+        var val = 0;
+        data2.forEach(d2 => {
+          if ((c.includes(d2.Country)) && 
+              (y.includes(d2.Year)) && 
+              (e.includes(d2.isced11)) && 
+              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+            if(d2.values == -1){
+              val = -1
+            } else {
+              val = val + d2.value;
+            }
+          }
+        });
+        return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
+
+      })
+      .attr("name", function(d){
+        return d.id;
+      })
+      .style('stroke', '#515151')
+      .style('stroke-width', 1)
+      .on("mouseover", mouseOver)
+      .on("mouseleave", mouseLeave)
+      addZoom();          
+  });
 }
 
 function mapWHP(data, filePath, c, y){
