@@ -244,19 +244,26 @@ function analyzer(inequality, education) {
     });
     break
     default:
-      d3.select("#line-svg").remove();
-      inequality="Gdp";
+      console.log("not done yet");
+      /* d3.select("#line-svg").remove();
+      inequality="GDP";
       d3.json("csv/gdp.json").then(function (data) { //parse data
         dataset = data;
         line_chart([]);
-      });
+      }); */
 	}
 }
 
-/* --- DISPLAY GDP --- */
-function line_chart(paises, maximo,minimo, v) {
-  var xscaleData = paises[0].map((a) => a.Year);
 
+/* ------------------------------------- LINE CHART --------------------------------------- */
+
+function line_chart(paises, maximo,minimo, v) {
+  
+  // INITIAL VARS ____________________________________________________________________________
+
+  var xscaleData = paises[0].map((a) => a.Year);
+  
+  // Scales
   var xscale = d3
     .scalePoint()
     .domain(xscaleData)
@@ -267,16 +274,99 @@ function line_chart(paises, maximo,minimo, v) {
     .domain([minimo,maximo])
     .range([height - padding, padding]);
 
+  // Define image SVG; everything of SVG will be append on the div of line_chart
   var svg = d3
     .select("#line_chart")
-    .append("svg")
+    .append("svg") // appends an svg to the div 'line_chart'
     .attr("id", "line-svg")
     .attr("width", width)
     .attr("height", height);
 
-    if(paises.length > 0)
-      for (i = 0; i < paises.length; i++) {
-        svg
+  // Scatterplor cannot have 2 lists of obj. It has to get data all from the same array of obj. otherwise *Puffff*
+  // to be used on SVG - PLOTS
+  var new_paises=[]; 
+  for(let i=0; i<paises.length; i++) {
+    for(let j=0; j<paises[i].length; j++){
+      new_paises.push(paises[i][j]);
+    }
+  }
+
+  // Create a tooltip
+  var tooltip = d3
+    .select("#line_chart")
+    .append("div")
+    .attr("class", "tooltip-plot")
+    .style("height", 40)
+    .style("width", 40)
+    .style("opacity", 0)
+    .attr("class", "tooltip")
+    .style("background-color", "white")
+    .style("border", "solid")
+    .style("border-width", "1px")
+    .style("border-radius", "5px")
+    .style("padding", "10px");
+
+
+  // PLOTS CHANGE WHEN HOVERED _______________________________________________________________
+
+  function handleMouseOver(d, i) {
+    
+    d3
+      .select(this)
+      .attr("fill", "orange")
+      .attr("r", radius*2);
+
+    //TOOLTIP NOT F* WORKING
+    tooltip
+      .transition()
+      .duration(50)
+      .style("opacity", 1);
+
+    tooltip
+      .html(d.GDP)
+      .style("left", (d3.event.pageX + 10) + "px")
+      .style("top", (d3.event.pageY - 15) + "px");
+  
+  }
+
+  function handleMouseOut(d, i) {
+    d3
+      .select(this)
+      .attr("fill", "red")
+      .attr("r", radius);
+
+    tooltip
+      .transition()
+      .duration(50)
+      .style("opacity", 0);
+  }
+  // __________________________________________________________________________________________
+
+  // SVG - Plots + Lines ______________________________________________________________________
+  if(paises.length > 0) {
+    for (i = 0; i < paises.length; i++) {
+      
+      // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
+      var plots = svg
+        .selectAll("circle")
+        .data(new_paises)
+        .join("circle") // now we append circles
+        .attr("r", radius) // each circle
+        .attr("fill", "red")
+        .attr("stroke", "red")
+        .attr("cx", function (d, i) {
+          return xscale(d.Year);
+        })
+        .attr("cy", function (d) {
+          // we define each circle y position
+          if (v === "GDP")
+            return hscale(d.GDP);
+        })
+        .on("mouseover", handleMouseOver)
+        .on("mouseout", handleMouseOut);
+      
+      // LINES ----------------------------------------------------------------------------------
+      svg
         .append("path")
         .datum(paises[i])
         .attr("fill", "none")
@@ -317,8 +407,10 @@ function line_chart(paises, maximo,minimo, v) {
             })
         );  
       }
-    
+    }
+  //______________________________________________________________________________________________
 
+  // AXIS ________________________________________________________________________________________
   var yaxis = d3
     .axisLeft() // we are creating a d3 axis
     .scale(hscale) // fit to our scale
@@ -340,9 +432,9 @@ function line_chart(paises, maximo,minimo, v) {
     .attr("class", "label")
     .text("Budget (M)");
 
-  var xscaleDataFiltered = xscaleData.filter(function (d, i) {
-    if (i % 5 == 0) return d;
-  });
+  /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
+      if (i % 5 == 0) return d;
+  }); */
 
   var xaxis = d3
     .axisBottom() // we are creating a d3 axis
