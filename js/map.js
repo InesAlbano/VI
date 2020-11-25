@@ -3,6 +3,7 @@ document.getElementById("button-forms").addEventListener("click", function(){
   updateMap(update=true);
 }); 
 
+var tooltip = d3.select("div.tooltip");
 
 function updateMap(update = false){
   // retrieving values from index.html
@@ -94,6 +95,7 @@ function init(e,v,c,y, update) {
         .style('stroke', '#515151')
         .style('stroke-width', 1)
         .on("mouseover", mouseOver)
+
         .on("mouseleave", mouseLeave)
       addZoom();
     });
@@ -102,6 +104,7 @@ function init(e,v,c,y, update) {
 
 // Hover effects - missing: countries' names appearing (and maybe variable value) 
 function mouseOver() {
+  this.parentNode.appendChild(this);
   d3.selectAll(".country")
     .transition()
     .duration(200)
@@ -110,7 +113,9 @@ function mouseOver() {
     .transition()
     .duration(200)
     .style("opacity", 1)
-    .style("stroke", "#515151")
+    .style("stroke", "white")
+  d3.select(this).attr("fill","grey").attr("stroke-width",2);
+  return tooltip.style("hidden", false).html(this.Country);
 }
 
 function mouseLeave() {
@@ -121,7 +126,10 @@ function mouseLeave() {
   d3.select(this)
     .transition()
     .duration(200)
-    .style("stroke", "transparent")
+    .style("stroke", "#515151")
+  d3.select(this).attr("fill","white").attr("stroke-width",1);
+  tooltip.classed("hidden", true);
+
 }
 
 function addZoom() {
