@@ -1,0 +1,6482 @@
+[
+    {
+      "Year": 2005,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,2",
+      "Employment Rate M": "20,7",
+      "Average Employment": "24,45"
+    },
+    {
+      "Year": 2005,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,9",
+      "Employment Rate M": "36,7",
+      "Average Employment": "36,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,7",
+      "Employment Rate M": "34,1",
+      "Average Employment": "33,4"
+    },
+    {
+      "Year": 2005,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "36,6",
+      "Employment Rate M": "35,8",
+      "Average Employment": "36,2"
+    },
+    {
+      "Year": 2005,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,7",
+      "Employment Rate M": "14,0",
+      "Average Employment": "16,85"
+    },
+    {
+      "Year": 2005,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,3",
+      "Employment Rate M": "22,3",
+      "Average Employment": "24,8"
+    },
+    {
+      "Year": 2005,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,3",
+      "Employment Rate M": "25,1",
+      "Average Employment": "25,7"
+    },
+    {
+      "Year": 2005,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,2",
+      "Employment Rate M": "22,9",
+      "Average Employment": "20,05"
+    },
+    {
+      "Year": 2005,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,1",
+      "Employment Rate M": "40,0",
+      "Average Employment": "40,05"
+    },
+    {
+      "Year": 2005,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "50,6",
+      "Employment Rate M": "52,8",
+      "Average Employment": "51,7"
+    },
+    {
+      "Year": 2005,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,7",
+      "Employment Rate M": "29,2",
+      "Average Employment": "26,95"
+    },
+    {
+      "Year": 2005,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "36,6",
+      "Employment Rate M": "34,5",
+      "Average Employment": "35,55"
+    },
+    {
+      "Year": 2005,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,5",
+      "Employment Rate M": "23,9",
+      "Average Employment": "29,2"
+    },
+    {
+      "Year": 2005,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,1",
+      "Employment Rate M": "25,9",
+      "Average Employment": "28,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,1",
+      "Employment Rate M": "39,9",
+      "Average Employment": "37,0"
+    },
+    {
+      "Year": 2005,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "49,9",
+      "Employment Rate M": "51,3",
+      "Average Employment": "50,6"
+    },
+    {
+      "Year": 2005,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,9",
+      "Employment Rate M": "22,8",
+      "Average Employment": "20,85"
+    },
+    {
+      "Year": 2005,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "41,7",
+      "Employment Rate M": "35,7",
+      "Average Employment": "38,7"
+    },
+    {
+      "Year": 2005,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,0",
+      "Employment Rate M": "28,5",
+      "Average Employment": "24,75"
+    },
+    {
+      "Year": 2005,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "72,5",
+      "Employment Rate M": "65,3",
+      "Average Employment": "68,9"
+    },
+    {
+      "Year": 2005,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "36,8",
+      "Employment Rate M": "32,3",
+      "Average Employment": "34,55"
+    },
+    {
+      "Year": 2005,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,0",
+      "Employment Rate M": "21,7",
+      "Average Employment": "21,85"
+    },
+    {
+      "Year": 2005,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "69,8",
+      "Employment Rate M": "75,6",
+      "Average Employment": "72,7"
+    },
+    {
+      "Year": 2005,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "37,2",
+      "Employment Rate M": "29,4",
+      "Average Employment": "33,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,4",
+      "Employment Rate M": "23,2",
+      "Average Employment": "21,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,9",
+      "Employment Rate M": "22,1",
+      "Average Employment": "24,0"
+    },
+    {
+      "Year": 2005,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,1",
+      "Employment Rate M": "17,8",
+      "Average Employment": "19,95"
+    },
+    {
+      "Year": 2006,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,6",
+      "Employment Rate M": "20,3",
+      "Average Employment": "24,95"
+    },
+    {
+      "Year": 2006,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,0",
+      "Employment Rate M": "36,4",
+      "Average Employment": "35,7"
+    },
+    {
+      "Year": 2006,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,2",
+      "Employment Rate M": "31,0",
+      "Average Employment": "30,6"
+    },
+    {
+      "Year": 2006,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,5",
+      "Employment Rate M": "33,6",
+      "Average Employment": "33,55"
+    },
+    {
+      "Year": 2006,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "13,7",
+      "Average Employment": "16,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,9",
+      "Employment Rate M": "22,3",
+      "Average Employment": "24,6"
+    },
+    {
+      "Year": 2006,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,4",
+      "Employment Rate M": "24,4",
+      "Average Employment": "25,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,1",
+      "Employment Rate M": "24,3",
+      "Average Employment": "20,7"
+    },
+    {
+      "Year": 2006,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,1",
+      "Employment Rate M": "42,7",
+      "Average Employment": "41,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "49,5",
+      "Employment Rate M": "52,2",
+      "Average Employment": "50,85"
+    },
+    {
+      "Year": 2006,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,9",
+      "Employment Rate M": "28,5",
+      "Average Employment": "26,2"
+    },
+    {
+      "Year": 2006,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,8",
+      "Employment Rate M": "34,1",
+      "Average Employment": "34,95"
+    },
+    {
+      "Year": 2006,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,5",
+      "Employment Rate M": "23,9",
+      "Average Employment": "28,2"
+    },
+    {
+      "Year": 2006,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,7",
+      "Employment Rate M": "24,7",
+      "Average Employment": "27,2"
+    },
+    {
+      "Year": 2006,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,4",
+      "Employment Rate M": "38,6",
+      "Average Employment": "35,5"
+    },
+    {
+      "Year": 2006,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "48,7",
+      "Employment Rate M": "50,4",
+      "Average Employment": "49,55"
+    },
+    {
+      "Year": 2006,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,6",
+      "Employment Rate M": "22,8",
+      "Average Employment": "20,7"
+    },
+    {
+      "Year": 2006,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "41,4",
+      "Employment Rate M": "37,1",
+      "Average Employment": "39,25"
+    },
+    {
+      "Year": 2006,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,5",
+      "Employment Rate M": "29,1",
+      "Average Employment": "24,8"
+    },
+    {
+      "Year": 2006,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "70,9",
+      "Employment Rate M": "64,1",
+      "Average Employment": "67,5"
+    },
+    {
+      "Year": 2006,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,0",
+      "Employment Rate M": "32,3",
+      "Average Employment": "33,65"
+    },
+    {
+      "Year": 2006,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,9",
+      "Employment Rate M": "21,0",
+      "Average Employment": "20,95"
+    },
+    {
+      "Year": 2006,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "68,8",
+      "Employment Rate M": "74,7",
+      "Average Employment": "71,75"
+    },
+    {
+      "Year": 2006,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,9",
+      "Employment Rate M": "28,2",
+      "Average Employment": "32,05"
+    },
+    {
+      "Year": 2006,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,6",
+      "Employment Rate M": "27,1",
+      "Average Employment": "26,85"
+    },
+    {
+      "Year": 2006,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,6",
+      "Employment Rate M": "21,2",
+      "Average Employment": "22,9"
+    },
+    {
+      "Year": 2006,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,0",
+      "Employment Rate M": "16,7",
+      "Average Employment": "18,85"
+    },
+    {
+      "Year": 2007,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,0",
+      "Employment Rate M": "20,8",
+      "Average Employment": "25,4"
+    },
+    {
+      "Year": 2007,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,4",
+      "Employment Rate M": "35,2",
+      "Average Employment": "34,8"
+    },
+    {
+      "Year": 2007,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,2",
+      "Employment Rate M": "29,1",
+      "Average Employment": "28,65"
+    },
+    {
+      "Year": 2007,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,0",
+      "Employment Rate M": "31,3",
+      "Average Employment": "31,15"
+    },
+    {
+      "Year": 2007,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,8",
+      "Employment Rate M": "13,6",
+      "Average Employment": "16,2"
+    },
+    {
+      "Year": 2007,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,5",
+      "Employment Rate M": "21,5",
+      "Average Employment": "23,5"
+    },
+    {
+      "Year": 2007,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,6",
+      "Employment Rate M": "32,1",
+      "Average Employment": "32,35"
+    },
+    {
+      "Year": 2007,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,9",
+      "Employment Rate M": "23,3",
+      "Average Employment": "20,1"
+    },
+    {
+      "Year": 2007,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,4",
+      "Employment Rate M": "42,2",
+      "Average Employment": "40,8"
+    },
+    {
+      "Year": 2007,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "49,0",
+      "Employment Rate M": "51,2",
+      "Average Employment": "50,1"
+    },
+    {
+      "Year": 2007,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,0",
+      "Employment Rate M": "27,7",
+      "Average Employment": "25,35"
+    },
+    {
+      "Year": 2007,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,7",
+      "Employment Rate M": "33,2",
+      "Average Employment": "33,95"
+    },
+    {
+      "Year": 2007,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,6",
+      "Employment Rate M": "22,7",
+      "Average Employment": "26,65"
+    },
+    {
+      "Year": 2007,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,7",
+      "Employment Rate M": "23,8",
+      "Average Employment": "26,25"
+    },
+    {
+      "Year": 2007,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,3",
+      "Employment Rate M": "35,9",
+      "Average Employment": "33,1"
+    },
+    {
+      "Year": 2007,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "47,7",
+      "Employment Rate M": "49,7",
+      "Average Employment": "48,7"
+    },
+    {
+      "Year": 2007,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,8",
+      "Employment Rate M": "22,1",
+      "Average Employment": "19,95"
+    },
+    {
+      "Year": 2007,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,9",
+      "Employment Rate M": "36,5",
+      "Average Employment": "38,7"
+    },
+    {
+      "Year": 2007,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,3",
+      "Employment Rate M": "28,0",
+      "Average Employment": "24,15"
+    },
+    {
+      "Year": 2007,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "70,2",
+      "Employment Rate M": "64,4",
+      "Average Employment": "67,3"
+    },
+    {
+      "Year": 2007,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,1",
+      "Employment Rate M": "31,6",
+      "Average Employment": "32,85"
+    },
+    {
+      "Year": 2007,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,2",
+      "Employment Rate M": "20,6",
+      "Average Employment": "20,4"
+    },
+    {
+      "Year": 2007,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "68,5",
+      "Employment Rate M": "74,5",
+      "Average Employment": "71,5"
+    },
+    {
+      "Year": 2007,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,8",
+      "Employment Rate M": "27,0",
+      "Average Employment": "30,9"
+    },
+    {
+      "Year": 2007,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,4",
+      "Employment Rate M": "26,7",
+      "Average Employment": "26,55"
+    },
+    {
+      "Year": 2007,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "20,5",
+      "Average Employment": "22,25"
+    },
+    {
+      "Year": 2007,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,1",
+      "Employment Rate M": "16,7",
+      "Average Employment": "18,4"
+    },
+    {
+      "Year": 2008,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,8",
+      "Employment Rate M": "20,3",
+      "Average Employment": "24,55"
+    },
+    {
+      "Year": 2008,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,0",
+      "Employment Rate M": "34,1",
+      "Average Employment": "33,55"
+    },
+    {
+      "Year": 2008,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,0",
+      "Employment Rate M": "28,7",
+      "Average Employment": "28,35"
+    },
+    {
+      "Year": 2008,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,7",
+      "Employment Rate M": "30,1",
+      "Average Employment": "30,4"
+    },
+    {
+      "Year": 2008,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,4",
+      "Employment Rate M": "13,4",
+      "Average Employment": "15,9"
+    },
+    {
+      "Year": 2008,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,1",
+      "Employment Rate M": "20,5",
+      "Average Employment": "22,3"
+    },
+    {
+      "Year": 2008,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,7",
+      "Employment Rate M": "32,8",
+      "Average Employment": "33,25"
+    },
+    {
+      "Year": 2008,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,8",
+      "Employment Rate M": "23,1",
+      "Average Employment": "20,45"
+    },
+    {
+      "Year": 2008,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "38,3",
+      "Employment Rate M": "41,2",
+      "Average Employment": "39,75"
+    },
+    {
+      "Year": 2008,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "48,4",
+      "Employment Rate M": "51,3",
+      "Average Employment": "49,85"
+    },
+    {
+      "Year": 2008,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,8",
+      "Employment Rate M": "27,5",
+      "Average Employment": "25,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,4",
+      "Employment Rate M": "32,5",
+      "Average Employment": "32,95"
+    },
+    {
+      "Year": 2008,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,2",
+      "Employment Rate M": "22,6",
+      "Average Employment": "25,9"
+    },
+    {
+      "Year": 2008,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,0",
+      "Employment Rate M": "23,4",
+      "Average Employment": "25,7"
+    },
+    {
+      "Year": 2008,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,6",
+      "Employment Rate M": "35,0",
+      "Average Employment": "31,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "46,7",
+      "Employment Rate M": "49,1",
+      "Average Employment": "47,9"
+    },
+    {
+      "Year": 2008,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,6",
+      "Employment Rate M": "20,6",
+      "Average Employment": "18,6"
+    },
+    {
+      "Year": 2008,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,2",
+      "Employment Rate M": "34,4",
+      "Average Employment": "36,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "26,8",
+      "Average Employment": "22,95"
+    },
+    {
+      "Year": 2008,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "67,4",
+      "Employment Rate M": "62,9",
+      "Average Employment": "65,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,8",
+      "Employment Rate M": "31,8",
+      "Average Employment": "32,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,4",
+      "Employment Rate M": "19,9",
+      "Average Employment": "19,65"
+    },
+    {
+      "Year": 2008,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "67,8",
+      "Employment Rate M": "73,8",
+      "Average Employment": "70,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,7",
+      "Employment Rate M": "26,6",
+      "Average Employment": "30,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,0",
+      "Employment Rate M": "26,3",
+      "Average Employment": "26,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,2",
+      "Employment Rate M": "20,6",
+      "Average Employment": "21,9"
+    },
+    {
+      "Year": 2008,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,4",
+      "Employment Rate M": "15,8",
+      "Average Employment": "17,6"
+    },
+    {
+      "Year": 2009,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,0",
+      "Employment Rate M": "19,6",
+      "Average Employment": "23,8"
+    },
+    {
+      "Year": 2009,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,7",
+      "Employment Rate M": "33,1",
+      "Average Employment": "32,4"
+    },
+    {
+      "Year": 2009,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,5",
+      "Employment Rate M": "27,6",
+      "Average Employment": "27,55"
+    },
+    {
+      "Year": 2009,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,4",
+      "Employment Rate M": "31,0",
+      "Average Employment": "31,2"
+    },
+    {
+      "Year": 2009,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,4",
+      "Employment Rate M": "13,0",
+      "Average Employment": "15,2"
+    },
+    {
+      "Year": 2009,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,7",
+      "Employment Rate M": "20,3",
+      "Average Employment": "22,0"
+    },
+    {
+      "Year": 2009,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,6",
+      "Employment Rate M": "32,2",
+      "Average Employment": "32,4"
+    },
+    {
+      "Year": 2009,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,2",
+      "Employment Rate M": "22,4",
+      "Average Employment": "19,3"
+    },
+    {
+      "Year": 2009,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "37,8",
+      "Employment Rate M": "41,4",
+      "Average Employment": "39,6"
+    },
+    {
+      "Year": 2009,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "47,7",
+      "Employment Rate M": "51,2",
+      "Average Employment": "49,45"
+    },
+    {
+      "Year": 2009,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,2",
+      "Employment Rate M": "26,5",
+      "Average Employment": "24,35"
+    },
+    {
+      "Year": 2009,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,8",
+      "Employment Rate M": "31,9",
+      "Average Employment": "32,35"
+    },
+    {
+      "Year": 2009,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,5",
+      "Employment Rate M": "22,2",
+      "Average Employment": "25,35"
+    },
+    {
+      "Year": 2009,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,0",
+      "Employment Rate M": "22,9",
+      "Average Employment": "24,95"
+    },
+    {
+      "Year": 2009,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,5",
+      "Employment Rate M": "33,8",
+      "Average Employment": "30,65"
+    },
+    {
+      "Year": 2009,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "46,1",
+      "Employment Rate M": "48,2",
+      "Average Employment": "47,15"
+    },
+    {
+      "Year": 2009,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,0",
+      "Employment Rate M": "20,2",
+      "Average Employment": "18,1"
+    },
+    {
+      "Year": 2009,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,0",
+      "Employment Rate M": "26,2",
+      "Average Employment": "28,6"
+    },
+    {
+      "Year": 2009,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,0",
+      "Employment Rate M": "25,4",
+      "Average Employment": "21,7"
+    },
+    {
+      "Year": 2009,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "63,7",
+      "Employment Rate M": "60,3",
+      "Average Employment": "62,0"
+    },
+    {
+      "Year": 2009,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,2",
+      "Employment Rate M": "32,0",
+      "Average Employment": "32,6"
+    },
+    {
+      "Year": 2009,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,4",
+      "Employment Rate M": "19,0",
+      "Average Employment": "18,7"
+    },
+    {
+      "Year": 2009,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "66,5",
+      "Employment Rate M": "72,1",
+      "Average Employment": "69,3"
+    },
+    {
+      "Year": 2009,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,5",
+      "Employment Rate M": "26,9",
+      "Average Employment": "30,2"
+    },
+    {
+      "Year": 2009,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,2",
+      "Employment Rate M": "25,6",
+      "Average Employment": "25,4"
+    },
+    {
+      "Year": 2009,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,1",
+      "Employment Rate M": "19,6",
+      "Average Employment": "20,85"
+    },
+    {
+      "Year": 2009,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,0",
+      "Employment Rate M": "15,0",
+      "Average Employment": "16,5"
+    },
+    {
+      "Year": 2010,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,0",
+      "Employment Rate M": "19,4",
+      "Average Employment": "23,2"
+    },
+    {
+      "Year": 2010,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,7",
+      "Employment Rate M": "33,4",
+      "Average Employment": "32,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,0",
+      "Employment Rate M": "25,3",
+      "Average Employment": "25,15"
+    },
+    {
+      "Year": 2010,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,5",
+      "Employment Rate M": "29,7",
+      "Average Employment": "29,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,7",
+      "Employment Rate M": "12,2",
+      "Average Employment": "14,45"
+    },
+    {
+      "Year": 2010,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,6",
+      "Employment Rate M": "19,4",
+      "Average Employment": "21,0"
+    },
+    {
+      "Year": 2010,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,0",
+      "Employment Rate M": "32,3",
+      "Average Employment": "32,15"
+    },
+    {
+      "Year": 2010,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,0",
+      "Employment Rate M": "21,5",
+      "Average Employment": "18,25"
+    },
+    {
+      "Year": 2010,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "36,6",
+      "Employment Rate M": "40,5",
+      "Average Employment": "38,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "46,2",
+      "Employment Rate M": "50,0",
+      "Average Employment": "48,1"
+    },
+    {
+      "Year": 2010,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,6",
+      "Employment Rate M": "25,7",
+      "Average Employment": "23,65"
+    },
+    {
+      "Year": 2010,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,4",
+      "Employment Rate M": "31,4",
+      "Average Employment": "31,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,7",
+      "Employment Rate M": "22,1",
+      "Average Employment": "25,4"
+    },
+    {
+      "Year": 2010,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,3",
+      "Employment Rate M": "22,5",
+      "Average Employment": "24,4"
+    },
+    {
+      "Year": 2010,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,0",
+      "Employment Rate M": "32,8",
+      "Average Employment": "29,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "45,1",
+      "Employment Rate M": "47,4",
+      "Average Employment": "46,25"
+    },
+    {
+      "Year": 2010,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,5",
+      "Employment Rate M": "18,9",
+      "Average Employment": "17,2"
+    },
+    {
+      "Year": 2010,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,0",
+      "Employment Rate M": "26,8",
+      "Average Employment": "28,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,9",
+      "Employment Rate M": "23,5",
+      "Average Employment": "19,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "61,5",
+      "Employment Rate M": "59,1",
+      "Average Employment": "60,3"
+    },
+    {
+      "Year": 2010,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,5",
+      "Employment Rate M": "31,1",
+      "Average Employment": "31,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,6",
+      "Employment Rate M": "18,4",
+      "Average Employment": "18,0"
+    },
+    {
+      "Year": 2010,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "64,1",
+      "Employment Rate M": "70,7",
+      "Average Employment": "67,4"
+    },
+    {
+      "Year": 2010,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,1",
+      "Employment Rate M": "27,1",
+      "Average Employment": "30,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,8",
+      "Employment Rate M": "25,2",
+      "Average Employment": "25,0"
+    },
+    {
+      "Year": 2010,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,2",
+      "Employment Rate M": "19,7",
+      "Average Employment": "20,95"
+    },
+    {
+      "Year": 2010,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,5",
+      "Employment Rate M": "15,0",
+      "Average Employment": "16,25"
+    },
+    {
+      "Year": 2011,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,6",
+      "Employment Rate M": "19,5",
+      "Average Employment": "23,05"
+    },
+    {
+      "Year": 2011,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,7",
+      "Employment Rate M": "33,0",
+      "Average Employment": "31,85"
+    },
+    {
+      "Year": 2011,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,9",
+      "Employment Rate M": "24,1",
+      "Average Employment": "24,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,5",
+      "Employment Rate M": "29,2",
+      "Average Employment": "28,35"
+    },
+    {
+      "Year": 2011,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,0",
+      "Employment Rate M": "11,8",
+      "Average Employment": "13,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,7",
+      "Employment Rate M": "16,4",
+      "Average Employment": "18,05"
+    },
+    {
+      "Year": 2011,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,4",
+      "Employment Rate M": "31,3",
+      "Average Employment": "30,85"
+    },
+    {
+      "Year": 2011,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,9",
+      "Employment Rate M": "20,6",
+      "Average Employment": "17,75"
+    },
+    {
+      "Year": 2011,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "35,1",
+      "Employment Rate M": "39,1",
+      "Average Employment": "37,1"
+    },
+    {
+      "Year": 2011,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "44,9",
+      "Employment Rate M": "49,0",
+      "Average Employment": "46,95"
+    },
+    {
+      "Year": 2011,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,6",
+      "Employment Rate M": "25,2",
+      "Average Employment": "22,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,7",
+      "Employment Rate M": "30,8",
+      "Average Employment": "31,25"
+    },
+    {
+      "Year": 2011,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,0",
+      "Employment Rate M": "21,3",
+      "Average Employment": "24,65"
+    },
+    {
+      "Year": 2011,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,1",
+      "Employment Rate M": "22,4",
+      "Average Employment": "24,25"
+    },
+    {
+      "Year": 2011,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,2",
+      "Employment Rate M": "32,0",
+      "Average Employment": "29,1"
+    },
+    {
+      "Year": 2011,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "44,0",
+      "Employment Rate M": "47,0",
+      "Average Employment": "45,5"
+    },
+    {
+      "Year": 2011,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,3",
+      "Employment Rate M": "17,5",
+      "Average Employment": "15,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,4",
+      "Employment Rate M": "27,7",
+      "Average Employment": "29,05"
+    },
+    {
+      "Year": 2011,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,7",
+      "Employment Rate M": "23,7",
+      "Average Employment": "19,7"
+    },
+    {
+      "Year": 2011,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "59,1",
+      "Employment Rate M": "58,7",
+      "Average Employment": "58,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,3",
+      "Employment Rate M": "31,0",
+      "Average Employment": "31,65"
+    },
+    {
+      "Year": 2011,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,1",
+      "Employment Rate M": "18,0",
+      "Average Employment": "17,55"
+    },
+    {
+      "Year": 2011,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "60,9",
+      "Employment Rate M": "67,6",
+      "Average Employment": "64,25"
+    },
+    {
+      "Year": 2011,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,1",
+      "Employment Rate M": "26,8",
+      "Average Employment": "29,95"
+    },
+    {
+      "Year": 2011,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "24,8",
+      "Average Employment": "24,4"
+    },
+    {
+      "Year": 2011,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,9",
+      "Employment Rate M": "18,6",
+      "Average Employment": "19,75"
+    },
+    {
+      "Year": 2011,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,1",
+      "Employment Rate M": "14,2",
+      "Average Employment": "15,65"
+    },
+    {
+      "Year": 2012,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,9",
+      "Employment Rate M": "18,8",
+      "Average Employment": "22,35"
+    },
+    {
+      "Year": 2012,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,1",
+      "Employment Rate M": "32,7",
+      "Average Employment": "31,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,9",
+      "Employment Rate M": "23,0",
+      "Average Employment": "22,95"
+    },
+    {
+      "Year": 2012,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,4",
+      "Employment Rate M": "26,4",
+      "Average Employment": "26,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,3",
+      "Employment Rate M": "11,6",
+      "Average Employment": "13,45"
+    },
+    {
+      "Year": 2012,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,5",
+      "Employment Rate M": "16,3",
+      "Average Employment": "17,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,0",
+      "Employment Rate M": "31,1",
+      "Average Employment": "30,05"
+    },
+    {
+      "Year": 2012,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,8",
+      "Employment Rate M": "19,9",
+      "Average Employment": "16,85"
+    },
+    {
+      "Year": 2012,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "34,1",
+      "Employment Rate M": "37,7",
+      "Average Employment": "35,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "44,2",
+      "Employment Rate M": "48,6",
+      "Average Employment": "46,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,6",
+      "Employment Rate M": "24,0",
+      "Average Employment": "21,8"
+    },
+    {
+      "Year": 2012,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,5",
+      "Employment Rate M": "30,2",
+      "Average Employment": "30,35"
+    },
+    {
+      "Year": 2012,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,0",
+      "Employment Rate M": "20,3",
+      "Average Employment": "23,15"
+    },
+    {
+      "Year": 2012,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,0",
+      "Employment Rate M": "21,9",
+      "Average Employment": "23,45"
+    },
+    {
+      "Year": 2012,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,6",
+      "Employment Rate M": "30,9",
+      "Average Employment": "28,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "42,5",
+      "Employment Rate M": "46,0",
+      "Average Employment": "44,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,3",
+      "Employment Rate M": "16,8",
+      "Average Employment": "15,05"
+    },
+    {
+      "Year": 2012,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,5",
+      "Employment Rate M": "27,3",
+      "Average Employment": "28,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,7",
+      "Employment Rate M": "21,5",
+      "Average Employment": "17,6"
+    },
+    {
+      "Year": 2012,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "57,4",
+      "Employment Rate M": "56,4",
+      "Average Employment": "56,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,2",
+      "Employment Rate M": "30,3",
+      "Average Employment": "30,75"
+    },
+    {
+      "Year": 2012,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,1",
+      "Employment Rate M": "17,3",
+      "Average Employment": "16,7"
+    },
+    {
+      "Year": 2012,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "57,8",
+      "Employment Rate M": "65,6",
+      "Average Employment": "61,7"
+    },
+    {
+      "Year": 2012,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,2",
+      "Employment Rate M": "26,3",
+      "Average Employment": "29,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,1",
+      "Employment Rate M": "24,5",
+      "Average Employment": "23,8"
+    },
+    {
+      "Year": 2012,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,8",
+      "Employment Rate M": "18,4",
+      "Average Employment": "19,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,2",
+      "Employment Rate M": "13,8",
+      "Average Employment": "15,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,4",
+      "Employment Rate M": "18,9",
+      "Average Employment": "22,15"
+    },
+    {
+      "Year": 2013,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,0",
+      "Employment Rate M": "31,8",
+      "Average Employment": "30,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,9",
+      "Employment Rate M": "22,3",
+      "Average Employment": "22,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,0",
+      "Employment Rate M": "25,9",
+      "Average Employment": "25,45"
+    },
+    {
+      "Year": 2013,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,4",
+      "Employment Rate M": "11,4",
+      "Average Employment": "12,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "16,2",
+      "Average Employment": "17,65"
+    },
+    {
+      "Year": 2013,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,6",
+      "Employment Rate M": "31,1",
+      "Average Employment": "29,85"
+    },
+    {
+      "Year": 2013,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,6",
+      "Employment Rate M": "19,2",
+      "Average Employment": "15,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "32,9",
+      "Employment Rate M": "36,2",
+      "Average Employment": "34,55"
+    },
+    {
+      "Year": 2013,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "43,2",
+      "Employment Rate M": "48,0",
+      "Average Employment": "45,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,6",
+      "Employment Rate M": "23,0",
+      "Average Employment": "20,8"
+    },
+    {
+      "Year": 2013,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,4",
+      "Employment Rate M": "27,6",
+      "Average Employment": "28,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,8",
+      "Employment Rate M": "20,0",
+      "Average Employment": "22,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,3",
+      "Employment Rate M": "21,2",
+      "Average Employment": "22,75"
+    },
+    {
+      "Year": 2013,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,9",
+      "Employment Rate M": "29,4",
+      "Average Employment": "26,65"
+    },
+    {
+      "Year": 2013,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "41,6",
+      "Employment Rate M": "45,2",
+      "Average Employment": "43,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,8",
+      "Employment Rate M": "16,1",
+      "Average Employment": "14,45"
+    },
+    {
+      "Year": 2013,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,7",
+      "Employment Rate M": "25,7",
+      "Average Employment": "26,2"
+    },
+    {
+      "Year": 2013,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,0",
+      "Employment Rate M": "20,5",
+      "Average Employment": "16,75"
+    },
+    {
+      "Year": 2013,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "54,3",
+      "Average Employment": "54,35"
+    },
+    {
+      "Year": 2013,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,5",
+      "Employment Rate M": "28,6",
+      "Average Employment": "29,05"
+    },
+    {
+      "Year": 2013,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,4",
+      "Employment Rate M": "16,8",
+      "Average Employment": "16,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "55,3",
+      "Employment Rate M": "63,7",
+      "Average Employment": "59,5"
+    },
+    {
+      "Year": 2013,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,7",
+      "Employment Rate M": "26,1",
+      "Average Employment": "28,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,0",
+      "Employment Rate M": "23,8",
+      "Average Employment": "22,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "17,9",
+      "Average Employment": "18,5"
+    },
+    {
+      "Year": 2013,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,0",
+      "Employment Rate M": "13,5",
+      "Average Employment": "14,75"
+    },
+    {
+      "Year": 2014,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,2",
+      "Employment Rate M": "17,3",
+      "Average Employment": "20,25"
+    },
+    {
+      "Year": 2014,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,1",
+      "Employment Rate M": "30,9",
+      "Average Employment": "29,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,0",
+      "Employment Rate M": "23,2",
+      "Average Employment": "22,6"
+    },
+    {
+      "Year": 2014,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,3",
+      "Employment Rate M": "26,9",
+      "Average Employment": "26,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,9",
+      "Employment Rate M": "10,9",
+      "Average Employment": "12,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,8",
+      "Employment Rate M": "18,6",
+      "Average Employment": "19,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,0",
+      "Employment Rate M": "30,4",
+      "Average Employment": "28,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,3",
+      "Employment Rate M": "22,2",
+      "Average Employment": "17,75"
+    },
+    {
+      "Year": 2014,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,6",
+      "Employment Rate M": "34,7",
+      "Average Employment": "33,15"
+    },
+    {
+      "Year": 2014,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "42,3",
+      "Employment Rate M": "46,6",
+      "Average Employment": "44,45"
+    },
+    {
+      "Year": 2014,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,6",
+      "Employment Rate M": "22,6",
+      "Average Employment": "20,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,0",
+      "Employment Rate M": "26,0",
+      "Average Employment": "26,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,4",
+      "Employment Rate M": "18,6",
+      "Average Employment": "21,0"
+    },
+    {
+      "Year": 2014,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,2",
+      "Employment Rate M": "20,8",
+      "Average Employment": "22,0"
+    },
+    {
+      "Year": 2014,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,2",
+      "Employment Rate M": "26,7",
+      "Average Employment": "23,95"
+    },
+    {
+      "Year": 2014,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,5",
+      "Employment Rate M": "44,2",
+      "Average Employment": "42,35"
+    },
+    {
+      "Year": 2014,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,5",
+      "Employment Rate M": "16,1",
+      "Average Employment": "14,3"
+    },
+    {
+      "Year": 2014,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,6",
+      "Employment Rate M": "23,1",
+      "Average Employment": "24,85"
+    },
+    {
+      "Year": 2014,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,6",
+      "Employment Rate M": "20,0",
+      "Average Employment": "16,3"
+    },
+    {
+      "Year": 2014,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "52,1",
+      "Employment Rate M": "52,3",
+      "Average Employment": "52,2"
+    },
+    {
+      "Year": 2014,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,2",
+      "Employment Rate M": "28,5",
+      "Average Employment": "28,85"
+    },
+    {
+      "Year": 2014,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,9",
+      "Employment Rate M": "16,2",
+      "Average Employment": "15,55"
+    },
+    {
+      "Year": 2014,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "52,2",
+      "Employment Rate M": "60,7",
+      "Average Employment": "56,45"
+    },
+    {
+      "Year": 2014,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "33,3",
+      "Employment Rate M": "29,1",
+      "Average Employment": "31,2"
+    },
+    {
+      "Year": 2014,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,1",
+      "Employment Rate M": "23,2",
+      "Average Employment": "22,15"
+    },
+    {
+      "Year": 2014,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,5",
+      "Employment Rate M": "17,4",
+      "Average Employment": "18,45"
+    },
+    {
+      "Year": 2014,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,3",
+      "Employment Rate M": "14,1",
+      "Average Employment": "15,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,5",
+      "Employment Rate M": "16,6",
+      "Average Employment": "19,55"
+    },
+    {
+      "Year": 2015,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,3",
+      "Employment Rate M": "30,0",
+      "Average Employment": "28,65"
+    },
+    {
+      "Year": 2015,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,5",
+      "Employment Rate M": "22,9",
+      "Average Employment": "22,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,8",
+      "Employment Rate M": "26,4",
+      "Average Employment": "25,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,9",
+      "Employment Rate M": "11,0",
+      "Average Employment": "12,45"
+    },
+    {
+      "Year": 2015,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,8",
+      "Employment Rate M": "18,9",
+      "Average Employment": "19,85"
+    },
+    {
+      "Year": 2015,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,1",
+      "Employment Rate M": "29,7",
+      "Average Employment": "27,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,1",
+      "Employment Rate M": "20,5",
+      "Average Employment": "17,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,1",
+      "Employment Rate M": "33,0",
+      "Average Employment": "31,55"
+    },
+    {
+      "Year": 2015,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,9",
+      "Employment Rate M": "46,1",
+      "Average Employment": "43,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,8",
+      "Employment Rate M": "21,5",
+      "Average Employment": "19,15"
+    },
+    {
+      "Year": 2015,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,1",
+      "Employment Rate M": "25,7",
+      "Average Employment": "25,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,0",
+      "Employment Rate M": "17,8",
+      "Average Employment": "20,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,0",
+      "Employment Rate M": "20,8",
+      "Average Employment": "21,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,0",
+      "Employment Rate M": "26,0",
+      "Average Employment": "23,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,8",
+      "Employment Rate M": "43,9",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2015,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "11,7",
+      "Employment Rate M": "16,0",
+      "Average Employment": "13,85"
+    },
+    {
+      "Year": 2015,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,1",
+      "Employment Rate M": "30,5",
+      "Average Employment": "30,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,3",
+      "Employment Rate M": "19,1",
+      "Average Employment": "15,7"
+    },
+    {
+      "Year": 2015,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "49,5",
+      "Employment Rate M": "51,3",
+      "Average Employment": "50,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,5",
+      "Employment Rate M": "28,3",
+      "Average Employment": "28,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,6",
+      "Employment Rate M": "15,9",
+      "Average Employment": "15,25"
+    },
+    {
+      "Year": 2015,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "50,9",
+      "Employment Rate M": "58,1",
+      "Average Employment": "54,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "31,4",
+      "Employment Rate M": "27,4",
+      "Average Employment": "29,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,4",
+      "Employment Rate M": "22,8",
+      "Average Employment": "21,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,3",
+      "Employment Rate M": "16,7",
+      "Average Employment": "17,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,6",
+      "Employment Rate M": "13,6",
+      "Average Employment": "14,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,1",
+      "Employment Rate M": "17,0",
+      "Average Employment": "19,55"
+    },
+    {
+      "Year": 2016,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,1",
+      "Employment Rate M": "29,3",
+      "Average Employment": "28,2"
+    },
+    {
+      "Year": 2016,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,3",
+      "Employment Rate M": "22,5",
+      "Average Employment": "21,9"
+    },
+    {
+      "Year": 2016,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,8",
+      "Employment Rate M": "25,4",
+      "Average Employment": "24,1"
+    },
+    {
+      "Year": 2016,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,6",
+      "Employment Rate M": "11,1",
+      "Average Employment": "12,35"
+    },
+    {
+      "Year": 2016,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,6",
+      "Employment Rate M": "19,1",
+      "Average Employment": "19,85"
+    },
+    {
+      "Year": 2016,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,5",
+      "Employment Rate M": "29,1",
+      "Average Employment": "27,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,0",
+      "Employment Rate M": "20,4",
+      "Average Employment": "16,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,7",
+      "Employment Rate M": "31,4",
+      "Average Employment": "30,05"
+    },
+    {
+      "Year": 2016,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,7",
+      "Employment Rate M": "45,5",
+      "Average Employment": "42,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,4",
+      "Employment Rate M": "20,7",
+      "Average Employment": "18,55"
+    },
+    {
+      "Year": 2016,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,4",
+      "Employment Rate M": "25,4",
+      "Average Employment": "25,4"
+    },
+    {
+      "Year": 2016,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,9",
+      "Employment Rate M": "18,3",
+      "Average Employment": "20,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,0",
+      "Employment Rate M": "20,6",
+      "Average Employment": "21,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,2",
+      "Employment Rate M": "25,8",
+      "Average Employment": "23,0"
+    },
+    {
+      "Year": 2016,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,5",
+      "Employment Rate M": "43,7",
+      "Average Employment": "41,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "10,5",
+      "Employment Rate M": "14,5",
+      "Average Employment": "12,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,7",
+      "Employment Rate M": "27,7",
+      "Average Employment": "28,2"
+    },
+    {
+      "Year": 2016,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,2",
+      "Employment Rate M": "17,9",
+      "Average Employment": "15,05"
+    },
+    {
+      "Year": 2016,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "46,6",
+      "Employment Rate M": "49,0",
+      "Average Employment": "47,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,9",
+      "Employment Rate M": "28,0",
+      "Average Employment": "27,95"
+    },
+    {
+      "Year": 2016,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,0",
+      "Employment Rate M": "15,2",
+      "Average Employment": "14,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "49,3",
+      "Employment Rate M": "56,7",
+      "Average Employment": "53,0"
+    },
+    {
+      "Year": 2016,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "29,8",
+      "Employment Rate M": "26,3",
+      "Average Employment": "28,05"
+    },
+    {
+      "Year": 2016,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,2",
+      "Employment Rate M": "22,0",
+      "Average Employment": "21,1"
+    },
+    {
+      "Year": 2016,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,1",
+      "Employment Rate M": "16,4",
+      "Average Employment": "17,25"
+    },
+    {
+      "Year": 2016,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,1",
+      "Employment Rate M": "13,4",
+      "Average Employment": "14,25"
+    },
+    {
+      "Year": 2017,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,4",
+      "Employment Rate M": "17,2",
+      "Average Employment": "19,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,0",
+      "Employment Rate M": "28,4",
+      "Average Employment": "27,2"
+    },
+    {
+      "Year": 2017,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,0",
+      "Employment Rate M": "21,7",
+      "Average Employment": "21,35"
+    },
+    {
+      "Year": 2017,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,2",
+      "Employment Rate M": "23,6",
+      "Average Employment": "22,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,2",
+      "Employment Rate M": "11,1",
+      "Average Employment": "12,15"
+    },
+    {
+      "Year": 2017,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,3",
+      "Employment Rate M": "19,4",
+      "Average Employment": "19,85"
+    },
+    {
+      "Year": 2017,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,3",
+      "Employment Rate M": "29,0",
+      "Average Employment": "26,65"
+    },
+    {
+      "Year": 2017,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,3",
+      "Employment Rate M": "20,5",
+      "Average Employment": "16,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,2",
+      "Employment Rate M": "30,4",
+      "Average Employment": "29,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "39,0",
+      "Employment Rate M": "44,7",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2017,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,8",
+      "Employment Rate M": "20,9",
+      "Average Employment": "18,35"
+    },
+    {
+      "Year": 2017,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,3",
+      "Employment Rate M": "25,1",
+      "Average Employment": "25,2"
+    },
+    {
+      "Year": 2017,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,7",
+      "Employment Rate M": "18,1",
+      "Average Employment": "19,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,5",
+      "Employment Rate M": "19,6",
+      "Average Employment": "21,05"
+    },
+    {
+      "Year": 2017,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "24,6",
+      "Average Employment": "21,85"
+    },
+    {
+      "Year": 2017,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "38,6",
+      "Employment Rate M": "43,1",
+      "Average Employment": "40,85"
+    },
+    {
+      "Year": 2017,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "10,1",
+      "Employment Rate M": "14,1",
+      "Average Employment": "12,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "30,5",
+      "Employment Rate M": "30,5",
+      "Average Employment": "30,5"
+    },
+    {
+      "Year": 2017,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,3",
+      "Employment Rate M": "18,4",
+      "Average Employment": "15,35"
+    },
+    {
+      "Year": 2017,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "44,9",
+      "Employment Rate M": "46,3",
+      "Average Employment": "45,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,2",
+      "Employment Rate M": "27,0",
+      "Average Employment": "26,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,3",
+      "Employment Rate M": "14,5",
+      "Average Employment": "13,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "47,5",
+      "Employment Rate M": "56,1",
+      "Average Employment": "51,8"
+    },
+    {
+      "Year": 2017,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "28,4",
+      "Employment Rate M": "25,5",
+      "Average Employment": "26,95"
+    },
+    {
+      "Year": 2017,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,2",
+      "Employment Rate M": "22,0",
+      "Average Employment": "21,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "17,4",
+      "Employment Rate M": "16,1",
+      "Average Employment": "16,75"
+    },
+    {
+      "Year": 2017,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,7",
+      "Employment Rate M": "13,8",
+      "Average Employment": "14,75"
+    },
+    {
+      "Year": 2018,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,1",
+      "Employment Rate M": "16,6",
+      "Average Employment": "18,85"
+    },
+    {
+      "Year": 2018,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,1",
+      "Employment Rate M": "27,6",
+      "Average Employment": "26,35"
+    },
+    {
+      "Year": 2018,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,9",
+      "Employment Rate M": "22,2",
+      "Average Employment": "21,55"
+    },
+    {
+      "Year": 2018,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,6",
+      "Employment Rate M": "23,2",
+      "Average Employment": "21,9"
+    },
+    {
+      "Year": 2018,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,0",
+      "Employment Rate M": "11,2",
+      "Average Employment": "12,1"
+    },
+    {
+      "Year": 2018,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,0",
+      "Employment Rate M": "19,3",
+      "Average Employment": "19,65"
+    },
+    {
+      "Year": 2018,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "29,2",
+      "Average Employment": "26,6"
+    },
+    {
+      "Year": 2018,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,3",
+      "Employment Rate M": "20,3",
+      "Average Employment": "16,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,9",
+      "Employment Rate M": "29,5",
+      "Average Employment": "28,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "37,7",
+      "Employment Rate M": "44,0",
+      "Average Employment": "40,85"
+    },
+    {
+      "Year": 2018,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,1",
+      "Employment Rate M": "20,2",
+      "Average Employment": "17,65"
+    },
+    {
+      "Year": 2018,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,3",
+      "Employment Rate M": "24,6",
+      "Average Employment": "24,45"
+    },
+    {
+      "Year": 2018,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,2",
+      "Employment Rate M": "17,2",
+      "Average Employment": "18,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,3",
+      "Employment Rate M": "19,2",
+      "Average Employment": "20,25"
+    },
+    {
+      "Year": 2018,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,0",
+      "Employment Rate M": "24,0",
+      "Average Employment": "21,5"
+    },
+    {
+      "Year": 2018,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "38,2",
+      "Employment Rate M": "42,4",
+      "Average Employment": "40,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "9,9",
+      "Employment Rate M": "13,5",
+      "Average Employment": "11,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,3",
+      "Employment Rate M": "27,8",
+      "Average Employment": "27,55"
+    },
+    {
+      "Year": 2018,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,3",
+      "Employment Rate M": "18,4",
+      "Average Employment": "15,35"
+    },
+    {
+      "Year": 2018,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "42,7",
+      "Employment Rate M": "43,1",
+      "Average Employment": "42,9"
+    },
+    {
+      "Year": 2018,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,7",
+      "Employment Rate M": "26,4",
+      "Average Employment": "26,05"
+    },
+    {
+      "Year": 2018,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,8",
+      "Employment Rate M": "14,1",
+      "Average Employment": "13,45"
+    },
+    {
+      "Year": 2018,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "45,3",
+      "Employment Rate M": "54,7",
+      "Average Employment": "50,0"
+    },
+    {
+      "Year": 2018,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,6",
+      "Employment Rate M": "25,0",
+      "Average Employment": "26,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,6",
+      "Employment Rate M": "22,3",
+      "Average Employment": "20,95"
+    },
+    {
+      "Year": 2018,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,9",
+      "Employment Rate M": "16,0",
+      "Average Employment": "16,45"
+    },
+    {
+      "Year": 2018,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,2",
+      "Employment Rate M": "13,7",
+      "Average Employment": "14,45"
+    },
+    {
+      "Year": 2019,
+      "Country": "AT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,5",
+      "Employment Rate M": "16,9",
+      "Average Employment": "18,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "BE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "27,7",
+      "Average Employment": "25,85"
+    },
+    {
+      "Year": 2019,
+      "Country": "BG",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "21,4",
+      "Employment Rate M": "22,3",
+      "Average Employment": "21,85"
+    },
+    {
+      "Year": 2019,
+      "Country": "CY",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,0",
+      "Employment Rate M": "23,0",
+      "Average Employment": "21,5"
+    },
+    {
+      "Year": 2019,
+      "Country": "CZ",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,1",
+      "Employment Rate M": "11,6",
+      "Average Employment": "12,35"
+    },
+    {
+      "Year": 2019,
+      "Country": "DE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,9",
+      "Employment Rate M": "19,2",
+      "Average Employment": "19,55"
+    },
+    {
+      "Year": 2019,
+      "Country": "DK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "23,9",
+      "Employment Rate M": "28,3",
+      "Average Employment": "26,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "EE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "13,0",
+      "Employment Rate M": "18,6",
+      "Average Employment": "15,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "EL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,0",
+      "Employment Rate M": "25,8",
+      "Average Employment": "25,9"
+    },
+    {
+      "Year": 2019,
+      "Country": "ES",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "36,3",
+      "Employment Rate M": "43,0",
+      "Average Employment": "39,65"
+    },
+    {
+      "Year": 2019,
+      "Country": "FI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "14,9",
+      "Employment Rate M": "18,9",
+      "Average Employment": "16,9"
+    },
+    {
+      "Year": 2019,
+      "Country": "FR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "22,9",
+      "Employment Rate M": "24,0",
+      "Average Employment": "23,45"
+    },
+    {
+      "Year": 2019,
+      "Country": "HR",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,9",
+      "Employment Rate M": "16,3",
+      "Average Employment": "18,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "HU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "20,8",
+      "Employment Rate M": "19,1",
+      "Average Employment": "19,95"
+    },
+    {
+      "Year": 2019,
+      "Country": "IE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "18,7",
+      "Employment Rate M": "23,4",
+      "Average Employment": "21,05"
+    },
+    {
+      "Year": 2019,
+      "Country": "IT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "37,5",
+      "Employment Rate M": "42,1",
+      "Average Employment": "39,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "LT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "9,5",
+      "Employment Rate M": "12,8",
+      "Average Employment": "11,15"
+    },
+    {
+      "Year": 2019,
+      "Country": "LU",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "27,2",
+      "Employment Rate M": "26,3",
+      "Average Employment": "26,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "LV",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,3",
+      "Employment Rate M": "17,6",
+      "Average Employment": "14,95"
+    },
+    {
+      "Year": 2019,
+      "Country": "MT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "40,3",
+      "Employment Rate M": "42,2",
+      "Average Employment": "41,25"
+    },
+    {
+      "Year": 2019,
+      "Country": "NL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "25,1",
+      "Employment Rate M": "26,0",
+      "Average Employment": "25,55"
+    },
+    {
+      "Year": 2019,
+      "Country": "PL",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "12,5",
+      "Employment Rate M": "14,1",
+      "Average Employment": "13,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "PT",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "43,6",
+      "Employment Rate M": "51,9",
+      "Average Employment": "47,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "RO",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "26,3",
+      "Employment Rate M": "23,9",
+      "Average Employment": "25,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "SE",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "19,1",
+      "Employment Rate M": "22,3",
+      "Average Employment": "20,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "SI",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "16,1",
+      "Employment Rate M": "15,5",
+      "Average Employment": "15,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "SK",
+      "ISCED11": "ED0-2",
+      "Employment Rate F": "15,0",
+      "Employment Rate M": "14,0",
+      "Average Employment": "14,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,9",
+      "Employment Rate M": "62,1",
+      "Average Employment": "60,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,4",
+      "Employment Rate M": "37,6",
+      "Average Employment": "36,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "45,6",
+      "Employment Rate M": "52,1",
+      "Average Employment": "48,85"
+    },
+    {
+      "Year": 2005,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,1",
+      "Employment Rate M": "39,1",
+      "Average Employment": "38,1"
+    },
+    {
+      "Year": 2005,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "70,3",
+      "Employment Rate M": "74,0",
+      "Average Employment": "72,15"
+    },
+    {
+      "Year": 2005,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,5",
+      "Employment Rate M": "53,8",
+      "Average Employment": "54,65"
+    },
+    {
+      "Year": 2005,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,9",
+      "Employment Rate M": "48,6",
+      "Average Employment": "45,75"
+    },
+    {
+      "Year": 2005,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,9",
+      "Employment Rate M": "55,1",
+      "Average Employment": "52,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,6",
+      "Employment Rate M": "42,1",
+      "Average Employment": "42,35"
+    },
+    {
+      "Year": 2005,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "22,6",
+      "Employment Rate M": "22,0",
+      "Average Employment": "22,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,7",
+      "Employment Rate M": "46,2",
+      "Average Employment": "44,45"
+    },
+    {
+      "Year": 2005,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,7",
+      "Employment Rate M": "43,5",
+      "Average Employment": "41,1"
+    },
+    {
+      "Year": 2005,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,7",
+      "Employment Rate M": "63,1",
+      "Average Employment": "57,4"
+    },
+    {
+      "Year": 2005,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,2",
+      "Employment Rate M": "60,9",
+      "Average Employment": "57,05"
+    },
+    {
+      "Year": 2005,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,2",
+      "Employment Rate M": "36,3",
+      "Average Employment": "37,25"
+    },
+    {
+      "Year": 2005,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,7",
+      "Employment Rate M": "38,6",
+      "Average Employment": "38,65"
+    },
+    {
+      "Year": 2005,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,6",
+      "Employment Rate M": "58,3",
+      "Average Employment": "56,95"
+    },
+    {
+      "Year": 2005,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,0",
+      "Employment Rate M": "39,6",
+      "Average Employment": "38,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,7",
+      "Employment Rate M": "58,3",
+      "Average Employment": "58,5"
+    },
+    {
+      "Year": 2005,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "17,8",
+      "Employment Rate M": "23,6",
+      "Average Employment": "20,7"
+    },
+    {
+      "Year": 2005,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,4",
+      "Employment Rate M": "41,6",
+      "Average Employment": "41,0"
+    },
+    {
+      "Year": 2005,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "62,2",
+      "Employment Rate M": "66,4",
+      "Average Employment": "64,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "16,9",
+      "Employment Rate M": "15,6",
+      "Average Employment": "16,25"
+    },
+    {
+      "Year": 2005,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "61,3",
+      "Average Employment": "57,6"
+    },
+    {
+      "Year": 2005,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,8",
+      "Employment Rate M": "55,4",
+      "Average Employment": "53,1"
+    },
+    {
+      "Year": 2005,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,1",
+      "Employment Rate M": "63,5",
+      "Average Employment": "59,3"
+    },
+    {
+      "Year": 2005,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "66,7",
+      "Employment Rate M": "70,6",
+      "Average Employment": "68,65"
+    },
+    {
+      "Year": 2006,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,8",
+      "Employment Rate M": "62,8",
+      "Average Employment": "60,3"
+    },
+    {
+      "Year": 2006,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,6",
+      "Employment Rate M": "37,3",
+      "Average Employment": "36,45"
+    },
+    {
+      "Year": 2006,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,7",
+      "Employment Rate M": "54,9",
+      "Average Employment": "51,3"
+    },
+    {
+      "Year": 2006,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,4",
+      "Employment Rate M": "40,3",
+      "Average Employment": "38,85"
+    },
+    {
+      "Year": 2006,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "70,4",
+      "Employment Rate M": "74,0",
+      "Average Employment": "72,2"
+    },
+    {
+      "Year": 2006,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,0",
+      "Employment Rate M": "54,7",
+      "Average Employment": "55,35"
+    },
+    {
+      "Year": 2006,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,3",
+      "Employment Rate M": "48,3",
+      "Average Employment": "45,3"
+    },
+    {
+      "Year": 2006,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,0",
+      "Employment Rate M": "54,2",
+      "Average Employment": "52,1"
+    },
+    {
+      "Year": 2006,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,5",
+      "Employment Rate M": "38,3",
+      "Average Employment": "39,9"
+    },
+    {
+      "Year": 2006,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,2",
+      "Employment Rate M": "22,3",
+      "Average Employment": "22,75"
+    },
+    {
+      "Year": 2006,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,7",
+      "Employment Rate M": "46,8",
+      "Average Employment": "44,75"
+    },
+    {
+      "Year": 2006,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,8",
+      "Employment Rate M": "43,4",
+      "Average Employment": "41,1"
+    },
+    {
+      "Year": 2006,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,9",
+      "Employment Rate M": "63,6",
+      "Average Employment": "58,25"
+    },
+    {
+      "Year": 2006,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "61,7",
+      "Average Employment": "57,8"
+    },
+    {
+      "Year": 2006,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,5",
+      "Employment Rate M": "36,5",
+      "Average Employment": "37,0"
+    },
+    {
+      "Year": 2006,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,0",
+      "Employment Rate M": "39,1",
+      "Average Employment": "39,05"
+    },
+    {
+      "Year": 2006,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,8",
+      "Employment Rate M": "59,0",
+      "Average Employment": "57,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,2",
+      "Employment Rate M": "41,2",
+      "Average Employment": "40,2"
+    },
+    {
+      "Year": 2006,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,2",
+      "Employment Rate M": "57,7",
+      "Average Employment": "57,95"
+    },
+    {
+      "Year": 2006,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "17,6",
+      "Employment Rate M": "25,2",
+      "Average Employment": "21,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,2",
+      "Employment Rate M": "41,7",
+      "Average Employment": "41,45"
+    },
+    {
+      "Year": 2006,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "62,1",
+      "Employment Rate M": "66,2",
+      "Average Employment": "64,15"
+    },
+    {
+      "Year": 2006,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "17,4",
+      "Employment Rate M": "15,9",
+      "Average Employment": "16,65"
+    },
+    {
+      "Year": 2006,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,7",
+      "Employment Rate M": "62,1",
+      "Average Employment": "58,4"
+    },
+    {
+      "Year": 2006,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,4",
+      "Employment Rate M": "50,9",
+      "Average Employment": "47,15"
+    },
+    {
+      "Year": 2006,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,9",
+      "Employment Rate M": "63,7",
+      "Average Employment": "59,3"
+    },
+    {
+      "Year": 2006,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "67,4",
+      "Employment Rate M": "71,1",
+      "Average Employment": "69,25"
+    },
+    {
+      "Year": 2007,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,6",
+      "Employment Rate M": "62,5",
+      "Average Employment": "60,05"
+    },
+    {
+      "Year": 2007,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,8",
+      "Employment Rate M": "38,5",
+      "Average Employment": "37,15"
+    },
+    {
+      "Year": 2007,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,3",
+      "Employment Rate M": "56,3",
+      "Average Employment": "52,8"
+    },
+    {
+      "Year": 2007,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,6",
+      "Employment Rate M": "40,8",
+      "Average Employment": "39,2"
+    },
+    {
+      "Year": 2007,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "70,4",
+      "Employment Rate M": "74,0",
+      "Average Employment": "72,2"
+    },
+    {
+      "Year": 2007,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,9",
+      "Employment Rate M": "55,4",
+      "Average Employment": "56,15"
+    },
+    {
+      "Year": 2007,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,2",
+      "Employment Rate M": "44,2",
+      "Average Employment": "41,7"
+    },
+    {
+      "Year": 2007,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,5",
+      "Employment Rate M": "55,6",
+      "Average Employment": "52,55"
+    },
+    {
+      "Year": 2007,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,8",
+      "Employment Rate M": "38,4",
+      "Average Employment": "40,1"
+    },
+    {
+      "Year": 2007,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,2",
+      "Employment Rate M": "23,0",
+      "Average Employment": "23,1"
+    },
+    {
+      "Year": 2007,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,5",
+      "Employment Rate M": "46,6",
+      "Average Employment": "44,55"
+    },
+    {
+      "Year": 2007,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,5",
+      "Employment Rate M": "43,9",
+      "Average Employment": "41,7"
+    },
+    {
+      "Year": 2007,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,4",
+      "Employment Rate M": "64,5",
+      "Average Employment": "59,95"
+    },
+    {
+      "Year": 2007,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "62,4",
+      "Average Employment": "58,4"
+    },
+    {
+      "Year": 2007,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,0",
+      "Employment Rate M": "36,5",
+      "Average Employment": "36,75"
+    },
+    {
+      "Year": 2007,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,2",
+      "Employment Rate M": "39,4",
+      "Average Employment": "39,3"
+    },
+    {
+      "Year": 2007,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,7",
+      "Employment Rate M": "58,3",
+      "Average Employment": "56,5"
+    },
+    {
+      "Year": 2007,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,3",
+      "Employment Rate M": "39,9",
+      "Average Employment": "38,6"
+    },
+    {
+      "Year": 2007,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,4",
+      "Employment Rate M": "57,5",
+      "Average Employment": "57,45"
+    },
+    {
+      "Year": 2007,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "18,3",
+      "Employment Rate M": "23,6",
+      "Average Employment": "20,95"
+    },
+    {
+      "Year": 2007,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,6",
+      "Employment Rate M": "41,8",
+      "Average Employment": "41,7"
+    },
+    {
+      "Year": 2007,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "61,6",
+      "Employment Rate M": "66,3",
+      "Average Employment": "63,95"
+    },
+    {
+      "Year": 2007,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "17,1",
+      "Employment Rate M": "16,1",
+      "Average Employment": "16,6"
+    },
+    {
+      "Year": 2007,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,4",
+      "Employment Rate M": "62,9",
+      "Average Employment": "59,15"
+    },
+    {
+      "Year": 2007,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,2",
+      "Employment Rate M": "50,8",
+      "Average Employment": "47,0"
+    },
+    {
+      "Year": 2007,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "64,1",
+      "Average Employment": "59,25"
+    },
+    {
+      "Year": 2007,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "67,6",
+      "Employment Rate M": "71,8",
+      "Average Employment": "69,7"
+    },
+    {
+      "Year": 2008,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,1",
+      "Employment Rate M": "62,7",
+      "Average Employment": "60,4"
+    },
+    {
+      "Year": 2008,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,7",
+      "Employment Rate M": "39,3",
+      "Average Employment": "38,0"
+    },
+    {
+      "Year": 2008,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,3",
+      "Employment Rate M": "56,3",
+      "Average Employment": "52,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,3",
+      "Employment Rate M": "41,0",
+      "Average Employment": "38,65"
+    },
+    {
+      "Year": 2008,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "69,7",
+      "Employment Rate M": "73,8",
+      "Average Employment": "71,75"
+    },
+    {
+      "Year": 2008,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,3",
+      "Employment Rate M": "55,4",
+      "Average Employment": "56,35"
+    },
+    {
+      "Year": 2008,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,1",
+      "Employment Rate M": "43,3",
+      "Average Employment": "40,7"
+    },
+    {
+      "Year": 2008,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,4",
+      "Employment Rate M": "55,5",
+      "Average Employment": "51,45"
+    },
+    {
+      "Year": 2008,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,9",
+      "Employment Rate M": "39,1",
+      "Average Employment": "40,5"
+    },
+    {
+      "Year": 2008,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,6",
+      "Employment Rate M": "22,7",
+      "Average Employment": "23,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,3",
+      "Employment Rate M": "46,9",
+      "Average Employment": "44,6"
+    },
+    {
+      "Year": 2008,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,9",
+      "Employment Rate M": "44,7",
+      "Average Employment": "42,3"
+    },
+    {
+      "Year": 2008,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,1",
+      "Employment Rate M": "64,9",
+      "Average Employment": "60,5"
+    },
+    {
+      "Year": 2008,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "62,0",
+      "Average Employment": "57,95"
+    },
+    {
+      "Year": 2008,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,2",
+      "Employment Rate M": "36,7",
+      "Average Employment": "36,95"
+    },
+    {
+      "Year": 2008,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,3",
+      "Employment Rate M": "39,6",
+      "Average Employment": "39,45"
+    },
+    {
+      "Year": 2008,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,8",
+      "Employment Rate M": "58,7",
+      "Average Employment": "56,25"
+    },
+    {
+      "Year": 2008,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,4",
+      "Employment Rate M": "40,6",
+      "Average Employment": "39,5"
+    },
+    {
+      "Year": 2008,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,2",
+      "Employment Rate M": "57,9",
+      "Average Employment": "56,55"
+    },
+    {
+      "Year": 2008,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "21,1",
+      "Employment Rate M": "24,5",
+      "Average Employment": "22,8"
+    },
+    {
+      "Year": 2008,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,0",
+      "Employment Rate M": "40,9",
+      "Average Employment": "40,95"
+    },
+    {
+      "Year": 2008,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "61,3",
+      "Employment Rate M": "66,4",
+      "Average Employment": "63,85"
+    },
+    {
+      "Year": 2008,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "16,9",
+      "Employment Rate M": "16,3",
+      "Average Employment": "16,6"
+    },
+    {
+      "Year": 2008,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,6",
+      "Employment Rate M": "62,7",
+      "Average Employment": "59,15"
+    },
+    {
+      "Year": 2008,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,9",
+      "Employment Rate M": "50,9",
+      "Average Employment": "46,9"
+    },
+    {
+      "Year": 2008,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "63,7",
+      "Average Employment": "59,05"
+    },
+    {
+      "Year": 2008,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "67,8",
+      "Employment Rate M": "72,3",
+      "Average Employment": "70,05"
+    },
+    {
+      "Year": 2009,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,7",
+      "Employment Rate M": "62,8",
+      "Average Employment": "60,25"
+    },
+    {
+      "Year": 2009,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,8",
+      "Employment Rate M": "39,4",
+      "Average Employment": "38,1"
+    },
+    {
+      "Year": 2009,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,2",
+      "Employment Rate M": "57,3",
+      "Average Employment": "53,25"
+    },
+    {
+      "Year": 2009,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,9",
+      "Employment Rate M": "40,8",
+      "Average Employment": "38,35"
+    },
+    {
+      "Year": 2009,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "69,5",
+      "Employment Rate M": "73,4",
+      "Average Employment": "71,45"
+    },
+    {
+      "Year": 2009,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,6",
+      "Employment Rate M": "55,0",
+      "Average Employment": "55,8"
+    },
+    {
+      "Year": 2009,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,7",
+      "Employment Rate M": "44,2",
+      "Average Employment": "40,95"
+    },
+    {
+      "Year": 2009,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "45,7",
+      "Employment Rate M": "55,9",
+      "Average Employment": "50,8"
+    },
+    {
+      "Year": 2009,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,9",
+      "Employment Rate M": "39,0",
+      "Average Employment": "40,45"
+    },
+    {
+      "Year": 2009,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,5",
+      "Employment Rate M": "22,8",
+      "Average Employment": "23,15"
+    },
+    {
+      "Year": 2009,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,8",
+      "Employment Rate M": "47,6",
+      "Average Employment": "44,7"
+    },
+    {
+      "Year": 2009,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,5",
+      "Employment Rate M": "44,1",
+      "Average Employment": "41,8"
+    },
+    {
+      "Year": 2009,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,1",
+      "Employment Rate M": "65,2",
+      "Average Employment": "60,15"
+    },
+    {
+      "Year": 2009,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,0",
+      "Employment Rate M": "62,4",
+      "Average Employment": "58,2"
+    },
+    {
+      "Year": 2009,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,9",
+      "Employment Rate M": "36,5",
+      "Average Employment": "36,7"
+    },
+    {
+      "Year": 2009,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,7",
+      "Employment Rate M": "40,5",
+      "Average Employment": "40,1"
+    },
+    {
+      "Year": 2009,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "59,2",
+      "Average Employment": "56,55"
+    },
+    {
+      "Year": 2009,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,0",
+      "Employment Rate M": "41,5",
+      "Average Employment": "41,25"
+    },
+    {
+      "Year": 2009,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,2",
+      "Employment Rate M": "59,1",
+      "Average Employment": "57,15"
+    },
+    {
+      "Year": 2009,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "22,8",
+      "Employment Rate M": "27,5",
+      "Average Employment": "25,15"
+    },
+    {
+      "Year": 2009,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,8",
+      "Employment Rate M": "40,5",
+      "Average Employment": "40,65"
+    },
+    {
+      "Year": 2009,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "60,4",
+      "Employment Rate M": "66,2",
+      "Average Employment": "63,3"
+    },
+    {
+      "Year": 2009,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "17,9",
+      "Employment Rate M": "17,4",
+      "Average Employment": "17,65"
+    },
+    {
+      "Year": 2009,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,9",
+      "Employment Rate M": "62,3",
+      "Average Employment": "58,6"
+    },
+    {
+      "Year": 2009,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,8",
+      "Employment Rate M": "51,0",
+      "Average Employment": "46,9"
+    },
+    {
+      "Year": 2009,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,2",
+      "Employment Rate M": "64,6",
+      "Average Employment": "59,4"
+    },
+    {
+      "Year": 2009,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "67,6",
+      "Employment Rate M": "72,6",
+      "Average Employment": "70,1"
+    },
+    {
+      "Year": 2010,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,2",
+      "Employment Rate M": "62,9",
+      "Average Employment": "60,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,5",
+      "Employment Rate M": "38,0",
+      "Average Employment": "36,75"
+    },
+    {
+      "Year": 2010,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,6",
+      "Employment Rate M": "59,6",
+      "Average Employment": "55,1"
+    },
+    {
+      "Year": 2010,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,2",
+      "Employment Rate M": "40,6",
+      "Average Employment": "38,4"
+    },
+    {
+      "Year": 2010,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "68,9",
+      "Employment Rate M": "73,2",
+      "Average Employment": "71,05"
+    },
+    {
+      "Year": 2010,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,3",
+      "Employment Rate M": "55,4",
+      "Average Employment": "56,35"
+    },
+    {
+      "Year": 2010,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,7",
+      "Employment Rate M": "43,4",
+      "Average Employment": "40,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,3",
+      "Employment Rate M": "56,5",
+      "Average Employment": "51,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,0",
+      "Employment Rate M": "39,1",
+      "Average Employment": "40,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,6",
+      "Employment Rate M": "23,3",
+      "Average Employment": "23,45"
+    },
+    {
+      "Year": 2010,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,9",
+      "Employment Rate M": "47,7",
+      "Average Employment": "44,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,7",
+      "Employment Rate M": "44,1",
+      "Average Employment": "41,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,0",
+      "Employment Rate M": "63,7",
+      "Average Employment": "58,85"
+    },
+    {
+      "Year": 2010,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "62,7",
+      "Average Employment": "58,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,9",
+      "Employment Rate M": "36,6",
+      "Average Employment": "36,25"
+    },
+    {
+      "Year": 2010,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,4",
+      "Employment Rate M": "41,0",
+      "Average Employment": "40,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,3",
+      "Employment Rate M": "60,0",
+      "Average Employment": "56,15"
+    },
+    {
+      "Year": 2010,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,5",
+      "Employment Rate M": "40,1",
+      "Average Employment": "40,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,0",
+      "Employment Rate M": "59,8",
+      "Average Employment": "57,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,9",
+      "Employment Rate M": "27,2",
+      "Average Employment": "25,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,9",
+      "Employment Rate M": "40,0",
+      "Average Employment": "40,45"
+    },
+    {
+      "Year": 2010,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "59,6",
+      "Employment Rate M": "65,5",
+      "Average Employment": "62,55"
+    },
+    {
+      "Year": 2010,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "19,2",
+      "Employment Rate M": "18,4",
+      "Average Employment": "18,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "61,1",
+      "Average Employment": "57,5"
+    },
+    {
+      "Year": 2010,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,7",
+      "Employment Rate M": "50,7",
+      "Average Employment": "46,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,5",
+      "Employment Rate M": "63,9",
+      "Average Employment": "58,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "65,8",
+      "Employment Rate M": "71,6",
+      "Average Employment": "68,7"
+    },
+    {
+      "Year": 2011,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,6",
+      "Employment Rate M": "62,6",
+      "Average Employment": "60,6"
+    },
+    {
+      "Year": 2011,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,5",
+      "Employment Rate M": "38,9",
+      "Average Employment": "37,7"
+    },
+    {
+      "Year": 2011,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,5",
+      "Employment Rate M": "60,3",
+      "Average Employment": "55,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,5",
+      "Employment Rate M": "40,6",
+      "Average Employment": "38,05"
+    },
+    {
+      "Year": 2011,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "68,0",
+      "Employment Rate M": "72,4",
+      "Average Employment": "70,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,1",
+      "Employment Rate M": "57,2",
+      "Average Employment": "57,65"
+    },
+    {
+      "Year": 2011,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,2",
+      "Employment Rate M": "44,4",
+      "Average Employment": "41,3"
+    },
+    {
+      "Year": 2011,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "46,3",
+      "Employment Rate M": "56,0",
+      "Average Employment": "51,15"
+    },
+    {
+      "Year": 2011,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,1",
+      "Employment Rate M": "39,2",
+      "Average Employment": "40,65"
+    },
+    {
+      "Year": 2011,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,1",
+      "Employment Rate M": "23,4",
+      "Average Employment": "23,75"
+    },
+    {
+      "Year": 2011,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,5",
+      "Employment Rate M": "47,6",
+      "Average Employment": "44,55"
+    },
+    {
+      "Year": 2011,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,0",
+      "Employment Rate M": "44,2",
+      "Average Employment": "42,1"
+    },
+    {
+      "Year": 2011,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,3",
+      "Employment Rate M": "64,7",
+      "Average Employment": "60,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,7",
+      "Employment Rate M": "61,9",
+      "Average Employment": "57,8"
+    },
+    {
+      "Year": 2011,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,1",
+      "Employment Rate M": "36,9",
+      "Average Employment": "36,5"
+    },
+    {
+      "Year": 2011,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,4",
+      "Employment Rate M": "41,4",
+      "Average Employment": "41,4"
+    },
+    {
+      "Year": 2011,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,5",
+      "Employment Rate M": "60,3",
+      "Average Employment": "56,4"
+    },
+    {
+      "Year": 2011,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,6",
+      "Employment Rate M": "38,9",
+      "Average Employment": "39,25"
+    },
+    {
+      "Year": 2011,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,5",
+      "Employment Rate M": "59,4",
+      "Average Employment": "56,95"
+    },
+    {
+      "Year": 2011,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,7",
+      "Employment Rate M": "26,4",
+      "Average Employment": "26,05"
+    },
+    {
+      "Year": 2011,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,6",
+      "Employment Rate M": "40,3",
+      "Average Employment": "40,45"
+    },
+    {
+      "Year": 2011,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "59,0",
+      "Employment Rate M": "65,4",
+      "Average Employment": "62,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "20,9",
+      "Employment Rate M": "19,7",
+      "Average Employment": "20,3"
+    },
+    {
+      "Year": 2011,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,7",
+      "Employment Rate M": "60,7",
+      "Average Employment": "57,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,2",
+      "Employment Rate M": "50,8",
+      "Average Employment": "46,5"
+    },
+    {
+      "Year": 2011,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,0",
+      "Employment Rate M": "64,1",
+      "Average Employment": "58,55"
+    },
+    {
+      "Year": 2011,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "64,6",
+      "Employment Rate M": "71,3",
+      "Average Employment": "67,95"
+    },
+    {
+      "Year": 2012,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,5",
+      "Employment Rate M": "63,0",
+      "Average Employment": "60,75"
+    },
+    {
+      "Year": 2012,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,0",
+      "Employment Rate M": "38,7",
+      "Average Employment": "37,35"
+    },
+    {
+      "Year": 2012,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,9",
+      "Employment Rate M": "60,8",
+      "Average Employment": "56,35"
+    },
+    {
+      "Year": 2012,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,1",
+      "Employment Rate M": "41,4",
+      "Average Employment": "38,75"
+    },
+    {
+      "Year": 2012,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "67,2",
+      "Employment Rate M": "71,9",
+      "Average Employment": "69,55"
+    },
+    {
+      "Year": 2012,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,4",
+      "Employment Rate M": "57,0",
+      "Average Employment": "57,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,0",
+      "Employment Rate M": "44,8",
+      "Average Employment": "41,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "46,5",
+      "Employment Rate M": "55,9",
+      "Average Employment": "51,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,4",
+      "Employment Rate M": "40,1",
+      "Average Employment": "41,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "23,2",
+      "Average Employment": "23,6"
+    },
+    {
+      "Year": 2012,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,1",
+      "Employment Rate M": "48,6",
+      "Average Employment": "45,35"
+    },
+    {
+      "Year": 2012,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,9",
+      "Employment Rate M": "43,9",
+      "Average Employment": "41,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,7",
+      "Employment Rate M": "65,5",
+      "Average Employment": "61,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,3",
+      "Employment Rate M": "61,9",
+      "Average Employment": "57,6"
+    },
+    {
+      "Year": 2012,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,4",
+      "Employment Rate M": "36,8",
+      "Average Employment": "36,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,9",
+      "Employment Rate M": "41,8",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2012,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,3",
+      "Employment Rate M": "60,7",
+      "Average Employment": "56,5"
+    },
+    {
+      "Year": 2012,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,2",
+      "Employment Rate M": "37,3",
+      "Average Employment": "38,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,6",
+      "Employment Rate M": "60,5",
+      "Average Employment": "57,55"
+    },
+    {
+      "Year": 2012,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,5",
+      "Employment Rate M": "27,5",
+      "Average Employment": "26,5"
+    },
+    {
+      "Year": 2012,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,7",
+      "Employment Rate M": "40,6",
+      "Average Employment": "40,65"
+    },
+    {
+      "Year": 2012,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,5",
+      "Employment Rate M": "65,1",
+      "Average Employment": "61,8"
+    },
+    {
+      "Year": 2012,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "22,6",
+      "Employment Rate M": "20,7",
+      "Average Employment": "21,65"
+    },
+    {
+      "Year": 2012,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,8",
+      "Employment Rate M": "60,7",
+      "Average Employment": "57,25"
+    },
+    {
+      "Year": 2012,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,8",
+      "Employment Rate M": "50,2",
+      "Average Employment": "46,0"
+    },
+    {
+      "Year": 2012,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,2",
+      "Employment Rate M": "63,5",
+      "Average Employment": "57,85"
+    },
+    {
+      "Year": 2012,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "64,6",
+      "Employment Rate M": "71,5",
+      "Average Employment": "68,05"
+    },
+    {
+      "Year": 2013,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,1",
+      "Employment Rate M": "62,3",
+      "Average Employment": "60,2"
+    },
+    {
+      "Year": 2013,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,7",
+      "Employment Rate M": "39,5",
+      "Average Employment": "38,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,0",
+      "Employment Rate M": "60,4",
+      "Average Employment": "55,7"
+    },
+    {
+      "Year": 2013,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,6",
+      "Employment Rate M": "42,1",
+      "Average Employment": "39,35"
+    },
+    {
+      "Year": 2013,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "66,7",
+      "Employment Rate M": "71,2",
+      "Average Employment": "68,95"
+    },
+    {
+      "Year": 2013,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,3",
+      "Employment Rate M": "56,9",
+      "Average Employment": "57,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,0",
+      "Employment Rate M": "44,3",
+      "Average Employment": "41,15"
+    },
+    {
+      "Year": 2013,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,2",
+      "Employment Rate M": "56,8",
+      "Average Employment": "52,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,7",
+      "Employment Rate M": "40,2",
+      "Average Employment": "41,45"
+    },
+    {
+      "Year": 2013,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "22,9",
+      "Average Employment": "23,45"
+    },
+    {
+      "Year": 2013,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,3",
+      "Employment Rate M": "48,9",
+      "Average Employment": "45,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,8",
+      "Employment Rate M": "45,6",
+      "Average Employment": "43,2"
+    },
+    {
+      "Year": 2013,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,2",
+      "Employment Rate M": "64,9",
+      "Average Employment": "60,55"
+    },
+    {
+      "Year": 2013,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,5",
+      "Employment Rate M": "62,2",
+      "Average Employment": "57,85"
+    },
+    {
+      "Year": 2013,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,2",
+      "Employment Rate M": "37,0",
+      "Average Employment": "36,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,1",
+      "Employment Rate M": "42,2",
+      "Average Employment": "42,15"
+    },
+    {
+      "Year": 2013,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,7",
+      "Employment Rate M": "60,2",
+      "Average Employment": "55,95"
+    },
+    {
+      "Year": 2013,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,7",
+      "Employment Rate M": "38,5",
+      "Average Employment": "38,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,2",
+      "Employment Rate M": "59,9",
+      "Average Employment": "56,55"
+    },
+    {
+      "Year": 2013,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "26,8",
+      "Employment Rate M": "28,7",
+      "Average Employment": "27,75"
+    },
+    {
+      "Year": 2013,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,5",
+      "Employment Rate M": "41,7",
+      "Average Employment": "41,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,9",
+      "Employment Rate M": "64,7",
+      "Average Employment": "61,3"
+    },
+    {
+      "Year": 2013,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "23,4",
+      "Employment Rate M": "22,6",
+      "Average Employment": "23,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "60,8",
+      "Average Employment": "57,35"
+    },
+    {
+      "Year": 2013,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,3",
+      "Employment Rate M": "49,9",
+      "Average Employment": "45,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,7",
+      "Employment Rate M": "62,3",
+      "Average Employment": "57,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "64,2",
+      "Employment Rate M": "70,9",
+      "Average Employment": "67,55"
+    },
+    {
+      "Year": 2014,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,1",
+      "Employment Rate M": "54,7",
+      "Average Employment": "52,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,2",
+      "Employment Rate M": "39,4",
+      "Average Employment": "37,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,0",
+      "Employment Rate M": "58,4",
+      "Average Employment": "53,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,3",
+      "Employment Rate M": "41,1",
+      "Average Employment": "37,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "66,0",
+      "Employment Rate M": "71,0",
+      "Average Employment": "68,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "58,7",
+      "Employment Rate M": "55,6",
+      "Average Employment": "57,15"
+    },
+    {
+      "Year": 2014,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,4",
+      "Employment Rate M": "44,3",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2014,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "46,0",
+      "Employment Rate M": "53,5",
+      "Average Employment": "49,75"
+    },
+    {
+      "Year": 2014,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,2",
+      "Employment Rate M": "41,3",
+      "Average Employment": "42,25"
+    },
+    {
+      "Year": 2014,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "23,7",
+      "Average Employment": "23,85"
+    },
+    {
+      "Year": 2014,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,1",
+      "Employment Rate M": "48,3",
+      "Average Employment": "45,2"
+    },
+    {
+      "Year": 2014,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,1",
+      "Employment Rate M": "46,5",
+      "Average Employment": "43,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,2",
+      "Employment Rate M": "64,8",
+      "Average Employment": "60,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,7",
+      "Employment Rate M": "61,8",
+      "Average Employment": "57,75"
+    },
+    {
+      "Year": 2014,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,1",
+      "Employment Rate M": "39,1",
+      "Average Employment": "38,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,6",
+      "Employment Rate M": "42,8",
+      "Average Employment": "42,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,6",
+      "Employment Rate M": "58,3",
+      "Average Employment": "54,45"
+    },
+    {
+      "Year": 2014,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,3",
+      "Employment Rate M": "35,8",
+      "Average Employment": "35,55"
+    },
+    {
+      "Year": 2014,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,5",
+      "Employment Rate M": "60,7",
+      "Average Employment": "57,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "27,7",
+      "Employment Rate M": "29,0",
+      "Average Employment": "28,35"
+    },
+    {
+      "Year": 2014,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,8",
+      "Employment Rate M": "42,0",
+      "Average Employment": "41,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,0",
+      "Employment Rate M": "64,4",
+      "Average Employment": "60,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,0",
+      "Employment Rate M": "23,9",
+      "Average Employment": "23,95"
+    },
+    {
+      "Year": 2014,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,9",
+      "Employment Rate M": "57,3",
+      "Average Employment": "54,6"
+    },
+    {
+      "Year": 2014,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,5",
+      "Employment Rate M": "49,4",
+      "Average Employment": "44,95"
+    },
+    {
+      "Year": 2014,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,5",
+      "Employment Rate M": "62,2",
+      "Average Employment": "56,35"
+    },
+    {
+      "Year": 2014,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "63,4",
+      "Employment Rate M": "69,9",
+      "Average Employment": "66,65"
+    },
+    {
+      "Year": 2015,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,8",
+      "Employment Rate M": "54,8",
+      "Average Employment": "52,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,8",
+      "Employment Rate M": "40,6",
+      "Average Employment": "38,7"
+    },
+    {
+      "Year": 2015,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,9",
+      "Employment Rate M": "58,4",
+      "Average Employment": "53,65"
+    },
+    {
+      "Year": 2015,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,9",
+      "Employment Rate M": "41,6",
+      "Average Employment": "38,25"
+    },
+    {
+      "Year": 2015,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "65,0",
+      "Employment Rate M": "70,5",
+      "Average Employment": "67,75"
+    },
+    {
+      "Year": 2015,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,9",
+      "Employment Rate M": "54,9",
+      "Average Employment": "56,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,1",
+      "Employment Rate M": "44,6",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2015,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "44,3",
+      "Employment Rate M": "54,8",
+      "Average Employment": "49,55"
+    },
+    {
+      "Year": 2015,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,3",
+      "Employment Rate M": "42,8",
+      "Average Employment": "43,05"
+    },
+    {
+      "Year": 2015,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,5",
+      "Employment Rate M": "24,3",
+      "Average Employment": "24,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,9",
+      "Employment Rate M": "48,6",
+      "Average Employment": "45,25"
+    },
+    {
+      "Year": 2015,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,0",
+      "Employment Rate M": "46,3",
+      "Average Employment": "43,65"
+    },
+    {
+      "Year": 2015,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,8",
+      "Employment Rate M": "65,0",
+      "Average Employment": "59,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,1",
+      "Employment Rate M": "61,3",
+      "Average Employment": "57,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,1",
+      "Employment Rate M": "39,0",
+      "Average Employment": "37,55"
+    },
+    {
+      "Year": 2015,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,5",
+      "Employment Rate M": "42,8",
+      "Average Employment": "42,65"
+    },
+    {
+      "Year": 2015,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,7",
+      "Employment Rate M": "57,6",
+      "Average Employment": "53,15"
+    },
+    {
+      "Year": 2015,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,5",
+      "Employment Rate M": "34,5",
+      "Average Employment": "34,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "51,6",
+      "Employment Rate M": "61,4",
+      "Average Employment": "56,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "29,0",
+      "Employment Rate M": "30,4",
+      "Average Employment": "29,7"
+    },
+    {
+      "Year": 2015,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,8",
+      "Employment Rate M": "41,4",
+      "Average Employment": "41,1"
+    },
+    {
+      "Year": 2015,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,3",
+      "Employment Rate M": "64,3",
+      "Average Employment": "60,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,5",
+      "Employment Rate M": "25,3",
+      "Average Employment": "24,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,8",
+      "Employment Rate M": "58,3",
+      "Average Employment": "55,55"
+    },
+    {
+      "Year": 2015,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,5",
+      "Employment Rate M": "49,2",
+      "Average Employment": "44,35"
+    },
+    {
+      "Year": 2015,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,5",
+      "Employment Rate M": "62,1",
+      "Average Employment": "55,8"
+    },
+    {
+      "Year": 2015,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "62,9",
+      "Employment Rate M": "70,2",
+      "Average Employment": "66,55"
+    },
+    {
+      "Year": 2016,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,9",
+      "Employment Rate M": "54,0",
+      "Average Employment": "51,45"
+    },
+    {
+      "Year": 2016,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,4",
+      "Employment Rate M": "40,8",
+      "Average Employment": "38,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,8",
+      "Employment Rate M": "58,5",
+      "Average Employment": "53,65"
+    },
+    {
+      "Year": 2016,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,7",
+      "Employment Rate M": "42,3",
+      "Average Employment": "38,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "64,6",
+      "Employment Rate M": "69,4",
+      "Average Employment": "67,0"
+    },
+    {
+      "Year": 2016,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,4",
+      "Employment Rate M": "54,1",
+      "Average Employment": "55,75"
+    },
+    {
+      "Year": 2016,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,5",
+      "Employment Rate M": "43,9",
+      "Average Employment": "41,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "44,4",
+      "Employment Rate M": "54,2",
+      "Average Employment": "49,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,1",
+      "Employment Rate M": "43,9",
+      "Average Employment": "43,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "24,9",
+      "Employment Rate M": "24,6",
+      "Average Employment": "24,75"
+    },
+    {
+      "Year": 2016,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,7",
+      "Employment Rate M": "49,3",
+      "Average Employment": "45,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,3",
+      "Employment Rate M": "46,0",
+      "Average Employment": "43,65"
+    },
+    {
+      "Year": 2016,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,6",
+      "Employment Rate M": "64,3",
+      "Average Employment": "59,45"
+    },
+    {
+      "Year": 2016,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,4",
+      "Employment Rate M": "62,0",
+      "Average Employment": "57,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,3",
+      "Employment Rate M": "38,8",
+      "Average Employment": "37,55"
+    },
+    {
+      "Year": 2016,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,6",
+      "Employment Rate M": "42,9",
+      "Average Employment": "42,75"
+    },
+    {
+      "Year": 2016,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,6",
+      "Employment Rate M": "58,7",
+      "Average Employment": "53,65"
+    },
+    {
+      "Year": 2016,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,0",
+      "Employment Rate M": "35,8",
+      "Average Employment": "35,4"
+    },
+    {
+      "Year": 2016,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,4",
+      "Employment Rate M": "61,2",
+      "Average Employment": "55,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "31,6",
+      "Employment Rate M": "31,9",
+      "Average Employment": "31,75"
+    },
+    {
+      "Year": 2016,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,7",
+      "Employment Rate M": "41,4",
+      "Average Employment": "41,05"
+    },
+    {
+      "Year": 2016,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,9",
+      "Employment Rate M": "64,5",
+      "Average Employment": "60,2"
+    },
+    {
+      "Year": 2016,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,3",
+      "Employment Rate M": "26,0",
+      "Average Employment": "25,65"
+    },
+    {
+      "Year": 2016,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,2",
+      "Employment Rate M": "59,5",
+      "Average Employment": "56,85"
+    },
+    {
+      "Year": 2016,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,4",
+      "Employment Rate M": "48,7",
+      "Average Employment": "43,55"
+    },
+    {
+      "Year": 2016,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,7",
+      "Employment Rate M": "62,2",
+      "Average Employment": "55,45"
+    },
+    {
+      "Year": 2016,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "62,2",
+      "Employment Rate M": "69,8",
+      "Average Employment": "66,0"
+    },
+    {
+      "Year": 2017,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,6",
+      "Employment Rate M": "53,3",
+      "Average Employment": "50,95"
+    },
+    {
+      "Year": 2017,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,0",
+      "Employment Rate M": "39,3",
+      "Average Employment": "37,15"
+    },
+    {
+      "Year": 2017,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,0",
+      "Employment Rate M": "59,1",
+      "Average Employment": "54,05"
+    },
+    {
+      "Year": 2017,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,9",
+      "Employment Rate M": "43,3",
+      "Average Employment": "39,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "63,7",
+      "Employment Rate M": "69,2",
+      "Average Employment": "66,45"
+    },
+    {
+      "Year": 2017,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,2",
+      "Employment Rate M": "53,8",
+      "Average Employment": "55,5"
+    },
+    {
+      "Year": 2017,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,0",
+      "Employment Rate M": "43,3",
+      "Average Employment": "41,15"
+    },
+    {
+      "Year": 2017,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,3",
+      "Employment Rate M": "53,7",
+      "Average Employment": "48,5"
+    },
+    {
+      "Year": 2017,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,9",
+      "Employment Rate M": "44,3",
+      "Average Employment": "43,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,2",
+      "Employment Rate M": "24,7",
+      "Average Employment": "24,95"
+    },
+    {
+      "Year": 2017,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,3",
+      "Employment Rate M": "49,0",
+      "Average Employment": "45,15"
+    },
+    {
+      "Year": 2017,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,0",
+      "Employment Rate M": "45,8",
+      "Average Employment": "43,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,9",
+      "Employment Rate M": "64,2",
+      "Average Employment": "59,55"
+    },
+    {
+      "Year": 2017,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,8",
+      "Employment Rate M": "62,4",
+      "Average Employment": "58,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,0",
+      "Employment Rate M": "38,5",
+      "Average Employment": "37,75"
+    },
+    {
+      "Year": 2017,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,2",
+      "Employment Rate M": "43,0",
+      "Average Employment": "42,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,4",
+      "Employment Rate M": "58,2",
+      "Average Employment": "53,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,4",
+      "Employment Rate M": "36,4",
+      "Average Employment": "35,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "50,1",
+      "Employment Rate M": "59,7",
+      "Average Employment": "54,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "32,4",
+      "Employment Rate M": "32,3",
+      "Average Employment": "32,35"
+    },
+    {
+      "Year": 2017,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,9",
+      "Employment Rate M": "41,7",
+      "Average Employment": "41,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,3",
+      "Employment Rate M": "64,3",
+      "Average Employment": "59,8"
+    },
+    {
+      "Year": 2017,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "26,4",
+      "Employment Rate M": "26,8",
+      "Average Employment": "26,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,1",
+      "Employment Rate M": "60,3",
+      "Average Employment": "57,7"
+    },
+    {
+      "Year": 2017,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,8",
+      "Employment Rate M": "47,8",
+      "Average Employment": "42,8"
+    },
+    {
+      "Year": 2017,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,7",
+      "Employment Rate M": "61,2",
+      "Average Employment": "54,45"
+    },
+    {
+      "Year": 2017,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "60,4",
+      "Employment Rate M": "68,6",
+      "Average Employment": "64,5"
+    },
+    {
+      "Year": 2018,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,1",
+      "Employment Rate M": "53,0",
+      "Average Employment": "51,05"
+    },
+    {
+      "Year": 2018,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,2",
+      "Employment Rate M": "40,2",
+      "Average Employment": "37,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,9",
+      "Employment Rate M": "58,3",
+      "Average Employment": "53,6"
+    },
+    {
+      "Year": 2018,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,0",
+      "Employment Rate M": "42,6",
+      "Average Employment": "38,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "63,4",
+      "Employment Rate M": "68,9",
+      "Average Employment": "66,15"
+    },
+    {
+      "Year": 2018,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,8",
+      "Employment Rate M": "53,6",
+      "Average Employment": "55,2"
+    },
+    {
+      "Year": 2018,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,7",
+      "Employment Rate M": "43,2",
+      "Average Employment": "40,95"
+    },
+    {
+      "Year": 2018,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,8",
+      "Employment Rate M": "52,9",
+      "Average Employment": "47,35"
+    },
+    {
+      "Year": 2018,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "43,0",
+      "Employment Rate M": "44,3",
+      "Average Employment": "43,65"
+    },
+    {
+      "Year": 2018,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,7",
+      "Employment Rate M": "24,6",
+      "Average Employment": "25,15"
+    },
+    {
+      "Year": 2018,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,9",
+      "Employment Rate M": "49,1",
+      "Average Employment": "45,0"
+    },
+    {
+      "Year": 2018,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,4",
+      "Employment Rate M": "45,3",
+      "Average Employment": "42,85"
+    },
+    {
+      "Year": 2018,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,8",
+      "Employment Rate M": "63,8",
+      "Average Employment": "59,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "62,3",
+      "Average Employment": "58,1"
+    },
+    {
+      "Year": 2018,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,8",
+      "Employment Rate M": "39,3",
+      "Average Employment": "38,05"
+    },
+    {
+      "Year": 2018,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,1",
+      "Employment Rate M": "43,1",
+      "Average Employment": "42,6"
+    },
+    {
+      "Year": 2018,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "47,3",
+      "Employment Rate M": "57,5",
+      "Average Employment": "52,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "33,3",
+      "Employment Rate M": "34,9",
+      "Average Employment": "34,1"
+    },
+    {
+      "Year": 2018,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,9",
+      "Employment Rate M": "59,7",
+      "Average Employment": "54,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "31,2",
+      "Employment Rate M": "33,6",
+      "Average Employment": "32,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,4",
+      "Employment Rate M": "41,5",
+      "Average Employment": "40,95"
+    },
+    {
+      "Year": 2018,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,6",
+      "Employment Rate M": "64,0",
+      "Average Employment": "59,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "27,4",
+      "Employment Rate M": "27,8",
+      "Average Employment": "27,6"
+    },
+    {
+      "Year": 2018,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "55,7",
+      "Employment Rate M": "60,7",
+      "Average Employment": "58,2"
+    },
+    {
+      "Year": 2018,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,1",
+      "Employment Rate M": "46,6",
+      "Average Employment": "41,85"
+    },
+    {
+      "Year": 2018,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,7",
+      "Employment Rate M": "60,7",
+      "Average Employment": "54,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "59,4",
+      "Employment Rate M": "67,7",
+      "Average Employment": "63,55"
+    },
+    {
+      "Year": 2019,
+      "Country": "AT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,3",
+      "Employment Rate M": "52,0",
+      "Average Employment": "50,15"
+    },
+    {
+      "Year": 2019,
+      "Country": "BE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "35,9",
+      "Employment Rate M": "40,3",
+      "Average Employment": "38,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "BG",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,6",
+      "Employment Rate M": "58,2",
+      "Average Employment": "53,4"
+    },
+    {
+      "Year": 2019,
+      "Country": "CY",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "34,5",
+      "Employment Rate M": "42,8",
+      "Average Employment": "38,65"
+    },
+    {
+      "Year": 2019,
+      "Country": "CZ",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "63,5",
+      "Employment Rate M": "68,6",
+      "Average Employment": "66,05"
+    },
+    {
+      "Year": 2019,
+      "Country": "DE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,1",
+      "Employment Rate M": "52,9",
+      "Average Employment": "54,5"
+    },
+    {
+      "Year": 2019,
+      "Country": "DK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "38,4",
+      "Employment Rate M": "43,1",
+      "Average Employment": "40,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "EE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "41,4",
+      "Employment Rate M": "54,1",
+      "Average Employment": "47,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "EL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "44,4",
+      "Employment Rate M": "48,3",
+      "Average Employment": "46,35"
+    },
+    {
+      "Year": 2019,
+      "Country": "ES",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "25,8",
+      "Employment Rate M": "24,7",
+      "Average Employment": "25,25"
+    },
+    {
+      "Year": 2019,
+      "Country": "FI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,2",
+      "Employment Rate M": "48,8",
+      "Average Employment": "44,5"
+    },
+    {
+      "Year": 2019,
+      "Country": "FR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "40,7",
+      "Employment Rate M": "45,1",
+      "Average Employment": "42,9"
+    },
+    {
+      "Year": 2019,
+      "Country": "HR",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "54,4",
+      "Employment Rate M": "65,3",
+      "Average Employment": "59,85"
+    },
+    {
+      "Year": 2019,
+      "Country": "HU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "52,8",
+      "Employment Rate M": "62,4",
+      "Average Employment": "57,6"
+    },
+    {
+      "Year": 2019,
+      "Country": "IE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "37,2",
+      "Employment Rate M": "39,4",
+      "Average Employment": "38,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "IT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "42,4",
+      "Employment Rate M": "43,1",
+      "Average Employment": "42,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "LT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "45,8",
+      "Employment Rate M": "56,3",
+      "Average Employment": "51,05"
+    },
+    {
+      "Year": 2019,
+      "Country": "LU",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "30,6",
+      "Employment Rate M": "33,9",
+      "Average Employment": "32,25"
+    },
+    {
+      "Year": 2019,
+      "Country": "LV",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "49,0",
+      "Employment Rate M": "58,8",
+      "Average Employment": "53,9"
+    },
+    {
+      "Year": 2019,
+      "Country": "MT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "30,5",
+      "Employment Rate M": "33,5",
+      "Average Employment": "32,0"
+    },
+    {
+      "Year": 2019,
+      "Country": "NL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "39,4",
+      "Employment Rate M": "40,1",
+      "Average Employment": "39,75"
+    },
+    {
+      "Year": 2019,
+      "Country": "PL",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "53,9",
+      "Employment Rate M": "63,0",
+      "Average Employment": "58,45"
+    },
+    {
+      "Year": 2019,
+      "Country": "PT",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "28,4",
+      "Employment Rate M": "29,0",
+      "Average Employment": "28,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "RO",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "56,4",
+      "Employment Rate M": "61,3",
+      "Average Employment": "58,85"
+    },
+    {
+      "Year": 2019,
+      "Country": "SE",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "36,4",
+      "Employment Rate M": "46,2",
+      "Average Employment": "41,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "SI",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "48,5",
+      "Employment Rate M": "60,9",
+      "Average Employment": "54,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "SK",
+      "ISCED11": "ED3_4",
+      "Employment Rate F": "57,9",
+      "Employment Rate M": "66,7",
+      "Average Employment": "62,3"
+    }
+  ]
