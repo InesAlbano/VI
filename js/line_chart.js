@@ -4,6 +4,8 @@ var height = 400;
 var padding = 60;
 var radius = 5;
 
+var tooltipLine = d3.select("div.tooltipLine");
+
 analyzer("Init")
 
 document.getElementById("button-forms").addEventListener("click", function(){
@@ -254,6 +256,9 @@ function analyzer(inequality, education) {
 	}
 }
 
+var div = d3.select("body").append("div")	
+    .attr("class", "tooltipLine")				
+    .style("opacity", 0);
 
 /* ------------------------------------- LINE CHART --------------------------------------- */
 
@@ -291,54 +296,20 @@ function line_chart(paises, maximo,minimo, v) {
     }
   }
 
-  // Create a tooltip
-  var tooltip = d3
-    .select("#line_chart")
-    .append("div")
-    .attr("class", "tooltip-plot")
-    .style("height", 40)
-    .style("width", 40)
-    .style("opacity", 0)
-    .attr("class", "tooltip")
-    .style("background-color", "white")
-    .style("border", "solid")
-    .style("border-width", "1px")
-    .style("border-radius", "5px")
-    .style("padding", "10px");
-
-
   // PLOTS CHANGE WHEN HOVERED _______________________________________________________________
 
-  function handleMouseOver(d, i) {
-    
-    d3
-      .select(this)
+  function handleMouseOver() {
+    d3.select(this)
       .attr("fill", "orange")
       .attr("r", radius*2);
-
-    //TOOLTIP NOT F* WORKING
-    tooltip
-      .transition()
-      .duration(50)
-      .style("opacity", 1);
-
-    tooltip
-      .html(d.GDP)
-      .style("left", (d3.event.pageX + 10) + "px")
-      .style("top", (d3.event.pageY - 15) + "px");
-  
   }
 
-  function handleMouseOut(d, i) {
-    d3
-      .select(this)
+  function handleMouseOut() {
+    d3.select(this)
       .attr("fill", "red")
       .attr("r", radius);
-
-    tooltip
-      .transition()
-      .duration(50)
-      .style("opacity", 0);
+    
+    tooltipLine.classed("hidden", true);
   }
   // __________________________________________________________________________________________
 
@@ -362,7 +333,23 @@ function line_chart(paises, maximo,minimo, v) {
           if (v === "GDP")
             return hscale(d.GDP);
         })
-        .on("mouseover", handleMouseOver)
+        .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+          console.log(new_paises)
+          // É PRECISO IR BUSCAR OS VALORES E OS PAISES E EU NÃO SEI COMO 
+          // DIANAAAAAAAAAAAAAAAAAAAAAAAAAAAA HELP
+
+          d3.select(this)
+            .attr("fill", "orange")
+            .attr("r", radius*2);
+
+          div.transition()		
+            .duration(200)		
+            .style("opacity", .9);
+
+          div.html($(this).attr('name') + "<br/>" )	
+            .style("left", (event.pageX) + "px")		
+            .style("top", (event.pageY - 28) + "px");	
+         })	
         .on("mouseout", handleMouseOut);
       
       // LINES ----------------------------------------------------------------------------------
