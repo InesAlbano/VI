@@ -130,9 +130,9 @@ function mouseLeave() {
     .transition()
     .duration(200)
     .style("stroke", "#515151")
-  d3.select(this).attr("fill","white").attr("stroke-width",1);
-  tooltip.classed("hidden", true);
-
+  div.transition()		
+    .duration(500)		
+    .style("opacity", 0);	
 }
 
 function addZoom() {
@@ -148,7 +148,6 @@ function addZoom() {
 function zoomed({ transform }) {
   d3.selectAll("#map-svg").attr("transform", transform);
 }
- 
 
 /* ---- Auxiliary functions based on the variable chosen ---- */
 function mapGDP(data, filePath, c, y){
@@ -190,30 +189,30 @@ function mapGDP(data, filePath, c, y){
       .style('stroke', '#515151')
       .style('stroke-width', 1)
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        console.log(this)
-        this.parentNode.appendChild(this);
-        d3.selectAll(".country")
-          .transition()
-          .duration(200)
-          .style("opacity", .5)
-        d3.select(this)
-          .transition()
-          .duration(200)
-          .style("opacity", 1)
-          .style("stroke", "white")      
-        div.transition()		
-        .duration(200)		
-        .style("opacity", .9);
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
 
-        if (localStorage.getItem($(this).attr('name')) == null){
-          value = ''
-        } else {
-          value = localStorage.getItem($(this).attr('name'))
-        }
-        div	.html($(this).attr('name') + "<br/>"  + value)	
-        .style("left", (event.pageX) + "px")		
-        .style("top", (event.pageY - 28) + "px");	
-    
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	
+          }
         })			
       .on("mouseleave", mouseLeave)
       addZoom();  
@@ -248,14 +247,12 @@ function mapIncome(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && 
-              (y.includes(d2.Year)) && 
-              (e.includes(d2.ISCED11)) && 
-              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.MoneyF == -1 || d2.MoneyH == -1){
               val = -1
             } else {
               val = val + (d2.MoneyF + d2.MoneyM);
+              localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
             }
           }
         });
@@ -267,7 +264,32 @@ function mapIncome(data, filePath, c, y, e){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", mouseOver)
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	    
+          }
+        })			
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
@@ -297,14 +319,12 @@ function mapEducation(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && 
-              (y.includes(d2.Year)) && 
-              (e.includes(d2.isced11)) && 
-              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.isced11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.values == -1){
               val = -1
             } else {
               val = val + d2.value;
+              localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
             }
           }
         });
@@ -316,7 +336,32 @@ function mapEducation(data, filePath, c, y, e){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", mouseOver)
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	    
+          }
+        })			
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
@@ -345,10 +390,9 @@ function mapWHP(data, filePath, c, y){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && 
-              (y.includes(d2.Year)) &&
-              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             val = val + d2.femaleEmployeesHighPosition;
+            localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
         });
         return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
@@ -359,7 +403,32 @@ function mapWHP(data, filePath, c, y){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", mouseOver)
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	
+          }
+        })			
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
@@ -389,11 +458,9 @@ function mapPoverty(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.code)) && 
-              (y.includes(d2.Year)) && 
-              (e.includes(d2.ISCED11)) && 
-              (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((c.includes(d2.code)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             val = val + d2.AVG;
+            localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
         });
         return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
@@ -404,7 +471,32 @@ function mapPoverty(data, filePath, c, y, e){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", mouseOver)
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	    
+          }
+        })			
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
@@ -434,14 +526,12 @@ function mapGWG(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && 
-              (y.includes(d2.Year)) && 
-              (e.includes(d2.ISCED11)) && 
-              (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.MoneyF == -1 || d2.MoneyH == -1){
               val = -100
             } else {
               val = val + parseFloat(d2.GenderWageGap.replace(",", "."));
+              localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
             }
           }
         });
@@ -453,7 +543,32 @@ function mapGWG(data, filePath, c, y, e){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", mouseOver)
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+        if(c.includes($(this).attr('name'))) {
+          this.parentNode.appendChild(this);
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .5)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")      
+          div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+          if (localStorage.getItem($(this).attr('name')) == null){
+            value = ''
+          } else {
+            value = localStorage.getItem($(this).attr('name'))
+          }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	  
+          }  
+        })			
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
