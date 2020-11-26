@@ -60,12 +60,13 @@
                   </div>
               </li>
               <li>
-                  <div class="radio-toolbar-education">
-                      <input type="radio" id="0-2" name="education" value="0-2"><label for="0-2">ED0_2</label>
-                      <input type="radio" id="3-4" name="education" value="3-4"><label for="3-4">ED3_4</label>
-                      <input type="radio" id="5-8" name="education" value="5-8"><label for="5-8">ED5_8</label>
-                  </div>
+                <div class="switch-toggle switch-3 switch-candy" style="margin-left: 5px;">
+                    <input type="radio" id="0-2" name="education" value="0-2" class="switch-toggle-item"><label for="0-2" onclick="">ED0_2</label>
+                    <input type="radio" id="3-4" name="education" value="3-4" class="switch-toggle-item"><label for="3-4" onclick="">ED3_4</label>
+                    <input type="radio" id="5-8" name="education" value="5-8" class="switch-toggle-item"><label for="5-8" onclick="">ED5_8</label>
+                </div><br>
               </li>
+              <br>
               <li>
                   <div class="multiselect">
                       <div class="selectBox" onclick="showCheckboxes1()">
@@ -181,6 +182,49 @@
   overflow-x: hidden;
   padding-top: 20px;
 }
+
+.switch-toggle-item {
+  padding: 10px 20px;
+  font-family: sans-serif, Arial;
+  border-radius: 4px;
+  width: 10px;
+  text-align: center;
+}
+
+.switch-toggle {
+  float: left;
+  background-color: #878787;
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 5px solid #E3E0E0;
+  border-radius: 4px;
+}
+.switch-toggle input {
+  position: absolute;
+  opacity: 0;
+}
+.switch-toggle input + label {
+  padding: 3px;
+  float:left;
+  color: black;
+  cursor: pointer;
+  border: 1px solid #878787;
+}
+
+.switch-toggle input:checked + label {
+  background-color: #AFAFAF;
+  cursor: pointer;
+  border: 1px solid #1A1C1F;
+  border-radius: 4px;
+}
+
+/*.switch-toggle input:checked + label {
+  background: #e4a950;
+}*/
+
+/*.switch-toggle label:hover{
+    background-color: #e2c9a2;
+}*/
 
 </style>
 
