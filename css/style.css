@@ -26,58 +26,53 @@ li {
     padding: 8px 16px;
 }
 
+.flags {
+  width: 10%;
+  border: 1px solid #E3E0E0;
+  border-radius: 2px;
+}
 
 .multiselect {
-    width: 100%;
+  font-family: sans-serif, Arial;
+  width: 100%;
+  color: black
 }
 
 .selectBox {
-    position: relative;
+  position: relative;
 }
 
 .selectBox select {
-    width: 100%;
+  width: 100%;
+  font-weight: bold;
 }
 
 .overSelect {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
+
 #checkboxes {
-    display: none;
-    border: 1px #dadada solid;
+  display: none;
+  background: #fff;
+  position: absolute;
+  border: 1px #dadada solid;
+  width: 82.5%;
+  z-index: 2;
 }
 
 #checkboxes label {
-    display: block;
+  display: block;
 }
 
 #checkboxes label:hover {
-    background-color: #1e90ff;
+  background-color: #e2c9a2;
 }
 
-    /* to remove after */
-#checkboxes1 {
-    display: none;
-    border: 1px #dadada solid;
-}
-
-#checkboxes1 label {
-    display: block;
-}
-
-#checkboxes1 label:hover {
-    background-color: #1e90ff;
-}
-
-.wrapper{
-    border-radius: 10px;
-    background-color: #E3E0E0;
-}
 
 /* education buttons */
 .radio-toolbar-education{

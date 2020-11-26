@@ -12,6 +12,9 @@
     <script src="https://unpkg.com/topojson@3"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+
 </head>
 <body>
     <section class="container">
@@ -24,38 +27,39 @@
                   <div class="multiselect">
                       <div class="selectBox" onclick="showCheckboxes()">
                           <select>
-                              <option>Select the countries...</option>
+                              
+                              <option style="font-family: sans-serif, Arial;">Select the countries...</option>
                           </select>
                           <div class="overSelect"></div>
                       </div>
                       <div id="checkboxes">
-                          <label for="BE"></label><input type="checkbox" name="country" value="BE"  id="BE" />BE</label>
-                          <label for="BG"></label><input type="checkbox" name="country" value="BG"  id="BG" />BG</label>
-                          <label for="CZ"></label><input type="checkbox" name="country" value="CZ"  id="CZ" />CZ</label>
-                          <label for="DK"></label><input type="checkbox" name="country" value="DK"  id="DK" />DK</label>
-                          <label for="DE"></label><input type="checkbox" name="country" value="DE"  id="DE" />DE</label>
-                          <label for="EE"></label><input type="checkbox" name="country" value="EE"  id="EE" />EE</label>
-                          <label for="IE"></label><input type="checkbox" name="country" value="IE"  id="IE" />IE</label>
-                          <label for="EL"></label><input type="checkbox" name="country" value="EL"  id="EL" />EL</label>
-                          <label for="ES"></label><input type="checkbox" name="country" value="ES"  id="ES" />ES</label>
-                          <label for="FR"></label><input type="checkbox" name="country" value="FR"  id="FR" />FR</label>
-                          <label for="HR"></label><input type="checkbox" name="country" value="HR"  id="HR" />HR</label>
-                          <label for="IT"></label><input type="checkbox" name="country" value="IT"  id="IT" />IT</label>
-                          <label for="CY"></label><input type="checkbox" name="country" value="CY"  id="CY" />CY</label>
-                          <label for="LV"></label><input type="checkbox" name="country" value="LV"  id="LV" />LV</label>
-                          <label for="LT"></label><input type="checkbox" name="country" value="LT"  id="LT" />LT</label>
-                          <label for="LU"></label><input type="checkbox" name="country" value="LU"  id="LU" />LU</label>
-                          <label for="HU"></label><input type="checkbox" name="country" value="HU"  id="HU" />HU</label>
-                          <label for="MT"></label><input type="checkbox" name="country" value="MT"  id="MT" />MT</label>
-                          <label for="NL"></label><input type="checkbox" name="country" value="NL"  id="NL" />NL</label>
-                          <label for="AT"></label><input type="checkbox" name="country" value="AT"  id="AT" />AT</label>
-                          <label for="PL"></label><input type="checkbox" name="country" value="PL"  id="PL" />PL</label>
-                          <label for="PT"></label><input type="checkbox" name="country" value="PT"  id="PT" />PT</label>
-                          <label for="RO"></label><input type="checkbox" name="country" value="RO"  id="RO" />RO</label>
-                          <label for="SI"></label><input type="checkbox" name="country" value="SI"  id="SI" />SI</label>
-                          <label for="SK"></label><input type="checkbox" name="country" value="SK"  id="SK" />SK</label>
-                          <label for="FI"></label><input type="checkbox" name="country" value="FI"  id="FI" />FI</label>
-                          <label for="SE"></label><input type="checkbox" name="country" value="SE"  id="SE" />SE</label>
+                          <label for="BE"><input type="checkbox" name="country" value="BE"  id="BE"/><img class="flags" src="img/be.png"> BE</label>
+                          <label for="BG"><input type="checkbox" name="country" value="BG"  id="BG"/><img class="flags" src="img/bg.svg"> BG</label>
+                          <label for="CZ"><input type="checkbox" name="country" value="CZ"  id="CZ"/><img class="flags" src="img/cz.png"> CZ</label>
+                          <label for="DK"><input type="checkbox" name="country" value="DK"  id="DK"/><img class="flags" src="img/dk.png"> DK</label>
+                          <label for="DE"><input type="checkbox" name="country" value="DE"  id="DE"/><img class="flags" src="img/de.png"> DE</label>
+                          <label for="EE"><input type="checkbox" name="country" value="EE"  id="EE"/><img class="flags" src="img/ee.png"> EE</label>
+                          <label for="IE"><input type="checkbox" name="country" value="IE"  id="IE"/><img class="flags" src="img/ie.png"> IE</label>
+                          <label for="EL"><input type="checkbox" name="country" value="EL"  id="EL"/><img class="flags" src="img/el.png"> EL</label>
+                          <label for="ES"><input type="checkbox" name="country" value="ES"  id="ES"/><img class="flags" src="img/es.png"> ES</label>
+                          <label for="FR"><input type="checkbox" name="country" value="FR"  id="FR"/><img class="flags" src="img/fr.svg"> FR</label>
+                          <label for="HR"><input type="checkbox" name="country" value="HR"  id="HR"/><img class="flags" src="img/hr.png"> HR</label>
+                          <label for="IT"><input type="checkbox" name="country" value="IT"  id="IT"/><img class="flags" src="img/it.svg"> IT</label>
+                          <label for="CY"><input type="checkbox" name="country" value="CY"  id="CY"/><img class="flags" src="img/cy.svg"> CY</label>
+                          <label for="LV"><input type="checkbox" name="country" value="LV"  id="LV"/><img class="flags" src="img/lv.svg"> LV</label>
+                          <label for="LT"><input type="checkbox" name="country" value="LT"  id="LT"/><img class="flags" src="img/lt.png"> LT</label>
+                          <label for="LU"><input type="checkbox" name="country" value="LU"  id="LU"/><img class="flags" src="img/lu.png"> LU</label>
+                          <label for="HU"><input type="checkbox" name="country" value="HU"  id="HU"/><img class="flags" src="img/hu.png"> HU</label>
+                          <label for="MT"><input type="checkbox" name="country" value="MT"  id="MT"/><img class="flags" src="img/mt.svg"> MT</label>
+                          <label for="NL"><input type="checkbox" name="country" value="NL"  id="NL"/><img class="flags" src="img/nl.svg"> NL</label>
+                          <label for="AT"><input type="checkbox" name="country" value="AT"  id="AT"/><img class="flags" src="img/at.svg"> AT</label>
+                          <label for="PL"><input type="checkbox" name="country" value="PL"  id="PL"/><img class="flags" src="img/pl.png"> PL</label>
+                          <label for="PT"><input type="checkbox" name="country" value="PT"  id="PT"/><img class="flags" src="img/pt.png"> PT</label>
+                          <label for="RO"><input type="checkbox" name="country" value="RO"  id="RO"/><img class="flags" src="img/ro.png"> RO</label>
+                          <label for="SI"><input type="checkbox" name="country" value="SI"  id="SI"/><img class="flags" src="img/si.png"> SI</label>
+                          <label for="SK"><input type="checkbox" name="country" value="SK"  id="SK"/><img class="flags" src="img/sk.png"> SK</label>
+                          <label for="FI"><input type="checkbox" name="country" value="FI"  id="FI"/><img class="flags" src="img/fi.png"> FI</label>
+                          <label for="SE"><input type="checkbox" name="country" value="SE"  id="SE"/><img class="flags" src="img/se.png"> SE</label>
                       </div>
                   </div>
               </li>
@@ -175,8 +179,9 @@
   padding-top: 20px;
 }
 
+/* Education */
 .switch-toggle-item {
-  padding: 10px 20px;
+  padding: 8px 20px;
   font-family: sans-serif, Arial;
   border-radius: 4px;
   width: 10px;
@@ -186,9 +191,7 @@
 .switch-toggle {
   float: left;
   background-color: #878787;
-  padding-left: 1px;
-  padding-right: 1px;
-  border: 5px solid #E3E0E0;
+  border: 4px solid #E3E0E0;
   border-radius: 4px;
 }
 .switch-toggle input {
@@ -210,6 +213,7 @@
   border-radius: 4px;
 }
 
+/* Years */
 .container-checkbox {
   display: block;
   position: relative;
@@ -254,11 +258,15 @@
 }
 
 
+/* Countries */
+
+
 </style>
+
+<script  src="index.js"></script>
 
 <script>
     var expanded = false;
-    var expanded1 = false;
 
     function showCheckboxes() {
         var checkboxes = document.getElementById("checkboxes"); //countries
@@ -268,18 +276,6 @@
         } else {
             checkboxes.style.display = "none";
             expanded = false;
-        }
-    }
-
-    /* to remove after */
-    function showCheckboxes1() {
-        var checkboxes1 = document.getElementById("checkboxes1"); //years
-        if (!expanded1) {
-            checkboxes1.style.display = "block";
-            expanded1 = true;
-        } else {
-            checkboxes1.style.display = "none";
-            expanded1 = false;
         }
     }
 </script>
