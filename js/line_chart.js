@@ -55,6 +55,7 @@ function analyzer(inequality, education) {
             minimo=0;
           }
           countries_filtered_years.push(aux);
+          console.log("AAA", countries_filtered_years)
         }
       line_chart(countries_filtered_years,maximo,minimo, inequality);
       });
@@ -267,7 +268,8 @@ function line_chart(paises, maximo,minimo, v) {
   // INITIAL VARS ____________________________________________________________________________
 
   var xscaleData = paises[0].map((a) => a.Year);
-  
+  console.log(paises)
+
   // Scales
   var xscale = d3
     .scalePoint()
@@ -298,16 +300,17 @@ function line_chart(paises, maximo,minimo, v) {
 
   // PLOTS CHANGE WHEN HOVERED _______________________________________________________________
 
-  /*function handleMouseOver() {
+  function handleMouseOver() {
     d3.select(this)
       .attr("fill", "orange")
       .attr("r", radius*2);
-  }*/
+  }
 
   function handleMouseOut() {
     d3.select(this)
       .attr("fill", "red")
       .attr("r", radius);
+    
     tooltipLine.classed("hidden", true);
   }
   // __________________________________________________________________________________________
@@ -315,6 +318,7 @@ function line_chart(paises, maximo,minimo, v) {
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
     for (i = 0; i < paises.length; i++) {
+      
       // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
       var plots = svg
         .selectAll("circle")
@@ -331,10 +335,10 @@ function line_chart(paises, maximo,minimo, v) {
           if (v === "GDP")
             return hscale(d.GDP);
         })
-        .on("mouseover", function(d) {	 // permitir apenas fazer hover nos itens selecionados
+        .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+          console.log(new_paises)
           // É PRECISO IR BUSCAR OS VALORES E OS PAISES E EU NÃO SEI COMO 
           // DIANAAAAAAAAAAAAAAAAAAAAAAAAAAAA HELP
-          // TODO
 
           d3.select(this)
             .attr("fill", "orange")
@@ -344,8 +348,7 @@ function line_chart(paises, maximo,minimo, v) {
             .duration(200)		
             .style("opacity", .9);
 
-          console.log(new_paises)
-          div.html(d.Country + "<br/>" + d.GDP)	
+          div.html($(this).attr('name') + "<br/>" )	
             .style("left", (event.pageX) + "px")		
             .style("top", (event.pageY - 28) + "px");	
          })	

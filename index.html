@@ -12,9 +12,6 @@
     <script src="https://unpkg.com/topojson@3"></script>
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
-    <link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
-
 </head>
 <body>
     <section class="container">
@@ -72,7 +69,7 @@
               </li>
               <br>
               <li>
-                <div style="margin-left: 55px">
+                <div id="checkboxes1" style="margin-left: 55px">
                     <label class="container-checkbox" for="2010"><input type="checkbox" id="2010" name="year" value="2010"/><span class="checkmark"></span>2010</label>
                     <label class="container-checkbox" for="2011"><input type="checkbox" id="2011" name="year" value="2011"/><span class="checkmark"></span>2011</label>
                     <label class="container-checkbox" for="2012"><input type="checkbox" id="2012" name="year" value="2012"/><span class="checkmark"></span>2012</label>
@@ -263,7 +260,6 @@
 
 </style>
 
-<script  src="index.js"></script>
 
 <script>
     var expanded = false;
@@ -337,6 +333,7 @@ checkboxes.forEach(function(checkbox) {
         if(checkboxes[i].checked==true)
             years.push(parseInt(checkboxes[i].value));
     }
+    console.log(years)
 
     /*get bottom variables*/
     checkboxes = document.getElementsByName("variables");
