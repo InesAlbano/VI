@@ -298,17 +298,16 @@ function line_chart(paises, maximo,minimo, v) {
 
   // PLOTS CHANGE WHEN HOVERED _______________________________________________________________
 
-  function handleMouseOver() {
+  /*function handleMouseOver() {
     d3.select(this)
       .attr("fill", "orange")
       .attr("r", radius*2);
-  }
+  }*/
 
   function handleMouseOut() {
     d3.select(this)
       .attr("fill", "red")
       .attr("r", radius);
-    
     tooltipLine.classed("hidden", true);
   }
   // __________________________________________________________________________________________
@@ -316,7 +315,6 @@ function line_chart(paises, maximo,minimo, v) {
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
     for (i = 0; i < paises.length; i++) {
-      
       // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
       var plots = svg
         .selectAll("circle")
@@ -333,10 +331,10 @@ function line_chart(paises, maximo,minimo, v) {
           if (v === "GDP")
             return hscale(d.GDP);
         })
-        .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-          console.log(new_paises)
+        .on("mouseover", function(d) {	 // permitir apenas fazer hover nos itens selecionados
           // É PRECISO IR BUSCAR OS VALORES E OS PAISES E EU NÃO SEI COMO 
           // DIANAAAAAAAAAAAAAAAAAAAAAAAAAAAA HELP
+          // TODO
 
           d3.select(this)
             .attr("fill", "orange")
@@ -346,7 +344,8 @@ function line_chart(paises, maximo,minimo, v) {
             .duration(200)		
             .style("opacity", .9);
 
-          div.html($(this).attr('name') + "<br/>" )	
+          console.log(new_paises)
+          div.html(d.Country + "<br/>" + d.GDP)	
             .style("left", (event.pageX) + "px")		
             .style("top", (event.pageY - 28) + "px");	
          })	
