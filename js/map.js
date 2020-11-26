@@ -107,7 +107,7 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")				
     .style("opacity", 0);
 
-// Hover effects - missing: countries' names appearing (and maybe variable value) 
+// Hover effects
 function mouseOver() {
   this.parentNode.appendChild(this);
   d3.selectAll(".country")
@@ -119,8 +119,6 @@ function mouseOver() {
     .duration(200)
     .style("opacity", 1)
     .style("stroke", "white")
-  //d3.select(this).attr("fill","grey").attr("stroke-width",2);
-  //return tooltip.style("hidden", false).html(this.Country);
 }
 
 function mouseLeave() {
@@ -176,13 +174,13 @@ function mapGDP(data, filePath, c, y){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
+          y1 = y;
           if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-            val = val + parseFloat(d2.GDP);
-            //console.log(val)
-            console.log("aaaaaaaaaaaaaaaaaaaaa")
+            val = val + parseFloat(d2.GDP);         
           }
-          localStorage.setItem(d2.Country, val);
-          //console.log(localStorage.getItem(d2.Country))
+          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) { 
+            localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
+          }
         });
         return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
       })
@@ -191,7 +189,7 @@ function mapGDP(data, filePath, c, y){
       })
       .style('stroke', '#515151')
       .style('stroke-width', 1)
-      .on("mouseover", function() {	
+      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
         console.log(this)
         this.parentNode.appendChild(this);
         d3.selectAll(".country")
@@ -205,34 +203,20 @@ function mapGDP(data, filePath, c, y){
           .style("stroke", "white")      
         div.transition()		
         .duration(200)		
-        .style("opacity", .9);		
-        console.log($(this).attr('name'))
-        console.log(localStorage.getItem($(this).attr('name')))
-        div	.html($(this).attr('name') + "<br/>"  + localStorage.getItem($(this).attr('name')))	
+        .style("opacity", .9);
+
+        if (localStorage.getItem($(this).attr('name')) == null){
+          value = ''
+        } else {
+          value = localStorage.getItem($(this).attr('name'))
+        }
+        div	.html($(this).attr('name') + "<br/>"  + value)	
         .style("left", (event.pageX) + "px")		
         .style("top", (event.pageY - 28) + "px");	
     
         })			
       .on("mouseleave", mouseLeave)
       addZoom();  
-    
-    //d3.select('body').append('div').attr('id', 'tooltip').attr('style', 'position: absolute; opacity: 0;');
-    //d3.select('svg').selectAll('path').data(data.features)
-      //.join('path')
-      //.attr('r', 3)
-      //.attr('cy', 5)
-      //.attr('cx', (d,i) => i*15+15)
-      //.on('mouseover', function(d) {
-      //d3.select('#tooltip').transition().duration(200).style('opacity', 1).text(d.properties.name)
-      //})
-      //.on('mouseout', function() {
-      //d3.select('#tooltip').style('opacity', 0)
-      //})
-      //.on('mousemove', function() {
-      //d3.select('#tooltip').style('left', (d3.event.pageX+10) + 'px').style('top', (d3.event.pageY+10) + 'px')
-      //})
-     
-      
   });
 }
 
