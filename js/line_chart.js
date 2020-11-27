@@ -29,12 +29,10 @@ function analyzer(inequality, education) {
         $('#checkboxes input:checked').each(function() {
           selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
         )});
-        console.log("sc", selected_countries)
               
         var years=[];
         $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
         let yearsv2 = years.map(i=>Number(i));
-        console.log("y", yearsv2)
 
         var maximo=0;
         var minimo=0;
@@ -141,7 +139,6 @@ function analyzer(inequality, education) {
         } else {
           minimo = minimo * 2;
         }
-        console.log("filtered years", countries_filtered_years)
         countries_filtered_years.push(aux);
         }
       line_chart(countries_filtered_years,maximo,minimo, inequality);
@@ -219,7 +216,6 @@ function analyzer(inequality, education) {
           } else {
             minimo = minimo *2;
           }
-          console.log("min", minimo)
           countries_filtered_years.push(aux);
         }
       line_chart(countries_filtered_years, maximo, minimo, inequality);
@@ -248,7 +244,6 @@ function analyzer(inequality, education) {
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
               if (education === selected_countries[i][j].ISCED11) {
-                console.log("im here")
                 aux.push(selected_countries[i][j]);
                 if(maximo<selected_countries[i][j].AVG){
                   maximo=selected_countries[i][j].AVG;
@@ -307,7 +302,6 @@ function analyzer(inequality, education) {
         }
         countries_filtered_years.push(aux);
       }
-      console.log("countries", countries_filtered_years)
       line_chart(countries_filtered_years, maximo, minimo, inequality);
       });
       break
@@ -364,7 +358,6 @@ function line_chart(paises, maximo,minimo, v) {
   // INITIAL VARS ____________________________________________________________________________
 
   var xscaleData = paises[0].map((a) => a.Year);
-  console.log(paises)
 
   // Scales
   var xscale = d3
@@ -376,8 +369,6 @@ function line_chart(paises, maximo,minimo, v) {
     .scaleLinear()
     .domain([minimo, maximo])
     .range([height - padding, padding]);
-
-    console.log('min', minimo, 'max', maximo)
 
   // Define image SVG; everything of SVG will be append on the div of line_chart
   var svg = d3
@@ -396,27 +387,6 @@ function line_chart(paises, maximo,minimo, v) {
     }
   }
 
-  // PLOTS CHANGE WHEN HOVERED _______________________________________________________________
-
-  function handleMouseOver() {
-    d3.select(this)
-      .attr("fill", "orange")
-      .attr("r", radius*2);
-  }
-
-  function handleMouseOut() {
-    d3.select(this)
-      .attr("fill", "red")
-      .attr("r", radius);
-
-    div.transition()		
-      .duration(500)		
-      .style("opacity", 0);	
-    
-    tooltipLine.classed("hidden", true);
-  }
-  // __________________________________________________________________________________________
-
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
     for (i = 0; i < paises.length; i++) {
@@ -432,6 +402,7 @@ function line_chart(paises, maximo,minimo, v) {
         .attr("id", function(d) {
           return d.Year;
         })
+        .attr("is_clicked", false)
         .attr("name", function(d){
           return d.Country;
         })
@@ -471,20 +442,36 @@ function line_chart(paises, maximo,minimo, v) {
           if (v === "GWG")
             return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
         })
-        .on("click", function (){ // not working bc of mouse leave
-          console.log("click on")
-          d3.select(this)
-            .attr("fill", "orange")
-            .attr("r", radius*2);
+        .on("click", function (){
+          for (let i = 0; i < plots._groups[0].length; i++){
+            if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+              if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
+                plots._groups[0][i].attributes.is_clicked.value = 'false';
+                d3.select(plots._groups[0][i])
+                  .attr("fill", "red")
+                  .attr("r", radius);
+                div.transition()		
+                  .duration(500)		
+                  .style("opacity", 0);	
+                tooltipLine.classed("hidden", true);
+              }
+            } else {
+              this.attributes.is_clicked.value = "true";
+              d3.select(this)
+                .attr("fill", "orange")
+                .attr("r", radius*2);
+              localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+            }
+          }
         })
-        .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-          this.parentNode.appendChild(this);
+        .on("mouseover", function() {
+          /*this.parentNode.appendChild(this);
           
           // jQuery
           console.log($.getScript('../js/map.js'))
           $.getScript('../js/map.js', function() {
             highlight($(this).attr('name'))
-          });
+          });*/
 
           d3.select(this)
             .attr("fill", "orange")
@@ -525,10 +512,21 @@ function line_chart(paises, maximo,minimo, v) {
                 .style("top", (event.pageY - 28) + "px");	
             }
           })			          
-        .on("mouseout", handleMouseOut);
+        .on("mouseout", function(){
+          if (this.attributes.is_clicked.value === 'false'){
+            d3.select(this)
+            .attr("fill", "red")
+            .attr("r", radius);
+
+            div.transition()		
+              .duration(500)		
+              .style("opacity", 0);	
+            tooltipLine.classed("hidden", true);
+          }
+          
+        });
       
       // LINES ----------------------------------------------------------------------------------
-      console.log("paises", paises)
       svg
         .append("path")
         .datum(paises[i])

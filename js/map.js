@@ -103,17 +103,19 @@ function mouseOver() {
 }
 
 function mouseLeave() {
-  d3.selectAll(".country")
-    .transition()
-    .duration(200)
-    .style("opacity", .8)
-  d3.select(this)
-    .transition()
-    .duration(200)
-    .style("stroke", "#515151")
-  div.transition()		
-    .duration(500)		
-    .style("opacity", 0);	
+  if (this.attributes.is_clicked.value === 'false'){
+    d3.selectAll(".country")
+      .transition()
+      .duration(200)
+      .style("opacity", .8)
+    d3.select(this)
+      .transition()
+      .duration(200)
+      .style("stroke", "#515151")
+    div.transition()		
+      .duration(500)		
+      .style("opacity", 0);	
+  }
 }
 
 // Hover effects
@@ -187,11 +189,56 @@ function mapGDP(data, filePath, c, y){
       .attr("name", function(d){
         return d.id;
       })
+      .attr("is_clicked", false)
       .style('stroke', '#515151')
       .style('stroke-width', 1)
+      .on("click", function (){
+        this.attributes.is_clicked.value = "true";
+
+        var paths = d3.selectAll("#map-holder path")
+
+        for (let i = 0; i < paths._groups[0].length; i++){
+          if (paths._groups[0][i].attributes.name.value != this.attributes.name.value){
+            if (paths._groups[0][i].attributes.is_clicked.value === 'true') {
+              console.log("AAAAAAAAA", paths._groups[0][i].attributes.name.value)
+              paths._groups[0][i].attributes.is_clicked.value = 'false';
+              console.log("AAAAAAAAA", paths._groups[0][i])
+              d3.selectAll(".country")
+                .transition()
+                .duration(200)
+                .style("opacity", .8)
+              d3.select(paths._groups[0][i])
+                .transition()
+                .duration(200)
+                .style("stroke", "#515151")
+              div.transition()		
+                .duration(500)		
+                .style("opacity", 0);		
+            }
+          } else {
+            this.attributes.is_clicked.value = "true";
+            if(c.includes($(this).attr('name'))) {
+              this.parentNode.appendChild(this);
+              d3.selectAll(".country")
+                .transition()
+                .duration(200)
+                .style("opacity", .5)
+              d3.select(this)
+                .transition()
+                .duration(200)
+                .style("opacity", 1)
+                .style("stroke", "white")      
+              div.transition()		
+              .duration(200)		
+              .style("opacity", .9);
+                
+            localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+            }
+          }
+        }
+      })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
         if(c.includes($(this).attr('name'))) {
-          console.log(this)
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
