@@ -29,10 +29,12 @@ function analyzer(inequality, education) {
         $('#checkboxes input:checked').each(function() {
           selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
         )});
+        console.log("sc", selected_countries)
               
         var years=[];
         $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
         let yearsv2 = years.map(i=>Number(i));
+        console.log("y", yearsv2)
 
         var maximo=0;
         var minimo=0;
@@ -151,13 +153,8 @@ function analyzer(inequality, education) {
         dataset = data;
 
         var selected_countries = [];
-        $('#checkboxes input:checked').each(function() {
-          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
-        )});
-              
-        var years=[];
-        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
-        let yearsv2 = years.map(i=>Number(i));
+
+        var yearsv2=[];
 
         var maximo=0;
         var minimo=0;
@@ -310,18 +307,50 @@ function analyzer(inequality, education) {
         }
         countries_filtered_years.push(aux);
       }
-    console.log("countries", countries_filtered_years)
-    line_chart(countries_filtered_years, maximo, minimo, inequality);
-    });
-    break
+      console.log("countries", countries_filtered_years)
+      line_chart(countries_filtered_years, maximo, minimo, inequality);
+      });
+      break
     default:
-      console.log("not done yet");
-      /* d3.select("#line-svg").remove();
-      inequality="GDP";
-      d3.json("csv/gdp.json").then(function (data) { //parse data
+
+      d3.json("csv/LineChart/gdp.json").then(function (data) {
         dataset = data;
-        line_chart([]);
-      }); */
+        var selected_countries = [];
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BE').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('CZ').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('PT').value))
+              
+        var years=[];
+        years.push($(this).attr('2010').value);
+        years.push($(this).attr('2011').value);
+        years.push($(this).attr('2012').value);
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              aux.push(selected_countries[i][j]);
+              if(maximo<selected_countries[i][j].GDP){
+                maximo=selected_countries[i][j].GDP;
+              }
+              if(minimo>selected_countries[i][j].GDP){
+                minimo=selected_countries[i][j].GDP;
+              }
+            }
+          }
+          if(minimo>0){
+            minimo=0;
+          }
+          countries_filtered_years.push(aux);
+        }
+      line_chart(countries_filtered_years, maximo, minimo, "GDP");
+      });
 	}
 }
 
@@ -480,9 +509,10 @@ function line_chart(paises, maximo,minimo, v) {
             if (this == null){
               value = ''
             } else {
-              value = $(this).attr('value')
+              value = parseFloat($(this).attr('value'))
+              value = value.toFixed(1)
             }
-              div	.html($(this).attr('name') + "<br/>"  + value.toFixed(1))	
+              div	.html($(this).attr('name') + "<br/>"  + value)	
                 .style("left", (event.pageX) + "px")		
                 .style("top", (event.pageY - 28) + "px");	
             }
