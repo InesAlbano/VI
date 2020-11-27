@@ -158,7 +158,7 @@ function mapGDP(data, filePath, c, y){
 
   // select the svg area
   var svg = d3.select("#legend")
-    .style("margin-top", '30%')
+    .style("margin-top", '5%')
     .style("margin-right", '0%')
     .style("position", "absolute")
 
