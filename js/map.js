@@ -258,7 +258,7 @@ function mapEmployment(data, filePath, c, y, e){
         data2.forEach(d2 => {
           y1 = y;
           if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-            val = val + parseFloat(d2.AveragePercentage);         
+            val = val + parseFloat(d2.AverageEmployment.replace(",", "."));         
           }
           if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) { 
             localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
