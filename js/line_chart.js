@@ -332,7 +332,6 @@ var div = d3.select("body").append("div")
 /* ------------------------------------- LINE CHART --------------------------------------- */
 
 function line_chart(paises, maximo,minimo, v) {
-  
   // INITIAL VARS ____________________________________________________________________________
 
   var xscaleData = paises[0].map((a) => a.Year);
@@ -401,6 +400,28 @@ function line_chart(paises, maximo,minimo, v) {
         .attr("r", radius) // each circle
         .attr("fill", "red")
         .attr("stroke", "red")
+        .attr("id", function(d) {
+          return d.Year;
+        })
+        .attr("name", function(d){
+          return d.Country;
+        })
+        .attr("value", function(d){
+          if (v === "GDP")
+            return d.GDP;
+          if (v === "Employment")
+            return parseFloat(d.AverageEmployment.replace(",", "."));
+          if (v === "Income")
+            return d.MoneyF+d.MoneyM;
+          if (v === "Education")
+            return parseFloat(d.AveragePercentage.replace(",", "."));
+          if (v === "Women-high-pos")
+            return d.growthRateWHP;
+          if (v === "Poverty")
+            return d.AVG;
+          if (v === "GWG")
+            return parseFloat(d.GenderWageGap.replace(",", "."));
+        })
         .attr("cx", function (d, i) {
           return xscale(d.Year);
         })
@@ -428,19 +449,44 @@ function line_chart(paises, maximo,minimo, v) {
             .attr("r", radius*2);
         })
         .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-          // É PRECISO IR BUSCAR OS VALORES E OS PAISES E EU NÃO SEI COMO 
           d3.select(this)
             .attr("fill", "orange")
             .attr("r", radius*2);
-
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")     
           div.transition()		
             .duration(200)		
             .style("opacity", .9);
 
-          div.html($(this).attr('name') + "<br/>" )	
-            .style("left", (event.pageX) + "px")		
-            .style("top", (event.pageY - 28) + "px");	
-         })	
+          var value;
+          var c = []
+          var y = []
+
+          for (i in paises) {
+            for (j in paises[i]) {
+              if (!(c.includes(paises[i][j].Country))) {
+                c.push(paises[i][j].Country)
+              }
+              if (!(y.includes(paises[i][j].Year))) {
+                y.push(parseInt(paises[i][j].Year))
+              }
+            }
+          }
+
+          if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
+            if (this == null){
+              value = ''
+            } else {
+              value = $(this).attr('value')
+            }
+              div	.html($(this).attr('name') + "<br/>"  + value)	
+                .style("left", (event.pageX) + "px")		
+                .style("top", (event.pageY - 28) + "px");	
+            }
+          })			          
         .on("mouseout", handleMouseOut);
       
       // LINES ----------------------------------------------------------------------------------
