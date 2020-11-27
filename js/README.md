@@ -4,13 +4,13 @@
 * Uses *gdp.json*.
 ### If Employment:
 * Necessary variables: Countries, **Education level**, Years.
-* Uses *Q3_total.json*.
+* Uses *Q2_total.json*.
 ### If Income:
 * Necessary variables: Countries, **Education level**, Years.
 * Uses *Q4.json*, **but** needs to sum the income of males and income of females
 ### If Education:
 * Necessary variables: Countries, **Education level**, Years.
-* Uses *Q2_total.json*.
+* Uses *Q3_total.json*.
 ### If Women in High Positions:
 * Necessary variables: Countries, Years.
 * Uses *Q6.json*, it's a derived measure of the percentage of female employees in manager senior positions.
