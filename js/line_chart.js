@@ -12,6 +12,12 @@ document.getElementById("button-forms").addEventListener("click", function(){
   updateLine();
 }); 
 
+document.addEventListener('clickedCountry' , function(){
+
+
+  changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+
 function updateLine(){
   var v = localStorage.getItem("variable");
   var e = localStorage.getItem("education");
@@ -465,14 +471,6 @@ function line_chart(paises, maximo,minimo, v) {
           }
         })
         .on("mouseover", function() {
-          /*this.parentNode.appendChild(this);
-          
-          // jQuery
-          console.log($.getScript('../js/map.js'))
-          $.getScript('../js/map.js', function() {
-            highlight($(this).attr('name'))
-          });*/
-
           d3.select(this)
             .attr("fill", "orange")
             .attr("r", radius*2);
@@ -533,6 +531,11 @@ function line_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 1)
+        .attr("id", function(d){
+          return d[0].Country +'-Lines';
+        })
+        .attr("selected", false)
+        .attr("class", "line")
         .attr(
           "d",
           d3
@@ -616,4 +619,19 @@ function line_chart(paises, maximo,minimo, v) {
     )
     .attr("class", "label")
     .text("Year");
+}
+
+
+/* interaction */
+function changeLine(Country){
+  var b = document.getElementById("line-svg").getElementsByClassName("line")
+  
+  for (let i = 0; i < b.length; ++i){
+    b[i].attributes.selected.value = false;
+    b[i].attributes.stroke.value = "red"
+  }
+
+  var a = document.getElementById(Country+'-Lines')
+  a.attributes.stroke.value = "yellow"
+  a.attributes.selected.value = "true"
 }

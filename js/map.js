@@ -233,6 +233,10 @@ function mapGDP(data, filePath, c, y){
               .style("opacity", .9);
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+
+            const event = new Event('clickedCountry');
+            document.dispatchEvent(event);
+
             }
           }
         }
