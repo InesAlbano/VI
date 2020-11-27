@@ -410,6 +410,7 @@ function line_chart(paises, maximo,minimo, v) {
         .attr("name", function(d){
           return d.Country;
         })
+        .attr("class", "plot")
         .attr("value", function(d){
           if (v === "GDP")
             return d.GDP;
@@ -447,7 +448,11 @@ function line_chart(paises, maximo,minimo, v) {
             return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
         })
         .on("click", function (){
-          resetLines();
+          var b = document.getElementById("line-svg").getElementsByClassName("line")
+          for (let i = 0; i < b.length; ++i){
+            b[i].attributes.selected.value = false;
+            b[i].attributes.stroke.value = "red"
+          }
 
           for (let i = 0; i < plots._groups[0].length; i++){
             if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
@@ -468,7 +473,7 @@ function line_chart(paises, maximo,minimo, v) {
                 .attr("r", radius*2);
               localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-              const event = new Event('clickedCountry');
+              const event = new Event('clickedCountryLine');
               document.dispatchEvent(event);
             }
           }
@@ -627,14 +632,23 @@ function line_chart(paises, maximo,minimo, v) {
 
 /* interaction */
 function changeLine(Country){
+  resetLines()
   var a = document.getElementById(Country+'-Lines')
   a.attributes.stroke.value = "yellow"
   a.attributes.selected.value = "true"
 }
 
 function resetLines(){
+  var a = document.getElementById("line-svg").getElementsByClassName("plot");
+  for (let i = 0; i < a.length; ++i){
+    a[i].attributes.is_clicked.value = false;
+    a[i].attributes.stroke.value = "red";
+    a[i].attributes.fill.value = "red";
+    a[i].attributes.r.value = radius;
+  }
+
+  console.log("im here", document.getElementById("line-svg").getElementsByClassName("plot"))
   var b = document.getElementById("line-svg").getElementsByClassName("line")
-  
   for (let i = 0; i < b.length; ++i){
     b[i].attributes.selected.value = false;
     b[i].attributes.stroke.value = "red"
