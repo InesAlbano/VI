@@ -482,7 +482,7 @@ function line_chart(paises, maximo,minimo, v) {
             } else {
               value = $(this).attr('value')
             }
-              div	.html($(this).attr('name') + "<br/>"  + value)	
+              div	.html($(this).attr('name') + "<br/>"  + value.toFixed(1))	
                 .style("left", (event.pageX) + "px")		
                 .style("top", (event.pageY - 28) + "px");	
             }
