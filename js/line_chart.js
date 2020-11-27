@@ -380,6 +380,10 @@ function line_chart(paises, maximo,minimo, v) {
     d3.select(this)
       .attr("fill", "red")
       .attr("r", radius);
+
+    div.transition()		
+      .duration(500)		
+      .style("opacity", 0);	
     
     tooltipLine.classed("hidden", true);
   }
