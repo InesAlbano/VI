@@ -450,8 +450,14 @@ function line_chart(paises, maximo,minimo, v) {
         .on("click", function (){
           var b = document.getElementById("line-svg").getElementsByClassName("line")
           for (let i = 0; i < b.length; ++i){
-            b[i].attributes.selected.value = false;
-            b[i].attributes.stroke.value = "red"
+            if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
+              b[i].attributes.selected.value = false;
+              b[i].attributes.stroke.value = "red"
+            } else {
+              b[i].attributes.selected.value = true;
+              b[i].attributes.stroke.value = "yellow"
+            }
+            
           }
 
           for (let i = 0; i < plots._groups[0].length; i++){
