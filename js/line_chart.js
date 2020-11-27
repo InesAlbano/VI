@@ -55,19 +55,52 @@ function analyzer(inequality, education) {
             minimo=0;
           }
           countries_filtered_years.push(aux);
-          console.log("AAA", countries_filtered_years)
         }
-      line_chart(countries_filtered_years,maximo,minimo, inequality);
+      line_chart(countries_filtered_years, maximo, minimo, inequality);
       });
       break
-    case "Employment": // TODO get csv
+    case "Employment":
       d3.select("#line-svg").remove();
-      d3.json("").then(function (data) { //parse data
+      d3.json("csv/LineChart/Q2_total.json").then(function (data) { //parse data
         dataset = data;
-        line_chart();
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              if (education === selected_countries[i][j].ISCED11) {
+                aux.push(selected_countries[i][j]);
+                if(maximo<parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))){
+                  maximo=parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
+                }
+                if(minimo>parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))){
+                  minimo=parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
+                }
+              }
+            }
+          }
+          if(minimo>0){
+            minimo=0;
+          }
+          countries_filtered_years.push(aux);
+        }
+      line_chart(countries_filtered_years, maximo, minimo, inequality);
       });       
       break
-    case "Income": //this is not workingggggggg
+    case "Income":
       d3.select("#line-svg").remove();
       d3.json("csv/LineChart/Q4.json").then(function (data) {
         dataset = data;
@@ -89,34 +122,71 @@ function analyzer(inequality, education) {
           var aux=[];
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
-              aux.push(selected_countries[i][j]);
-              if(maximo<(selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM)){
-                maximo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyMn;
-              }
-              if(minimo>selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM){
-                minimo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM;
+              if (education === selected_countries[i][j].ISCED11) {
+                aux.push(selected_countries[i][j]);
+                if(maximo<(selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM)){
+                  maximo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM;
+                }
+                if(minimo>selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM){
+                  minimo=selected_countries[i][j].MoneyF+selected_countries[i][j].MoneyM;
+                }
+            }
+          }
+        }
+
+        if(minimo>0){
+          minimo=0;
+        } else {
+          minimo = minimo * 2;
+        }
+        console.log("filtered years", countries_filtered_years)
+        countries_filtered_years.push(aux);
+        }
+      line_chart(countries_filtered_years,maximo,minimo, inequality);
+      });          
+      break
+    case "Education":
+      d3.select("#line-svg").remove();
+      d3.json("csv/LineChart/Q3_total.json").then(function (data) { //parse data
+        dataset = data;
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+
+        var maximo=0;
+        var minimo=0;
+        var countries_filtered_years=[];
+
+        for(let i=0; i<selected_countries.length; i++) {
+          var aux=[];
+          for(let j=0; j<selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              if (education === selected_countries[i][j].ISCED11) {
+                aux.push(selected_countries[i][j]);
+                if(maximo<parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))){
+                  maximo=parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."));
+                }
+                if(minimo>parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))){
+                  minimo=parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."));
+                }
               }
             }
           }
           if(minimo>0){
             minimo=0;
-          } else {
-            minimo = minimo * 2;
           }
-          console.log("filtered years", countries_filtered_years)
           countries_filtered_years.push(aux);
         }
-      line_chart(countries_filtered_years,maximo,minimo, inequality);
-      });          
-      break
-    case "Education": // TODO get csv
-      d3.select("#line-svg").remove();
-      d3.json("").then(function (data) { //parse data
-        dataset = data;
-        line_chart();
+      line_chart(countries_filtered_years, maximo, minimo, inequality);
       });       
       break
-    case "Women-high-pos": // no education
+      case "Women-high-pos": // no education
       d3.select("#line-svg").remove();
       d3.json("csv/LineChart/Q6.json").then(function (data) {
         dataset = data;
@@ -139,23 +209,24 @@ function analyzer(inequality, education) {
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
               aux.push(selected_countries[i][j]);
-              if(maximo<selected_countries[i][j].femaleEmployeesHighPosition){
-                maximo=selected_countries[i][j].femaleEmployeesHighPosition;
+              if(maximo<selected_countries[i][j].growthRateWHP){
+                maximo=selected_countries[i][j].growthRateWHP;
               }
-              if(minimo>selected_countries[i][j].femaleEmployeesHighPosition){
-                minimo=selected_countries[i][j].femaleEmployeesHighPosition;
+              if(minimo>selected_countries[i][j].growthRateWHP){
+                minimo=selected_countries[i][j].growthRateWHP;
               }
             }
           }
           if(minimo>0){
             minimo=0;
           } else {
-            minimo = minimo  * 2;
+            minimo = minimo *2;
           }
+          console.log("min", minimo)
           countries_filtered_years.push(aux);
         }
-      line_chart(countries_filtered_years,maximo,minimo, inequality);
-      });    
+      line_chart(countries_filtered_years, maximo, minimo, inequality);
+      });
       break
     case "Poverty":
       d3.select("#line-svg").remove();
@@ -180,7 +251,7 @@ function analyzer(inequality, education) {
           for(let j=0; j<selected_countries[i].length; j++){
             if(yearsv2.includes(selected_countries[i][j].Year)) {
               if (education === selected_countries[i][j].ISCED11) {
-                
+                console.log("im here")
                 aux.push(selected_countries[i][j]);
                 if(maximo<selected_countries[i][j].AVG){
                   maximo=selected_countries[i][j].AVG;
@@ -193,9 +264,7 @@ function analyzer(inequality, education) {
           }
           if(minimo>0){
             minimo = 0;
-          } else {
-            minimo = minimo * 2;
-          }
+          } 
           countries_filtered_years.push(aux);
         }
       line_chart(countries_filtered_years,maximo,minimo, inequality);
@@ -224,13 +293,12 @@ function analyzer(inequality, education) {
         for(let j=0; j<selected_countries[i].length; j++){
           if(yearsv2.includes(selected_countries[i][j].Year)) {
             if (education === selected_countries[i][j].ISCED11) {
-              
               aux.push(selected_countries[i][j]);
-              if(maximo<selected_countries[i][j].GenderWageGap){
-                maximo=selected_countries[i][j].GenderWageGap;
+              if(maximo<parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))){
+                maximo=parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."));
               }
-              if(minimo>selected_countries[i][j].GenderWageGap){
-                minimo=selected_countries[i][j].GenderWageGap;
+              if(minimo>parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))){
+                minimo=parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."));
               }
             }
           }
@@ -278,8 +346,10 @@ function line_chart(paises, maximo,minimo, v) {
 
   var hscale = d3
     .scaleLinear()
-    .domain([minimo,maximo])
+    .domain([minimo, maximo])
     .range([height - padding, padding]);
+
+    console.log('min', minimo, 'max', maximo)
 
   // Define image SVG; everything of SVG will be append on the div of line_chart
   var svg = d3
@@ -334,12 +404,27 @@ function line_chart(paises, maximo,minimo, v) {
           // we define each circle y position
           if (v === "GDP")
             return hscale(d.GDP);
+          if (v === "Employment")
+            return hscale(parseFloat(d.AverageEmployment.replace(",", ".")));
+          if (v === "Income")
+            return hscale(d.MoneyF+d.MoneyM);
+          if (v === "Education")
+            return hscale(parseFloat(d.AveragePercentage.replace(",", ".")));
+          if (v === "Women-high-pos")
+            return hscale(d.growthRateWHP);
+          if (v === "Poverty")
+            return hscale(d.AVG);
+          if (v === "GWG")
+            return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
+        })
+        .on("click", function (){ // not working bc of mouse leave
+          console.log("click on")
+          d3.select(this)
+            .attr("fill", "orange")
+            .attr("r", radius*2);
         })
         .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-          console.log(new_paises)
           // É PRECISO IR BUSCAR OS VALORES E OS PAISES E EU NÃO SEI COMO 
-          // DIANAAAAAAAAAAAAAAAAAAAAAAAAAAAA HELP
-
           d3.select(this)
             .attr("fill", "orange")
             .attr("r", radius*2);
@@ -355,6 +440,7 @@ function line_chart(paises, maximo,minimo, v) {
         .on("mouseout", handleMouseOut);
       
       // LINES ----------------------------------------------------------------------------------
+      console.log("paises", paises)
       svg
         .append("path")
         .datum(paises[i])
@@ -369,29 +455,27 @@ function line_chart(paises, maximo,minimo, v) {
               return xscale(d.Year);
             })
             .y(function (d) {
+              
               if (v === "GDP")
                 return hscale(d.GDP);
-              else if (v === "Employment")
-                return hscale(); // TODO
-              else if (v === "Income"){ //THIS IS NOT WORKINGGGGG
-                var aux = 0;
-                if (d.MoneyF == -1 || d.MoneyM == -1)
-                  aux = 0 //outlier
-                else
-                  aux = parseInt(d.MoneyF) + parseInt(d.MoneyM);
-                console.log("aux", aux)
-                return hscale(aux);
-              }
-              else if (v === "Education")
-                return hscale(); //TODO
-              else if (v === "Women-high-pos")
-                return hscale(d.femaleEmployeesHighPosition);
-              else if (v === "Poverty"){console.log(d.AVG)
-                return hscale(d.AVG);}
-              else if (v === "GWG"){ // its not displaying correctly even though aux is correct
-                var aux = parseFloat(d.GenderWageGap.replace(",", "."))
-                console.log("aux", hscale(aux))
-                return hscale(aux);
+
+              else if (v === "Employment"){
+                return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
+
+              } else if (v === "Income"){
+                return hscale(d.MoneyM+d.MoneyF);
+
+              } else if (v === "Education")
+              return hscale(parseFloat(d.AveragePercentage.replace(",", "."))); 
+
+              if (v === "Women-high-pos")
+                return hscale(d.growthRateWHP);
+
+              else if (v === "Poverty")
+                return hscale(d.AVG);
+
+              else if (v === "GWG"){ 
+                return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
               }
             })
         );  
