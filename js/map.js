@@ -39,7 +39,6 @@ function updateMap(update = false){
 function init(e,v,c,y, update) {
   if (update) {
     d3.select("#map-svg").remove();
-    console.log()
     d3.json("csv/map.json").then(function (data) {
        
       switch(v){
@@ -75,29 +74,10 @@ function init(e,v,c,y, update) {
   
     });
   } else {
-    d3.json("csv/map.json").then(function (data) {   // loading the JSON files
-      var projection = d3.geoMercator()     // creates the mercator projection
-                          .center([75, 50])  // projection center [longitude, latitude]
-                          .scale(300)        // scale factor of the projection
-                          
-      var path = d3.geoPath().projection(projection);
-      
-      d3.select("#map-holder").append("svg")
-        .attr("id", "map-svg")
-        .attr("width", 960)
-        .attr("height", 500)
-        .selectAll("path")
-        .data(data.features)
-        .enter()
-        .append("path")
-        .attr("d", path)
-        .style("fill", "#1A1C1F")
-        .style('stroke', '#515151')
-        .style('stroke-width', 1)
-        .on("mouseover", mouseOver)
-
-        .on("mouseleave", mouseLeave)
-      addZoom();
+    d3.select("#map-svg").remove();
+    d3.json("csv/map.json").then(function (data) {
+      filePath = "csv/CholoplethMap/gdp.json";
+      mapGDP(data, filePath, ["BE", "BG", "CZ", "PT"], [2010, 2011, 2012]); 
     });
   }
 }
