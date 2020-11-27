@@ -154,8 +154,13 @@ function analyzer(inequality, education) {
         dataset = data;
 
         var selected_countries = [];
-
-        var yearsv2=[];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years=[];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
 
         var maximo=0;
         var minimo=0;
@@ -448,6 +453,7 @@ function line_chart(paises, maximo,minimo, v) {
             return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
         })
         .on("click", function (){
+          this.parentNode.appendChild(this);
           var b = document.getElementById("line-svg").getElementsByClassName("line")
           for (let i = 0; i < b.length; ++i){
             if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
@@ -485,6 +491,7 @@ function line_chart(paises, maximo,minimo, v) {
           }
         })
         .on("mouseover", function() {
+          this.parentNode.appendChild(this);
           d3.select(this)
             .attr("fill", "orange")
             .attr("r", radius*2);
