@@ -13,8 +13,6 @@ document.getElementById("button-forms").addEventListener("click", function(){
 }); 
 
 document.addEventListener('clickedCountry' , function(){
-
-
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
 
@@ -449,6 +447,8 @@ function line_chart(paises, maximo,minimo, v) {
             return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
         })
         .on("click", function (){
+          resetLines();
+
           for (let i = 0; i < plots._groups[0].length; i++){
             if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
               if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
@@ -467,6 +467,9 @@ function line_chart(paises, maximo,minimo, v) {
                 .attr("fill", "orange")
                 .attr("r", radius*2);
               localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+
+              const event = new Event('clickedCountry');
+              document.dispatchEvent(event);
             }
           }
         })
@@ -624,14 +627,16 @@ function line_chart(paises, maximo,minimo, v) {
 
 /* interaction */
 function changeLine(Country){
+  var a = document.getElementById(Country+'-Lines')
+  a.attributes.stroke.value = "yellow"
+  a.attributes.selected.value = "true"
+}
+
+function resetLines(){
   var b = document.getElementById("line-svg").getElementsByClassName("line")
   
   for (let i = 0; i < b.length; ++i){
     b[i].attributes.selected.value = false;
     b[i].attributes.stroke.value = "red"
   }
-
-  var a = document.getElementById(Country+'-Lines')
-  a.attributes.stroke.value = "yellow"
-  a.attributes.selected.value = "true"
 }

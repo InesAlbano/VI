@@ -3,6 +3,10 @@ document.getElementById("button-forms").addEventListener("click", function(){
   updateMap(update=true);
 }); 
 
+document.addEventListener('clickedCountry' , function(){
+  changeBorder(localStorage.getItem("clickedItemCountry"));
+}); 
+
 var tooltip = d3.select("div.tooltip");
 
 function updateMap(update = false){
@@ -189,6 +193,9 @@ function mapGDP(data, filePath, c, y){
       .attr("name", function(d){
         return d.id;
       })
+      .attr("id", function(d){
+        return d.id;
+      })
       .attr("is_clicked", false)
       .style('stroke', '#515151')
       .style('stroke-width', 1)
@@ -216,6 +223,7 @@ function mapGDP(data, filePath, c, y){
                 .style("opacity", 0);		
             }
           } else {
+            console.log("this", this)
             this.attributes.is_clicked.value = "true";
             if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
@@ -731,4 +739,12 @@ function mapGWG(data, filePath, c, y, e){
       .on("mouseleave", mouseLeave)
       addZoom();          
   });
+}
+
+
+function changeBorder(Country){
+  var b = document.getElementById("map-svg").getElementById(Country)
+  var fill = b.attributes.style.value.split(";")[0].replace("fill: ", '')
+  b.attributes.style.value = 'fill: ' + fill + "; stroke: white; stroke-width: 1;"
+
 }
