@@ -39,6 +39,7 @@ function updateMap(update = false){
 function init(e,v,c,y, update) {
   if (update) {
     d3.select("#map-svg").remove();
+    d3.select("#legend").remove();
     d3.json("csv/map.json").then(function (data) {
        
       switch(v){
@@ -132,7 +133,7 @@ function zoomed({ transform }) {
 /* ---- Auxiliary functions based on the variable chosen ---- */
 function mapGDP(data, filePath, c, y){
   var keys = [90000, 150000, 500000, 750000, 1000000, 2500000]
-  var colorScale = d3.scaleThreshold() //this needs to change!!!!! TODO
+  var colorScale = d3.scaleThreshold() 
     .domain(keys)
     .range(d3.schemeBlues[7]);
 
@@ -214,9 +215,29 @@ function mapGDP(data, filePath, c, y){
 }
 
 function mapEmployment(data, filePath, c, y, e){
+  if(document.getElementById("legend") == null) {
+    var newVar = document.createElement("svg")
+    newVar.setAttribute("id", "legend")
+    newVar.setAttribute("width", "300")
+    newVar.setAttribute("height", "450")
+  }
+  keys = [15, 30, 45, 60, 75, 100]
   var colorScale = d3.scaleThreshold() 
-  .domain([15, 30, 45, 60, 75, 100])
-  .range(d3.schemeBlues[7]);
+    .domain(keys)
+    .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("font-size", "15px").attr("alignment-baseline","middle")
+  }
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
@@ -283,9 +304,29 @@ function mapEmployment(data, filePath, c, y, e){
 }
 
 function mapIncome(data, filePath, c, y, e){
-  var colorScale = d3.scaleThreshold()
-  .domain([10000, 20000, 30000, 40000, 50000, 60000])
-  .range(d3.schemeBlues[7]);
+  if(document.getElementById("legend") == null) {
+    var newVar = document.createElement("svg")
+    newVar.setAttribute("id", "legend")
+    newVar.setAttribute("width", "300")
+    newVar.setAttribute("height", "450")
+  }
+  keys = [10000, 20000, 30000, 40000, 50000, 60000]
+  var colorScale = d3.scaleThreshold() 
+    .domain(keys)
+    .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("font-size", "15px").attr("alignment-baseline","middle")
+  }
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
