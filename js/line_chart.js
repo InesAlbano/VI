@@ -613,7 +613,7 @@ function line_chart(paises, maximo,minimo, v) {
     .attr("x", 0 - height / 2)
     .attr("dy", "1em")
     .attr("class", "label")
-    .text("Budget (M)");
+    .text("Value");
 
   /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
       if (i % 5 == 0) return d;

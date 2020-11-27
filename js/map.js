@@ -43,13 +43,13 @@ function updateMap(update = false){
 function init(e,v,c,y, update) {
   if (update) {
     d3.select("#map-svg").remove();
-    d3.select("#legend").remove();
+    //d3.select("#legend").remove();
     d3.json("csv/map.json").then(function (data) {
        
       switch(v){
         case "GDP":
           filePath = "csv/CholoplethMap/gdp.json";
-          mapGDP(data, filePath, c, y);   
+          mapGDP(data, filePath, c, y, update);   
           break;
         case "Employment":
           filePath = "csv/CholoplethMap/Q2_total.json"; // TODO
@@ -82,7 +82,7 @@ function init(e,v,c,y, update) {
     d3.select("#map-svg").remove();
     d3.json("csv/map.json").then(function (data) {
       filePath = "csv/CholoplethMap/gdp.json";
-      mapGDP(data, filePath, ["BE", "BG", "CZ", "PT"], [2010, 2011, 2012]); 
+      mapGDP(data, filePath, ["BE", "BG", "CZ", "PT"], [2010, 2011, 2012], update); 
     });
   }
 }
@@ -137,9 +137,10 @@ function zoomed({ transform }) {
 }
 
 /* ---- Auxiliary functions based on the variable chosen ---- */
-function mapGDP(data, filePath, c, y){
+function mapGDP(data, filePath, c, y, update){
   var keys = [90000, 150000, 500000, 750000, 1000000, 2500000]
-  var colorScale = d3.scaleThreshold() 
+  if(update) {
+    var colorScale = d3.scaleThreshold() 
     .domain(keys)
     .range(d3.schemeBlues[7]);
 
@@ -153,9 +154,30 @@ function mapGDP(data, filePath, c, y){
   // Handmade legend
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
-    svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("font-size", "15px").attr("alignment-baseline","middle")
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
   }
+  else {
+    var colorScale = d3.scaleThreshold() 
+      .domain(keys)
+      .range(d3.schemeBlues[7]);
 
+    // select the svg area
+    var svg = d3.select("#legend")
+      .style("margin-top", '5%')
+      .style("margin-right", '0%')
+      .style("position", "absolute")
+
+    var bias = 20
+    // Handmade legend
+    for (i = 0; i < 6; i++) {
+      svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+      svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle")
+      }  
+  }
+  
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
                        .center([75, 50])
@@ -272,31 +294,27 @@ function mapGDP(data, filePath, c, y){
 }
 
 function mapEmployment(data, filePath, c, y, e){
-  if(document.getElementById("legend") == null) {
-    var newVar = document.createElement("svg")
-    newVar.setAttribute("id", "legend")
-    newVar.setAttribute("width", "300")
-    newVar.setAttribute("height", "450")
-  }
-  keys = [15, 30, 45, 60, 75, 100]
-  var colorScale = d3.scaleThreshold() 
-    .domain(keys)
-    .range(d3.schemeBlues[7]);
+    keys = [15, 30, 45, 60, 75, 100]
+    var colorScale = d3.scaleThreshold() 
+      .domain(keys)
+      .range(d3.schemeBlues[7]);
 
-  // select the svg area
-  var svg = d3.select("#legend")
-    .style("margin-top", '5%')
-    .style("margin-right", '0%')
-    .style("position", "absolute")
+    // select the svg area
+    var svg = d3.select("#legend")
+      .style("margin-top", '5%')
+      .style("margin-right", '0%')
+      .style("position", "absolute")
 
-  var bias = 20
-  // Handmade legend
-  for (i = 0; i < 6; i++) {
-    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
-    svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("font-size", "15px").attr("alignment-baseline","middle")
-  }
+    var bias = 20
+    // Handmade legend
+    for (i = 0; i < 6; i++) {
+      svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+      svg.selectAll("text").each(function(d,i) { 
+        d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+        })
+      }  
 
-  d3.json(filePath).then(function (data2) {
+    d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
                        .center([75, 50])
                        .scale(300)
@@ -412,16 +430,10 @@ function mapEmployment(data, filePath, c, y, e){
 }
 
 function mapIncome(data, filePath, c, y, e){
-  if(document.getElementById("legend") == null) {
-    var newVar = document.createElement("svg")
-    newVar.setAttribute("id", "legend")
-    newVar.setAttribute("width", "300")
-    newVar.setAttribute("height", "450")
-  }
   keys = [10000, 20000, 30000, 40000, 50000, 60000]
   var colorScale = d3.scaleThreshold() 
-    .domain(keys)
-    .range(d3.schemeBlues[7]);
+  .domain(keys)
+  .range(d3.schemeBlues[7]);
 
   // select the svg area
   var svg = d3.select("#legend")
@@ -433,8 +445,10 @@ function mapIncome(data, filePath, c, y, e){
   // Handmade legend
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
-    svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("font-size", "15px").attr("alignment-baseline","middle")
-  }
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
@@ -555,9 +569,25 @@ function mapIncome(data, filePath, c, y, e){
 }
 
 function mapEducation(data, filePath, c, y, e){
-  var colorScale = d3.scaleThreshold()
-  .domain([10, 30, 50, 60, 70, 90])
+  var keys = [10, 30, 50, 60, 70, 90]
+  var colorScale = d3.scaleThreshold() 
+  .domain(keys)
   .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
@@ -679,9 +709,25 @@ function mapEducation(data, filePath, c, y, e){
 }
 
 function mapWHP(data, filePath, c, y){
-  var colorScale = d3.scaleThreshold() //this needs to change!!!!! TODO
-  .domain([1, 3, 5, 10, 15, 20])
+  var keys = [1, 3, 5, 10, 15, 20]
+  var colorScale = d3.scaleThreshold() 
+  .domain(keys)
   .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
@@ -797,9 +843,25 @@ function mapWHP(data, filePath, c, y){
 }
 
 function mapPoverty(data, filePath, c, y, e){
-  var colorScale = d3.scaleThreshold()
-  .domain([5, 10, 20, 30, 40, 50])
+  var keys = [5, 10, 20, 30, 40, 50]
+  var colorScale = d3.scaleThreshold() 
+  .domain(keys)
   .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
@@ -916,9 +978,25 @@ function mapPoverty(data, filePath, c, y, e){
 }
 
 function mapGWG(data, filePath, c, y, e){
-  var colorScale = d3.scaleThreshold()
-  .domain([-1, 1, 3, 5, 10, 20])
+  var keys = [-1, 1, 3, 5, 10, 20]
+  var colorScale = d3.scaleThreshold() 
+  .domain(keys)
   .range(d3.schemeBlues[7]);
+
+  // select the svg area
+  var svg = d3.select("#legend")
+    .style("margin-top", '5%')
+    .style("margin-right", '0%')
+    .style("position", "absolute")
+
+  var bias = 20
+  // Handmade legend
+  for (i = 0; i < 6; i++) {
+    svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
+    svg.selectAll("text").each(function(d,i) { 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      })
+    }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
