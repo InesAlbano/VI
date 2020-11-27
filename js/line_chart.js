@@ -478,6 +478,14 @@ function line_chart(paises, maximo,minimo, v) {
             .attr("r", radius*2);
         })
         .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+          this.parentNode.appendChild(this);
+          
+          // jQuery
+          console.log($.getScript('../js/map.js'))
+          $.getScript('../js/map.js', function() {
+            highlight($(this).attr('name'))
+          });
+
           d3.select(this)
             .attr("fill", "orange")
             .attr("r", radius*2);

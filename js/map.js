@@ -116,6 +116,12 @@ function mouseLeave() {
     .style("opacity", 0);	
 }
 
+// Hover effects
+function highlight(country) {
+
+
+}
+
 function addZoom() {
   d3.select("#map-svg").call(
     d3.zoom()
@@ -185,6 +191,7 @@ function mapGDP(data, filePath, c, y){
       .style('stroke-width', 1)
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
         if(c.includes($(this).attr('name'))) {
+          console.log(this)
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
