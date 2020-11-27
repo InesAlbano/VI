@@ -122,12 +122,6 @@ function mouseLeave() {
   }
 }
 
-// Hover effects
-function highlight(country) {
-
-
-}
-
 function addZoom() {
   d3.select("#map-svg").call(
     d3.zoom()
@@ -743,8 +737,19 @@ function mapGWG(data, filePath, c, y, e){
 
 
 function changeBorder(Country){
+  resetBorders();
   var b = document.getElementById("map-svg").getElementById(Country)
   var fill = b.attributes.style.value.split(";")[0].replace("fill: ", '')
   b.attributes.style.value = 'fill: ' + fill + "; stroke: white; stroke-width: 1;"
+  b.attributes.is_clicked.value = true;
+}
 
+function resetBorders(){
+  var c = document.getElementById("map-svg");
+  for (let i = 0; i < c.childNodes.length; ++i){
+    c.childNodes[i].attributes.is_clicked.value = false;
+    var fill = c.childNodes[i].attributes.style.value.split(";")[0].replace("fill: ", '')
+    c.childNodes[i].attributes.style.value = 'fill: ' + fill + "; stroke: #515151; stroke-width: 1;"
+  }
+  
 }
