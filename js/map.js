@@ -1,12 +1,15 @@
+// Initial State
 init(null,null,null,null, update=false)
 document.getElementById("button-forms").addEventListener("click", function(){
   updateMap(update=true);
 }); 
 
+// Action: click on country
 document.addEventListener('clickedCountryLine' , function(){
   changeBorder(localStorage.getItem("clickedItemCountry"));
 }); 
 
+// Tooltip: hover in the coutries
 var tooltip = d3.select("div.tooltip");
 
 function updateMap(update = false){
@@ -43,7 +46,6 @@ function updateMap(update = false){
 function init(e,v,c,y, update) {
   if (update) {
     d3.select("#map-svg").remove();
-    //d3.select("#legend").remove();
     d3.json("csv/map.json").then(function (data) {
        
       switch(v){
@@ -52,7 +54,7 @@ function init(e,v,c,y, update) {
           mapGDP(data, filePath, c, y, update);   
           break;
         case "Employment":
-          filePath = "csv/CholoplethMap/Q2_total.json"; // TODO
+          filePath = "csv/CholoplethMap/Q2_total.json"; 
           mapEmployment(data, filePath, c, y, e);  
           break;
         case "Income":
@@ -60,7 +62,7 @@ function init(e,v,c,y, update) {
           mapIncome(data, filePath, c, y, e);  
           break;
         case "Education":
-          filePath = "csv/CholoplethMap/Q3_total.json"; // TODO
+          filePath = "csv/CholoplethMap/Q3_total.json"; 
           mapEducation(data, filePath, c, y, e);  
           break;
         case "Women-high-pos":
@@ -122,6 +124,7 @@ function mouseLeave() {
   }
 }
 
+// Not working properly
 function addZoom() {
   d3.select("#map-svg").call(
     d3.zoom()
@@ -139,7 +142,7 @@ function zoomed({ transform }) {
 /* ---- Auxiliary functions based on the variable chosen ---- */
 function mapGDP(data, filePath, c, y, update){
   var keys = [90000, 150000, 500000, 750000, 1000000, 2500000]
-  if(update) {
+  if(update) { // Legend created for every update
     var colorScale = d3.scaleThreshold() 
     .domain(keys)
     .range(d3.schemeBlues[7]);
@@ -159,7 +162,7 @@ function mapGDP(data, filePath, c, y, update){
       })
     }  
   }
-  else {
+  else { // Legend created for initial state
     var colorScale = d3.scaleThreshold() 
       .domain(keys)
       .range(d3.schemeBlues[7]);
@@ -197,10 +200,10 @@ function mapGDP(data, filePath, c, y, update){
         var val = 0;
         data2.forEach(d2 => {
           y1 = y;
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-            val = val + parseFloat(d2.GDP);         
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+              val = val + parseFloat(d2.GDP);         
           }
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) { 
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) { 
             localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
         });
@@ -214,7 +217,17 @@ function mapGDP(data, filePath, c, y, update){
       })
       .attr("is_clicked", false)
       .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .style('stroke-width', function(d) {
+        data2.forEach(d2 => {
+          if (c.includes(d2.Country)) {   
+            console.log("entrei")      
+            return '3';   
+          }
+          else{
+            return '1';
+          }
+        })
+      })
       .on("click", function (){
         this.attributes.is_clicked.value = "true";
 
@@ -233,12 +246,12 @@ function mapGDP(data, filePath, c, y, update){
                 .duration(200)
                 .style("stroke", "#515151")
               div.transition()		
-                .duration(500)		
+                .duration(200)		
                 .style("opacity", 0);		
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -258,12 +271,12 @@ function mapGDP(data, filePath, c, y, update){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -286,7 +299,7 @@ function mapGDP(data, filePath, c, y, update){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	
-          }
+          //}
         })			
       .on("mouseleave", mouseLeave)
       addZoom();  
@@ -333,10 +346,10 @@ function mapEmployment(data, filePath, c, y, e){
         var val = 0;
         data2.forEach(d2 => {
           y1 = y;
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             val = val + parseFloat(d2.AverageEmployment.replace(",", "."));         
           }
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) { 
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
         });
@@ -374,7 +387,7 @@ function mapEmployment(data, filePath, c, y, e){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -394,12 +407,12 @@ function mapEmployment(data, filePath, c, y, e){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -423,7 +436,8 @@ function mapEmployment(data, filePath, c, y, e){
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	
           }
-        })			
+        //}
+        )			
       .on("mouseleave", mouseLeave)
       addZoom();  
   });
@@ -469,7 +483,7 @@ function mapIncome(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.MoneyF == -1 || d2.MoneyH == -1){
               val = -1
             } else {
@@ -513,7 +527,7 @@ function mapIncome(data, filePath, c, y, e){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -533,12 +547,12 @@ function mapIncome(data, filePath, c, y, e){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -561,7 +575,7 @@ function mapIncome(data, filePath, c, y, e){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	    
-          }
+          //}
         })			
       .on("mouseleave", mouseLeave)
       addZoom();          
@@ -608,7 +622,7 @@ function mapEducation(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.values == -1){
               val = -1
             } else {
@@ -653,7 +667,7 @@ function mapEducation(data, filePath, c, y, e){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -673,12 +687,12 @@ function mapEducation(data, filePath, c, y, e){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -701,7 +715,7 @@ function mapEducation(data, filePath, c, y, e){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	    
-          }
+          //}
         })			
       .on("mouseleave", mouseLeave)
       addZoom();          
@@ -747,7 +761,7 @@ function mapWHP(data, filePath, c, y){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             val = val + d2.femaleEmployeesHighPosition;
             localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
@@ -787,7 +801,7 @@ function mapWHP(data, filePath, c, y){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -807,12 +821,12 @@ function mapWHP(data, filePath, c, y){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -835,7 +849,7 @@ function mapWHP(data, filePath, c, y){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	
-          }
+          //}
         })			
       .on("mouseleave", mouseLeave)
       addZoom();          
@@ -882,7 +896,7 @@ function mapPoverty(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.code)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.code === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             val = val + d2.AVG;
             localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
           }
@@ -922,7 +936,7 @@ function mapPoverty(data, filePath, c, y, e){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -942,12 +956,12 @@ function mapPoverty(data, filePath, c, y, e){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -970,7 +984,7 @@ function mapPoverty(data, filePath, c, y, e){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	    
-          }
+          //}
         })			
       .on("mouseleave", mouseLeave)
       addZoom();          
@@ -1017,7 +1031,7 @@ function mapGWG(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((c.includes(d2.Country)) && (y.includes(d2.Year)) && (e.includes(d2.ISCED11)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
+          if ((y.includes(d2.Year)) && (d2.Country === d.id) && (e.includes(d2.ISCED11))) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
             if(d2.MoneyF == -1 || d2.MoneyH == -1){
               val = -100
             } else {
@@ -1061,7 +1075,7 @@ function mapGWG(data, filePath, c, y, e){
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            if(c.includes($(this).attr('name'))) {
+            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -1081,12 +1095,12 @@ function mapGWG(data, filePath, c, y, e){
             const event = new Event('clickedCountry');
             document.dispatchEvent(event);
 
-            }
+            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
-        if(c.includes($(this).attr('name'))) {
+        //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
@@ -1109,7 +1123,7 @@ function mapGWG(data, filePath, c, y, e){
           div	.html($(this).attr('name') + "<br/>"  + value)	
           .style("left", (event.pageX) + "px")		
           .style("top", (event.pageY - 28) + "px");	  
-          }  
+          //}  
         })			
       .on("mouseleave", mouseLeave)
       addZoom();          
