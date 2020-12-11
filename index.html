@@ -279,6 +279,15 @@
 
 <script>
 
+/* on change Countries */
+var checkboxes = document.querySelectorAll("input[type=checkbox][name=country]");
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    updateCharts();
+  })
+});
+
+
 /* on change YEARS */
 var checkboxes = document.querySelectorAll("input[type=checkbox][name=year]");
 let enabledSettings = []
@@ -371,11 +380,11 @@ function myFunction(event) {
   } 
 
   if (years.length == 0) {
-    checkbox = document.querySelector("input[type=checkbox][id=2010]");
+    checkbox = document.getElementById("2010");
     checkbox.checked = true;
-    checkbox = document.querySelector("input[type=checkbox][id=2011]");
+    checkbox = document.getElementById("2011");
     checkbox.checked = true;
-    checkbox = document.querySelector("input[type=checkbox][id=2012]");
+    checkbox = document.getElementById("2012");
     checkbox.checked = true;
     years.push("2012")
     years.push("2011")
