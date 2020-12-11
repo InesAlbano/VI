@@ -94,7 +94,6 @@
                       <input type="radio" id="GWG" name="variables" value="GWG"><label for="GWG">Gender Wage Gap</label>
                   </div>
               </li>
-              <li><button type="button" id="button-forms" value="Go" onclick="myFunction(this)"><img src="/img/view.svg" style="width: 20%;"></li>
           </form>
         </div>
 
@@ -278,6 +277,14 @@
 </script>
 
 <script>
+
+/* on change Education */
+var checkboxes = document.querySelectorAll("input[type=radio][name=variables]");
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    updateCharts();
+  })
+});
 
 /* on change Education */
 var checkboxes = document.querySelectorAll("input[type=radio][name=education]");

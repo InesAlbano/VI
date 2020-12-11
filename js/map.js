@@ -1,8 +1,5 @@
 // Initial State
 init(null,null,null,null, update=false)
-document.getElementById("button-forms").addEventListener("click", function(){
-  updateMap(update=true);
-}); 
 
 // Action: click on country
 document.addEventListener('clickedCountryLine' , function(){

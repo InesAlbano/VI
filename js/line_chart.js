@@ -8,9 +8,6 @@ var tooltipLine = d3.select("div.tooltipLine");
 
 analyzer("Init")
 
-document.getElementById("button-forms").addEventListener("click", function(){
-  updateLine();
-}); 
 
 document.addEventListener('clickedCountry' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
