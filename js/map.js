@@ -9,16 +9,23 @@ document.addEventListener('clickedCountryLine' , function(){
   changeBorder(localStorage.getItem("clickedItemCountry"));
 }); 
 
+document.addEventListener('updateCharts' , function(){
+  updateMap(update=true);
+}); 
+
+
 // Tooltip: hover in the coutries
 var tooltip = d3.select("div.tooltip");
 
 function updateMap(update = false){
+  
   // retrieving values from index.html
   var e = localStorage.getItem("education");
   var v = localStorage.getItem("variable");
   var c = localStorage.getItem("countries");
   var y = localStorage.getItem("years");
 
+  c= c.toString();
   if (c.includes(",")){
     c = c.replace('[', '');
     c = c.replace(']', '');
@@ -28,6 +35,7 @@ function updateMap(update = false){
       c[i] = c[i].replace('"', '');
     }
   }
+  console.log("AA", c, y)
 
   if (y.includes(",")){
     y = y.replace('[', '');
@@ -39,6 +47,8 @@ function updateMap(update = false){
       y[i] = parseInt(y[i])
     }
   }
+
+
 
   init(e,v,c,y, update);
 }
@@ -219,8 +229,7 @@ function mapGDP(data, filePath, c, y, update){
       .style('stroke', '#515151')
       .style('stroke-width', function(d) {
         data2.forEach(d2 => {
-          if (c.includes(d2.Country)) {   
-            console.log("entrei")      
+          if (c.includes(d2.Country)) {  
             return '3';   
           }
           else{
@@ -626,7 +635,6 @@ function mapEducation(data, filePath, c, y, e){
             if(d2.values == -1){
               val = -1
             } else {
-              console.log(d2.AveragePercentage)
               val = val + parseFloat(d2.AveragePercentage.replace(",", "."));
               localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
             }
