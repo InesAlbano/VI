@@ -862,7 +862,7 @@ function mapWHP(data, filePath, c, y){
 }
 
 function mapPoverty(data, filePath, c, y, e){
-  var keys = [5, 10, 20, 30, 40, 50]
+  var keys = [10, 20, 30, 40, 50, 70]
   var colorScale = d3.scaleThreshold() 
   .domain(keys)
   .range(d3.schemeBlues[7]);
@@ -901,9 +901,13 @@ function mapPoverty(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-            val = val + d2.AVG;
-            localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
+          if (y.includes(d2.Year)) { 
+            if (d2.code === d.id && e.includes(d2.ISCED11)) {
+              console.log(d2.Year, d2.code, d2.AVG)
+              val = val + d2.AVG;
+              localStorage.setItem(d2.code, (val/y.length).toFixed(1));
+            }
+            
           }
         });
         return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
