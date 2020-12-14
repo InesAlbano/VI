@@ -8,13 +8,16 @@ var tooltipLine = d3.select("div.tooltipLine");
 
 analyzer("Init")
 
-document.getElementById("button-forms").addEventListener("click", function(){
-  updateLine();
-}); 
 
 document.addEventListener('clickedCountry' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
+
+document.addEventListener('updateCharts' , function(){
+  d3.select("#line-svg").remove();
+  updateLine()
+}); 
+
 
 var years1 = localStorage.getItem("years");
 
@@ -62,6 +65,7 @@ function analyzer(inequality, education) {
           }
           countries_filtered_years.push(aux);
         }
+        
       line_chart(countries_filtered_years, maximo, minimo, inequality);
       });
       break
@@ -705,7 +709,6 @@ function resetLines(){
     a[i].attributes.r.value = radius;
   }
 
-  console.log("im here", document.getElementById("line-svg").getElementsByClassName("plot"))
   var b = document.getElementById("line-svg").getElementsByClassName("line")
   for (let i = 0; i < b.length; ++i){
     b[i].attributes.selected.value = false;

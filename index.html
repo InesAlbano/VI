@@ -94,7 +94,6 @@
                       <input type="radio" id="GWG" name="variables" value="GWG"><label for="GWG">Gender Wage Gap</label>
                   </div>
               </li>
-              <li><button type="button" id="button-forms" value="Go" onclick="myFunction(this)"><img src="/img/view.svg" style="width: 20%;"></li>
           </form>
         </div>
 
@@ -118,7 +117,7 @@
                 </div>
 
                 <div id="slope_chart" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
-                  <script src="js/slope_chart.js"></script>   
+                  <!--<script src="js/slope_chart.js"></script>   --> 
                 </div>
             </div>
 
@@ -279,6 +278,46 @@
 
 <script>
 
+/* on change Education */
+var checkboxes = document.querySelectorAll("input[type=radio][name=variables]");
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    updateCharts();
+  })
+});
+
+/* on change Education */
+var checkboxes = document.querySelectorAll("input[type=radio][name=education]");
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    updateCharts();
+  })
+});
+
+/* on change Countries */
+var checkboxes = document.querySelectorAll("input[type=checkbox][name=country]");
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+    updateCharts();
+  })
+});
+
+
+/* on change YEARS */
+var checkboxes = document.querySelectorAll("input[type=checkbox][name=year]");
+let enabledSettings = []
+checkboxes.forEach(function(checkbox) {
+  checkbox.addEventListener('change', function() {
+
+    /* to change middle boxes */
+    enabledSettings = Array.from(checkboxes).filter(i => i.checked).map(i => i.value);
+    if (enabledSettings.length > 1) 
+      checkMiddleBoxes(enabledSettings, enabledSettings.length);
+
+    updateCharts();
+  })
+});
+
 function checkMiddleBoxes(enabledYears, size){
   let years = ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"];
   var initialYear = enabledYears[0];
@@ -291,77 +330,116 @@ function checkMiddleBoxes(enabledYears, size){
 
 }
 
-var checkboxes = document.querySelectorAll("input[type=checkbox][name=year]");
-let enabledSettings = []
-checkboxes.forEach(function(checkbox) {
-  checkbox.addEventListener('change', function() {
-    enabledSettings = Array.from(checkboxes).filter(i => i.checked).map(i => i.value);
-    if (enabledSettings.length > 1) 
-      checkMiddleBoxes(enabledSettings, enabledSettings.length);
-  })
-});
 
 
+function myFunction(event) {
+  localStorage.clear();
+  var countries = [];
+  var education = '';
+  var years = [];
+  var variable = '';
 
 
-  function myFunction(event) {
-    localStorage.clear();
-    var countries = [];
-    var education = '';
-    var years = [];
-    var variable = '';
+  /*get countries */
+  checkboxes = document.getElementsByName("country");
+  for (let i=0; i < checkboxes.length; ++i){
+      if(checkboxes[i].checked==true)
+          countries.push(checkboxes[i].value);
+  }
 
+  /*get education*/
+  checkboxes = document.getElementsByName("education");
+  for (let i=0; i < checkboxes.length; ++i){
+      if(checkboxes[i].checked==true){
+          education = checkboxes[i].value;
+          break;
+      }
+  }
 
-    /*get countries */
-    checkboxes = document.getElementsByName("country");
-    for (let i=0; i < checkboxes.length; ++i){
-        if(checkboxes[i].checked==true)
-            countries.push(checkboxes[i].value);
+  /*get years */
+  checkboxes = document.getElementsByName("year");
+  for (let i=0; i < checkboxes.length; ++i){
+      if(checkboxes[i].checked==true)
+          years.push(parseInt(checkboxes[i].value));
+  }
+
+  /*get bottom variables*/
+  checkboxes = document.getElementsByName("variables");
+  for (let i=0; i < checkboxes.length; ++i){
+      if(checkboxes[i].checked==true){
+          variable = checkboxes[i].value;
+      }
+  }
+
+  var checkbox;
+  if (countries.length == 0) {
+    checkbox = document.querySelector("input[type=checkbox][id=BE]");
+    checkbox.checked = true;
+    checkbox = document.querySelector("input[type=checkbox][id=BG]");
+    checkbox.checked = true;
+    checkbox = document.querySelector("input[type=checkbox][id=CZ]");
+    checkbox.checked = true;
+    checkbox = document.querySelector("input[type=checkbox][id=PT]");
+    checkbox.checked = true;
+    countries.push("PT")
+    countries.push("CZ")
+    countries.push("BG")
+    countries.push("BE")
+    localStorage.setItem("countries", ["BE", "BG", "CZ", "PT"])
+  } 
+
+  if (education == '') {
+    document.getElementById('0-2').checked = true;
+    education = '0-2'
+    localStorage.setItem("education", "0-2");
+  } 
+
+  if (years.length == 0) {
+    checkbox = document.getElementById("2010");
+    checkbox.checked = true;
+    checkbox = document.getElementById("2011");
+    checkbox.checked = true;
+    checkbox = document.getElementById("2012");
+    checkbox.checked = true;
+    years.push("2012")
+    years.push("2011")
+    years.push("2010")
+    localStorage.setItem("years", ["2010", "2011", "2012"])
+  } 
+
+  if (variable == '') {
+    document.getElementById('GDP').checked = true;
+    variable = "GDP"
+    localStorage.setItem("variable", "GDP");
+  }
+
+  if (countries.length != 0 && education != '' && years.length != 0 && variable != '') {
+    localStorage.setItem("education", education);
+    localStorage.setItem("variable", variable);
+
+    if(countries.length > 1) { // Case: more than 1 country is selected
+        localStorage.setItem("countries", JSON.stringify(countries));
+    } else { // Case: only 1 country is selected
+        localStorage.setItem("countries", countries);
     }
 
-    /*get education*/
-    checkboxes = document.getElementsByName("education");
-    for (let i=0; i < checkboxes.length; ++i){
-        if(checkboxes[i].checked==true){
-            education = checkboxes[i].value;
-            break;
-        }
-    }
-
-    /*get years */
-    checkboxes = document.getElementsByName("year");
-    for (let i=0; i < checkboxes.length; ++i){
-        if(checkboxes[i].checked==true)
-            years.push(parseInt(checkboxes[i].value));
-    }
-    console.log(years)
-
-    /*get bottom variables*/
-    checkboxes = document.getElementsByName("variables");
-    for (let i=0; i < checkboxes.length; ++i){
-        if(checkboxes[i].checked==true){
-            variable = checkboxes[i].value;
-        }
-    }
-
-    if (countries.length == 0 || education == '' || years.length == 0 || variable == '')
-        alert('Complete all options.');
-    else {
-        localStorage.setItem("education", education);
-        localStorage.setItem("variable", variable);
-
-        if(countries.length > 1) { // Case: more than 1 country is selected
-            localStorage.setItem("countries", JSON.stringify(countries));
-        }
-        else{ // Case: only 1 country is selected
-            localStorage.setItem("countries", countries);
-        }
-        if(years.length > 1) { // Case: more than 1 year is selected
-            localStorage.setItem("years", JSON.stringify(years));
-        }
-        else { // Case: Only 1 year is selected
-            localStorage.setItem("years", years);
-        }
+    if(years.length > 1) { // Case: more than 1 year is selected
+        console.log('year 1')
+        localStorage.setItem("years", JSON.stringify(years));
+    } else { // Case: Only 1 year is selected
+        console.log('year 2')
+        localStorage.setItem("years", years);
     }
   }
+}
+
+function updateCharts(){
+  myFunction(null);
+  console.log("years", localStorage.getItem("years"))
+  const event = new Event('updateCharts');
+  document.dispatchEvent(event);
+}
+
+
+
 </script>

@@ -1,24 +1,28 @@
 // Initial State
 init(null,null,null,null, update=false)
-document.getElementById("button-forms").addEventListener("click", function(){
-  updateMap(update=true);
-}); 
 
 // Action: click on country
 document.addEventListener('clickedCountryLine' , function(){
   changeBorder(localStorage.getItem("clickedItemCountry"));
 }); 
 
+document.addEventListener('updateCharts' , function(){
+  updateMap(update=true);
+}); 
+
+
 // Tooltip: hover in the coutries
 var tooltip = d3.select("div.tooltip");
 
 function updateMap(update = false){
+  
   // retrieving values from index.html
   var e = localStorage.getItem("education");
   var v = localStorage.getItem("variable");
   var c = localStorage.getItem("countries");
   var y = localStorage.getItem("years");
 
+  c= c.toString();
   if (c.includes(",")){
     c = c.replace('[', '');
     c = c.replace(']', '');
@@ -28,6 +32,7 @@ function updateMap(update = false){
       c[i] = c[i].replace('"', '');
     }
   }
+  console.log("AA", c, y)
 
   if (y.includes(",")){
     y = y.replace('[', '');
@@ -39,6 +44,8 @@ function updateMap(update = false){
       y[i] = parseInt(y[i])
     }
   }
+
+
 
   init(e,v,c,y, update);
 }
@@ -219,8 +226,7 @@ function mapGDP(data, filePath, c, y, update){
       .style('stroke', '#515151')
       .style('stroke-width', function(d) {
         data2.forEach(d2 => {
-          if (c.includes(d2.Country)) {   
-            console.log("entrei")      
+          if (c.includes(d2.Country)) {  
             return '3';   
           }
           else{
@@ -626,7 +632,6 @@ function mapEducation(data, filePath, c, y, e){
             if(d2.values == -1){
               val = -1
             } else {
-              console.log(d2.AveragePercentage)
               val = val + parseFloat(d2.AveragePercentage.replace(",", "."));
               localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
             }
@@ -857,7 +862,7 @@ function mapWHP(data, filePath, c, y){
 }
 
 function mapPoverty(data, filePath, c, y, e){
-  var keys = [5, 10, 20, 30, 40, 50]
+  var keys = [10, 20, 30, 40, 50, 70]
   var colorScale = d3.scaleThreshold() 
   .domain(keys)
   .range(d3.schemeBlues[7]);
@@ -896,9 +901,13 @@ function mapPoverty(data, filePath, c, y, e){
       .style("fill", function(d) {
         var val = 0;
         data2.forEach(d2 => {
-          if ((y.includes(d2.Year)) && (d2.Country === d.id)) {   // TODO need to correct NL because dataset of Q1 does not contain id NL
-            val = val + d2.AVG;
-            localStorage.setItem(d2.Country, (val/y.length).toFixed(1));
+          if (y.includes(d2.Year)) { 
+            if (d2.code === d.id && e.includes(d2.ISCED11)) {
+              console.log(d2.Year, d2.code, d2.AVG)
+              val = val + d2.AVG;
+              localStorage.setItem(d2.code, (val/y.length).toFixed(1));
+            }
+            
           }
         });
         return (val/y.length) ? colorScale(val/y.length) : "#1A1C1F";
