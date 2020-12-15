@@ -8,12 +8,13 @@ var tooltipLine = d3.select("div.tooltipLine");
 
 analyzer("Init")
 
-document.getElementById("button-forms").addEventListener("click", function(){
-  updateLine();
-}); 
-
 document.addEventListener('clickedCountry' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+
+document.addEventListener('updateCharts' , function(){
+  d3.select("#line-svg").remove();
+  updateLine()
 }); 
 
 var years1 = localStorage.getItem("years");
@@ -58,10 +59,11 @@ function analyzer(inequality, education) {
     years.push('2012');
     let yearsv2 = years.map(i=>Number(i));
 
+    var aux = [];
+
     // Max and min values, to built the scale
     for(let i = 0; i < selected_countries.length; i++) {
       gdp = 0;
-      var aux = [];
 
       for(let j = 0; j < selected_countries[i].length; j++){
         if(yearsv2.includes(selected_countries[i][j].Year)) {
@@ -79,14 +81,15 @@ function analyzer(inequality, education) {
 
       if(minGDP > 0) { minGDP = 0; }
 
-      countries_filtered_years.push(aux);
     }
+    countries_filtered_years.push(aux);
 
     maxMin.push(maxGDP);
     maxMin.push(minGDP);
 
     // EMPLOYMENT
     d3.json("csv/LineChart/Q2_total.json").then(function (data1) {
+      console.log(countries_filtered_years)
       var selected_countries1 = [];
       dataset1 = data1;
 
@@ -102,11 +105,11 @@ function analyzer(inequality, education) {
       years.push('2011');
       years.push('2012');
       let yearsv2 = years.map(i=>Number(i));
+      var aux1 = [];
   
       for(let i = 0; i < selected_countries1.length; i++) {
         employment = 0;
   
-        var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
@@ -122,8 +125,8 @@ function analyzer(inequality, education) {
         aux1.push(dic);
 
         if(minEmp > 0) { minEmp = 0; }
-        countries_filtered_years.push(aux1);
       }
+      countries_filtered_years.push(aux1);
       maxMin.push(maxEmp);
       maxMin.push(minEmp);
 
@@ -150,7 +153,7 @@ function analyzer(inequality, education) {
       for(let i = 0; i < selected_countries1.length; i++) {
         income = 0;
   
-        var aux1 = [];
+        //var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             income = income + (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM);
@@ -163,10 +166,10 @@ function analyzer(inequality, education) {
         dic['Country'] = selected_countries1[i][0].Country;
         dic['Variable'] = "Income";
         dic['Income'] = income/yearsv2.length; // average computation
-        aux1.push(dic);
+        countries_filtered_years.push(dic);
 
         if(minInc > 0) { minInc = 0; }
-        countries_filtered_years.push(aux1);
+        //countries_filtered_years.push(aux1);
       }
       maxMin.push(maxInc);
       maxMin.push(minInc);
@@ -193,7 +196,7 @@ function analyzer(inequality, education) {
       for(let i = 0; i < selected_countries1.length; i++) {
         education = 0;
   
-        var aux1 = [];
+        //var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             education = education + parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."));
@@ -206,10 +209,10 @@ function analyzer(inequality, education) {
         dic['Country'] = selected_countries1[i][0].Country;
         dic['Variable'] = "Education";
         dic['Education'] = education/yearsv2.length; // average computation
-        aux1.push(dic);
+        countries_filtered_years.push(dic);
 
         if(minEdu > 0) { minEdu = 0; }
-        countries_filtered_years.push(aux1);
+        //countries_filtered_years.push(aux1);
       }
       maxMin.push(maxEdu);
       maxMin.push(minEdu);
@@ -236,7 +239,7 @@ function analyzer(inequality, education) {
       for(let i = 0; i < selected_countries1.length; i++) {
         women = 0;
   
-        var aux1 = [];
+        //var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             women = women + selected_countries1[i][j].growthRateWHP;
@@ -249,10 +252,10 @@ function analyzer(inequality, education) {
         dic['Country'] = selected_countries1[i][0].Country;
         dic['Variable'] = "Women";
         dic['Women'] = women/yearsv2.length; // average computation
-        aux1.push(dic);
+        countries_filtered_years.push(dic);
 
         if(minWomen > 0) { minWomen = 0; }
-        countries_filtered_years.push(aux1);
+        //countries_filtered_years.push(aux1);
       }
       maxMin.push(maxWomen);
       maxMin.push(minWomen);
@@ -280,7 +283,7 @@ function analyzer(inequality, education) {
       for(let i = 0; i < selected_countries1.length; i++) {
         poverty = 0;
   
-        var aux1 = [];
+        //var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             poverty = poverty + selected_countries1[i][j].AVG;
@@ -293,10 +296,10 @@ function analyzer(inequality, education) {
         dic['Country'] = selected_countries1[i][0].code;
         dic['Variable'] = "Poverty";
         dic['Poverty'] = poverty/yearsv2.length; // average computation
-        aux1.push(dic);
+        countries_filtered_years.push(dic);
 
         if(minPov > 0) { minPov = 0; }
-        countries_filtered_years.push(aux1);
+        //countries_filtered_years.push(aux1);
       }
       maxMin.push(maxPov);
       maxMin.push(minPov);
@@ -324,7 +327,7 @@ function analyzer(inequality, education) {
       for(let i = 0; i < selected_countries1.length; i++) {
         gwg = 0;
   
-        var aux1 = [];
+        //var aux1 = [];
         for(let j = 0; j < selected_countries1[i].length; j++){
           if(yearsv2.includes(selected_countries1[i][j].Year)) {
             gwg = gwg + parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."));
@@ -337,10 +340,10 @@ function analyzer(inequality, education) {
         dic['Country'] = selected_countries1[i][0].Country;
         dic['Variable'] = "GWG";
         dic['GWG'] = gwg/yearsv2.length; // average computation
-        aux1.push(dic);
+        countries_filtered_years.push(dic);
 
         if(minGWG > 0) { minGWG = 0; }
-        countries_filtered_years.push(aux1);
+        //countries_filtered_years.push(aux1);
       }
       maxMin.push(maxGWG);
       maxMin.push(minGWG);
@@ -355,15 +358,13 @@ function analyzer(inequality, education) {
 
 function slope_chart(paises, maxMin) {
 
-  var xscaleData = paises[0].map(function (a) {return a.Variable});
-
   // ---------------------------------------------------------------  
   // SCALES --------------------------------------------------------
   // ---------------------------------------------------------------  
 
-  var xscale = d3
+  var xscaleGDP = d3
     .scalePoint()
-    .domain(xscaleData)
+    .domain(['GDP'])
     .range([padding, padding]);
 
   var GDPscale = d3
@@ -371,15 +372,30 @@ function slope_chart(paises, maxMin) {
     .domain([maxMin[1], maxMin[0]])
     .range([height - padding, padding]);
 
+  var xscaleEmployment = d3
+    .scalePoint()
+    .domain(['Employment'])
+    .range([padding + 80, padding + 80]);
+
   var employmentScale = d3
     .scaleLinear()
     .domain([maxMin[3], maxMin[2]])
     .range([height - padding, padding]);
 
+  /*var xscaleIncome = d3
+    .scalePoint()
+    .domain(xscaleData)
+    .range([padding, padding]);
+
   var incomeScale = d3
     .scaleLinear()
     .domain([maxMin[5], maxMin[4]])
     .range([height - padding, padding]);
+
+  var xscaleEducation = d3
+    .scalePoint()
+    .domain(xscaleData)
+    .range([padding, padding]);
 
   var educationScale = d3
     .scaleLinear()
@@ -400,6 +416,7 @@ function slope_chart(paises, maxMin) {
     .scaleLinear()
     .domain([maxMin[13], maxMin[12]])
     .range([height - padding, padding]);
+  */
 
   // Define image SVG; everything of SVG will be append on the div of slope_chart
   var svg = d3
@@ -411,12 +428,16 @@ function slope_chart(paises, maxMin) {
 
   // Scatterplor cannot have 2 lists of obj. It has to get data all from the same array of obj. otherwise *Puffff*
   // to be used on SVG - PLOTS
+  console.log("paises", paises.length)
   var new_paises = []; 
   for(let i = 0; i < paises.length; i++) {
+    console.log("aaaaaa", paises[i])
     for(let j = 0; j < paises[i].length; j++){
       new_paises.push(paises[i][j]);
     }
   }
+
+  //console.log("new_paises: ", new_paises)
 
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
@@ -437,7 +458,18 @@ function slope_chart(paises, maxMin) {
         .attr("is_clicked", false)
         .attr("name", function(d){ return d.Country; })
         .attr("class", "plot")
-        .attr("value", function(d){ return d.GDP; })
+        .attr("value", function(d){ 
+          if (d.Variable === "GDP") {
+            //console.log(d)
+            //console.log("hello")
+            return d.GDP; 
+          }
+            
+          if (d.Variable === "Employment") {
+            //console.log("hello2")
+            return d.Employment;
+            }
+          })
           /*if (v === "Employment")
             return parseFloat(d.AverageEmployment.replace(",", "."));
           if (v === "Income")
@@ -451,8 +483,18 @@ function slope_chart(paises, maxMin) {
           if (v === "GWG")
             return parseFloat(d.GenderWageGap.replace(",", "."));
         */
-        .attr("cx", function (d) { return xscale(d.Variable); })
-        .attr("cy", function (d) { return GDPscale(d.GDP); })
+        .attr("cx", function (d) { 
+          if (d.Variable === "GDP")
+            return xscaleGDP(d.Variable); 
+          else if (d.Variable === "Employment")
+            return xscaleEmployment(d.Variable)
+          })
+        .attr("cy", function (d) { 
+          if (d.Variable === "GDP")
+            return GDPscale(d.GDP); 
+          if (d.Variable === "Employment")
+            return employmentScale(d.Employment)
+          })
           /*if (v === "Employment")
             return hscale(parseFloat(d.AverageEmployment.replace(",", ".")));
           if (v === "Income")
@@ -578,7 +620,7 @@ function slope_chart(paises, maxMin) {
         .attr("class", "line")
         .attr("d",
           d3.line()
-            .x(function (d) { return xscale(d.Variable); })
+            .x(function (d) { return xscaleGDP(d.Variable); })
             .y(function (d) { return GDPscale(d.GDP); })
 
               /*else if (v === "Employment"){
@@ -620,7 +662,7 @@ function slope_chart(paises, maxMin) {
     .scale(employmentScale) // fit to our scale
     .tickFormat(d3.format(".2s")) // format of each year
     .tickSizeOuter(0);
-
+    /*
   var yIncome = d3
     .axisLeft() // we are creating a d3 axis
     .scale(incomeScale) // fit to our scale
@@ -650,7 +692,7 @@ function slope_chart(paises, maxMin) {
     .scale(GWGScale) // fit to our scale
     .tickFormat(d3.format(".2s")) // format of each year
     .tickSizeOuter(0);
-
+*/
   // Appending axis --------------------------------------------------------
   svg
     .append("g") // we are creating a 'g' element to match our yaxis
@@ -663,7 +705,7 @@ function slope_chart(paises, maxMin) {
     .attr("transform", "translate(" + (padding + 80) + ",0)")
     .attr("class", "yEmployment") // we are giving it a css style
     .call(yEmployment)
-
+/*
   svg
     .append("g") // we are creating a 'g' element to match our yaxis
     .attr("transform", "translate(" + (padding + 160) + ",0)")
@@ -693,18 +735,30 @@ function slope_chart(paises, maxMin) {
     .attr("transform", "translate(" + (padding + 480) + ",0)")
     .attr("class", "yGWG") // we are giving it a css style
     .call(yGWG);
+*/
 
-
-  var xaxis = d3
+  var xaxisGDP = d3
     .axisBottom() // we are creating a d3 axis
-    .scale(xscale) // we are adding our padding
+    .scale(xscaleGDP) // we are adding our padding
     .tickSizeOuter(0);
 
   svg
     .append("g") // we are creating a 'g' element to match our x axis
     .attr("transform", "translate(0," + (height - padding) + ")")
     .attr("class", "xaxis") // we are giving it a css style
-    .call(xaxis);
+    .call(xaxisGDP);
+
+  var xaxisEmployment = d3
+    .axisBottom() // we are creating a d3 axis
+    .scale(xscaleEmployment) // we are adding our padding
+    .tickSizeOuter(0);
+
+  svg
+    .append("g") // we are creating a 'g' element to match our x axis
+    .attr("transform", "translate(0," + (height - padding) + ")")
+    .attr("class", "xaxis") // we are giving it a css style
+    .call(xaxisEmployment);
+
 
   // text label for the x axis
   //svg
