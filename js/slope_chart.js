@@ -38,11 +38,113 @@ var maxGDP = 0, minGDP = 0,
     maxGWG = 0, minGWG = 0;
 
 function analyzer(inequality, education) {
-  var countries_filtered_years = [];  
-  var maxMin = [];
+  Promise.all([
+    d3.json("csv/LineChart/gdp.json"),
+    d3.json("csv/LineChart/Q2_total.json")
+  ]).then(function(files){
+    var countries_filtered_years = [];  
+    var maxMin = [];
+  
+    if (files[0]){ // GDP
+      var selected_countries = [];
+      dataset = files[0];
+
+      // Default: countries
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BE').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('CZ').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('PT').value))
+
+      // Default: years
+      var years = [];
+      years.push('2010');
+      years.push('2011');
+      years.push('2012');
+      let yearsv2 = years.map(i=>Number(i));
+
+      var aux = [];
+
+      // Max and min values, to built the scale
+      for(let i = 0; i < selected_countries.length; i++) {
+        gdp = 0;
+
+        for(let j = 0; j < selected_countries[i].length; j++){
+          if(yearsv2.includes(selected_countries[i][j].Year)) {
+            gdp = gdp + selected_countries[i][j].GDP;
+            if(maxGDP < selected_countries[i][j].GDP) { maxGDP = selected_countries[i][j].GDP; }
+            if(minGDP > selected_countries[i][j].GDP) { minGDP = selected_countries[i][j].GDP; }
+          }
+        }
+
+        dic = {}
+        dic['Country'] = selected_countries[i][0].Country;
+        dic['Variable'] = "GDP";
+        dic['GDP'] = gdp/yearsv2.length; // average computation
+        aux.push(dic);
+
+        if(minGDP > 0) { minGDP = 0; }
+
+      }
+      countries_filtered_years.push(aux);
+
+      maxMin.push(maxGDP);
+      maxMin.push(minGDP);
+        console.log("gdp ", files[0])
+      }
+
+    if (files[1]) { // Employment
+      var selected_countries1 = [];
+      dataset1 = files[1];
+
+      // Default: countries
+      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+
+      // Default: years
+      var years = [];
+      years.push('2010');
+      years.push('2011');
+      years.push('2012');
+      let yearsv2 = years.map(i=>Number(i));
+      var aux1 = [];
+  
+      for(let i = 0; i < selected_countries1.length; i++) {
+        employment = 0;
+  
+        for(let j = 0; j < selected_countries1[i].length; j++){
+          if(yearsv2.includes(selected_countries1[i][j].Year)) {
+            employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
+            if(maxEmp < parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+            if(minEmp > parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+          }
+        }
+        console.log("show max", maxEmp)
+
+        dic = {}
+        dic['Country'] = selected_countries1[i][0].Country;
+        dic['Variable'] = "Employment";
+        dic['Employment'] = employment/yearsv2.length; // average computation
+        aux1.push(dic);
+
+        if(minEmp > 0) { minEmp = 0; }
+      }
+      countries_filtered_years.push(aux1);
+      maxMin.push(maxEmp);
+      maxMin.push(minEmp);
+      console.log("employment ", files[1])
+    }
+
+    console.log("Countries selected years", countries_filtered_years)
+    slope_chart(countries_filtered_years, maxMin);
+
+  }).catch(function(err) {
+    // handle error here
+})
 
   // GDP
-  d3.json("csv/LineChart/gdp.json").then(function (data) {
+  /*d3.json("csv/LineChart/gdp.json").then(function (data) {
     var selected_countries = [];
     dataset = data;
 
@@ -351,7 +453,7 @@ function analyzer(inequality, education) {
     });
     console.log(countries_filtered_years)
     slope_chart(countries_filtered_years, maxMin);
-  });
+  });*/
 }
 
 /* ------------------------------------- SLOPE CHART --------------------------------------- */
