@@ -114,18 +114,19 @@ function analyzer(inequality, education) {
         employment = 0;
   
         for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year)) {
+          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
             employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
             if(maxEmp < parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
             if(minEmp > parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+            console.log(selected_countries1[i][j].AverageEmployment.replace(",", "."))
           }
         }
-        console.log("show max", maxEmp)
+        console.log("----------")
 
         dic = {}
         dic['Country'] = selected_countries1[i][0].Country;
         dic['Variable'] = "Employment";
-        dic['Employment'] = employment/yearsv2.length; // average computation
+        dic['Employment'] = employment/(yearsv2.length); // average computation
         aux1.push(dic);
 
         if(minEmp > 0) { minEmp = 0; }
@@ -464,6 +465,11 @@ function slope_chart(paises, maxMin) {
   // SCALES --------------------------------------------------------
   // ---------------------------------------------------------------  
 
+  var xscale = d3
+    .scalePoint()
+    .domain(['GDP', 'Employment'])
+    .range([padding, padding + 80]);
+
   var xscaleGDP = d3
     .scalePoint()
     .domain(['GDP'])
@@ -562,13 +568,9 @@ function slope_chart(paises, maxMin) {
         .attr("class", "plot")
         .attr("value", function(d){ 
           if (d.Variable === "GDP") {
-            //console.log(d)
-            //console.log("hello")
             return d.GDP; 
           }
-            
           if (d.Variable === "Employment") {
-            //console.log("hello2")
             return d.Employment;
             }
           })
@@ -722,8 +724,18 @@ function slope_chart(paises, maxMin) {
         .attr("class", "line")
         .attr("d",
           d3.line()
-            .x(function (d) { return xscaleGDP(d.Variable); })
-            .y(function (d) { return GDPscale(d.GDP); })
+            .x(function (d) { 
+              if(d.Variable === 'GDP')
+                return xscale(d.Variable);
+              if(d.Variable === 'Employment')
+                return xscale(d.Variable);
+              })
+            .y(function (d) { 
+              if(d.Variable === 'GDP')
+                return GDPscale(d.GDP);
+              if(d.Variable === 'Employment')
+                return employmentScale(d.Employment);
+              })
 
               /*else if (v === "Employment"){
                 return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
