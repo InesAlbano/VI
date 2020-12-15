@@ -117,7 +117,7 @@
                 </div>
 
                 <div id="slope_chart" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
-                  <script src="js/slope_chart.js"></script>
+                  <!--<script src="js/slope_chart.js"></script>-->
                 </div>
             </div>
 
@@ -279,7 +279,6 @@
 <script>
 
 function initMenu() {
-  console.log("here")
   var checkbox;
 
   checkbox = document.querySelector("input[type=checkbox][id=BE]");
@@ -292,12 +291,8 @@ function initMenu() {
   checkbox.checked = true;
   localStorage.setItem("countries", ["BE", "BG", "CZ", "PT"])
 
-
-
   document.getElementById('0-2').checked = true;
   localStorage.setItem("education", "0-2");
-
-
 
   checkbox = document.getElementById("2010");
   checkbox.checked = true;
@@ -307,62 +302,90 @@ function initMenu() {
   checkbox.checked = true;
   localStorage.setItem("years", ["2010", "2011", "2012"])
 
-
-
   document.getElementById('GDP').checked = true;
   localStorage.setItem("variable", "GDP");
 
+
+  /* on change Education */
+  var checkboxes = document.querySelectorAll("input[type=radio][name=variables]");
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      updateCharts();
+    })
+  });
+
+  /* on change Education */
+  var checkboxes = document.querySelectorAll("input[type=radio][name=education]");
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      updateCharts();
+    })
+  });
+
+  /* on change Countries */
+  var checkboxes = document.querySelectorAll("input[type=checkbox][name=country]");
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      updateCharts();
+    })
+  });
+
+
+  /* on change YEARS */
+  var checkboxes = document.querySelectorAll("input[type=checkbox][name=year]");
+  let counter = 0;
+  checkboxes.forEach(function(checkbox) {
+    checkbox.addEventListener('change', function() {
+      counter = counter + 1;
+      checkMiddleBoxes(checkbox, counter);
+      updateCharts();
+    })
+  });
 }
 
-/* on change Education */
-var checkboxes = document.querySelectorAll("input[type=radio][name=variables]");
-checkboxes.forEach(function(checkbox) {
-  checkbox.addEventListener('change', function() {
-    updateCharts();
-  })
-});
-
-/* on change Education */
-var checkboxes = document.querySelectorAll("input[type=radio][name=education]");
-checkboxes.forEach(function(checkbox) {
-  checkbox.addEventListener('change', function() {
-    updateCharts();
-  })
-});
-
-/* on change Countries */
-var checkboxes = document.querySelectorAll("input[type=checkbox][name=country]");
-checkboxes.forEach(function(checkbox) {
-  checkbox.addEventListener('change', function() {
-    updateCharts();
-  })
-});
-
-
-/* on change YEARS */
-var checkboxes = document.querySelectorAll("input[type=checkbox][name=year]");
-let enabledSettings = []
-checkboxes.forEach(function(checkbox) {
-  checkbox.addEventListener('change', function() {
-
-    /* to change middle boxes */
-    enabledSettings = Array.from(checkboxes).filter(i => i.checked).map(i => i.value);
-    if (enabledSettings.length > 1) 
-      checkMiddleBoxes(enabledSettings, enabledSettings.length);
-
-    updateCharts();
-  })
-});
-
-function checkMiddleBoxes(enabledYears, size){
+function checkMiddleBoxes(c, counter){
   let years = ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"];
-  var initialYear = enabledYears[0];
-  var nextYear = '' + (parseInt(enabledYears[0])+1);
+  let years_checked = [false,false,false,false,false,false,false,false,false,false]
 
-  while(nextYear != enabledYears[enabledYears.length-1]){
-    document.getElementById(nextYear).checked = true;
-    nextYear = '' + (parseInt(nextYear)+1);
+  if (counter % 2 == 0) { // recomecar
+    var checkedboxes = [document.getElementById(c.value)];
+  } else { // preencher
+    var checkedboxes = document.querySelectorAll("input[type=checkbox][name=year]:checked");
   }
+
+
+  for (let i = 0; i< years.length; ++i){
+    if (years[i] === checkedboxes[0].value){
+      years_checked[i] = true;
+    }
+
+    if (years[i] === checkedboxes[checkedboxes.length-1].value){
+      years_checked[i] = true;
+    }
+  }
+
+
+  if (checkedboxes.length > 1){
+    fill = false;
+    for (let i = 0; i< years_checked.length; ++i){
+      if (years_checked[i] == true && fill == false){
+        fill = true;
+      } else if (years_checked[i] == false && fill == true) { // fill middle
+        document.getElementById(years[i]).checked = true;
+      } else if (years_checked[i] == true && fill == true) {
+        fill = false;
+      } else {
+        document.getElementById(years[i]).checked = false;
+      }
+    }
+  } else {
+    var checkedboxes = document.querySelectorAll("input[type=checkbox][name=year]");
+    checkedboxes.forEach(function(checkbox) {
+      checkbox.checked = false;
+    });
+    document.getElementById(c.value).checked = true;
+  }
+  
 
 }
 
@@ -407,48 +430,6 @@ function myFunction(event) {
       }
   }
 
-  /*var checkbox;
-  if (countries.length == 0) {
-    checkbox = document.querySelector("input[type=checkbox][id=BE]");
-    checkbox.checked = true;
-    checkbox = document.querySelector("input[type=checkbox][id=BG]");
-    checkbox.checked = true;
-    checkbox = document.querySelector("input[type=checkbox][id=CZ]");
-    checkbox.checked = true;
-    checkbox = document.querySelector("input[type=checkbox][id=PT]");
-    checkbox.checked = true;
-    countries.push("PT")
-    countries.push("CZ")
-    countries.push("BG")
-    countries.push("BE")
-    localStorage.setItem("countries", ["BE", "BG", "CZ", "PT"])
-  } 
-
-  if (education == '') {
-    document.getElementById('0-2').checked = true;
-    education = '0-2'
-    localStorage.setItem("education", "0-2");
-  } 
-
-  if (years.length == 0) {
-    checkbox = document.getElementById("2010");
-    checkbox.checked = true;
-    checkbox = document.getElementById("2011");
-    checkbox.checked = true;
-    checkbox = document.getElementById("2012");
-    checkbox.checked = true;
-    years.push("2012")
-    years.push("2011")
-    years.push("2010")
-    localStorage.setItem("years", ["2010", "2011", "2012"])
-  } 
-
-  if (variable == '') {
-    document.getElementById('GDP').checked = true;
-    variable = "GDP"
-    localStorage.setItem("variable", "GDP");
-  }*/
-
   if (countries.length != 0 && education != '' && years.length != 0 && variable != '') {
     localStorage.setItem("education", education);
     localStorage.setItem("variable", variable);
@@ -460,10 +441,8 @@ function myFunction(event) {
     }
 
     if(years.length > 1) { // Case: more than 1 year is selected
-        console.log('year 1')
         localStorage.setItem("years", JSON.stringify(years));
     } else { // Case: Only 1 year is selected
-        console.log('year 2')
         localStorage.setItem("years", years);
     }
   }
@@ -471,7 +450,6 @@ function myFunction(event) {
 
 function updateCharts(){
   myFunction(null);
-  console.log("years", localStorage.getItem("years"))
   const event = new Event('updateCharts');
   document.dispatchEvent(event);
 }
