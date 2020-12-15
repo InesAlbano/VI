@@ -13,7 +13,7 @@
     <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </head>
-<body>
+<body onload = "initMenu()">
     <section class="container">
         <div class="one">
           <form id="myForm" action="" method="POST">
@@ -117,7 +117,7 @@
                 </div>
 
                 <div id="slope_chart" style="background-color: rgba(227, 224, 224, 0.1); border-radius: 15px;" class="right-div">
-                  <script src="js/slope_chart.js"></script>    
+                  <script src="js/slope_chart.js"></script>
                 </div>
             </div>
 
@@ -278,6 +278,42 @@
 
 <script>
 
+function initMenu() {
+  console.log("here")
+  var checkbox;
+
+  checkbox = document.querySelector("input[type=checkbox][id=BE]");
+  checkbox.checked = true;
+  checkbox = document.querySelector("input[type=checkbox][id=BG]");
+  checkbox.checked = true;
+  checkbox = document.querySelector("input[type=checkbox][id=CZ]");
+  checkbox.checked = true;
+  checkbox = document.querySelector("input[type=checkbox][id=PT]");
+  checkbox.checked = true;
+  localStorage.setItem("countries", ["BE", "BG", "CZ", "PT"])
+
+
+
+  document.getElementById('0-2').checked = true;
+  localStorage.setItem("education", "0-2");
+
+
+
+  checkbox = document.getElementById("2010");
+  checkbox.checked = true;
+  checkbox = document.getElementById("2011");
+  checkbox.checked = true;
+  checkbox = document.getElementById("2012");
+  checkbox.checked = true;
+  localStorage.setItem("years", ["2010", "2011", "2012"])
+
+
+
+  document.getElementById('GDP').checked = true;
+  localStorage.setItem("variable", "GDP");
+
+}
+
 /* on change Education */
 var checkboxes = document.querySelectorAll("input[type=radio][name=variables]");
 checkboxes.forEach(function(checkbox) {
@@ -371,7 +407,7 @@ function myFunction(event) {
       }
   }
 
-  var checkbox;
+  /*var checkbox;
   if (countries.length == 0) {
     checkbox = document.querySelector("input[type=checkbox][id=BE]");
     checkbox.checked = true;
@@ -411,7 +447,7 @@ function myFunction(event) {
     document.getElementById('GDP').checked = true;
     variable = "GDP"
     localStorage.setItem("variable", "GDP");
-  }
+  }*/
 
   if (countries.length != 0 && education != '' && years.length != 0 && variable != '') {
     localStorage.setItem("education", education);
