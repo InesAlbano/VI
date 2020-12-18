@@ -402,7 +402,39 @@ function analyzer(inequality, education) {
           }
           countries_filtered_years.push(aux);
         }
-      cleveland_chart(countries_filtered_years, maximo, minimo, "GDP");
+        
+        var paises_avg_GDP=[];
+
+        console.log("AUX=", aux);
+  
+        console.log("countries_filtered_years=",countries_filtered_years);
+        for(let i=0; i<countries_filtered_years.length; i++) {
+          aux2 = {};
+          aux2['Country'] = countries_filtered_years[i][0].Country
+          let gdp_soma = 0;
+          for(let j=0; j<countries_filtered_years[i].length; j++) {
+            gdp_soma = gdp_soma + countries_filtered_years[i][j].GDP;
+          }
+          aux2['GDP'] = gdp_soma /yearsv2.length;
+          paises_avg_GDP.push(aux2);   
+        }
+        
+        maximo_avg_gdp=0;
+        minimo_avg_gdp=0;
+        for(let i=0; i<paises_avg_GDP.length; i++) {
+          if(maximo_avg_gdp<paises_avg_GDP[i].GDP) {
+            maximo_avg_gdp=paises_avg_GDP[i].GDP;
+          }
+          if(minimo_avg_gdp>paises_avg_GDP[i].GDP){
+            minimo_avg_gdp=paises_avg_GDP[i].GDP;
+          }
+        }
+        
+        console.log('paises_avg_GDP', paises_avg_GDP)
+  
+  
+      
+      cleveland_chart(paises_avg_GDP, maximo, minimo, "GDP");
       });
 	}
 }
@@ -411,16 +443,19 @@ function analyzer(inequality, education) {
 /* ------------------------------------- CLEVELAND CHART --------------------------------------- */
 
 function cleveland_chart(paises, maximo,minimo, v) {
-  
-  
+  dif_paises=[];
+  console.log("paises",paises); // paises=[{Country: "BG", GDP: 79128.8}, {Country: "BE", GDP: 375094.19999999995}, {...}, {...}]
   // INITIAL VARS ____________________________________________________________________________
-  var hscaleData = paises.map((a) => a.Country);
-    console.log("A TENTAR", dataset);
+  for(let i=0; i<paises.length; i++){
+    dif_paises.push(paises[i].Country); //dif_paises=["BG", "BE", "CZ", PT]
+  }
+  console.log("dif_paises",dif_paises);
 
+  
   // Scales
   var hscale = d3
     .scalePoint()
-    .domain(hscaleData)
+    .domain(dif_paises)
     .range([height - padding, padding]);
   
   var xscale = d3
@@ -428,18 +463,55 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .domain([minimo, maximo])
     .range([padding, width - padding]); 
  
-  // Define image SVG; everything of SVG will be append on the div of line_chart
+  // Define image SVG; everything of SVG will be append on the div of cleveland_chart
   var svg = d3
     .select("#cleveland_chart")
     .append("svg") // appends an svg to the div 'cleveland_chart'
+    .attr("id","cleveland-svg")
     .attr("width", width)
     .attr("height", height);
   
-  // SVG - Plots + Lines ______________________________________________________________________
+  console.log("PAISES",paises);
   
-      
-      // LINES ----------------------------------------------------------------------------------
-      
+  // SVG - Plots + Lines ______________________________________________________________________
+  //console.log("PAISES [i]",paises[i]);
+            
+  // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
+  var plots = svg
+    .selectAll("circle")
+    .data(paises)
+    .join("circle") // now we append circles
+    .attr("r", radius) // each circle
+    .attr("fill", "red")
+    .attr("stroke", "red")
+    .attr("cy", function(d) {
+      return d.Country;
+    })
+    //.attr("is_clicked", false)
+    .attr("class", "plot")
+    .attr("cx", function(d){
+      //if (v === "GDP")
+      return d.GDP;
+  })
+
+  // LINES ----------------------------------------------------------------------------------
+  svg
+    .append("path")
+    .datum(paises)
+    .attr("fill", "none")
+    .attr("stroke", "red")
+    .attr("stroke-width", 4)
+    .attr("y1", function(d){
+      console.log(paises);
+      console.log("paises.d.Country",d);
+      return d.Country;
+    })
+    //.attr("class", "line")
+    .attr("x1", function(d) {
+      return d.GDP;
+    })
+
+     
   //______________________________________________________________________________________________
 
   // AXIS ________________________________________________________________________________________
@@ -471,6 +543,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
   var xaxis = d3
     .axisBottom() // we are creating a d3 axis
     .scale(xscale) // we are adding our padding
+    .tickFormat(d3.format(".2s"))
     //.tickValues(xscaleDataFiltered)
     .tickSizeOuter(0);
 
@@ -487,6 +560,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
       "transform",
       "translate(" + width / 2 + " ," + (height - padding / 3) + ")"
     )
+    .attr("dy", "1em")
     .attr("class", "label")
     .text("Value");
 }
