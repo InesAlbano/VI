@@ -557,49 +557,6 @@ function line_chart(paises, maximo,minimo, v) {
         .datum(paises[i])
         .attr("fill", "none")
         .attr("stroke", "red")
-/*        function(d) {
-          var value = 0
-          var keys;
-
-          if (v === "GDP") {
-            keys = [90000, 150000, 500000, 750000, 1000000, 2500000]  
-            var colorScale = d3.scaleThreshold() 
-            .domain(keys)
-            .range(d3.schemeBlues[7]);  
-
-            d.forEach(function (d2) {
-              console.log(d, d2)
-              if ((years1.includes(d2.Year))) {   
-                value = value + parseFloat(d2.GDP);         
-              }
-              if ((years1.includes(d2.Year))) { 
-                localStorage.setItem(d2.Country, (value/years1.length).toFixed(1));
-              }               
-            })
-            return (value/years1.length) ? colorScale(value/years1.length) : "#1A1C1F";
-          }
-          else if (v === "Employment"){
-            value = value + parseFloat(d.AverageEmployment.replace(",", ".")); 
-            keys = [15, 30, 45, 60, 75, 100]
-          } 
-          else if (v === "Income"){
-            value = value + d.MoneyM+d.MoneyF;
-            keys = [10000, 20000, 30000, 40000, 50000, 60000]
-          } 
-          else if (v === "Education"){
-            value = value + parseFloat(d.AveragePercentage.replace(",", ".")); 
-          }
-          if (v === "Women-high-pos"){
-            value = value + d.growthRateWHP;
-          }
-          else if (v === "Poverty") {
-            value = value + d.AVG;
-          }
-
-          else if (v === "GWG"){ 
-            value = value + parseFloat(d.GenderWageGap.replace(",", "."));
-          }    
-        })*/
         .attr("stroke-width", 4)
         .attr("id", function(d){
           return d[0].Country +'-Lines';

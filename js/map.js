@@ -32,7 +32,6 @@ function updateMap(update = false){
       c[i] = c[i].replace('"', '');
     }
   }
-  console.log("AA", c, y)
 
   if (y.includes(",")){
     y = y.replace('[', '');
@@ -903,7 +902,6 @@ function mapPoverty(data, filePath, c, y, e){
         data2.forEach(d2 => {
           if (y.includes(d2.Year)) { 
             if (d2.code === d.id && e.includes(d2.ISCED11)) {
-              console.log(d2.Year, d2.code, d2.AVG)
               val = val + d2.AVG;
               localStorage.setItem(d2.code, (val/y.length).toFixed(1));
             }

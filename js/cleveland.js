@@ -69,9 +69,7 @@ function analyzer(inequality, education) {
 
       var paises_avg_GDP=[];
 
-      console.log("AUX=", aux);
 
-      console.log("countries_filtered_years=",countries_filtered_years);
       for(let i=0; i<countries_filtered_years.length; i++) {
         aux2 = {};
         aux2['Country'] = countries_filtered_years[i][0].Country
@@ -94,7 +92,6 @@ function analyzer(inequality, education) {
         }
       }
       
-      console.log('paises_avg_GDP', paises_avg_GDP)
 
 
       cleveland_chart(paises_avg_GDP, maximo_avg_gdp, minimo_avg_gdp, inequality);
@@ -404,10 +401,7 @@ function analyzer(inequality, education) {
         }
         
         var paises_avg_GDP=[];
-
-        console.log("AUX=", aux);
   
-        console.log("countries_filtered_years=",countries_filtered_years);
         for(let i=0; i<countries_filtered_years.length; i++) {
           aux2 = {};
           aux2['Country'] = countries_filtered_years[i][0].Country
@@ -430,10 +424,6 @@ function analyzer(inequality, education) {
           }
         }
         
-        console.log('paises_avg_GDP', paises_avg_GDP)
-  
-  
-      
       cleveland_chart(paises_avg_GDP, maximo, minimo, "GDP");
       });
 	}
@@ -444,25 +434,32 @@ function analyzer(inequality, education) {
 
 function cleveland_chart(paises, maximo,minimo, v) {
   dif_paises=[];
-  console.log("paises",paises); // paises=[{Country: "BG", GDP: 79128.8}, {Country: "BE", GDP: 375094.19999999995}, {...}, {...}]
+  // paises=[{Country: "BG", GDP: 79128.8}, {Country: "BE", GDP: 375094.19999999995}, {...}, {...}]
+ 
   // INITIAL VARS ____________________________________________________________________________
   for(let i=0; i<paises.length; i++){
     dif_paises.push(paises[i].Country); //dif_paises=["BG", "BE", "CZ", PT]
   }
-  console.log("dif_paises",dif_paises);
-
-  
-  // Scales
   var hscale = d3
     .scalePoint()
     .domain(dif_paises)
     .range([height - padding, padding]);
-  
+
   var xscale = d3
-    .scalePoint()
+    .scaleLinear()
     .domain([minimo, maximo])
-    .range([padding, width - padding]); 
- 
+    .range([padding, width - padding]);
+
+  var xscaleLoli = d3
+    .scaleLinear()
+    .domain([0, maximo])
+    .range([padding, width - padding]);
+
+  var hscaleLoli = d3
+    .scalePoint()
+    .domain(["PT"])
+    .range([height - padding, padding]);
+
   // Define image SVG; everything of SVG will be append on the div of cleveland_chart
   var svg = d3
     .select("#cleveland_chart")
@@ -470,8 +467,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .attr("id","cleveland-svg")
     .attr("width", width)
     .attr("height", height);
-  
-  console.log("PAISES",paises);
   
   // SVG - Plots + Lines ______________________________________________________________________
   //console.log("PAISES [i]",paises[i]);
@@ -485,17 +480,18 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .attr("fill", "red")
     .attr("stroke", "red")
     .attr("cy", function(d) {
-      return d.Country;
+      return hscale(d.Country);
     })
     //.attr("is_clicked", false)
     .attr("class", "plot")
     .attr("cx", function(d){
-      //if (v === "GDP")
-      return d.GDP;
+      if (v === "GDP"){
+        return xscale(d.GDP);
+      }
   })
 
   // LINES ----------------------------------------------------------------------------------
-  svg
+  /*svg
     .append("path")
     .datum(paises)
     .attr("fill", "none")
@@ -509,7 +505,55 @@ function cleveland_chart(paises, maximo,minimo, v) {
     //.attr("class", "line")
     .attr("x1", function(d) {
       return d.GDP;
+    })*/
+
+    svg
+    .append("path")
+    .datum(paises)
+    .attr("fill", "none")
+    .attr("stroke", "red")
+    .attr("stroke-width", 4)
+    /*.attr("id", function(d){
+      return d[0].Country +'-ClevLines';
     })
+    .attr("selected", false)
+    .attr("class", "line")*/
+    .attr(
+      "d",
+      d3
+        .line()
+        .x(function (d) {
+          if (v === "GDP")
+            return xscaleLoli(d.GDP);
+            
+          
+        })
+        .y(function (d) {
+          return hscaleLoli(d.Country);
+          
+
+          /*else if (v === "Employment"){
+            return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
+
+          } else if (v === "Income"){
+            return hscale(d.MoneyM+d.MoneyF);
+
+          } else if (v === "Education")
+          return hscale(parseFloat(d.AveragePercentage.replace(",", "."))); 
+
+          if (v === "Women-high-pos")
+            return hscale(d.growthRateWHP);
+
+          else if (v === "Poverty")
+            return hscale(d.AVG);
+
+          else if (v === "GWG"){ 
+            return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
+          }*/
+        })
+    );  
+  
+
 
      
   //______________________________________________________________________________________________

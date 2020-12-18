@@ -89,7 +89,6 @@ function analyzer(inequality, education) {
 
       maxMin.push(maxGDP);
       maxMin.push(minGDP);
-        console.log("gdp ", files[0])
       }
 
     if (files[1]) { // Employment
@@ -118,10 +117,8 @@ function analyzer(inequality, education) {
             employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
             if(maxEmp < parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
             if(minEmp > parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
-            console.log(selected_countries1[i][j].AverageEmployment.replace(",", "."))
           }
         }
-        console.log("----------")
 
         dic = {}
         dic['Country'] = selected_countries1[i][0].Country;
@@ -134,10 +131,8 @@ function analyzer(inequality, education) {
       countries_filtered_years.push(aux1);
       maxMin.push(maxEmp);
       maxMin.push(minEmp);
-      console.log("employment ", files[1])
     }
 
-    console.log("Countries selected years", countries_filtered_years)
     slope_chart(countries_filtered_years, maxMin);
 
   }).catch(function(err) {
@@ -536,10 +531,8 @@ function slope_chart(paises, maxMin) {
 
   // Scatterplor cannot have 2 lists of obj. It has to get data all from the same array of obj. otherwise *Puffff*
   // to be used on SVG - PLOTS
-  console.log("paises", paises.length)
   var new_paises = []; 
   for(let i = 0; i < paises.length; i++) {
-    console.log("aaaaaa", paises[i])
     for(let j = 0; j < paises[i].length; j++){
       new_paises.push(paises[i][j]);
     }
@@ -711,9 +704,54 @@ function slope_chart(paises, maxMin) {
       
   // ---------------------------------------------------------------  
   // LINES ---------------------------------------------------------
-  // ---------------------------------------------------------------  
+  // --------------------------------------------------------------- 
+  /*var lineGenerator = d3
+    .line()
 
-      svg
+    .x(function (d) { 
+      if(d[0].Variable === 'GDP')
+        return xscale(d[0].Variable);
+      if(d[1].Variable === 'Employment')
+        return xscale(d[1].Variable);
+      })
+
+    .y(function (d) { 
+      if(d[0].Variable === 'GDP')
+        return GDPscale(d[0].GDP);
+      if(d[1].Variable === 'Employment')
+        return employmentScale(d[1].Employment);
+      })*/
+  /*var lineGenerator = d3
+    .line()
+
+    .x(function (d) { 
+      console.log(d)
+      if(d.Variable === 'GDP')
+        return xscale(d.Variable);
+      if(d.Variable === 'Employment')
+        return xscale(d.Variable);
+      })
+
+    .y(function (d) { 
+      if(d.Variable === 'GDP')
+        return GDPscale(d.GDP);
+      if(d.Variable === 'Employment')
+        return employmentScale(d.Employment);
+      })
+
+  console.log(paises[i])
+  svg
+    .append("path")
+    .datum(paises[i])
+    .attr("fill", "none")
+    .attr("stroke", "red")
+    .attr("stroke-width", 4)
+    //.attr("id", function(d){ return d[0].Country +'-Lines'; })
+    .attr("selected", false)
+    .attr("class", "line")
+    .attr("d", lineGenerator(paises));*/
+
+      /*svg
         .append("path")
         .datum(paises[i])
         .attr("fill", "none")
@@ -737,7 +775,7 @@ function slope_chart(paises, maxMin) {
                 return employmentScale(d.Employment);
               })
 
-              /*else if (v === "Employment"){
+              else if (v === "Employment"){
                 return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
 
               } else if (v === "Income"){
@@ -755,10 +793,39 @@ function slope_chart(paises, maxMin) {
               else if (v === "GWG"){ 
                 return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
               }
-            */
-        );  
-      }
+        );*/  
     }
+  }
+
+var lineGenerator = d3
+  .line()
+  .x(function (d) {
+    if(d[0].Variable === 'GDP'){
+      return xscale(d[0].Variable);
+    }
+
+    if(d[1].Variable === 'Employment'){
+      return xscale(d[1].Variable);}
+    })
+  .y(function (d) { 
+    if(d[0].Variable === 'GDP')
+      return GDPscale(d[0].GDP);
+
+    if(d[1].Variable === 'Employment')
+      return employmentScale(d[1].Employment);
+    })
+
+console.log(lineGenerator(paises))
+svg
+  .append("path")
+  .datum(paises)
+  .attr("fill", "none")
+  .attr("stroke", "red")
+  .attr("stroke-width", 4)
+  //.attr("id", function(d){ return d[0].Country +'-Lines'; })
+  .attr("selected", false)
+  .attr("class", "line")
+  .attr("d", lineGenerator(paises));
 
   // ---------------------------------------------------------------  
   // AXIS ----------------------------------------------------------
