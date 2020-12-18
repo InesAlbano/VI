@@ -6,31 +6,203 @@ var radius = 5;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
+var years1 = localStorage.getItem("years"); 
+
 analyzer("Init");
 
 document.addEventListener('clickedCountry' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
 
-document.addEventListener('updateCharts' , function(){
+document.addEventListener('updateCharts' , function(){  
   //d3.select("#").remove();
-  updateLine()
-});
-
-var years1 = localStorage.getItem("years");
-
-function updateLine(){
   var v = localStorage.getItem("variable");
   var e = localStorage.getItem("education");
+  console.log(v)
   analyzer(v, e);
-}
+  console.log("after")
+});
 
-// ESCOLHE 1 OPCAO A VISUALIZAR, DO MENU
 function analyzer(inequality, education) {
-	switch (inequality) {
+  console.log("inside analyzer", inequality)
+  if (inequality === 'GDP') {
+    console.log("here GDP")
+    //d3.select("#line-svg").remove();
+    d3.json("csv/LineChart/gdp.json").then(function (data) {
+      dataset = data;
+      
+      var selected_countries = []; // selected countries
+      $('#checkboxes input:checked').each(function() {
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+      )});
+            
+      var years=[]; // selected years
+      $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+      let yearsv2 = years.map(i=>Number(i)); //selected years in number
+
+      var maximo=0;
+      var minimo=0;
+      var countries_filtered_years=[];
+      
+      for(let i=0; i<selected_countries.length; i++) {
+        var aux=[]; 
+        for(let j=0; j<selected_countries[i].length; j++){ // na lista de paises paises
+          if(yearsv2.includes(selected_countries[i][j].Year)) { //escrutina os anos selecionados 
+            aux.push(selected_countries[i][j]); // aux e a nova lista com os paises e os anos selecionados 
+            if(maximo<selected_countries[i][j].GDP){
+              maximo=selected_countries[i][j].GDP;
+            }
+            if(minimo>selected_countries[i][j].GDP){
+              minimo=selected_countries[i][j].GDP;
+            }
+          }
+        }
+        if(minimo>0){
+          minimo=0;
+        }
+        countries_filtered_years.push(aux);
+      }
+
+    var paises_avg_GDP=[];
+
+    for(let i=0; i<countries_filtered_years.length; i++) {
+      aux2 = {};
+      aux2['Country'] = countries_filtered_years[i][0].Country
+      let gdp_soma = 0;
+      for(let j=0; j<countries_filtered_years[i].length; j++) {
+        gdp_soma = gdp_soma + countries_filtered_years[i][j].GDP;
+      }
+      aux2['GDP'] = gdp_soma /yearsv2.length;
+      paises_avg_GDP.push(aux2);   
+    }
     
+    maximo_avg_gdp=0;
+    minimo_avg_gdp=0;
+    for(let i=0; i<paises_avg_GDP.length; i++) {
+      if(maximo_avg_gdp<paises_avg_GDP[i].GDP) {
+        maximo_avg_gdp=paises_avg_GDP[i].GDP;
+      }
+      if(minimo_avg_gdp>paises_avg_GDP[i].GDP){
+        minimo_avg_gdp=paises_avg_GDP[i].GDP;
+      }
+    }
+    cleveland_chart(paises_avg_GDP, maximo_avg_gdp, minimo_avg_gdp, inequality);
+    });
+
+  } else if (inequality === 'Employment') {
+    console.log('here employment')
+    //d3.select("#line-svg").remove();
+    d3.json("csv/LineChart/Q2_total.json").then(function (data) { //parse data
+      dataset = data;
+
+      var selected_countries = [];
+      $('#checkboxes input:checked').each(function() {
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+      )});
+            
+      var years=[];
+      $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+      let yearsv2 = years.map(i=>Number(i));
+
+      var maximo=0;
+      var minimo=0;
+      var countries_filtered_years=[];
+
+      for(let i=0; i<selected_countries.length; i++) {
+        var aux=[];
+        for(let j=0; j<selected_countries[i].length; j++){
+          if(yearsv2.includes(selected_countries[i][j].Year)) {
+            if (education === selected_countries[i][j].ISCED11) {
+              aux.push(selected_countries[i][j]);
+              if(maximo<parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))){
+                maximo=parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
+              }
+              if(minimo>parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))){
+                minimo=parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
+              }
+            }
+          }
+        }
+        if(minimo>0){
+          minimo=0;
+        }
+        countries_filtered_years.push(aux);
+      }
+    cleveland_chart(countries_filtered_years, maximo, minimo, inequality);
+    });       
+
+  } else {
+    console.log("here default")
+    d3.json("csv/LineChart/gdp.json").then(function (data) {
+      dataset = data;
+      var selected_countries = [];
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BE').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('CZ').value))
+      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('PT').value))
+            
+      var years=[];
+      years.push('2010');
+      years.push('2011');
+      years.push('2012');
+      let yearsv2 = years.map(i=>Number(i));
+
+      var maximo=0;
+      var minimo=0;
+      var countries_filtered_years=[];
+
+      for(let i=0; i<selected_countries.length; i++) {
+        var aux=[];
+        for(let j=0; j<selected_countries[i].length; j++){
+          if(yearsv2.includes(selected_countries[i][j].Year)) {
+            aux.push(selected_countries[i][j]);
+            if(maximo<selected_countries[i][j].GDP){
+              maximo=selected_countries[i][j].GDP;
+            }
+            if(minimo>selected_countries[i][j].GDP){
+              minimo=selected_countries[i][j].GDP;
+            }
+          }
+        }
+        if(minimo>0){
+          minimo=0;
+        }
+        countries_filtered_years.push(aux);
+      }
+      
+      var paises_avg_GDP=[];
+
+      for(let i=0; i<countries_filtered_years.length; i++) {
+        aux2 = {};
+        aux2['Country'] = countries_filtered_years[i][0].Country
+        let gdp_soma = 0;
+        for(let j=0; j<countries_filtered_years[i].length; j++) {
+          gdp_soma = gdp_soma + countries_filtered_years[i][j].GDP;
+        }
+        aux2['GDP'] = gdp_soma /yearsv2.length;
+        paises_avg_GDP.push(aux2);   
+      }
+      
+      maximo_avg_gdp=0;
+      minimo_avg_gdp=0;
+      for(let i=0; i<paises_avg_GDP.length; i++) {
+        if(maximo_avg_gdp<paises_avg_GDP[i].GDP) {
+          maximo_avg_gdp=paises_avg_GDP[i].GDP;
+        }
+        if(minimo_avg_gdp>paises_avg_GDP[i].GDP){
+          minimo_avg_gdp=paises_avg_GDP[i].GDP;
+        }
+      }
+      
+    cleveland_chart(paises_avg_GDP, maximo, minimo, "GDP");
+    });
+  }
+
+
+	/*switch (inequality) {
     //GDP ___________________________________________________________________________________________________
     case "GDP": // no education
+      console.log("here GDP")
       //d3.select("#line-svg").remove();
       d3.json("csv/LineChart/gdp.json").then(function (data) {
         dataset = data;
@@ -69,7 +241,6 @@ function analyzer(inequality, education) {
 
       var paises_avg_GDP=[];
 
-
       for(let i=0; i<countries_filtered_years.length; i++) {
         aux2 = {};
         aux2['Country'] = countries_filtered_years[i][0].Country
@@ -91,15 +262,13 @@ function analyzer(inequality, education) {
           minimo_avg_gdp=paises_avg_GDP[i].GDP;
         }
       }
-      
-
-
       cleveland_chart(paises_avg_GDP, maximo_avg_gdp, minimo_avg_gdp, inequality);
       });
-      break
+      break;
     
-    /* // EMPLOYMENT ___________________________________________________________________________________________
+     // EMPLOYMENT ___________________________________________________________________________________________
     case "Employment":
+      console.log('here employment')
       //d3.select("#line-svg").remove();
       d3.json("csv/LineChart/Q2_total.json").then(function (data) { //parse data
         dataset = data;
@@ -359,10 +528,11 @@ function analyzer(inequality, education) {
       }
       cleveland_chart(countries_filtered_years, maximo, minimo, inequality);
       });
-      break */
+      break
     
     // DEFAULT ____________________________________________________________________________________________
     default:
+      console.log("here default")
       d3.json("csv/LineChart/gdp.json").then(function (data) {
         dataset = data;
         var selected_countries = [];
@@ -426,7 +596,7 @@ function analyzer(inequality, education) {
         
       cleveland_chart(paises_avg_GDP, maximo, minimo, "GDP");
       });
-	}
+	}*/
 }
 
 
