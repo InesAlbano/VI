@@ -800,32 +800,48 @@ function slope_chart(paises, maxMin) {
 var lineGenerator = d3
   .line()
   .x(function (d) {
-    if(d[0].Variable === 'GDP'){
-      return xscale(d[0].Variable);
+    if(d.Variable === 'GDP'){
+      return xscale(d.Variable);
     }
 
-    if(d[1].Variable === 'Employment'){
-      return xscale(d[1].Variable);}
+    if(d.Variable === 'Employment'){
+      return xscale(d.Variable);}
     })
   .y(function (d) { 
-    if(d[0].Variable === 'GDP')
-      return GDPscale(d[0].GDP);
+    if(d.Variable === 'GDP')
+      return GDPscale(d.GDP);
 
-    if(d[1].Variable === 'Employment')
-      return employmentScale(d[1].Employment);
+    if(d.Variable === 'Employment')
+      return employmentScale(d.Employment);
     })
 
-console.log(lineGenerator(paises))
-svg
+console.log(paises)
+var p = []
+for (j = 0; j< paises[0].length; ++j){
+  aux = []
+    aux.push(paises[0][j])
+    aux.push(paises[1][j])
+    /*aux.push(paises[2][j])
+    aux.push(paises[3][j])
+    aux.push(paises[4][j])
+    aux.push(paises[5][j])
+    aux.push(paises[6][j])*/
+  p.push(aux)
+}
+console.log(p)
+for (let i = 0; i< p.length; ++i){
+  svg
   .append("path")
-  .datum(paises)
+  .datum(p)
   .attr("fill", "none")
   .attr("stroke", "red")
   .attr("stroke-width", 4)
-  //.attr("id", function(d){ return d[0].Country +'-Lines'; })
+  .attr("id", function(d){ return p[i][0].Country +'-Lines'; })
   .attr("selected", false)
   .attr("class", "line")
-  .attr("d", lineGenerator(paises));
+  .attr("d", lineGenerator(p[i]));
+} 
+
 
   // ---------------------------------------------------------------  
   // AXIS ----------------------------------------------------------
