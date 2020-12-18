@@ -450,16 +450,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .domain([minimo, maximo])
     .range([padding, width - padding]);
 
-  var xscaleLoli = d3
-    .scaleLinear()
-    .domain([0, maximo])
-    .range([padding, width - padding]);
-
-  var hscaleLoli = d3
-    .scalePoint()
-    .domain(["PT"])
-    .range([height - padding, padding]);
-
   // Define image SVG; everything of SVG will be append on the div of cleveland_chart
   var svg = d3
     .select("#cleveland_chart")
@@ -490,69 +480,52 @@ function cleveland_chart(paises, maximo,minimo, v) {
       }
   })
 
-  // LINES ----------------------------------------------------------------------------------
-  /*svg
-    .append("path")
-    .datum(paises)
-    .attr("fill", "none")
-    .attr("stroke", "red")
-    .attr("stroke-width", 4)
-    .attr("y1", function(d){
-      console.log(paises);
-      console.log("paises.d.Country",d);
-      return d.Country;
-    })
-    //.attr("class", "line")
-    .attr("x1", function(d) {
-      return d.GDP;
-    })*/
 
+
+  // LINES ----------------------------------------------------------------------------------
+
+  var lineGenerator = d3
+  .line()
+  .x(function (d) {
+    if(v === 'GDP'){
+      return xscale(d.GDP);
+    }
+  })
+  .y(function (d) { 
+    if(v === 'GDP')
+      return hscale(d.Country);
+  })
+
+
+  p = []
+  if (v === 'GDP'){
+    for (let i = 0; i < paises.length; ++i) {
+      aux = []
+      aux_dic = {}
+      aux_dic['Country'] = paises[i].Country
+      aux_dic['GDP'] = 0
+      aux.push(aux_dic)
+      aux.push(paises[i])
+      p.push(aux)
+    }
+  }
+
+  console.log(p)
+  for (let i = 0; i < p.length; ++i){
     svg
     .append("path")
-    .datum(paises)
+    .datum(p[i])
     .attr("fill", "none")
     .attr("stroke", "red")
     .attr("stroke-width", 4)
-    /*.attr("id", function(d){
-      return d[0].Country +'-ClevLines';
-    })
+    .attr("id", function(d){ return d[0].Country +'-Lines'; })
     .attr("selected", false)
-    .attr("class", "line")*/
-    .attr(
-      "d",
-      d3
-        .line()
-        .x(function (d) {
-          if (v === "GDP")
-            return xscaleLoli(d.GDP);
-            
-          
-        })
-        .y(function (d) {
-          return hscaleLoli(d.Country);
-          
+    .attr("class", "line")
+    .attr("d", lineGenerator(p[i]));
+  }
 
-          /*else if (v === "Employment"){
-            return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
+   
 
-          } else if (v === "Income"){
-            return hscale(d.MoneyM+d.MoneyF);
-
-          } else if (v === "Education")
-          return hscale(parseFloat(d.AveragePercentage.replace(",", "."))); 
-
-          if (v === "Women-high-pos")
-            return hscale(d.growthRateWHP);
-
-          else if (v === "Poverty")
-            return hscale(d.AVG);
-
-          else if (v === "GWG"){ 
-            return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
-          }*/
-        })
-    );  
-  
 
 
      
