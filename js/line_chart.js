@@ -510,7 +510,7 @@ function line_chart(paises, maximo,minimo, v) {
         .data(new_paises)
         .join("circle") // now we append circles
         .attr("r", radius) // each circle
-        .attr("fill", "#878787")
+        .attr("fill", "#5b98c7")
         .attr("stroke", "white")
         .attr("id", function(d) {
           return d.Year;
@@ -575,7 +575,7 @@ function line_chart(paises, maximo,minimo, v) {
               if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
                 plots._groups[0][i].attributes.is_clicked.value = 'false';
                 d3.select(plots._groups[0][i])
-                  .attr("fill", "#878787")
+                  .attr("fill", "#5b98c7")
                   .attr("r", radius);
                 div.transition()		
                   .duration(500)		
@@ -638,7 +638,7 @@ function line_chart(paises, maximo,minimo, v) {
         .on("mouseout", function(){
           if (this.attributes.is_clicked.value === 'false'){
             d3.select(this)
-            .attr("fill", "#878787")
+            .attr("fill", "#5b98c7")
             .attr("r", radius);
 
             div.transition()		
@@ -669,8 +669,8 @@ function resetLines(){
   var a = document.getElementById("line-svg").getElementsByClassName("plot");
   for (let i = 0; i < a.length; ++i){
     a[i].attributes.is_clicked.value = false;
-    a[i].attributes.stroke.value = "#878787";
-    a[i].attributes.fill.value = "#878787";
+    a[i].attributes.stroke.value = "white";
+    a[i].attributes.fill.value = "#5b98c7";
     a[i].attributes.r.value = radius;
   }
 
