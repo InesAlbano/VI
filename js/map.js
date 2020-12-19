@@ -273,7 +273,7 @@ function mapGDP(data, filePath, c, y, update){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -409,7 +409,7 @@ function mapEmployment(data, filePath, c, y, e){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -549,7 +549,7 @@ function mapIncome(data, filePath, c, y, e){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -688,7 +688,7 @@ function mapEducation(data, filePath, c, y, e){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -822,7 +822,7 @@ function mapWHP(data, filePath, c, y){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -960,7 +960,7 @@ function mapPoverty(data, filePath, c, y, e){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}
@@ -1099,7 +1099,7 @@ function mapGWG(data, filePath, c, y, e){
                 
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-            const event = new Event('clickedCountry');
+            const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
 
             //}

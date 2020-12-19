@@ -9,7 +9,13 @@ var tooltipLine = d3.select("div.tooltipLine");
 analyzerClev("Init")
 
 
-document.addEventListener('clickedCountry' , function(){
+document.addEventListener('clickedCountryMap' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+document.addEventListener('clickedCountryLine' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+document.addEventListener('clickedCountrySlope' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
 
@@ -973,7 +979,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
         country = b[i].attributes.id.value.replace('-LinesCleve', '')
       }        
     }
-    
+
     for (let i = 0; i < plots._groups[0].length; i++){
       if (plots._groups[0][i].attributes.value != this.attributes.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
         if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
@@ -1001,7 +1007,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
           .attr("r", radius*1.5);
         localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-        const event = new Event('clickedCountryLine');
+        const event = new Event('clickedCountryClev');
         document.dispatchEvent(event);
       }
     }

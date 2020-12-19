@@ -9,7 +9,13 @@ var tooltipLine = d3.select("div.tooltipLine");
 analyzer("Init")
 
 
-document.addEventListener('clickedCountry' , function(){
+document.addEventListener('clickedCountryMap' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+document.addEventListener('clickedCountrySlope' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+}); 
+document.addEventListener('clickedCountryClev' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
 

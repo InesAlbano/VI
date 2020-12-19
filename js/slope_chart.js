@@ -10,9 +10,15 @@ var e = localStorage.getItem("education");
 
 analyzer(e,true)
 
-document.addEventListener('clickedCountry' , function(){
+document.addEventListener('clickedCountryMap' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
+document.addEventListener('clickedCountryLine' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+});
+document.addEventListener('clickedCountryClev' , function(){
+  changeLine(localStorage.getItem("clickedItemCountry"));
+});
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#slope-svg").remove();
@@ -856,7 +862,7 @@ function slope_chart(paises, maxMin) {
                 .attr("r", radius*2);   // doubles the size of the circle
               localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-              const event = new Event('clickedCountryLine');
+              const event = new Event('clickedCountrySlope');
               document.dispatchEvent(event);
             }
           }
