@@ -11,13 +11,13 @@ var e = localStorage.getItem("education");
 analyzer(e,true)
 
 document.addEventListener('clickedCountryMap' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeSlope(localStorage.getItem("clickedItemCountry"));
 }); 
 document.addEventListener('clickedCountryLine' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeSlope(localStorage.getItem("clickedItemCountry"));
 });
 document.addEventListener('clickedCountryClev' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeSlope(localStorage.getItem("clickedItemCountry"));
 });
 
 document.addEventListener('updateCharts' , function(){
@@ -833,7 +833,7 @@ function slope_chart(paises, maxMin) {
           // Change line colors on click
           var b = document.getElementById("slope-svg").getElementsByClassName("lineSlope")
           for (let i = 0; i < b.length; ++i){
-            if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
+            if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesSlope', '')){
               b[i].attributes.selected.value = false;
               b[i].attributes.stroke.value = "red"
             } else {
@@ -987,7 +987,7 @@ for (let i = 0; i< p.length; ++i){
   .attr("fill", "none")
   .attr("stroke", "red")
   .attr("stroke-width", 4)
-  .attr("id", function(d){ return p[i][0].Country +'-Lines'; })
+  .attr("id", function(d){ return p[i][0].Country +'-LinesSlope'; })
   .attr("selected", false)
   .attr("class", "lineSlope")
   .attr("d", lineGenerator(p[i]));
@@ -1166,4 +1166,29 @@ for (let i = 0; i< p.length; ++i){
   //  .attr("transform", "translate(5," + (height - padding / 3) + ")")
   //  .attr("class", "label")
   //  .text("Year");
+}
+
+
+/* interaction */
+function changeSlope(Country){
+  resetSlope()
+  var a = document.getElementById(Country+'-LinesSlope')
+  a.attributes.stroke.value = "#dea959"
+  a.attributes.selected.value = "true"
+}
+
+function resetSlope(){
+  var a = document.getElementById("slope-svg").getElementsByClassName("plot");
+  for (let i = 0; i < a.length; ++i){
+    a[i].attributes.is_clicked.value = false;
+    a[i].attributes.stroke.value = "#878787";
+    a[i].attributes.fill.value = "#878787";
+    a[i].attributes.r.value = radius;
+  }
+
+  var b = document.getElementsByClassName("lineSlope");
+  for (let i = 0; i < b.length; ++i){
+    b[i].attributes.selected.value = false;
+    b[i].attributes.stroke.value = "#878787"
+  }
 }

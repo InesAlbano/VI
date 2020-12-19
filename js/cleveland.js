@@ -10,13 +10,13 @@ analyzerClev("Init")
 
 
 document.addEventListener('clickedCountryMap' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeClev(localStorage.getItem("clickedItemCountry"));
 }); 
 document.addEventListener('clickedCountryLine' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeClev(localStorage.getItem("clickedItemCountry"));
 }); 
 document.addEventListener('clickedCountrySlope' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  changeClev(localStorage.getItem("clickedItemCountry"));
 }); 
 
 document.addEventListener('updateCharts' , function(){
@@ -1076,4 +1076,28 @@ function cleveland_chart(paises, maximo,minimo, v) {
       tooltipLine.classed("hidden", true);
     }
   });
+}
+
+/* interaction */
+function changeClev(Country){
+  resetClev()
+  var a = document.getElementById(Country+'-LinesCleve')
+  a.attributes.stroke.value = "#dea959"
+  a.attributes.selected.value = "true"
+}
+
+function resetClev(){
+  var a = document.getElementById("slope-svg").getElementsByClassName("plot");
+  for (let i = 0; i < a.length; ++i){
+    a[i].attributes.is_clicked.value = false;
+    a[i].attributes.stroke.value = "#878787";
+    a[i].attributes.fill.value = "#878787";
+    a[i].attributes.r.value = radius;
+  }
+
+  var b = document.getElementsByClassName("cleveline");
+  for (let i = 0; i < b.length; ++i){
+    b[i].attributes.selected.value = false;
+    b[i].attributes.stroke.value = "#878787"
+  }
 }

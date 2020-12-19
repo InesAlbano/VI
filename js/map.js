@@ -6,6 +6,15 @@ document.addEventListener('clickedCountryLine' , function(){
   changeBorder(localStorage.getItem("clickedItemCountry"));
 }); 
 
+document.addEventListener('clickedCountrySlope' , function(){
+  changeBorder(localStorage.getItem("clickedItemCountry"));
+}); 
+
+document.addEventListener('clickedCountryClev' , function(){
+  changeBorder(localStorage.getItem("clickedItemCountry"));
+}); 
+
+
 document.addEventListener('updateCharts' , function(){
   updateMap(update=true);
 }); 
