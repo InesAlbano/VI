@@ -402,203 +402,6 @@ function line_chart(paises, maximo,minimo, v) {
     }
   }
 
-  // SVG - Plots + Lines ______________________________________________________________________
-  if(paises.length > 0) {
-    for (i = 0; i < paises.length; i++) {
-      
-      // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
-      var plots = svg
-        .selectAll("circle")
-        .data(new_paises)
-        .join("circle") // now we append circles
-        .attr("r", radius) // each circle
-        .attr("fill", "red")
-        .attr("stroke", "red")
-        .attr("id", function(d) {
-          return d.Year;
-        })
-        .attr("is_clicked", false)
-        .attr("name", function(d){
-          return d.Country;
-        })
-        .attr("class", "plot")
-        .attr("value", function(d){
-          if (v === "GDP")
-            return d.GDP;
-          if (v === "Employment")
-            return parseFloat(d.AverageEmployment.replace(",", "."));
-          if (v === "Income")
-            return d.MoneyF+d.MoneyM;
-          if (v === "Education")
-            return parseFloat(d.AveragePercentage.replace(",", "."));
-          if (v === "Women-high-pos")
-            return d.growthRateWHP;
-          if (v === "Poverty")
-            return d.AVG;
-          if (v === "GWG")
-            return parseFloat(d.GenderWageGap.replace(",", "."));
-        })
-        .attr("cx", function (d, i) {
-          return xscale(d.Year);
-        })
-        .attr("cy", function (d) {
-          // we define each circle y position
-          if (v === "GDP")
-            return hscale(d.GDP);
-          if (v === "Employment")
-            return hscale(parseFloat(d.AverageEmployment.replace(",", ".")));
-          if (v === "Income")
-            return hscale(d.MoneyF+d.MoneyM);
-          if (v === "Education")
-            return hscale(parseFloat(d.AveragePercentage.replace(",", ".")));
-          if (v === "Women-high-pos")
-            return hscale(d.growthRateWHP);
-          if (v === "Poverty")
-            return hscale(d.AVG);
-          if (v === "GWG")
-            return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
-        })
-        .on("click", function (){
-          this.parentNode.appendChild(this);
-          var b = document.getElementById("line-svg").getElementsByClassName("line")
-          for (let i = 0; i < b.length; ++i){
-            if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
-              b[i].attributes.selected.value = false;
-              b[i].attributes.stroke.value = "red"
-            } else {
-              b[i].attributes.selected.value = true;
-              b[i].attributes.stroke.value = "yellow"
-            }
-            
-          }
-
-          for (let i = 0; i < plots._groups[0].length; i++){
-            if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
-              if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
-                plots._groups[0][i].attributes.is_clicked.value = 'false';
-                d3.select(plots._groups[0][i])
-                  .attr("fill", "red")
-                  .attr("r", radius);
-                div.transition()		
-                  .duration(500)		
-                  .style("opacity", 0);	
-                tooltipLine.classed("hidden", true);
-              }
-            } else {
-              this.attributes.is_clicked.value = "true";
-              d3.select(this)
-                .attr("fill", "orange")
-                .attr("r", radius*2);
-              localStorage.setItem("clickedItemCountry", this.attributes.name.value)
-
-              const event = new Event('clickedCountryLine');
-              document.dispatchEvent(event);
-            }
-          }
-        })
-        .on("mouseover", function() {
-          this.parentNode.appendChild(this);
-          d3.select(this)
-            .attr("fill", "orange")
-            .attr("r", radius*2);
-          d3.select(this)
-            .transition()
-            .duration(200)
-            .style("opacity", 1)
-            .style("stroke", "white")     
-          div.transition()		
-            .duration(200)		
-            .style("opacity", .9);
-
-          var value;
-          var c = []
-          var y = []
-
-          for (i in paises) {
-            for (j in paises[i]) {
-              if (!(c.includes(paises[i][j].Country))) {
-                c.push(paises[i][j].Country)
-              }
-              if (!(y.includes(paises[i][j].Year))) {
-                y.push(parseInt(paises[i][j].Year))
-              }
-            }
-          }
-
-          if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
-            if (this == null){
-              value = ''
-            } else {
-              value = parseFloat($(this).attr('value'))
-              value = value.toFixed(1)
-            }
-              div	.html($(this).attr('name') + "<br/>"  + value)	
-                .style("left", (event.pageX) + "px")		
-                .style("top", (event.pageY - 28) + "px");	
-            }
-          })			          
-        .on("mouseout", function(){
-          if (this.attributes.is_clicked.value === 'false'){
-            d3.select(this)
-            .attr("fill", "red")
-            .attr("r", radius);
-
-            div.transition()		
-              .duration(500)		
-              .style("opacity", 0);	
-            tooltipLine.classed("hidden", true);
-          }
-          
-        });
-      
-      // LINES ----------------------------------------------------------------------------------
-      svg
-        .append("path")
-        .datum(paises[i])
-        .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
-        .attr("id", function(d){
-          return d[0].Country +'-Lines';
-        })
-        .attr("selected", false)
-        .attr("class", "line")
-        .attr(
-          "d",
-          d3
-            .line()
-            .x(function (d) {
-              return xscale(d.Year);
-            })
-            .y(function (d) {
-              
-              if (v === "GDP")
-                return hscale(d.GDP);
-
-              else if (v === "Employment"){
-                return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
-
-              } else if (v === "Income"){
-                return hscale(d.MoneyM+d.MoneyF);
-
-              } else if (v === "Education")
-              return hscale(parseFloat(d.AveragePercentage.replace(",", "."))); 
-
-              if (v === "Women-high-pos")
-                return hscale(d.growthRateWHP);
-
-              else if (v === "Poverty")
-                return hscale(d.AVG);
-
-              else if (v === "GWG"){ 
-                return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
-              }
-            })
-        );  
-      }
-    }
-  //______________________________________________________________________________________________
-
   // AXIS ________________________________________________________________________________________
   var yaxis = d3
     .axisLeft() // we are creating a d3 axis
@@ -646,6 +449,205 @@ function line_chart(paises, maximo,minimo, v) {
     )
     .attr("class", "label")
     .text("Year");
+
+  // SVG - Plots + Lines ______________________________________________________________________
+  if(paises.length > 0) {
+    for (i = 0; i < paises.length; i++) {
+
+      // LINES ----------------------------------------------------------------------------------
+      svg
+        .append("path")
+        .datum(paises[i])
+        .attr("fill", "none")
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
+        .attr("id", function(d){
+          return d[0].Country +'-Lines';
+        })
+        .attr("selected", false)
+        .attr("class", "line")
+        .attr(
+          "d",
+          d3
+            .line()
+            .x(function (d) {
+              return xscale(d.Year);
+            })
+            .y(function (d) {
+              
+              if (v === "GDP")
+                return hscale(d.GDP);
+
+              else if (v === "Employment"){
+                return hscale(parseFloat(d.AverageEmployment.replace(",", "."))); 
+
+              } else if (v === "Income"){
+                return hscale(d.MoneyM+d.MoneyF);
+
+              } else if (v === "Education")
+              return hscale(parseFloat(d.AveragePercentage.replace(",", "."))); 
+
+              if (v === "Women-high-pos")
+                return hscale(d.growthRateWHP);
+
+              else if (v === "Poverty")
+                return hscale(d.AVG);
+
+              else if (v === "GWG"){ 
+                return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
+              }
+            })
+        ); 
+      // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
+      var plots = svg
+        .selectAll("circle")
+        .data(new_paises)
+        .join("circle") // now we append circles
+        .attr("r", radius) // each circle
+        .attr("fill", "#878787")
+        .attr("stroke", "white")
+        .attr("id", function(d) {
+          return d.Year;
+        })
+        .attr("is_clicked", false)
+        .attr("name", function(d){
+          return d.Country;
+        })
+        .attr("class", "plot")
+        .attr("value", function(d){
+          if (v === "GDP")
+            return d.GDP;
+          if (v === "Employment")
+            return parseFloat(d.AverageEmployment.replace(",", "."));
+          if (v === "Income")
+            return d.MoneyF+d.MoneyM;
+          if (v === "Education")
+            return parseFloat(d.AveragePercentage.replace(",", "."));
+          if (v === "Women-high-pos")
+            return d.growthRateWHP;
+          if (v === "Poverty")
+            return d.AVG;
+          if (v === "GWG")
+            return parseFloat(d.GenderWageGap.replace(",", "."));
+        })
+        .attr("cx", function (d, i) {
+          return xscale(d.Year);
+        })
+        .attr("cy", function (d) {
+          // we define each circle y position
+          if (v === "GDP")
+            return hscale(d.GDP);
+          if (v === "Employment")
+            return hscale(parseFloat(d.AverageEmployment.replace(",", ".")));
+          if (v === "Income")
+            return hscale(d.MoneyF+d.MoneyM);
+          if (v === "Education")
+            return hscale(parseFloat(d.AveragePercentage.replace(",", ".")));
+          if (v === "Women-high-pos")
+            return hscale(d.growthRateWHP);
+          if (v === "Poverty")
+            return hscale(d.AVG);
+          if (v === "GWG")
+            return hscale(parseFloat(d.GenderWageGap.replace(",", ".")));
+        })
+        .on("click", function (){
+          var country = ''
+          this.parentNode.appendChild(this);
+          var b = document.getElementById("line-svg").getElementsByClassName("line")
+          for (let i = 0; i < b.length; ++i){
+            if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
+              b[i].attributes.selected.value = false;
+              b[i].attributes.stroke.value = "#878787"
+            } else {
+              b[i].attributes.selected.value = true;
+              b[i].attributes.stroke.value = "#E0C090"
+            }
+          }
+
+          for (let i = 0; i < plots._groups[0].length; i++){
+            if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+              if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
+                plots._groups[0][i].attributes.is_clicked.value = 'false';
+                d3.select(plots._groups[0][i])
+                  .attr("fill", "#878787")
+                  .attr("r", radius);
+                div.transition()		
+                  .duration(500)		
+                  .style("opacity", 0);	
+                tooltipLine.classed("hidden", true);
+              }
+            } else {
+              this.attributes.is_clicked.value = "true";
+              d3.select(this)
+                .attr("fill", "#dea959")
+                .attr("r", radius*1.5);
+              localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+
+              const event = new Event('clickedCountryLine');
+              document.dispatchEvent(event);
+            }
+          }
+        })
+        .on("mouseover", function() {
+          this.parentNode.appendChild(this);
+          d3.select(this)
+            .attr("fill", "#E0C090")
+            .attr("r", radius*1.5);
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("opacity", 1)
+            .style("stroke", "white")     
+          div.transition()		
+            .duration(200)		
+            .style("opacity", .9);
+
+          var value;
+          var c = []
+          var y = []
+
+          for (i in paises) {
+            for (j in paises[i]) {
+              if (!(c.includes(paises[i][j].Country))) {
+                c.push(paises[i][j].Country)
+              }
+              if (!(y.includes(paises[i][j].Year))) {
+                y.push(parseInt(paises[i][j].Year))
+              }
+            }
+          }
+
+          if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
+            if (this == null){
+              value = ''
+            } else {
+              value = parseFloat($(this).attr('value'))
+              value = value.toFixed(1)
+            }
+              div	.html($(this).attr('name') + "<br/>"  + value)	
+                .style("left", (event.pageX) + "px")		
+                .style("top", (event.pageY - 28) + "px");	
+            }
+          })			          
+        .on("mouseout", function(){
+          if (this.attributes.is_clicked.value === 'false'){
+            d3.select(this)
+            .attr("fill", "#878787")
+            .attr("r", radius);
+
+            div.transition()		
+              .duration(500)		
+              .style("opacity", 0);	
+            tooltipLine.classed("hidden", true);
+          }
+          
+        }); 
+        
+    }
+  }
+  //______________________________________________________________________________________________
+
+  
 }
 
 
@@ -653,7 +655,7 @@ function line_chart(paises, maximo,minimo, v) {
 function changeLine(Country){
   resetLines()
   var a = document.getElementById(Country+'-Lines')
-  a.attributes.stroke.value = "yellow"
+  a.attributes.stroke.value = "#dea959"
   a.attributes.selected.value = "true"
 }
 
@@ -661,14 +663,14 @@ function resetLines(){
   var a = document.getElementById("line-svg").getElementsByClassName("plot");
   for (let i = 0; i < a.length; ++i){
     a[i].attributes.is_clicked.value = false;
-    a[i].attributes.stroke.value = "red";
-    a[i].attributes.fill.value = "red";
+    a[i].attributes.stroke.value = "#878787";
+    a[i].attributes.fill.value = "#878787";
     a[i].attributes.r.value = radius;
   }
 
   var b = document.getElementById("line-svg").getElementsByClassName("line")
   for (let i = 0; i < b.length; ++i){
     b[i].attributes.selected.value = false;
-    b[i].attributes.stroke.value = "red"
+    b[i].attributes.stroke.value = "#878787"
   }
 }

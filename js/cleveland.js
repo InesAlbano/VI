@@ -902,184 +902,172 @@ function cleveland_chart(paises, maximo,minimo, v) {
     }
   }
 
-    // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
-    var plots = svg
-    .selectAll("circle")
-    .data(paises)
-    .join("circle") // now we append circles
-    .attr("r", radius) // each circle
-    .attr("name", function(d) {return d.Country;})
-    .attr("sex", function(d) {return d.Sex;})
-    .attr("value", function(d){
-      if (v === "GDP")
-        return d.GDP;
-      else if (v === "Employment")
-        return d.EmploymentRate;
-      else if (v === "Income")
-        return d.Money;
-      else if (v === "Education")
-        return d.Percentage;
-      else if (v === "Women-high-pos")
-        return d.growthRateWHP;
-      else if (v === "Poverty")
-        return d.Percentage;
-      else if (v === "GWG")
-        return d.GenderWageGap;
-    })
-    .attr("fill", function(d){
-      if (d.Sex === 'female'){
-        return "#D68A5A";
-      } else if (d.Sex === 'male'){
-        return "#407d64";
+  // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
+  var plots = svg
+  .selectAll("circle")
+  .data(paises)
+  .join("circle") // now we append circles
+  .attr("r", radius) // each circle
+  .attr("name", function(d) {return d.Country;})
+  .attr("sex", function(d) {return d.Sex;})
+  .attr("value", function(d){
+    if (v === "GDP")
+      return d.GDP;
+    else if (v === "Employment")
+      return d.EmploymentRate;
+    else if (v === "Income")
+      return d.Money;
+    else if (v === "Education")
+      return d.Percentage;
+    else if (v === "Women-high-pos")
+      return d.growthRateWHP;
+    else if (v === "Poverty")
+      return d.Percentage;
+    else if (v === "GWG")
+      return d.GenderWageGap;
+  })
+  .attr("fill", function(d){
+    if (d.Sex === 'female'){
+      return "#D68A5A";
+    } else if (d.Sex === 'male'){
+      return "#407d64";
+    } else {
+      return "#5b98c7"
+    }
+  })
+  .attr("stroke", function(d){
+    return "white";
+  })
+  .attr("cy", function(d) {
+    return hscale(d.Country);
+  })
+  .attr("is_clicked", false)
+  .attr("class", "plot")
+  .attr("cx", function(d){
+    if (v === "GDP")
+      return xscale(d.GDP);
+    else if (v === "Employment")
+      return xscale(d.EmploymentRate);
+    else if (v === "Income")
+      return xscale(d.Money);
+    else if (v === "Education")
+      return xscale(d.Percentage);
+    else if (v === "Women-high-pos")
+      return xscale(d.growthRateWHP);
+    else if (v === "Poverty")
+      return xscale(d.Percentage);
+    else if (v === "GWG")
+      return xscale(d.GenderWageGap);
+  })
+  .on("click", function (){
+    var country = ''
+    this.parentNode.appendChild(this);
+    var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
+    for (let i = 0; i < b.length; ++i){
+      if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesCleve', '')){
+        b[i].attributes.selected.value = false;
+        b[i].attributes.stroke.value = "#878787"
       } else {
-        return "#5b98c7"
-      }
-    })
-    .attr("stroke", function(d){
-      return "white";
-    })
-    .attr("cy", function(d) {
-      return hscale(d.Country);
-    })
-    .attr("is_clicked", false)
-    .attr("class", "plot")
-    .attr("cx", function(d){
-      if (v === "GDP")
-        return xscale(d.GDP);
-      else if (v === "Employment")
-        return xscale(d.EmploymentRate);
-      else if (v === "Income")
-        return xscale(d.Money);
-      else if (v === "Education")
-        return xscale(d.Percentage);
-      else if (v === "Women-high-pos")
-        return xscale(d.growthRateWHP);
-      else if (v === "Poverty")
-        return xscale(d.Percentage);
-      else if (v === "GWG")
-        return xscale(d.GenderWageGap);
-    })
-    .on("click", function (){
-      var country = ''
-      this.parentNode.appendChild(this);
-      var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
-      for (let i = 0; i < b.length; ++i){
-        if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesCleve', '')){
-          b[i].attributes.selected.value = false;
-          b[i].attributes.stroke.value = "#878787"
-        } else {
-          b[i].attributes.selected.value = true;
-          b[i].attributes.stroke.value = "#E0C090"
-          country = b[i].attributes.id.value.replace('-LinesCleve', '')
-        }        
-      }
-      
-      console.log(plots._groups)
-      for (let i = 0; i < plots._groups[0].length; i++){
-        if (plots._groups[0][i].attributes.value != this.attributes.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
-          if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
-            plots._groups[0][i].attributes.is_clicked.value = 'false';
-            d3.select(plots._groups[0][i])
-              .attr("fill", function(d){
-                if (d.Sex === 'female'){
-                  return "#D68A5A";
-                } else if (d.Sex === 'male'){
-                  return "#407d64";
-                } else {
-                  return "#5b98c7"
-                }
-              })
-              .attr("r", radius);
-            div.transition()		
-              .duration(500)		
-              .style("opacity", 0);	
-            tooltipLine.classed("hidden", true);
-          }
-        } else {
-          this.attributes.is_clicked.value = "true";
-          d3.select(this)
-            .attr("fill", "#dea959")
-            .attr("r", radius*1.5);
-          localStorage.setItem("clickedItemCountry", this.attributes.name.value)
-
-          const event = new Event('clickedCountryLine');
-          document.dispatchEvent(event);
-        }
-      }
-
-      for (let i = 0; i < plots._groups[0].length; i++){
-        if (plots._groups[0][i].__data__.Country === country && plots._groups[0][i].attributes.is_clicked.value === 'false'){
-          plots._groups[0][i].attributes.is_clicked.value = "true";
+        b[i].attributes.selected.value = true;
+        b[i].attributes.stroke.value = "#E0C090"
+        country = b[i].attributes.id.value.replace('-LinesCleve', '')
+      }        
+    }
+    
+    for (let i = 0; i < plots._groups[0].length; i++){
+      if (plots._groups[0][i].attributes.value != this.attributes.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+        if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
+          plots._groups[0][i].attributes.is_clicked.value = 'false';
           d3.select(plots._groups[0][i])
-            .attr("fill", "#dea959")
-            .style("stroke", "white")
-            .attr("r", radius*1.5);
+            .attr("fill", function(d){
+              if (d.Sex === 'female'){
+                return "#D68A5A";
+              } else if (d.Sex === 'male'){
+                return "#407d64";
+              } else {
+                return "#5b98c7"
+              }
+            })
+            .attr("r", radius);
+          div.transition()		
+            .duration(500)		
+            .style("opacity", 0);	
+          tooltipLine.classed("hidden", true);
         }
-      }
-
-    })
-    .on("mouseover", function() {
-      this.parentNode.appendChild(this);
-      d3.select(this)
-        .attr("fill", "#E0C090")
-        .attr("r", radius*2);
-      d3.select(this)
-        .transition()
-        .duration(200)
-        .style("opacity", 1)
-        .style("stroke", "white")     
-      div.transition()		
-        .duration(200)		
-        .style("opacity", .9);
-
-      var value;
-      var c = []
-
-
-      for (i in paises) {
-          if (!(c.includes(paises[i].Country))) {
-            c.push(paises[i].Country)
-          }
-        }
-      
-      if((c.includes($(this).attr('name')))) { 
-        if (this == null){
-          value = ''
-        } else {
-          value = parseFloat($(this).attr('value'))
-          value = value.toFixed(1)
-        }
-          div	.html($(this).attr('name') + "<br/>"  + value)	
-            .style("left", (event.pageX) + "px")		
-            .style("top", (event.pageY - 28) + "px");	
-        }
-      })			          
-    .on("mouseout", function(){
-      if (this.attributes.is_clicked.value === 'false'){
+      } else {
+        this.attributes.is_clicked.value = "true";
         d3.select(this)
-        .attr("fill", function(d){
-          if (d.Sex === 'female'){
-            return "#D68A5A";
-          } else if (d.Sex === 'male'){
-            return "#407A7D";
-          } else {
-            return "#5b98c7"
-          }
-        })
-        .attr("r", radius);
+          .attr("fill", "#dea959")
+          .attr("r", radius*1.5);
+        localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
-        div.transition()		
-          .duration(500)		
-          .style("opacity", 0);	
-        tooltipLine.classed("hidden", true);
+        const event = new Event('clickedCountryLine');
+        document.dispatchEvent(event);
       }
-      
-    });
+    }
 
+    for (let i = 0; i < plots._groups[0].length; i++){
+      if (plots._groups[0][i].__data__.Country === country && plots._groups[0][i].attributes.is_clicked.value === 'false'){
+        plots._groups[0][i].attributes.is_clicked.value = "true";
+        d3.select(plots._groups[0][i])
+          .attr("fill", "#dea959")
+          .style("stroke", "white")
+          .attr("r", radius*1.5);
+      }
+    }
+  })
+  .on("mouseover", function() {
+    this.parentNode.appendChild(this);
+    d3.select(this)
+      .attr("fill", "#E0C090")
+      .attr("r", radius*1.5);
+    d3.select(this)
+      .transition()
+      .duration(200)
+      .style("opacity", 1)
+      .style("stroke", "white")     
+    div.transition()		
+      .duration(200)		
+      .style("opacity", .9);
 
-  
+    var value;
+    var c = []
+    for (i in paises) {
+      if (!(c.includes(paises[i].Country))) {
+        c.push(paises[i].Country)
+      }
+    }
+    
+    if((c.includes($(this).attr('name')))) { 
+      if (this == null){
+        value = ''
+      } else {
+        value = parseFloat($(this).attr('value'))
+        value = value.toFixed(1)
+      }
+        div	.html($(this).attr('name') + "<br/>"  + value)	
+          .style("left", (event.pageX) + "px")		
+          .style("top", (event.pageY - 28) + "px");	
+      }
+    })			          
+  .on("mouseout", function(){
+    if (this.attributes.is_clicked.value === 'false'){
+      d3.select(this)
+      .attr("fill", function(d){
+        if (d.Sex === 'female'){
+          return "#D68A5A";
+        } else if (d.Sex === 'male'){
+          return "#407A7D";
+        } else {
+          return "#5b98c7"
+        }
+      })
+      .attr("r", radius);
 
-  //______________________________________________________________________________________________
-
-  
+      div.transition()		
+        .duration(500)		
+        .style("opacity", 0);	
+      tooltipLine.classed("hidden", true);
+    }
+  });
 }
