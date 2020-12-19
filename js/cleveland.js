@@ -17,12 +17,19 @@ document.addEventListener('clickedCountryLine' , function(){
 }); 
 document.addEventListener('clickedCountrySlope' , function(){
   changeClev(localStorage.getItem("clickedItemCountry"));
-}); 
+});
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#cleveland-svg").remove();
   updateLineClev()
 }); 
+
+document.addEventListener('updateChartsSlope' , function(){
+  d3.select("#cleveland-svg").remove();
+  updateLineClev()
+}); 
+
+
 
 var years1 = localStorage.getItem("years");
 

@@ -20,6 +20,21 @@ document.addEventListener('clickedCountryClev' , function(){
   changeSlope(localStorage.getItem("clickedItemCountry"));
 });
 
+/*document.addEventListener('clickedCountrySlope', function(){
+  var vars = document.querySelectorAll("input[type=radio][name=variables]");
+  var clickedVar = localStorage.getItem("clickedVar")
+  vars.forEach(function(c) {
+    if (clickedVar === 'Women'){
+      clickedVar = "Women-high-pos"
+    }
+    if (clickedVar === c.id){
+      c.checked = true;
+    } else {
+      c.checked = false
+    }
+  });
+});*/
+
 document.addEventListener('updateCharts' , function(){
   d3.select("#slope-svg").remove();
   updateLineSlope()
@@ -754,252 +769,6 @@ function slope_chart(paises, maxMin) {
   }
 
   
-  // ---------------------------------------------------------------  
-  // LINES ---------------------------------------------------------
-  // --------------------------------------------------------------- 
-
-  var lineGenerator = d3
-  .line()
-  .x(function (d) {
-    if(d.Variable === 'GDP'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'Employment'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'Income'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'Education'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'Women'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'Poverty'){
-      return xscale(d.Variable);}
-    if(d.Variable === 'GWG'){
-      return xscale(d.Variable);}
-    })
-  .y(function (d) { 
-    if(d.Variable === 'GDP')
-      return GDPscale(d.GDP);
-    if(d.Variable === 'Employment')
-      return employmentScale(d.Employment);
-    if(d.Variable === 'Income')
-      return incomeScale(d.Income);
-    if(d.Variable === 'Education')
-      return educationScale(d.Education);
-    if(d.Variable === 'Women')
-      return womenScale(d.Women);
-    if(d.Variable === 'Poverty')
-      return povertyScale(d.Poverty);
-    if(d.Variable === 'GWG')
-      return GWGScale(d.GWG);
-    })
-
-  var p = []
-  for (j = 0; j< paises[0].length; ++j){
-  aux = []
-    aux.push(paises[0][j])
-    aux.push(paises[1][j])
-    aux.push(paises[2][j])
-    aux.push(paises[3][j])
-    aux.push(paises[4][j])
-    aux.push(paises[5][j])
-    aux.push(paises[6][j])
-  p.push(aux)
-  }
-
-  for (let i = 0; i< p.length; ++i){
-  svg
-  .append("path")
-  .datum(p)
-  .attr("fill", "none")
-  .attr("stroke", "#878787")
-  .attr("stroke-width", 3)
-  .attr("id", function(d){ return p[i][0].Country +'-LinesSlope'; })
-  .attr("selected", false)
-  .attr("class", "lineSlope")
-  .attr("d", lineGenerator(p[i]));
-  } 
-
-  // SVG - Plots + Lines ______________________________________________________________________
-  if(paises.length > 0) {
-    for (i = 0; i < paises.length; i++) {
-      // ---------------------------------------------------------------  
-      // PLOTS ---------------------------------------------------------
-      // ---------------------------------------------------------------  
-
-      var plots = svg
-      .selectAll("circle")
-      .data(new_paises)
-      .join("circle") // now we append circles
-      .attr("r", radius) // each circle
-      .attr("fill", "#5b98c7")
-      .attr("stroke", "white")
-      .attr("id", function(d) { return d.Variable; })
-      .attr("is_clicked", false)
-      .attr("name", function(d){ return d.Country; })
-      .attr("class", "plot")
-      .attr("value", function(d){ 
-        if (d.Variable === "GDP") {
-          return d.GDP; 
-        }
-        if (d.Variable === "Employment") {
-          return d.Employment;
-          }
-        if (d.Variable === "Income") {
-          return d.Income;
-          }
-        if (d.Variable === "Education") {
-          return d.Education;
-          }
-        if (d.Variable === "Women") {
-          return d.Women;
-          }
-        if (d.Variable === "Poverty") {
-          return d.Poverty;
-          }
-        if (d.Variable === "GWG") {
-          return d.GWG;
-          }
-        })
-      .attr("cx", function (d) { 
-        if (d.Variable === "GDP")
-          return xscaleGDP(d.Variable); 
-        else if (d.Variable === "Employment")
-          return xscaleEmployment(d.Variable);
-        else if (d.Variable === "Income")
-          return xscaleIncome(d.Variable);
-        else if (d.Variable === "Education")
-          return xscaleEducation(d.Variable);
-        else if (d.Variable === "Women")
-          return xscaleWomen(d.Variable);
-        else if (d.Variable === "Poverty")
-          return xscalePoverty(d.Variable);
-        else if (d.Variable === "GWG")
-          return xscaleGWG(d.Variable);
-        })
-      .attr("cy", function (d) { 
-        if (d.Variable === "GDP")
-          return GDPscale(d.GDP); 
-        if (d.Variable === "Employment")
-          return employmentScale(d.Employment);
-        if (d.Variable === "Income")
-          return incomeScale(d.Income);
-        if (d.Variable === "Education")
-          return educationScale(d.Education);
-        if (d.Variable === "Women")
-          return womenScale(d.Women);
-        if (d.Variable === "Poverty")
-          return povertyScale(d.Poverty);
-        if (d.Variable === "GWG")
-          return GWGScale(d.GWG);
-        })
-      .on("click", function (){
-        this.parentNode.appendChild(this);
-
-        // Change line colors on click
-        var b = document.getElementById("slope-svg").getElementsByClassName("lineSlope")
-        for (let i = 0; i < b.length; ++i){
-          if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesSlope', '')){
-            b[i].attributes.selected.value = false;
-            b[i].attributes.stroke.value = "#878787"
-          } else {
-            b[i].attributes.selected.value = true;
-            b[i].attributes.stroke.value = "#E0C090"
-          }
-        }
-
-        // Change circle colors on click
-        for (let i = 0; i < plots._groups[0].length; i++){
-          if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
-            //if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
-              console.log('aaaaaaaaaaaaaa') //TODO não entra aqui dentro
-              plots._groups[0][i].attributes.is_clicked.value = 'false';
-              d3.select(plots._groups[0][i])
-                .attr("fill", "#5b98c7")
-                .attr("r", radius);
-              div.transition()		
-                .duration(500)		
-                .style("opacity", 0);	
-              tooltipLine.classed("hidden", true);
-            //}
-          } else {
-            console.log('here2', plots._groups[0][i].attributes, this)
-
-            this.attributes.is_clicked.value = "true";
-            d3.select(this)
-              .attr("fill", "#dea959") // turns the circle into orange
-              .attr("r", radius*1.5);   // doubles the size of the circle
-            localStorage.setItem("clickedItemCountry", this.attributes.name.value)
-
-            console.log(this)
-            
-            const event = new Event('clickedCountrySlope');
-            document.dispatchEvent(event);
-          }
-        }
-      })
-
-      // Change circle colors when hovering
-      .on("mouseover", function() {
-        this.parentNode.appendChild(this);
-        d3.select(this)
-          .attr("fill", "#E0C090") // turns the circle into orange
-          .attr("r", radius*1.5);   // doubles the size of the circle
-        d3.select(this)
-          .transition()
-          .duration(200)
-          .style("opacity", 1)
-          .style("stroke", "white")     
-        div.transition()		
-          .duration(200)		
-          .style("opacity", .9);
-
-        var value;
-        var c = []
-        var y = []
-
-        for (i in paises) {
-          for (j in paises[i]) {
-            if (!(c.includes(paises[i][j].Country))) {
-              c.push(paises[i][j].Country)
-            }
-            if (!(y.includes(paises[i][j].Year))) {
-              y.push(parseInt(paises[i][j].Year))
-            }
-          }
-        }
-
-        if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
-          if (this == null){
-            value = ''
-          } else {
-            value = parseFloat($(this).attr('value'))
-            value = value.toFixed(1)
-          }
-            div	.html($(this).attr('name') + "<br/>"  + value)	
-              .style("left", (event.pageX) + "px")		
-              .style("top", (event.pageY - 28) + "px");	
-          }
-        })			          
-      .on("mouseout", function(){
-        this.parentNode.appendChild(this);
-
-        if (this.attributes.is_clicked.value === 'false'){
-          d3.select(this)
-          .attr("fill", "#5b98c7")
-          .attr("r", radius);
-
-          div.transition()		
-            .duration(500)		
-            .style("opacity", 0);	
-          tooltipLine.classed("hidden", true);
-        }
-        
-      });
-    }
-  }
-        
-
-
 
   // ---------------------------------------------------------------  
   // AXIS ----------------------------------------------------------
@@ -1173,6 +942,251 @@ function slope_chart(paises, maxMin) {
   //  .attr("transform", "translate(5," + (height - padding / 3) + ")")
   //  .attr("class", "label")
   //  .text("Year");
+
+  
+  // ---------------------------------------------------------------  
+  // LINES ---------------------------------------------------------
+  // --------------------------------------------------------------- 
+
+  var lineGenerator = d3
+  .line()
+  .x(function (d) {
+    if(d.Variable === 'GDP'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'Employment'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'Income'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'Education'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'Women'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'Poverty'){
+      return xscale(d.Variable);}
+    if(d.Variable === 'GWG'){
+      return xscale(d.Variable);}
+    })
+  .y(function (d) { 
+    if(d.Variable === 'GDP')
+      return GDPscale(d.GDP);
+    if(d.Variable === 'Employment')
+      return employmentScale(d.Employment);
+    if(d.Variable === 'Income')
+      return incomeScale(d.Income);
+    if(d.Variable === 'Education')
+      return educationScale(d.Education);
+    if(d.Variable === 'Women')
+      return womenScale(d.Women);
+    if(d.Variable === 'Poverty')
+      return povertyScale(d.Poverty);
+    if(d.Variable === 'GWG')
+      return GWGScale(d.GWG);
+    })
+
+  var p = []
+  for (j = 0; j< paises[0].length; ++j){
+  aux = []
+    aux.push(paises[0][j])
+    aux.push(paises[1][j])
+    aux.push(paises[2][j])
+    aux.push(paises[3][j])
+    aux.push(paises[4][j])
+    aux.push(paises[5][j])
+    aux.push(paises[6][j])
+  p.push(aux)
+  }
+
+  for (let i = 0; i< p.length; ++i){
+  svg
+  .append("path")
+  .datum(p)
+  .attr("fill", "none")
+  .attr("stroke", "#878787")
+  .attr("stroke-width", 3)
+  .attr("id", function(d){ return p[i][0].Country +'-LinesSlope'; })
+  .attr("selected", false)
+  .attr("class", "lineSlope")
+  .attr("d", lineGenerator(p[i]));
+  } 
+
+  // SVG - Plots + Lines ______________________________________________________________________
+  if(paises.length > 0) {
+    for (i = 0; i < paises.length; i++) {
+      // ---------------------------------------------------------------  
+      // PLOTS ---------------------------------------------------------
+      // ---------------------------------------------------------------  
+
+      var plots = svg
+      .selectAll("circle")
+      .data(new_paises)
+      .join("circle") // now we append circles
+      .attr("r", radius) // each circle
+      .attr("fill", "#5b98c7")
+      .attr("stroke", "white")
+      .attr("id", function(d) { return d.Variable; })
+      .attr("is_clicked", false)
+      .attr("name", function(d){ return d.Country; })
+      .attr("class", "plot")
+      .attr("value", function(d){ 
+        if (d.Variable === "GDP") {
+          return d.GDP; 
+        }
+        if (d.Variable === "Employment") {
+          return d.Employment;
+          }
+        if (d.Variable === "Income") {
+          return d.Income;
+          }
+        if (d.Variable === "Education") {
+          return d.Education;
+          }
+        if (d.Variable === "Women") {
+          return d.Women;
+          }
+        if (d.Variable === "Poverty") {
+          return d.Poverty;
+          }
+        if (d.Variable === "GWG") {
+          return d.GWG;
+          }
+        })
+      .attr("cx", function (d) { 
+        if (d.Variable === "GDP")
+          return xscaleGDP(d.Variable); 
+        else if (d.Variable === "Employment")
+          return xscaleEmployment(d.Variable);
+        else if (d.Variable === "Income")
+          return xscaleIncome(d.Variable);
+        else if (d.Variable === "Education")
+          return xscaleEducation(d.Variable);
+        else if (d.Variable === "Women")
+          return xscaleWomen(d.Variable);
+        else if (d.Variable === "Poverty")
+          return xscalePoverty(d.Variable);
+        else if (d.Variable === "GWG")
+          return xscaleGWG(d.Variable);
+        })
+      .attr("cy", function (d) { 
+        if (d.Variable === "GDP")
+          return GDPscale(d.GDP); 
+        if (d.Variable === "Employment")
+          return employmentScale(d.Employment);
+        if (d.Variable === "Income")
+          return incomeScale(d.Income);
+        if (d.Variable === "Education")
+          return educationScale(d.Education);
+        if (d.Variable === "Women")
+          return womenScale(d.Women);
+        if (d.Variable === "Poverty")
+          return povertyScale(d.Poverty);
+        if (d.Variable === "GWG")
+          return GWGScale(d.GWG);
+        })
+      .on("click", function (){
+        this.parentNode.appendChild(this);
+
+        // Change line colors on click
+        var b = document.getElementById("slope-svg").getElementsByClassName("lineSlope")
+        for (let i = 0; i < b.length; ++i){
+          if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesSlope', '')){
+            b[i].attributes.selected.value = false;
+            b[i].attributes.stroke.value = "#878787"
+          } else {
+            b[i].attributes.selected.value = true;
+            b[i].attributes.stroke.value = "#E0C090"
+          }
+        }
+
+        // Change circle colors on click
+        for (let i = 0; i < plots._groups[0].length; i++){
+          if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+            //if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
+              plots._groups[0][i].attributes.is_clicked.value = 'false';
+              d3.select(plots._groups[0][i])
+                .attr("fill", "#5b98c7")
+                .attr("r", radius);
+              div.transition()		
+                .duration(500)		
+                .style("opacity", 0);	
+              tooltipLine.classed("hidden", true);
+            //}
+          } else {
+
+            this.attributes.is_clicked.value = "true";
+            d3.select(this)
+              .attr("fill", "#dea959") // turns the circle into orange
+              .attr("r", radius*1.5);   // doubles the size of the circle
+            localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+            localStorage.setItem("clickedVar", this.attributes.id.value) 
+            
+            const event = new Event('clickedCountrySlope');
+            document.dispatchEvent(event);
+          }
+        }
+      })
+
+      // Change circle colors when hovering
+      .on("mouseover", function() {
+        this.parentNode.appendChild(this);
+        d3.select(this)
+          .attr("fill", "#E0C090") // turns the circle into orange
+          .attr("r", radius*1.5);   // doubles the size of the circle
+        d3.select(this)
+          .transition()
+          .duration(200)
+          .style("opacity", 1)
+          .style("stroke", "white")     
+        div.transition()		
+          .duration(200)		
+          .style("opacity", .9);
+
+        var value;
+        var c = []
+        var y = []
+
+        for (i in paises) {
+          for (j in paises[i]) {
+            if (!(c.includes(paises[i][j].Country))) {
+              c.push(paises[i][j].Country)
+            }
+            if (!(y.includes(paises[i][j].Year))) {
+              y.push(parseInt(paises[i][j].Year))
+            }
+          }
+        }
+
+        if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
+          if (this == null){
+            value = ''
+          } else {
+            value = parseFloat($(this).attr('value'))
+            value = value.toFixed(1)
+          }
+            div	.html($(this).attr('name') + "<br/>"  + value)	
+              .style("left", (event.pageX) + "px")		
+              .style("top", (event.pageY - 28) + "px");	
+          }
+        })			          
+      .on("mouseout", function(){
+        this.parentNode.appendChild(this);
+
+        if (this.attributes.is_clicked.value === 'false'){
+          d3.select(this)
+          .attr("fill", "#5b98c7")
+          .attr("r", radius);
+
+          div.transition()		
+            .duration(500)		
+            .style("opacity", 0);	
+          tooltipLine.classed("hidden", true);
+        }
+        
+      });
+    }
+  }
+        
+
+
 }
 
 
