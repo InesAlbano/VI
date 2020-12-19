@@ -6,7 +6,9 @@ var radius = 5;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
-analyzer("Init")
+var e = localStorage.getItem("education");
+
+analyzer(e,true)
 
 document.addEventListener('clickedCountry' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
@@ -14,7 +16,7 @@ document.addEventListener('clickedCountry' , function(){
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#slope-svg").remove();
-  updateLine()
+  updateLineSlope()
 }); 
 
 var years1 = localStorage.getItem("years");
@@ -23,10 +25,9 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltipLine")				
     .style("opacity", 0);
 
-function updateLine(){
-  var v = localStorage.getItem("variable");
+function updateLineSlope(){
   var e = localStorage.getItem("education");
-  analyzer(v, e);
+  analyzer(e, false);
 }
 
 var maxGDP = 0, minGDP = 0, 
@@ -37,7 +38,7 @@ var maxGDP = 0, minGDP = 0,
     maxPov = 0, minPov = 0, 
     maxGWG = 0, minGWG = 0;
 
-function analyzer(inequality, education) {
+function analyzer(education, init) {
   Promise.all([
     d3.json("csv/LineChart/gdp.json"),
     d3.json("csv/LineChart/Q2_total.json"),
@@ -47,316 +48,592 @@ function analyzer(inequality, education) {
     d3.json("csv/LineChart/Q1.json"),
     d3.json("csv/LineChart/Q4_b.json")
   ]).then(function(files){
-    var countries_filtered_years = [];  
-    var maxMin = [];
   
-    if (files[0]){ // GDP
-      var selected_countries = [];
-      dataset = files[0];
-
-      // Default: countries
-      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))
-      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BE').value))
-      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('CZ').value))
-      selected_countries.push(dataset.filter(row => row.Country === $(this).attr('PT').value))
-
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-
-      var aux = [];
-
-      // Max and min values, to built the scale
-      for(let i = 0; i < selected_countries.length; i++) {
-        gdp = 0;
-
-        for(let j = 0; j < selected_countries[i].length; j++){
-          if(yearsv2.includes(selected_countries[i][j].Year)) {
-            gdp = gdp + selected_countries[i][j].GDP;
-            if(maxGDP < selected_countries[i][j].GDP) { maxGDP = selected_countries[i][j].GDP; }
-            if(minGDP > selected_countries[i][j].GDP) { minGDP = selected_countries[i][j].GDP; }
+    if(init) {
+      var countries_filtered_years = [];  
+      var maxMin = [];
+      
+      if (files[0]){ // GDP
+        var selected_countries = [];
+        dataset = files[0];
+  
+        // Default: countries
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BE').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('CZ').value))
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('PT').value))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+  
+        var aux = [];
+  
+        // Max and min values, to built the scale
+        for(let i = 0; i < selected_countries.length; i++) {
+          gdp = 0;
+  
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              gdp = gdp + selected_countries[i][j].GDP;
+              if(maxGDP < selected_countries[i][j].GDP) { maxGDP = selected_countries[i][j].GDP; }
+              if(minGDP > selected_countries[i][j].GDP) { minGDP = selected_countries[i][j].GDP; }
+            }
           }
+  
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "GDP";
+          dic['GDP'] = gdp/yearsv2.length; // average computation
+          aux.push(dic);
+  
+          if(minGDP > 0) { minGDP = 0; }
+  
         }
-
-        dic = {}
-        dic['Country'] = selected_countries[i][0].Country;
-        dic['Variable'] = "GDP";
-        dic['GDP'] = gdp/yearsv2.length; // average computation
-        aux.push(dic);
-
-        if(minGDP > 0) { minGDP = 0; }
-
-      }
-      countries_filtered_years.push(aux);
-
-      maxMin.push(maxGDP);
-      maxMin.push(minGDP);
-      }
-
-    if (files[1]) { // Employment
-      var selected_countries1 = [];
-      dataset1 = files[1];
-
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
-
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
+        countries_filtered_years.push(aux);
   
-      for(let i = 0; i < selected_countries1.length; i++) {
-        employment = 0;
+        maxMin.push(maxGDP);
+        maxMin.push(minGDP);
+        }
   
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
-            employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
-            if(maxEmp < parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
-            if(minEmp > parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+      if (files[1]) { // Employment
+        var selected_countries1 = [];
+        dataset1 = files[1];
+  
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          employment = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
+              employment = employment + parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."));
+              if(maxEmp < parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+              if(minEmp > parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries1[i][j].AverageEmployment.replace(",", ".")); }
+            }
           }
+  
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].Country;
+          dic['Variable'] = "Employment";
+          dic['Employment'] = employment/(yearsv2.length); // average computation
+          aux1.push(dic);
+  
+          if(minEmp > 0) { minEmp = 0; }
         }
-
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].Country;
-        dic['Variable'] = "Employment";
-        dic['Employment'] = employment/(yearsv2.length); // average computation
-        aux1.push(dic);
-
-        if(minEmp > 0) { minEmp = 0; }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxEmp);
+        maxMin.push(minEmp);
       }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxEmp);
-      maxMin.push(minEmp);
+  
+      if (files[2]) { // Income
+        var selected_countries1 = [];
+        dataset1 = files[2];
+    
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          income = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
+              income = income + (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM);
+              if(maxInc < (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM)) { maxInc = (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM); }
+              if(minInc > (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM)) { minInc = (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM); }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].Country;
+          dic['Variable'] = "Income";
+          dic['Income'] = income/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minInc > 0) { minInc = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxInc);
+        maxMin.push(minInc);
+      }
+  
+      if (files[3]) { // Education
+        var selected_countries1 = [];
+        dataset1 = files[3];
+    
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          education = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
+              education = education + parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."));
+              if(maxEdu < parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."))) { maxEdu = parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", ".")); }
+              if(minEdu > parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."))) { minEdu = parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", ".")); }
+            }
+          }
+  
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].Country;
+          dic['Variable'] = "Education";
+          dic['Education'] = education/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minEdu > 0) { minEdu = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxEdu);
+        maxMin.push(minEdu);
+      }
+  
+      if (files[4]) { // Women in High Positions
+        var selected_countries1 = [];
+        dataset1 = files[4];
+    
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          women = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year)) {
+              women = women + selected_countries1[i][j].growthRateWHP;
+              if(maxWomen < selected_countries1[i][j].growthRateWHP) { maxWomen = selected_countries1[i][j].growthRateWHP; }
+              if(minWomen > selected_countries1[i][j].growthRateWHP) { minWomen = selected_countries1[i][j].growthRateWHP; }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].Country;
+          dic['Variable'] = "Women";
+          dic['Women'] = women/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minWomen > 0) { minWomen = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxWomen);
+        maxMin.push(minWomen);
+      }
+  
+      if (files[5]) { // Poverty
+        var selected_countries1 = [];
+        dataset1 = files[5];
+    
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.code === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.code === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.code === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.code === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          poverty = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
+              poverty = poverty + selected_countries1[i][j].AVG;
+              if(maxPov < selected_countries1[i][j].AVG) { maxPov = selected_countries1[i][j].AVG; }
+              if(minPov > selected_countries1[i][j].AVG) { minPov = selected_countries1[i][j].AVG; }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].code;
+          dic['Variable'] = "Poverty";
+          dic['Poverty'] = poverty/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minPov > 0) { minPov = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxPov);
+        maxMin.push(minPov);
+      }
+  
+      if (files[6]) { // GWG
+        var selected_countries1 = [];
+        dataset1 = files[6];
+    
+        // Default: countries
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
+        selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+  
+        // Default: years
+        var years = [];
+        years.push('2010');
+        years.push('2011');
+        years.push('2012');
+        let yearsv2 = years.map(i=>Number(i));
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries1.length; i++) {
+          gwg = 0;
+    
+          for(let j = 0; j < selected_countries1[i].length; j++){
+            if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
+              gwg = gwg + parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."));
+              if(maxGWG < parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."))) { maxGWG = parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", ".")); }
+              if(minGWG > parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."))) { minGWG = parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", ".")); }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries1[i][0].Country;
+          dic['Variable'] = "GWG";
+          dic['GWG'] = gwg/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minGWG > 0) { minGWG = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxGWG);
+        maxMin.push(minGWG);
+      }  
+      console.log(countries_filtered_years)
+      slope_chart(countries_filtered_years, maxMin);
     }
+    else {
+      console.log("olá")
+      var countries_filtered_years = [];  
+      var maxMin = [];
+  
+      d3.select("#slope-svg").remove();
 
-    if (files[2]) { // Income
-      var selected_countries1 = [];
-      dataset1 = files[2];
-  
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+      if (files[0]){ // GDP
+        dataset = files[0];
 
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
+        var selected_countries = [];
+
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+        )});
+        console.log(selected_countries)
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
+      
+        var aux = [];
   
-      for(let i = 0; i < selected_countries1.length; i++) {
-        income = 0;
+        // Max and min values, to built the scale
+        for(let i = 0; i < selected_countries.length; i++) {
+          gdp = 0;
   
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
-            income = income + (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM);
-            if(maxInc < (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM)) { maxInc = (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM); }
-            if(minInc > (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM)) { minInc = (selected_countries1[i][j].MoneyF + selected_countries1[i][j].MoneyM); }
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              gdp = gdp + selected_countries[i][j].GDP;
+              if(maxGDP < selected_countries[i][j].GDP) { maxGDP = selected_countries[i][j].GDP; }
+              if(minGDP > selected_countries[i][j].GDP) { minGDP = selected_countries[i][j].GDP; }
+            }
           }
+  
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "GDP";
+          dic['GDP'] = gdp/yearsv2.length; // average computation
+          aux.push(dic);
+  
+          if(minGDP > 0) { minGDP = 0; }
+  
+        }
+        countries_filtered_years.push(aux);
+  
+        maxMin.push(maxGDP);
+        maxMin.push(minGDP);
         }
   
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].Country;
-        dic['Variable'] = "Income";
-        dic['Income'] = income/yearsv2.length; // average computation
-        aux1.push(dic);
-        console.log(maxInc)
+      if (files[1]) { // Employment
+        dataset1 = files[1];
 
-        if(minInc > 0) { minInc = 0; }
-      }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxInc);
-      maxMin.push(minInc);
-    }
+        var selected_countries = [];
 
-    if (files[3]) { // Education
-      var selected_countries1 = [];
-      dataset1 = files[3];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));  
   
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
-
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
-  
-      for(let i = 0; i < selected_countries1.length; i++) {
-        education = 0;
-  
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
-            education = education + parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."));
-            console.log(typeof(education))
-            if(maxEdu < parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."))) { maxEdu = parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", ".")); }
-            if(minEdu > parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", "."))) { minEdu = parseFloat(selected_countries1[i][j].AveragePercentage.replace(",", ".")); }
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          employment = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+              employment = employment + parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
+              if(maxEmp < parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries[i][j].AverageEmployment.replace(",", ".")); }
+              if(minEmp > parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries[i][j].AverageEmployment.replace(",", ".")); }
+            }
           }
+  
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "Employment";
+          dic['Employment'] = employment/(yearsv2.length); // average computation
+          aux1.push(dic);
+  
+          if(minEmp > 0) { minEmp = 0; }
         }
-
-
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].Country;
-        dic['Variable'] = "Education";
-        dic['Education'] = education/yearsv2.length; // average computation
-        aux1.push(dic);
-
-        if(minEdu > 0) { minEdu = 0; }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxEmp);
+        maxMin.push(minEmp);
       }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxEdu);
-      maxMin.push(minEdu);
-    }
-
-    if (files[4]) { // Women in High Positions
-      var selected_countries1 = [];
-      dataset1 = files[4];
   
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
-
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
-  
-      for(let i = 0; i < selected_countries1.length; i++) {
-        women = 0;
-  
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year)) {
-            women = women + selected_countries1[i][j].growthRateWHP;
-            if(maxWomen < selected_countries1[i][j].growthRateWHP) { maxWomen = selected_countries1[i][j].growthRateWHP; }
-            if(minWomen > selected_countries1[i][j].growthRateWHP) { minWomen = selected_countries1[i][j].growthRateWHP; }
+      if (files[2]) { // Income
+        dataset1 = files[2];
+    
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          income = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+              income = income + (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM);
+              if(maxInc < (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM)) { maxInc = (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM); }
+              if(minInc > (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM)) { minInc = (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM); }
+            }
           }
+    
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "Income";
+          dic['Income'] = income/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minInc > 0) { minInc = 0; }
         }
-  
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].Country;
-        dic['Variable'] = "Women";
-        dic['Women'] = women/yearsv2.length; // average computation
-        aux1.push(dic);
-
-        if(minWomen > 0) { minWomen = 0; }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxInc);
+        maxMin.push(minInc);
       }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxWomen);
-      maxMin.push(minWomen);
-    }
+  
+      if (files[3]) { // Education
+        dataset1 = files[3];
 
-    if (files[5]) { // Poverty
-      var selected_countries1 = [];
-      dataset1 = files[5];
-  
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.code === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.code === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.code === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.code === 'PT'))
+        var selected_countries = [];
 
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
-  
-      for(let i = 0; i < selected_countries1.length; i++) {
-        poverty = 0;
-  
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
-            poverty = poverty + selected_countries1[i][j].AVG;
-            if(maxPov < selected_countries1[i][j].AVG) { maxPov = selected_countries1[i][j].AVG; }
-            if(minPov > selected_countries1[i][j].AVG) { minPov = selected_countries1[i][j].AVG; }
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));  
+    
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          education = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+              education = education + parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."));
+              if(maxEdu < parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))) { maxEdu = parseFloat(selected_countries[i][j].AveragePercentage.replace(",", ".")); }
+              if(minEdu > parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))) { minEdu = parseFloat(selected_countries[i][j].AveragePercentage.replace(",", ".")); }
+            }
           }
+  
+  
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "Education";
+          dic['Education'] = education/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minEdu > 0) { minEdu = 0; }
         }
-  
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].code;
-        dic['Variable'] = "Poverty";
-        dic['Poverty'] = poverty/yearsv2.length; // average computation
-        aux1.push(dic);
-
-        if(minPov > 0) { minPov = 0; }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxEdu);
+        maxMin.push(minEdu);
       }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxPov);
-      maxMin.push(minPov);
-    }
+  
+      if (files[4]) { // Women in High Positions
+        dataset1 = files[4];
 
-    if (files[6]) { // GWG
-      var selected_countries1 = [];
-      dataset1 = files[6];
-  
-      // Default: countries
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BG'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'BE'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'CZ'))
-      selected_countries1.push(dataset1.filter(row => row.Country === 'PT'))
+        var selected_countries = [];
 
-      // Default: years
-      var years = [];
-      years.push('2010');
-      years.push('2011');
-      years.push('2012');
-      let yearsv2 = years.map(i=>Number(i));
-      var aux1 = [];
-  
-      for(let i = 0; i < selected_countries1.length; i++) {
-        gwg = 0;
-  
-        for(let j = 0; j < selected_countries1[i].length; j++){
-          if(yearsv2.includes(selected_countries1[i][j].Year) && (selected_countries1[i][j].ISCED11 === '0-2')) {
-            gwg = gwg + parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."));
-            if(maxGWG < parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."))) { maxGWG = parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", ".")); }
-            if(minGWG > parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", "."))) { minGWG = parseFloat(selected_countries1[i][j].GenderWageGap.replace(",", ".")); }
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));  
+    
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          women = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year)) {
+              women = women + selected_countries[i][j].growthRateWHP;
+              if(maxWomen < selected_countries[i][j].growthRateWHP) { maxWomen = selected_countries[i][j].growthRateWHP; }
+              if(minWomen > selected_countries[i][j].growthRateWHP) { minWomen = selected_countries[i][j].growthRateWHP; }
+            }
           }
-        }
+    
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "Women";
+          dic['Women'] = women/yearsv2.length; // average computation
+          aux1.push(dic);
   
-        dic = {}
-        dic['Country'] = selected_countries1[i][0].Country;
-        dic['Variable'] = "GWG";
-        dic['GWG'] = gwg/yearsv2.length; // average computation
-        aux1.push(dic);
-
-        if(minGWG > 0) { minGWG = 0; }
+          if(minWomen > 0) { minWomen = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxWomen);
+        maxMin.push(minWomen);
       }
-      countries_filtered_years.push(aux1);
-      maxMin.push(maxGWG);
-      maxMin.push(minGWG);
-    }
+  
+      if (files[5]) { // Poverty
+        dataset1 = files[5];
 
+        var selected_countries = [];
+
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));  
+    
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          poverty = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+              poverty = poverty + selected_countries[i][j].AVG;
+              if(maxPov < selected_countries[i][j].AVG) { maxPov = selected_countries[i][j].AVG; }
+              if(minPov > selected_countries[i][j].AVG) { minPov = selected_countries[i][j].AVG; }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries[i][0].code;
+          dic['Variable'] = "Poverty";
+          dic['Poverty'] = poverty/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minPov > 0) { minPov = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxPov);
+        maxMin.push(minPov);
+      }
+  
+      if (files[6]) { // GWG
+        dataset1 = files[6];
+
+        var selected_countries = [];
+
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));  
+    
+        var aux1 = [];
+    
+        for(let i = 0; i < selected_countries.length; i++) {
+          gwg = 0;
+    
+          for(let j = 0; j < selected_countries[i].length; j++){
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+              gwg = gwg + parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."));
+              if(maxGWG < parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))) { maxGWG = parseFloat(selected_countries[i][j].GenderWageGap.replace(",", ".")); }
+              if(minGWG > parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))) { minGWG = parseFloat(selected_countries[i][j].GenderWageGap.replace(",", ".")); }
+            }
+          }
+    
+          dic = {}
+          dic['Country'] = selected_countries[i][0].Country;
+          dic['Variable'] = "GWG";
+          dic['GWG'] = gwg/yearsv2.length; // average computation
+          aux1.push(dic);
+  
+          if(minGWG > 0) { minGWG = 0; }
+        }
+        countries_filtered_years.push(aux1);
+        maxMin.push(maxGWG);
+        maxMin.push(minGWG);
+      }
+    console.log("barbasG:", countries_filtered_years)
     slope_chart(countries_filtered_years, maxMin);
-
+    }
+    
   }).catch(function(err) {
     // handle error here
-})
-
+  })
 }
 
 /* ------------------------------------- SLOPE CHART --------------------------------------- */
@@ -459,8 +736,6 @@ function slope_chart(paises, maxMin) {
       new_paises.push(paises[i][j]);
     }
   }
-
-  //console.log("new_paises: ", new_paises)
 
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
@@ -676,7 +951,6 @@ var lineGenerator = d3
       return GWGScale(d.GWG);
     })
 
-console.log(paises)
 var p = []
 for (j = 0; j< paises[0].length; ++j){
   aux = []
@@ -689,7 +963,7 @@ for (j = 0; j< paises[0].length; ++j){
     aux.push(paises[6][j])
   p.push(aux)
 }
-console.log("aqui", p)
+
 for (let i = 0; i< p.length; ++i){
   svg
   .append("path")
