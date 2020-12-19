@@ -592,7 +592,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .attr("height", height);
   
   // SVG - Plots + Lines ______________________________________________________________________
-  //console.log("PAISES [i]",paises[i]);
             
   // LINES ----------------------------------------------------------------------------------
 
@@ -624,9 +623,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -655,9 +654,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -686,9 +685,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -718,9 +717,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -754,9 +753,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGeneratorWHP(p[i])); 
     }
   }
@@ -789,9 +788,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
-        .attr("class", "slopeline")
+        .attr("class", "cleveline")
         .attr("d", lineGenerator(p[i]));
     }
   }
@@ -802,6 +801,21 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .data(paises)
     .join("circle") // now we append circles
     .attr("r", radius) // each circle
+    .attr("name", function(d) {return d.Country;})
+    .attr("value", function(d){
+      if (v === "GDP")
+        return d.GDP;
+      else if (v === "Employment")
+        return d.EmploymentRate;
+      else if (v === "Income")
+        return d.Money;
+      else if (v === "Education")
+        return d.Percentage;
+      else if (v === "Women-high-pos")
+        return d.growthRateWHP;
+      else if (v === "GWG")
+        return d.GenderWageGap;
+    })
     .attr("fill", function(d){
       if (d.Sex === 'female'){
         return "red";
@@ -823,38 +837,37 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .attr("cy", function(d) {
       return hscale(d.Country);
     })
-    //.attr("is_clicked", false)
+    .attr("is_clicked", false)
     .attr("class", "plot")
     .attr("cx", function(d){
       if (v === "GDP")
         return xscale(d.GDP);
       else if (v === "Employment")
-        return xscale(d.EmploymentRate)
+        return xscale(d.EmploymentRate);
       else if (v === "Income")
-        return xscale(d.Money)
+        return xscale(d.Money);
       else if (v === "Education")
-        return xscale(d.Percentage)
+        return xscale(d.Percentage);
       else if (v === "Women-high-pos")
-        return xscale(d.growthRateWHP)
+        return xscale(d.growthRateWHP);
       else if (v === "GWG")
-        return xscale(d.GenderWageGap)
+        return xscale(d.GenderWageGap);
     })
     .on("click", function (){
       this.parentNode.appendChild(this);
-      var b = document.getElementById("slope-svg").getElementsByClassName("slopeline")
+      var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
       for (let i = 0; i < b.length; ++i){
-        if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesSlope', '')){
+        if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesCleve', '')){
           b[i].attributes.selected.value = false;
           b[i].attributes.stroke.value = "red"
         } else {
           b[i].attributes.selected.value = true;
           b[i].attributes.stroke.value = "yellow"
-        }
-        
+        }        
       }
 
       for (let i = 0; i < plots._groups[0].length; i++){
-        if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+        if (plots._groups[0][i].attributes.value != this.attributes.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
           if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
             plots._groups[0][i].attributes.is_clicked.value = 'false';
             d3.select(plots._groups[0][i])
@@ -893,20 +906,16 @@ function cleveland_chart(paises, maximo,minimo, v) {
 
       var value;
       var c = []
-      var y = []
+
+      console.log(paises)
 
       for (i in paises) {
-        for (j in paises[i]) {
-          if (!(c.includes(paises[i][j].Country))) {
-            c.push(paises[i][j].Country)
-          }
-          if (!(y.includes(paises[i][j].Year))) {
-            y.push(parseInt(paises[i][j].Year))
+          if (!(c.includes(paises[i].Country))) {
+            c.push(paises[i].Country)
           }
         }
-      }
-
-      if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
+      
+      if((c.includes($(this).attr('name')))) { 
         if (this == null){
           value = ''
         } else {
