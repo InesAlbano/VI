@@ -624,9 +624,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -655,9 +655,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -686,9 +686,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -718,9 +718,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGenerator(p[i])); 
     }
   }
@@ -754,9 +754,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGeneratorWHP(p[i])); 
     }
   }
@@ -789,9 +789,9 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .attr("fill", "none")
         .attr("stroke", "red")
         .attr("stroke-width", 4)
-        .attr("id", function(d){ return d[0].Country +'-Lines'; })
+        .attr("id", function(d){ return d[0].Country +'-LinesSlope'; })
         .attr("selected", false)
-        .attr("class", "line")
+        .attr("class", "slopeline")
         .attr("d", lineGenerator(p[i]));
     }
   }
@@ -806,18 +806,18 @@ function cleveland_chart(paises, maximo,minimo, v) {
       if (d.Sex === 'female'){
         return "red";
       } else if (d.Sex === 'male'){
-        return "green";
+        return "blue";
       } else {
-        return "yellow"
+        return "green"
       }
     })
     .attr("stroke", function(d){
       if (d.Sex === 'female'){
         return "red";
       } else if (d.Sex === 'male'){
-        return "green";
+        return "blue";
       } else {
-        return "yellow"
+        return "green"
       }
     })
     .attr("cy", function(d) {
@@ -838,6 +838,98 @@ function cleveland_chart(paises, maximo,minimo, v) {
         return xscale(d.growthRateWHP)
       else if (v === "GWG")
         return xscale(d.GenderWageGap)
+    })
+    .on("click", function (){
+      this.parentNode.appendChild(this);
+      var b = document.getElementById("slope-svg").getElementsByClassName("slopeline")
+      for (let i = 0; i < b.length; ++i){
+        if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesSlope', '')){
+          b[i].attributes.selected.value = false;
+          b[i].attributes.stroke.value = "red"
+        } else {
+          b[i].attributes.selected.value = true;
+          b[i].attributes.stroke.value = "yellow"
+        }
+        
+      }
+
+      for (let i = 0; i < plots._groups[0].length; i++){
+        if (plots._groups[0][i].attributes.id.value != this.attributes.id.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
+          if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
+            plots._groups[0][i].attributes.is_clicked.value = 'false';
+            d3.select(plots._groups[0][i])
+              .attr("fill", "red")
+              .attr("r", radius);
+            div.transition()		
+              .duration(500)		
+              .style("opacity", 0);	
+            tooltipLine.classed("hidden", true);
+          }
+        } else {
+          this.attributes.is_clicked.value = "true";
+          d3.select(this)
+            .attr("fill", "orange")
+            .attr("r", radius*2);
+          localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+
+          const event = new Event('clickedCountryLine');
+          document.dispatchEvent(event);
+        }
+      }
+    })
+    .on("mouseover", function() {
+      this.parentNode.appendChild(this);
+      d3.select(this)
+        .attr("fill", "orange")
+        .attr("r", radius*2);
+      d3.select(this)
+        .transition()
+        .duration(200)
+        .style("opacity", 1)
+        .style("stroke", "white")     
+      div.transition()		
+        .duration(200)		
+        .style("opacity", .9);
+
+      var value;
+      var c = []
+      var y = []
+
+      for (i in paises) {
+        for (j in paises[i]) {
+          if (!(c.includes(paises[i][j].Country))) {
+            c.push(paises[i][j].Country)
+          }
+          if (!(y.includes(paises[i][j].Year))) {
+            y.push(parseInt(paises[i][j].Year))
+          }
+        }
+      }
+
+      if((c.includes($(this).attr('name'))) && (y.includes(parseInt($(this).attr('id'))))) { 
+        if (this == null){
+          value = ''
+        } else {
+          value = parseFloat($(this).attr('value'))
+          value = value.toFixed(1)
+        }
+          div	.html($(this).attr('name') + "<br/>"  + value)	
+            .style("left", (event.pageX) + "px")		
+            .style("top", (event.pageY - 28) + "px");	
+        }
+      })			          
+    .on("mouseout", function(){
+      if (this.attributes.is_clicked.value === 'false'){
+        d3.select(this)
+        .attr("fill", "red")
+        .attr("r", radius);
+
+        div.transition()		
+          .duration(500)		
+          .style("opacity", 0);	
+        tooltipLine.classed("hidden", true);
+      }
+      
     });
 
 
