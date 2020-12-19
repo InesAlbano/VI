@@ -1,0 +1,1822 @@
+[
+    {
+      "Year": 2010,
+      "Country": "AT",
+      "PercentageF": "15,8",
+      "PercentageM": "13,4",
+      "PercentageT": "14,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "BE",
+      "PercentageF": "15,2",
+      "PercentageM": "13,9",
+      "PercentageT": "14,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "BG",
+      "PercentageF": "22,3",
+      "PercentageM": "19,0",
+      "PercentageT": "20,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "CY",
+      "PercentageF": "17,2",
+      "PercentageM": "13,8",
+      "PercentageT": "15,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "CZ",
+      "PercentageF": "10,0",
+      "PercentageM": "8,0",
+      "PercentageT": "9,0"
+    },
+    {
+      "Year": 2010,
+      "Country": "DE",
+      "PercentageF": "16,4",
+      "PercentageM": "14,9",
+      "PercentageT": "15,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "DK",
+      "PercentageF": "13,4",
+      "PercentageM": "13,1",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2010,
+      "Country": "EE",
+      "PercentageF": "16,2",
+      "PercentageM": "15,4",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "ES",
+      "PercentageF": "21,3",
+      "PercentageM": "20,1",
+      "PercentageT": "20,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "FI",
+      "PercentageF": "13,8",
+      "PercentageM": "12,4",
+      "PercentageT": "13,1"
+    },
+    {
+      "Year": 2010,
+      "Country": "FR",
+      "PercentageF": "13,9",
+      "PercentageM": "12,7",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2010,
+      "Country": "HR",
+      "PercentageF": "21,4",
+      "PercentageM": "19,7",
+      "PercentageT": "20,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "HU",
+      "PercentageF": "12,0",
+      "PercentageM": "12,6",
+      "PercentageT": "12,3"
+    },
+    {
+      "Year": 2010,
+      "Country": "IE",
+      "PercentageF": "15,8",
+      "PercentageM": "14,6",
+      "PercentageT": "15,2"
+    },
+    {
+      "Year": 2010,
+      "Country": "IT",
+      "PercentageF": "20,0",
+      "PercentageM": "17,3",
+      "PercentageT": "18,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "LT",
+      "PercentageF": "20,0",
+      "PercentageM": "21,2",
+      "PercentageT": "20,5"
+    },
+    {
+      "Year": 2010,
+      "Country": "LU",
+      "PercentageF": "14,4",
+      "PercentageM": "14,6",
+      "PercentageT": "14,5"
+    },
+    {
+      "Year": 2010,
+      "Country": "LV",
+      "PercentageF": "20,4",
+      "PercentageM": "21,4",
+      "PercentageT": "20,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "MT",
+      "PercentageF": "16,2",
+      "PercentageM": "14,8",
+      "PercentageT": "15,5"
+    },
+    {
+      "Year": 2010,
+      "Country": "NL",
+      "PercentageF": "10,8",
+      "PercentageM": "9,7",
+      "PercentageT": "10,3"
+    },
+    {
+      "Year": 2010,
+      "Country": "PL",
+      "PercentageF": "17,7",
+      "PercentageM": "17,4",
+      "PercentageT": "17,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "PT",
+      "PercentageF": "18,4",
+      "PercentageM": "17,3",
+      "PercentageT": "17,9"
+    },
+    {
+      "Year": 2010,
+      "Country": "RO",
+      "PercentageF": "22,1",
+      "PercentageM": "21,0",
+      "PercentageT": "21,6"
+    },
+    {
+      "Year": 2010,
+      "Country": "SE",
+      "PercentageF": "15,6",
+      "PercentageM": "13,9",
+      "PercentageT": "14,8"
+    },
+    {
+      "Year": 2010,
+      "Country": "SI",
+      "PercentageF": "14,1",
+      "PercentageM": "11,3",
+      "PercentageT": "12,7"
+    },
+    {
+      "Year": 2010,
+      "Country": "SK",
+      "PercentageF": "12,2",
+      "PercentageM": "11,7",
+      "PercentageT": "12,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "AT",
+      "PercentageF": "15,0",
+      "PercentageM": "14,0",
+      "PercentageT": "14,5"
+    },
+    {
+      "Year": 2011,
+      "Country": "BE",
+      "PercentageF": "16,0",
+      "PercentageM": "14,6",
+      "PercentageT": "15,3"
+    },
+    {
+      "Year": 2011,
+      "Country": "BG",
+      "PercentageF": "23,6",
+      "PercentageM": "20,8",
+      "PercentageT": "22,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "CY",
+      "PercentageF": "16,6",
+      "PercentageM": "12,9",
+      "PercentageT": "14,8"
+    },
+    {
+      "Year": 2011,
+      "Country": "CZ",
+      "PercentageF": "10,6",
+      "PercentageM": "8,9",
+      "PercentageT": "9,8"
+    },
+    {
+      "Year": 2011,
+      "Country": "DE",
+      "PercentageF": "16,8",
+      "PercentageM": "14,9",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2011,
+      "Country": "DK",
+      "PercentageF": "12,0",
+      "PercentageM": "12,1",
+      "PercentageT": "12,1"
+    },
+    {
+      "Year": 2011,
+      "Country": "EE",
+      "PercentageF": "17,4",
+      "PercentageM": "17,6",
+      "PercentageT": "17,5"
+    },
+    {
+      "Year": 2011,
+      "Country": "ES",
+      "PercentageF": "21,4",
+      "PercentageM": "19,9",
+      "PercentageT": "20,6"
+    },
+    {
+      "Year": 2011,
+      "Country": "FI",
+      "PercentageF": "14,2",
+      "PercentageM": "13,2",
+      "PercentageT": "13,7"
+    },
+    {
+      "Year": 2011,
+      "Country": "FR",
+      "PercentageF": "14,5",
+      "PercentageM": "13,5",
+      "PercentageT": "14,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "HR",
+      "PercentageF": "22,1",
+      "PercentageM": "19,7",
+      "PercentageT": "20,9"
+    },
+    {
+      "Year": 2011,
+      "Country": "HU",
+      "PercentageF": "13,7",
+      "PercentageM": "14,5",
+      "PercentageT": "14,1"
+    },
+    {
+      "Year": 2011,
+      "Country": "IE",
+      "PercentageF": "14,9",
+      "PercentageM": "15,4",
+      "PercentageT": "15,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "IT",
+      "PercentageF": "21,1",
+      "PercentageM": "18,4",
+      "PercentageT": "19,8"
+    },
+    {
+      "Year": 2011,
+      "Country": "LT",
+      "PercentageF": "19,3",
+      "PercentageM": "19,1",
+      "PercentageT": "19,2"
+    },
+    {
+      "Year": 2011,
+      "Country": "LU",
+      "PercentageF": "14,5",
+      "PercentageM": "12,7",
+      "PercentageT": "13,6"
+    },
+    {
+      "Year": 2011,
+      "Country": "LV",
+      "PercentageF": "18,3",
+      "PercentageM": "19,8",
+      "PercentageT": "19,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "MT",
+      "PercentageF": "16,1",
+      "PercentageM": "15,0",
+      "PercentageT": "15,6"
+    },
+    {
+      "Year": 2011,
+      "Country": "NL",
+      "PercentageF": "11,1",
+      "PercentageM": "10,8",
+      "PercentageT": "11,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "PL",
+      "PercentageF": "17,6",
+      "PercentageM": "17,8",
+      "PercentageT": "17,7"
+    },
+    {
+      "Year": 2011,
+      "Country": "PT",
+      "PercentageF": "18,4",
+      "PercentageM": "17,6",
+      "PercentageT": "18,0"
+    },
+    {
+      "Year": 2011,
+      "Country": "RO",
+      "PercentageF": "22,6",
+      "PercentageM": "21,9",
+      "PercentageT": "22,3"
+    },
+    {
+      "Year": 2011,
+      "Country": "SE",
+      "PercentageF": "16,6",
+      "PercentageM": "14,2",
+      "PercentageT": "15,4"
+    },
+    {
+      "Year": 2011,
+      "Country": "SI",
+      "PercentageF": "15,0",
+      "PercentageM": "12,2",
+      "PercentageT": "13,6"
+    },
+    {
+      "Year": 2011,
+      "Country": "SK",
+      "PercentageF": "13,1",
+      "PercentageM": "12,8",
+      "PercentageT": "13,0"
+    },
+    {
+      "Year": 2012,
+      "Country": "AT",
+      "PercentageF": "15,3",
+      "PercentageM": "13,5",
+      "PercentageT": "14,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "BE",
+      "PercentageF": "15,9",
+      "PercentageM": "14,7",
+      "PercentageT": "15,3"
+    },
+    {
+      "Year": 2012,
+      "Country": "BG",
+      "PercentageF": "22,8",
+      "PercentageM": "19,5",
+      "PercentageT": "21,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "CY",
+      "PercentageF": "16,4",
+      "PercentageM": "12,9",
+      "PercentageT": "14,7"
+    },
+    {
+      "Year": 2012,
+      "Country": "CZ",
+      "PercentageF": "10,5",
+      "PercentageM": "8,7",
+      "PercentageT": "9,6"
+    },
+    {
+      "Year": 2012,
+      "Country": "DE",
+      "PercentageF": "17,2",
+      "PercentageM": "14,9",
+      "PercentageT": "16,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "DK",
+      "PercentageF": "11,9",
+      "PercentageM": "12,0",
+      "PercentageT": "12,0"
+    },
+    {
+      "Year": 2012,
+      "Country": "EE",
+      "PercentageF": "18,1",
+      "PercentageM": "16,8",
+      "PercentageT": "17,5"
+    },
+    {
+      "Year": 2012,
+      "Country": "ES",
+      "PercentageF": "20,9",
+      "PercentageM": "20,7",
+      "PercentageT": "20,8"
+    },
+    {
+      "Year": 2012,
+      "Country": "FI",
+      "PercentageF": "13,6",
+      "PercentageM": "12,9",
+      "PercentageT": "13,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "FR",
+      "PercentageF": "14,6",
+      "PercentageM": "13,6",
+      "PercentageT": "14,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "HR",
+      "PercentageF": "21,3",
+      "PercentageM": "19,4",
+      "PercentageT": "20,4"
+    },
+    {
+      "Year": 2012,
+      "Country": "HU",
+      "PercentageF": "14,0",
+      "PercentageM": "14,8",
+      "PercentageT": "14,3"
+    },
+    {
+      "Year": 2012,
+      "Country": "IE",
+      "PercentageF": "16,5",
+      "PercentageM": "16,2",
+      "PercentageT": "16,3"
+    },
+    {
+      "Year": 2012,
+      "Country": "IT",
+      "PercentageF": "20,8",
+      "PercentageM": "18,1",
+      "PercentageT": "19,5"
+    },
+    {
+      "Year": 2012,
+      "Country": "LT",
+      "PercentageF": "19,0",
+      "PercentageM": "18,1",
+      "PercentageT": "18,6"
+    },
+    {
+      "Year": 2012,
+      "Country": "LU",
+      "PercentageF": "15,6",
+      "PercentageM": "14,7",
+      "PercentageT": "15,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "LV",
+      "PercentageF": "19,1",
+      "PercentageM": "19,3",
+      "PercentageT": "19,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "MT",
+      "PercentageF": "15,8",
+      "PercentageM": "14,4",
+      "PercentageT": "15,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "NL",
+      "PercentageF": "10,6",
+      "PercentageM": "9,5",
+      "PercentageT": "10,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "PL",
+      "PercentageF": "17,1",
+      "PercentageM": "17,1",
+      "PercentageT": "17,1"
+    },
+    {
+      "Year": 2012,
+      "Country": "PT",
+      "PercentageF": "18,2",
+      "PercentageM": "17,5",
+      "PercentageT": "17,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "RO",
+      "PercentageF": "22,8",
+      "PercentageM": "23,1",
+      "PercentageT": "22,9"
+    },
+    {
+      "Year": 2012,
+      "Country": "SE",
+      "PercentageF": "16,1",
+      "PercentageM": "14,4",
+      "PercentageT": "15,2"
+    },
+    {
+      "Year": 2012,
+      "Country": "SI",
+      "PercentageF": "14,6",
+      "PercentageM": "12,5",
+      "PercentageT": "13,5"
+    },
+    {
+      "Year": 2012,
+      "Country": "SK",
+      "PercentageF": "13,3",
+      "PercentageM": "13,2",
+      "PercentageT": "13,2"
+    },
+    {
+      "Year": 2013,
+      "Country": "AT",
+      "PercentageF": "15,2",
+      "PercentageM": "13,5",
+      "PercentageT": "14,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "BE",
+      "PercentageF": "15,5",
+      "PercentageM": "14,6",
+      "PercentageT": "15,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "BG",
+      "PercentageF": "22,2",
+      "PercentageM": "19,7",
+      "PercentageT": "21,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "CY",
+      "PercentageF": "16,5",
+      "PercentageM": "14,1",
+      "PercentageT": "15,3"
+    },
+    {
+      "Year": 2013,
+      "Country": "CZ",
+      "PercentageF": "9,4",
+      "PercentageM": "7,7",
+      "PercentageT": "8,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "DE",
+      "PercentageF": "17,2",
+      "PercentageM": "15,0",
+      "PercentageT": "16,1"
+    },
+    {
+      "Year": 2013,
+      "Country": "DK",
+      "PercentageF": "11,8",
+      "PercentageM": "12,0",
+      "PercentageT": "11,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "EE",
+      "PercentageF": "19,9",
+      "PercentageM": "17,2",
+      "PercentageT": "18,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "ES",
+      "PercentageF": "19,9",
+      "PercentageM": "20,9",
+      "PercentageT": "20,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "FI",
+      "PercentageF": "12,3",
+      "PercentageM": "11,3",
+      "PercentageT": "11,8"
+    },
+    {
+      "Year": 2013,
+      "Country": "FR",
+      "PercentageF": "14,3",
+      "PercentageM": "13,1",
+      "PercentageT": "13,7"
+    },
+    {
+      "Year": 2013,
+      "Country": "HR",
+      "PercentageF": "20,3",
+      "PercentageM": "18,8",
+      "PercentageT": "19,5"
+    },
+    {
+      "Year": 2013,
+      "Country": "HU",
+      "PercentageF": "14,5",
+      "PercentageM": "15,5",
+      "PercentageT": "15,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "IE",
+      "PercentageF": "15,7",
+      "PercentageM": "15,7",
+      "PercentageT": "15,7"
+    },
+    {
+      "Year": 2013,
+      "Country": "IT",
+      "PercentageF": "20,3",
+      "PercentageM": "18,3",
+      "PercentageT": "19,3"
+    },
+    {
+      "Year": 2013,
+      "Country": "LT",
+      "PercentageF": "21,6",
+      "PercentageM": "19,4",
+      "PercentageT": "20,6"
+    },
+    {
+      "Year": 2013,
+      "Country": "LU",
+      "PercentageF": "16,0",
+      "PercentageM": "15,7",
+      "PercentageT": "15,9"
+    },
+    {
+      "Year": 2013,
+      "Country": "LV",
+      "PercentageF": "19,8",
+      "PercentageM": "18,9",
+      "PercentageT": "19,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "MT",
+      "PercentageF": "16,1",
+      "PercentageM": "15,4",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2013,
+      "Country": "NL",
+      "PercentageF": "10,6",
+      "PercentageM": "10,2",
+      "PercentageT": "10,4"
+    },
+    {
+      "Year": 2013,
+      "Country": "PL",
+      "PercentageF": "17,3",
+      "PercentageM": "17,3",
+      "PercentageT": "17,3"
+    },
+    {
+      "Year": 2013,
+      "Country": "PT",
+      "PercentageF": "18,7",
+      "PercentageM": "18,8",
+      "PercentageT": "18,7"
+    },
+    {
+      "Year": 2013,
+      "Country": "RO",
+      "PercentageF": "22,9",
+      "PercentageM": "23,0",
+      "PercentageT": "23,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "SE",
+      "PercentageF": "17,2",
+      "PercentageM": "14,7",
+      "PercentageT": "16,0"
+    },
+    {
+      "Year": 2013,
+      "Country": "SI",
+      "PercentageF": "15,4",
+      "PercentageM": "13,5",
+      "PercentageT": "14,5"
+    },
+    {
+      "Year": 2013,
+      "Country": "SK",
+      "PercentageF": "12,9",
+      "PercentageM": "12,8",
+      "PercentageT": "12,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "AT",
+      "PercentageF": "14,9",
+      "PercentageM": "13,3",
+      "PercentageT": "14,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "BE",
+      "PercentageF": "15,9",
+      "PercentageM": "15,0",
+      "PercentageT": "15,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "BG",
+      "PercentageF": "22,6",
+      "PercentageM": "20,9",
+      "PercentageT": "21,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "CY",
+      "PercentageF": "15,6",
+      "PercentageM": "13,1",
+      "PercentageT": "14,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "CZ",
+      "PercentageF": "10,5",
+      "PercentageM": "8,9",
+      "PercentageT": "9,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "DE",
+      "PercentageF": "17,4",
+      "PercentageM": "15,9",
+      "PercentageT": "16,7"
+    },
+    {
+      "Year": 2014,
+      "Country": "DK",
+      "PercentageF": "11,8",
+      "PercentageM": "12,4",
+      "PercentageT": "12,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "EE",
+      "PercentageF": "23,3",
+      "PercentageM": "20,1",
+      "PercentageT": "21,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "ES",
+      "PercentageF": "22,1",
+      "PercentageM": "22,4",
+      "PercentageT": "22,2"
+    },
+    {
+      "Year": 2014,
+      "Country": "FI",
+      "PercentageF": "13,3",
+      "PercentageM": "12,3",
+      "PercentageT": "12,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "FR",
+      "PercentageF": "14,1",
+      "PercentageM": "12,6",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2014,
+      "Country": "HR",
+      "PercentageF": "20,1",
+      "PercentageM": "18,7",
+      "PercentageT": "19,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "HU",
+      "PercentageF": "14,5",
+      "PercentageM": "15,5",
+      "PercentageT": "15,0"
+    },
+    {
+      "Year": 2014,
+      "Country": "IE",
+      "PercentageF": "16,7",
+      "PercentageM": "16,2",
+      "PercentageT": "16,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "IT",
+      "PercentageF": "20,5",
+      "PercentageM": "18,4",
+      "PercentageT": "19,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "LT",
+      "PercentageF": "20,3",
+      "PercentageM": "17,8",
+      "PercentageT": "19,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "LU",
+      "PercentageF": "16,6",
+      "PercentageM": "16,3",
+      "PercentageT": "16,4"
+    },
+    {
+      "Year": 2014,
+      "Country": "LV",
+      "PercentageF": "22,5",
+      "PercentageM": "19,5",
+      "PercentageT": "21,2"
+    },
+    {
+      "Year": 2014,
+      "Country": "MT",
+      "PercentageF": "16,0",
+      "PercentageM": "15,7",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2014,
+      "Country": "NL",
+      "PercentageF": "11,9",
+      "PercentageM": "11,3",
+      "PercentageT": "11,6"
+    },
+    {
+      "Year": 2014,
+      "Country": "PL",
+      "PercentageF": "16,8",
+      "PercentageM": "17,2",
+      "PercentageT": "17,0"
+    },
+    {
+      "Year": 2014,
+      "Country": "PT",
+      "PercentageF": "20,0",
+      "PercentageM": "18,9",
+      "PercentageT": "19,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "RO",
+      "PercentageF": "24,9",
+      "PercentageM": "25,3",
+      "PercentageT": "25,1"
+    },
+    {
+      "Year": 2014,
+      "Country": "SE",
+      "PercentageF": "16,4",
+      "PercentageM": "14,8",
+      "PercentageT": "15,6"
+    },
+    {
+      "Year": 2014,
+      "Country": "SI",
+      "PercentageF": "15,2",
+      "PercentageM": "13,7",
+      "PercentageT": "14,5"
+    },
+    {
+      "Year": 2014,
+      "Country": "SK",
+      "PercentageF": "12,6",
+      "PercentageM": "12,7",
+      "PercentageT": "12,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "AT",
+      "PercentageF": "14,3",
+      "PercentageM": "13,5",
+      "PercentageT": "13,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "BE",
+      "PercentageF": "15,6",
+      "PercentageM": "14,1",
+      "PercentageT": "14,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "BG",
+      "PercentageF": "23,8",
+      "PercentageM": "20,0",
+      "PercentageT": "22,0"
+    },
+    {
+      "Year": 2015,
+      "Country": "CY",
+      "PercentageF": "17,2",
+      "PercentageM": "15,3",
+      "PercentageT": "16,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "CZ",
+      "PercentageF": "11,0",
+      "PercentageM": "8,5",
+      "PercentageT": "9,7"
+    },
+    {
+      "Year": 2015,
+      "Country": "DE",
+      "PercentageF": "17,4",
+      "PercentageM": "15,9",
+      "PercentageT": "16,7"
+    },
+    {
+      "Year": 2015,
+      "Country": "DK",
+      "PercentageF": "11,9",
+      "PercentageM": "12,5",
+      "PercentageT": "12,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "EE",
+      "PercentageF": "23,3",
+      "PercentageM": "19,6",
+      "PercentageT": "21,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "ES",
+      "PercentageF": "21,8",
+      "PercentageM": "22,5",
+      "PercentageT": "22,1"
+    },
+    {
+      "Year": 2015,
+      "Country": "FI",
+      "PercentageF": "12,6",
+      "PercentageM": "12,2",
+      "PercentageT": "12,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "FR",
+      "PercentageF": "13,9",
+      "PercentageM": "13,2",
+      "PercentageT": "13,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "HR",
+      "PercentageF": "20,6",
+      "PercentageM": "19,3",
+      "PercentageT": "20,0"
+    },
+    {
+      "Year": 2015,
+      "Country": "HU",
+      "PercentageF": "14,4",
+      "PercentageM": "15,6",
+      "PercentageT": "14,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "IE",
+      "PercentageF": "16,1",
+      "PercentageM": "16,2",
+      "PercentageT": "16,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "IT",
+      "PercentageF": "20,8",
+      "PercentageM": "19,0",
+      "PercentageT": "19,9"
+    },
+    {
+      "Year": 2015,
+      "Country": "LT",
+      "PercentageF": "22,5",
+      "PercentageM": "21,8",
+      "PercentageT": "22,2"
+    },
+    {
+      "Year": 2015,
+      "Country": "LU",
+      "PercentageF": "15,7",
+      "PercentageM": "15,0",
+      "PercentageT": "15,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "LV",
+      "PercentageF": "24,8",
+      "PercentageM": "19,7",
+      "PercentageT": "22,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "MT",
+      "PercentageF": "16,9",
+      "PercentageM": "16,3",
+      "PercentageT": "16,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "NL",
+      "PercentageF": "11,5",
+      "PercentageM": "11,8",
+      "PercentageT": "11,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "PL",
+      "PercentageF": "17,2",
+      "PercentageM": "18,1",
+      "PercentageT": "17,6"
+    },
+    {
+      "Year": 2015,
+      "Country": "PT",
+      "PercentageF": "20,1",
+      "PercentageM": "18,8",
+      "PercentageT": "19,5"
+    },
+    {
+      "Year": 2015,
+      "Country": "RO",
+      "PercentageF": "25,7",
+      "PercentageM": "25,1",
+      "PercentageT": "25,4"
+    },
+    {
+      "Year": 2015,
+      "Country": "SE",
+      "PercentageF": "17,3",
+      "PercentageM": "15,3",
+      "PercentageT": "16,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "SI",
+      "PercentageF": "15,6",
+      "PercentageM": "13,0",
+      "PercentageT": "14,3"
+    },
+    {
+      "Year": 2015,
+      "Country": "SK",
+      "PercentageF": "12,4",
+      "PercentageM": "12,1",
+      "PercentageT": "12,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "AT",
+      "PercentageF": "14,6",
+      "PercentageM": "13,5",
+      "PercentageT": "14,1"
+    },
+    {
+      "Year": 2016,
+      "Country": "BE",
+      "PercentageF": "16,6",
+      "PercentageM": "14,5",
+      "PercentageT": "15,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "BG",
+      "PercentageF": "24,1",
+      "PercentageM": "21,7",
+      "PercentageT": "22,9"
+    },
+    {
+      "Year": 2016,
+      "Country": "CY",
+      "PercentageF": "17,2",
+      "PercentageM": "15,0",
+      "PercentageT": "16,1"
+    },
+    {
+      "Year": 2016,
+      "Country": "CZ",
+      "PercentageF": "10,8",
+      "PercentageM": "8,5",
+      "PercentageT": "9,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "DE",
+      "PercentageF": "17,8",
+      "PercentageM": "15,2",
+      "PercentageT": "16,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "DK",
+      "PercentageF": "11,9",
+      "PercentageM": "12,0",
+      "PercentageT": "11,9"
+    },
+    {
+      "Year": 2016,
+      "Country": "EE",
+      "PercentageF": "24,0",
+      "PercentageM": "19,2",
+      "PercentageT": "21,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "ES",
+      "PercentageF": "22,1",
+      "PercentageM": "22,6",
+      "PercentageT": "22,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "FI",
+      "PercentageF": "11,6",
+      "PercentageM": "11,7",
+      "PercentageT": "11,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "FR",
+      "PercentageF": "14,4",
+      "PercentageM": "12,8",
+      "PercentageT": "13,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "HR",
+      "PercentageF": "20,4",
+      "PercentageM": "18,6",
+      "PercentageT": "19,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "HU",
+      "PercentageF": "14,5",
+      "PercentageM": "14,4",
+      "PercentageT": "14,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "IE",
+      "PercentageF": "17,5",
+      "PercentageM": "16,2",
+      "PercentageT": "16,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "IT",
+      "PercentageF": "21,4",
+      "PercentageM": "19,9",
+      "PercentageT": "20,6"
+    },
+    {
+      "Year": 2016,
+      "Country": "LT",
+      "PercentageF": "23,1",
+      "PercentageM": "20,4",
+      "PercentageT": "21,9"
+    },
+    {
+      "Year": 2016,
+      "Country": "LU",
+      "PercentageF": "16,6",
+      "PercentageM": "15,0",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "LV",
+      "PercentageF": "23,9",
+      "PercentageM": "19,4",
+      "PercentageT": "21,8"
+    },
+    {
+      "Year": 2016,
+      "Country": "MT",
+      "PercentageF": "16,5",
+      "PercentageM": "16,5",
+      "PercentageT": "16,5"
+    },
+    {
+      "Year": 2016,
+      "Country": "NL",
+      "PercentageF": "12,7",
+      "PercentageM": "12,8",
+      "PercentageT": "12,7"
+    },
+    {
+      "Year": 2016,
+      "Country": "PL",
+      "PercentageF": "17,4",
+      "PercentageM": "17,1",
+      "PercentageT": "17,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "PT",
+      "PercentageF": "19,6",
+      "PercentageM": "18,2",
+      "PercentageT": "19,0"
+    },
+    {
+      "Year": 2016,
+      "Country": "RO",
+      "PercentageF": "25,7",
+      "PercentageM": "24,8",
+      "PercentageT": "25,3"
+    },
+    {
+      "Year": 2016,
+      "Country": "SE",
+      "PercentageF": "17,3",
+      "PercentageM": "15,2",
+      "PercentageT": "16,2"
+    },
+    {
+      "Year": 2016,
+      "Country": "SI",
+      "PercentageF": "15,2",
+      "PercentageM": "12,5",
+      "PercentageT": "13,9"
+    },
+    {
+      "Year": 2016,
+      "Country": "SK",
+      "PercentageF": "12,8",
+      "PercentageM": "12,7",
+      "PercentageT": "12,7"
+    },
+    {
+      "Year": 2017,
+      "Country": "AT",
+      "PercentageF": "15,3",
+      "PercentageM": "13,5",
+      "PercentageT": "14,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "BE",
+      "PercentageF": "17,0",
+      "PercentageM": "14,8",
+      "PercentageT": "15,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "BG",
+      "PercentageF": "24,9",
+      "PercentageM": "21,8",
+      "PercentageT": "23,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "CY",
+      "PercentageF": "16,8",
+      "PercentageM": "14,6",
+      "PercentageT": "15,7"
+    },
+    {
+      "Year": 2017,
+      "Country": "CZ",
+      "PercentageF": "10,7",
+      "PercentageM": "7,6",
+      "PercentageT": "9,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "DE",
+      "PercentageF": "17,1",
+      "PercentageM": "15,0",
+      "PercentageT": "16,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "DK",
+      "PercentageF": "11,7",
+      "PercentageM": "13,0",
+      "PercentageT": "12,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "EE",
+      "PercentageF": "23,3",
+      "PercentageM": "18,4",
+      "PercentageT": "21,0"
+    },
+    {
+      "Year": 2017,
+      "Country": "ES",
+      "PercentageF": "22,2",
+      "PercentageM": "21,0",
+      "PercentageT": "21,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "FI",
+      "PercentageF": "11,4",
+      "PercentageM": "11,5",
+      "PercentageT": "11,5"
+    },
+    {
+      "Year": 2017,
+      "Country": "FR",
+      "PercentageF": "13,6",
+      "PercentageM": "12,8",
+      "PercentageT": "13,2"
+    },
+    {
+      "Year": 2017,
+      "Country": "HR",
+      "PercentageF": "20,9",
+      "PercentageM": "18,9",
+      "PercentageT": "20,0"
+    },
+    {
+      "Year": 2017,
+      "Country": "HU",
+      "PercentageF": "13,7",
+      "PercentageM": "13,1",
+      "PercentageT": "13,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "IE",
+      "PercentageF": "16,5",
+      "PercentageM": "14,7",
+      "PercentageT": "15,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "IT",
+      "PercentageF": "21,1",
+      "PercentageM": "19,4",
+      "PercentageT": "20,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "LT",
+      "PercentageF": "24,2",
+      "PercentageM": "21,4",
+      "PercentageT": "22,9"
+    },
+    {
+      "Year": 2017,
+      "Country": "LU",
+      "PercentageF": "17,3",
+      "PercentageM": "15,5",
+      "PercentageT": "16,4"
+    },
+    {
+      "Year": 2017,
+      "Country": "LV",
+      "PercentageF": "24,6",
+      "PercentageM": "19,1",
+      "PercentageT": "22,1"
+    },
+    {
+      "Year": 2017,
+      "Country": "MT",
+      "PercentageF": "17,3",
+      "PercentageM": "16,1",
+      "PercentageT": "16,7"
+    },
+    {
+      "Year": 2017,
+      "Country": "NL",
+      "PercentageF": "13,3",
+      "PercentageM": "13,2",
+      "PercentageT": "13,2"
+    },
+    {
+      "Year": 2017,
+      "Country": "PL",
+      "PercentageF": "14,9",
+      "PercentageM": "15,1",
+      "PercentageT": "15,0"
+    },
+    {
+      "Year": 2017,
+      "Country": "PT",
+      "PercentageF": "18,7",
+      "PercentageM": "17,8",
+      "PercentageT": "18,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "RO",
+      "PercentageF": "24,2",
+      "PercentageM": "22,9",
+      "PercentageT": "23,6"
+    },
+    {
+      "Year": 2017,
+      "Country": "SE",
+      "PercentageF": "16,2",
+      "PercentageM": "15,4",
+      "PercentageT": "15,8"
+    },
+    {
+      "Year": 2017,
+      "Country": "SI",
+      "PercentageF": "14,5",
+      "PercentageM": "12,0",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2017,
+      "Country": "SK",
+      "PercentageF": "12,3",
+      "PercentageM": "12,4",
+      "PercentageT": "12,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "AT",
+      "PercentageF": "15,2",
+      "PercentageM": "13,3",
+      "PercentageT": "14,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "BE",
+      "PercentageF": "17,1",
+      "PercentageM": "15,6",
+      "PercentageT": "16,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "BG",
+      "PercentageF": "23,4",
+      "PercentageM": "20,4",
+      "PercentageT": "22,0"
+    },
+    {
+      "Year": 2018,
+      "Country": "CY",
+      "PercentageF": "15,9",
+      "PercentageM": "14,8",
+      "PercentageT": "15,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "CZ",
+      "PercentageF": "11,4",
+      "PercentageM": "7,8",
+      "PercentageT": "9,6"
+    },
+    {
+      "Year": 2018,
+      "Country": "DE",
+      "PercentageF": "16,8",
+      "PercentageM": "15,2",
+      "PercentageT": "16,0"
+    },
+    {
+      "Year": 2018,
+      "Country": "DK",
+      "PercentageF": "12,8",
+      "PercentageM": "12,6",
+      "PercentageT": "12,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "EE",
+      "PercentageF": "24,2",
+      "PercentageM": "19,3",
+      "PercentageT": "21,9"
+    },
+    {
+      "Year": 2018,
+      "Country": "ES",
+      "PercentageF": "22,2",
+      "PercentageM": "20,9",
+      "PercentageT": "21,5"
+    },
+    {
+      "Year": 2018,
+      "Country": "FI",
+      "PercentageF": "12,3",
+      "PercentageM": "11,7",
+      "PercentageT": "12,0"
+    },
+    {
+      "Year": 2018,
+      "Country": "FR",
+      "PercentageF": "13,3",
+      "PercentageM": "13,5",
+      "PercentageT": "13,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "HR",
+      "PercentageF": "20,4",
+      "PercentageM": "18,1",
+      "PercentageT": "19,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "HU",
+      "PercentageF": "13,6",
+      "PercentageM": "11,9",
+      "PercentageT": "12,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "IE",
+      "PercentageF": "16,3",
+      "PercentageM": "13,5",
+      "PercentageT": "14,9"
+    },
+    {
+      "Year": 2018,
+      "Country": "IT",
+      "PercentageF": "21,2",
+      "PercentageM": "19,4",
+      "PercentageT": "20,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "LT",
+      "PercentageF": "24,9",
+      "PercentageM": "20,7",
+      "PercentageT": "22,9"
+    },
+    {
+      "Year": 2018,
+      "Country": "LU",
+      "PercentageF": "18,0",
+      "PercentageM": "15,4",
+      "PercentageT": "16,7"
+    },
+    {
+      "Year": 2018,
+      "Country": "LV",
+      "PercentageF": "25,8",
+      "PercentageM": "20,4",
+      "PercentageT": "23,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "MT",
+      "PercentageF": "18,1",
+      "PercentageM": "15,6",
+      "PercentageT": "16,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "NL",
+      "PercentageF": "13,5",
+      "PercentageM": "13,0",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "PL",
+      "PercentageF": "15,0",
+      "PercentageM": "14,6",
+      "PercentageT": "14,8"
+    },
+    {
+      "Year": 2018,
+      "Country": "PT",
+      "PercentageF": "17,9",
+      "PercentageM": "16,6",
+      "PercentageT": "17,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "RO",
+      "PercentageF": "24,5",
+      "PercentageM": "22,5",
+      "PercentageT": "23,5"
+    },
+    {
+      "Year": 2018,
+      "Country": "SE",
+      "PercentageF": "17,7",
+      "PercentageM": "15,2",
+      "PercentageT": "16,4"
+    },
+    {
+      "Year": 2018,
+      "Country": "SI",
+      "PercentageF": "14,0",
+      "PercentageM": "12,6",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2018,
+      "Country": "SK",
+      "PercentageF": "12,3",
+      "PercentageM": "12,2",
+      "PercentageT": "12,2"
+    },
+    {
+      "Year": 2019,
+      "Country": "AT",
+      "PercentageF": "14,3",
+      "PercentageM": "12,3",
+      "PercentageT": "13,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "BE",
+      "PercentageF": "15,0",
+      "PercentageM": "14,6",
+      "PercentageT": "14,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "BG",
+      "PercentageF": "24,3",
+      "PercentageM": "20,9",
+      "PercentageT": "22,6"
+    },
+    {
+      "Year": 2019,
+      "Country": "CY",
+      "PercentageF": "15,5",
+      "PercentageM": "13,9",
+      "PercentageT": "14,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "CZ",
+      "PercentageF": "12,1",
+      "PercentageM": "8,1",
+      "PercentageT": "10,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "DE",
+      "PercentageF": "15,7",
+      "PercentageM": "13,9",
+      "PercentageT": "14,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "DK",
+      "PercentageF": "12,5",
+      "PercentageM": "12,5",
+      "PercentageT": "12,5"
+    },
+    {
+      "Year": 2019,
+      "Country": "EE",
+      "PercentageF": "23,7",
+      "PercentageM": "19,3",
+      "PercentageT": "21,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "ES",
+      "PercentageF": "21,1",
+      "PercentageM": "20,2",
+      "PercentageT": "20,7"
+    },
+    {
+      "Year": 2019,
+      "Country": "FI",
+      "PercentageF": "12,1",
+      "PercentageM": "11,2",
+      "PercentageT": "11,6"
+    },
+    {
+      "Year": 2019,
+      "Country": "FR",
+      "PercentageF": "13,9",
+      "PercentageM": "13,3",
+      "PercentageT": "13,6"
+    },
+    {
+      "Year": 2019,
+      "Country": "HR",
+      "PercentageF": "19,3",
+      "PercentageM": "17,2",
+      "PercentageT": "18,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "HU",
+      "PercentageF": "12,8",
+      "PercentageM": "11,7",
+      "PercentageT": "12,3"
+    },
+    {
+      "Year": 2019,
+      "Country": "IE",
+      "PercentageF": "13,6",
+      "PercentageM": "12,6",
+      "PercentageT": "13,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "IT",
+      "PercentageF": "20,8",
+      "PercentageM": "19,3",
+      "PercentageT": "20,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "LT",
+      "PercentageF": "22,8",
+      "PercentageM": "18,0",
+      "PercentageT": "20,6"
+    },
+    {
+      "Year": 2019,
+      "Country": "LU",
+      "PercentageF": "17,9",
+      "PercentageM": "17,2",
+      "PercentageT": "17,5"
+    },
+    {
+      "Year": 2019,
+      "Country": "LV",
+      "PercentageF": "25,1",
+      "PercentageM": "20,3",
+      "PercentageT": "22,9"
+    },
+    {
+      "Year": 2019,
+      "Country": "MT",
+      "PercentageF": "18,1",
+      "PercentageM": "16,1",
+      "PercentageT": "17,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "NL",
+      "PercentageF": "13,4",
+      "PercentageM": "13,1",
+      "PercentageT": "13,2"
+    },
+    {
+      "Year": 2019,
+      "Country": "PL",
+      "PercentageF": "15,8",
+      "PercentageM": "15,0",
+      "PercentageT": "15,4"
+    },
+    {
+      "Year": 2019,
+      "Country": "PT",
+      "PercentageF": "17,8",
+      "PercentageM": "16,6",
+      "PercentageT": "17,2"
+    },
+    {
+      "Year": 2019,
+      "Country": "RO",
+      "PercentageF": "24,9",
+      "PercentageM": "22,7",
+      "PercentageT": "23,8"
+    },
+    {
+      "Year": 2019,
+      "Country": "SE",
+      "PercentageF": "17,8",
+      "PercentageM": "16,3",
+      "PercentageT": "17,1"
+    },
+    {
+      "Year": 2019,
+      "Country": "SI",
+      "PercentageF": "13,0",
+      "PercentageM": "10,9",
+      "PercentageT": "12,0"
+    },
+    {
+      "Year": 2019,
+      "Country": "SK",
+      "PercentageF": "12,1",
+      "PercentageM": "11,6",
+      "PercentageT": "11,9"
+    }
+  ]

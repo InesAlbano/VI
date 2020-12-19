@@ -313,7 +313,6 @@ function analyzerClev(inequality, education) {
           minimo_avg=paises_avg[i].Percentage;
         }
       }
-      console.log(paises_avg)
       cleveland_chart(paises_avg, maximo_avg, minimo_avg, inequality);
       });   
       break;
@@ -393,7 +392,6 @@ function analyzerClev(inequality, education) {
       $('#checkboxes input:checked').each(function() {
         selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
       )});
-            
       var years=[]; // selected years
       $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
       let yearsv2 = years.map(i=>Number(i)); //selected years in number
@@ -406,14 +404,12 @@ function analyzerClev(inequality, education) {
         var aux=[];
         for(let j=0; j<selected_countries[i].length; j++){
           if(yearsv2.includes(selected_countries[i][j].Year)) {
-            if (education === selected_countries[i][j].ISCED11) {
-              aux.push(selected_countries[i][j]);
-              if(maximo<parseFloat(selected_countries[i][j].PercentageM.replace(",", "."))){
-                maximo=parseFloat(selected_countries[i][j].PercentageM.replace(",", "."));
-              }
-              if(minimo>parseFloat(selected_countries[i][j].PercentageF.replace(",", "."))){
-                minimo=parseFloat(selected_countries[i][j].PercentageF.replace(",", "."));
-              }
+            aux.push(selected_countries[i][j]);
+            if(maximo<parseFloat(selected_countries[i][j].PercentageM.replace(",", "."))){
+              maximo=parseFloat(selected_countries[i][j].PercentageM.replace(",", "."));
+            }
+            if(minimo>parseFloat(selected_countries[i][j].PercentageF.replace(",", "."))){
+              minimo=parseFloat(selected_countries[i][j].PercentageF.replace(",", "."));
             }
           }
         }
@@ -453,7 +449,6 @@ function analyzerClev(inequality, education) {
           minimo_avg=paises_avg[i].Percentage;
         }
       }
-      console.log(paises_avg)
       cleveland_chart(paises_avg, maximo_avg, minimo_avg, inequality);
       });   
       break;
@@ -624,6 +619,56 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .attr("height", height);
   
   // SVG - Plots + Lines ______________________________________________________________________
+
+  // AXIS ________________________________________________________________________________________
+  var yaxis = d3
+    .axisLeft() // we are creating a d3 axis
+    .scale(hscale) // fit to our scale
+    //.tickFormat(d3.format(".2s")) // format of each year
+    .tickSizeOuter(0);
+
+  svg
+    .append("g") // we are creating a 'g' element to match our yaxis
+    .attr("transform", "translate(" + padding + ",0)")
+    .attr("class", "yaxis") // we are giving it a css style
+    .call(yaxis);
+
+  svg
+    .append("text")
+    .attr("transform", "rotate(-90)")
+    .attr("y", 0)
+    .attr("x", 0 - height / 2)
+    //.attr("dy", "1em")
+    .attr("class", "label")
+    .text("Value");
+
+  /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
+      if (i % 5 == 0) return d;
+  }); */
+
+  var xaxis = d3
+    .axisBottom() // we are creating a d3 axis
+    .scale(xscale) // we are adding our padding
+    .tickFormat(d3.format(".2s"))
+    //.tickValues(xscaleDataFiltered)
+    .tickSizeOuter(0);
+
+  svg
+    .append("g") // we are creating a 'g' element to match our x axis
+    .attr("transform", "translate(0," + (height - padding) + ")")
+    .attr("class", "xaxis") // we are giving it a css style
+    .call(xaxis);
+
+  // text label for the x axis
+  svg
+    .append("text")
+    .attr(
+      "transform",
+      "translate(" + width / 2 + " ," + (height - padding / 3) + ")"
+    )
+    .attr("dy", "1em")
+    .attr("class", "label")
+    .text("Value");
             
   // LINES ----------------------------------------------------------------------------------
 
@@ -741,7 +786,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
       aux.push(paises[i])
       p.push(aux)
     }  
-    console.log(p)
     for (let i = 0; i < p.length; ++i){
       svg
         .append("path")
@@ -809,7 +853,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
       aux.push(paises[i])
       p.push(aux)
     }  
-    console.log(p)
     for (let i = 0; i < p.length; ++i){
       svg
         .append("path")
@@ -887,19 +930,13 @@ function cleveland_chart(paises, maximo,minimo, v) {
       if (d.Sex === 'female'){
         return "#D68A5A";
       } else if (d.Sex === 'male'){
-        return "#407A7D";
+        return "#407d64";
       } else {
-        return "#3b946f"
+        return "#5b98c7"
       }
     })
     .attr("stroke", function(d){
-      if (d.Sex === 'female'){
-        return "#D68A5A";
-      } else if (d.Sex === 'male'){
-        return "#407A7D";
-      } else {
-        return "#3b946f"
-      }
+      return "white";
     })
     .attr("cy", function(d) {
       return hscale(d.Country);
@@ -923,24 +960,35 @@ function cleveland_chart(paises, maximo,minimo, v) {
         return xscale(d.GenderWageGap);
     })
     .on("click", function (){
+      var country = ''
       this.parentNode.appendChild(this);
       var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
       for (let i = 0; i < b.length; ++i){
         if(this.attributes.name.value != b[i].attributes.id.value.replace('-LinesCleve', '')){
           b[i].attributes.selected.value = false;
-          b[i].attributes.stroke.value = "red"
+          b[i].attributes.stroke.value = "#878787"
         } else {
           b[i].attributes.selected.value = true;
-          b[i].attributes.stroke.value = "yellow"
+          b[i].attributes.stroke.value = "#E0C090"
+          country = b[i].attributes.id.value.replace('-LinesCleve', '')
         }        
       }
-
+      
+      console.log(plots._groups)
       for (let i = 0; i < plots._groups[0].length; i++){
         if (plots._groups[0][i].attributes.value != this.attributes.value || plots._groups[0][i].attributes.name.value != this.attributes.name.value){
           if (plots._groups[0][i].attributes.is_clicked.value === 'true') {
             plots._groups[0][i].attributes.is_clicked.value = 'false';
             d3.select(plots._groups[0][i])
-              .attr("fill", "red")
+              .attr("fill", function(d){
+                if (d.Sex === 'female'){
+                  return "#D68A5A";
+                } else if (d.Sex === 'male'){
+                  return "#407d64";
+                } else {
+                  return "#5b98c7"
+                }
+              })
               .attr("r", radius);
             div.transition()		
               .duration(500)		
@@ -950,14 +998,25 @@ function cleveland_chart(paises, maximo,minimo, v) {
         } else {
           this.attributes.is_clicked.value = "true";
           d3.select(this)
-            .attr("fill", "orange")
-            .attr("r", radius*2);
+            .attr("fill", "#dea959")
+            .attr("r", radius*1.5);
           localStorage.setItem("clickedItemCountry", this.attributes.name.value)
 
           const event = new Event('clickedCountryLine');
           document.dispatchEvent(event);
         }
       }
+
+      for (let i = 0; i < plots._groups[0].length; i++){
+        if (plots._groups[0][i].__data__.Country === country && plots._groups[0][i].attributes.is_clicked.value === 'false'){
+          plots._groups[0][i].attributes.is_clicked.value = "true";
+          d3.select(plots._groups[0][i])
+            .attr("fill", "#dea959")
+            .style("stroke", "white")
+            .attr("r", radius*1.5);
+        }
+      }
+
     })
     .on("mouseover", function() {
       this.parentNode.appendChild(this);
@@ -976,7 +1035,6 @@ function cleveland_chart(paises, maximo,minimo, v) {
       var value;
       var c = []
 
-      console.log(paises)
 
       for (i in paises) {
           if (!(c.includes(paises[i].Country))) {
@@ -1005,7 +1063,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
           } else if (d.Sex === 'male'){
             return "#407A7D";
           } else {
-            return "#3b946f"
+            return "#5b98c7"
           }
         })
         .attr("r", radius);
@@ -1023,53 +1081,5 @@ function cleveland_chart(paises, maximo,minimo, v) {
 
   //______________________________________________________________________________________________
 
-  // AXIS ________________________________________________________________________________________
-  var yaxis = d3
-    .axisLeft() // we are creating a d3 axis
-    .scale(hscale) // fit to our scale
-    //.tickFormat(d3.format(".2s")) // format of each year
-    .tickSizeOuter(0);
-
-  svg
-    .append("g") // we are creating a 'g' element to match our yaxis
-    .attr("transform", "translate(" + padding + ",0)")
-    .attr("class", "yaxis") // we are giving it a css style
-    .call(yaxis);
-
-  svg
-    .append("text")
-    .attr("transform", "rotate(-90)")
-    .attr("y", 0)
-    .attr("x", 0 - height / 2)
-    //.attr("dy", "1em")
-    .attr("class", "label")
-    .text("Value");
-
-  /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
-      if (i % 5 == 0) return d;
-  }); */
-
-  var xaxis = d3
-    .axisBottom() // we are creating a d3 axis
-    .scale(xscale) // we are adding our padding
-    .tickFormat(d3.format(".2s"))
-    //.tickValues(xscaleDataFiltered)
-    .tickSizeOuter(0);
-
-  svg
-    .append("g") // we are creating a 'g' element to match our x axis
-    .attr("transform", "translate(0," + (height - padding) + ")")
-    .attr("class", "xaxis") // we are giving it a css style
-    .call(xaxis);
-
-  // text label for the x axis
-  svg
-    .append("text")
-    .attr(
-      "transform",
-      "translate(" + width / 2 + " ," + (height - padding / 3) + ")"
-    )
-    .attr("dy", "1em")
-    .attr("class", "label")
-    .text("Value");
+  
 }
