@@ -38,7 +38,7 @@ var maxGDP = 0, minGDP = 0,
     maxPov = 0, minPov = 0, 
     maxGWG = 0, minGWG = 0;
 
-function analyzer(education, init) {
+function analyzer(isced, init) {
   Promise.all([
     d3.json("csv/LineChart/gdp.json"),
     d3.json("csv/LineChart/Q2_total.json"),
@@ -350,25 +350,21 @@ function analyzer(education, init) {
         maxMin.push(maxGWG);
         maxMin.push(minGWG);
       }  
-      console.log(countries_filtered_years)
       slope_chart(countries_filtered_years, maxMin);
     }
     else {
-      console.log("olá")
       var countries_filtered_years = [];  
       var maxMin = [];
   
       d3.select("#slope-svg").remove();
 
       if (files[0]){ // GDP
-        dataset = files[0];
+        dataset1 = files[0];
 
         var selected_countries = [];
-
         $('#checkboxes input:checked').each(function() {
-          selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
         )});
-        console.log(selected_countries)
               
         var years = [];
         $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
@@ -401,7 +397,7 @@ function analyzer(education, init) {
   
         maxMin.push(maxGDP);
         maxMin.push(minGDP);
-        }
+      }
   
       if (files[1]) { // Employment
         dataset1 = files[1];
@@ -422,7 +418,7 @@ function analyzer(education, init) {
           employment = 0;
     
           for(let j = 0; j < selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === isced)) {
               employment = employment + parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."));
               if(maxEmp < parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))) { maxEmp = parseFloat(selected_countries[i][j].AverageEmployment.replace(",", ".")); }
               if(minEmp > parseFloat(selected_countries[i][j].AverageEmployment.replace(",", "."))) { minEmp = parseFloat(selected_countries[i][j].AverageEmployment.replace(",", ".")); }
@@ -440,10 +436,20 @@ function analyzer(education, init) {
         countries_filtered_years.push(aux1);
         maxMin.push(maxEmp);
         maxMin.push(minEmp);
+
       }
   
       if (files[2]) { // Income
         dataset1 = files[2];
+
+        var selected_countries = [];
+        $('#checkboxes input:checked').each(function() {
+          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+        )});
+              
+        var years = [];
+        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+        let yearsv2 = years.map(i=>Number(i));
     
         var aux1 = [];
     
@@ -451,7 +457,7 @@ function analyzer(education, init) {
           income = 0;
     
           for(let j = 0; j < selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === isced)) {
               income = income + (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM);
               if(maxInc < (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM)) { maxInc = (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM); }
               if(minInc > (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM)) { minInc = (selected_countries[i][j].MoneyF + selected_countries[i][j].MoneyM); }
@@ -469,6 +475,7 @@ function analyzer(education, init) {
         countries_filtered_years.push(aux1);
         maxMin.push(maxInc);
         maxMin.push(minInc);
+
       }
   
       if (files[3]) { // Education
@@ -490,7 +497,7 @@ function analyzer(education, init) {
           education = 0;
     
           for(let j = 0; j < selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === isced)) {
               education = education + parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."));
               if(maxEdu < parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))) { maxEdu = parseFloat(selected_countries[i][j].AveragePercentage.replace(",", ".")); }
               if(minEdu > parseFloat(selected_countries[i][j].AveragePercentage.replace(",", "."))) { minEdu = parseFloat(selected_countries[i][j].AveragePercentage.replace(",", ".")); }
@@ -509,6 +516,7 @@ function analyzer(education, init) {
         countries_filtered_years.push(aux1);
         maxMin.push(maxEdu);
         maxMin.push(minEdu);
+
       }
   
       if (files[4]) { // Women in High Positions
@@ -548,15 +556,15 @@ function analyzer(education, init) {
         countries_filtered_years.push(aux1);
         maxMin.push(maxWomen);
         maxMin.push(minWomen);
+
       }
   
       if (files[5]) { // Poverty
         dataset1 = files[5];
-
         var selected_countries = [];
 
         $('#checkboxes input:checked').each(function() {
-          selected_countries.push(dataset1.filter(row => row.Country === $(this).attr('value'))
+          selected_countries.push(dataset1.filter(row => row.code === $(this).attr('value'))
         )});
               
         var years = [];
@@ -569,8 +577,9 @@ function analyzer(education, init) {
           poverty = 0;
     
           for(let j = 0; j < selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === isced)) {
               poverty = poverty + selected_countries[i][j].AVG;
+
               if(maxPov < selected_countries[i][j].AVG) { maxPov = selected_countries[i][j].AVG; }
               if(minPov > selected_countries[i][j].AVG) { minPov = selected_countries[i][j].AVG; }
             }
@@ -587,6 +596,7 @@ function analyzer(education, init) {
         countries_filtered_years.push(aux1);
         maxMin.push(maxPov);
         maxMin.push(minPov);
+
       }
   
       if (files[6]) { // GWG
@@ -608,8 +618,9 @@ function analyzer(education, init) {
           gwg = 0;
     
           for(let j = 0; j < selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === education)) {
+            if(yearsv2.includes(selected_countries[i][j].Year) && (selected_countries[i][j].ISCED11 === isced)) {
               gwg = gwg + parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."));
+
               if(maxGWG < parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))) { maxGWG = parseFloat(selected_countries[i][j].GenderWageGap.replace(",", ".")); }
               if(minGWG > parseFloat(selected_countries[i][j].GenderWageGap.replace(",", "."))) { minGWG = parseFloat(selected_countries[i][j].GenderWageGap.replace(",", ".")); }
             }
@@ -627,7 +638,6 @@ function analyzer(education, init) {
         maxMin.push(maxGWG);
         maxMin.push(minGWG);
       }
-    console.log("barbasG:", countries_filtered_years)
     slope_chart(countries_filtered_years, maxMin);
     }
     
@@ -815,7 +825,7 @@ function slope_chart(paises, maxMin) {
           this.parentNode.appendChild(this);
 
           // Change line colors on click
-          var b = document.getElementById("slope-svg").getElementsByClassName("line")
+          var b = document.getElementById("slope-svg").getElementsByClassName("lineSlope")
           for (let i = 0; i < b.length; ++i){
             if(this.attributes.name.value != b[i].attributes.id.value.replace('-Lines', '')){
               b[i].attributes.selected.value = false;
@@ -973,7 +983,7 @@ for (let i = 0; i< p.length; ++i){
   .attr("stroke-width", 4)
   .attr("id", function(d){ return p[i][0].Country +'-Lines'; })
   .attr("selected", false)
-  .attr("class", "line")
+  .attr("class", "lineSlope")
   .attr("d", lineGenerator(p[i]));
 } 
 
