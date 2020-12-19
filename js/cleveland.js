@@ -384,47 +384,79 @@ function analyzerClev(inequality, education) {
       });
       break;
     // POVERTY ____________________________________________________________________________________________
-    /*case "Poverty":
-      d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q1.json").then(function (data) {
-        dataset = data;
+    case "Poverty":
+      d3.select("#cleveland-svg").remove();
+      d3.json("csv/LineChart/Q1_fm.json").then(function (data) {
+      dataset = data;
+      
+      var selected_countries = []; // selected countries
+      $('#checkboxes input:checked').each(function() {
+        selected_countries.push(dataset.filter(row => row.Country === $(this).attr('value'))
+      )});
+            
+      var years=[]; // selected years
+      $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
+      let yearsv2 = years.map(i=>Number(i)); //selected years in number
 
-        var selected_countries = [];
-        $('#checkboxes input:checked').each(function() {
-          selected_countries.push(dataset.filter(row => row.code === $(this).attr('value'))
-        )});
-              
-        var years=[];
-        $('#checkboxes1 input:checked').each(function() {years.push($(this).attr('value'))});
-        let yearsv2 = years.map(i=>Number(i));
-
-        var maximo=0;
-        var minimo=0;
-        var countries_filtered_years=[];
-
-        for(let i=0; i<selected_countries.length; i++) {
-          var aux=[];
-          for(let j=0; j<selected_countries[i].length; j++){
-            if(yearsv2.includes(selected_countries[i][j].Year)) {
-              if (education === selected_countries[i][j].ISCED11) {
-                aux.push(selected_countries[i][j]);
-                if(maximo<selected_countries[i][j].AVG){
-                  maximo=selected_countries[i][j].AVG;
-                }
-                if(minimo>selected_countries[i][j].AVG){
-                  minimo=selected_countries[i][j].AVG;
-                }
+      var maximo=0;
+      var minimo=0;
+      var countries_filtered_years=[];
+      
+      for(let i=0; i<selected_countries.length; i++) {
+        var aux=[];
+        for(let j=0; j<selected_countries[i].length; j++){
+          if(yearsv2.includes(selected_countries[i][j].Year)) {
+            if (education === selected_countries[i][j].ISCED11) {
+              aux.push(selected_countries[i][j]);
+              if(maximo<parseFloat(selected_countries[i][j].PercentageM.replace(",", "."))){
+                maximo=parseFloat(selected_countries[i][j].PercentageM.replace(",", "."));
+              }
+              if(minimo>parseFloat(selected_countries[i][j].PercentageF.replace(",", "."))){
+                minimo=parseFloat(selected_countries[i][j].PercentageF.replace(",", "."));
               }
             }
           }
-          if(minimo>0){
-            minimo = 0;
-          } 
-          countries_filtered_years.push(aux);
         }
-      cleveland_chart(countries_filtered_years,maximo,minimo, inequality);
-      });
-      break*/
+        if(minimo>0){
+          minimo=0;
+        }
+        countries_filtered_years.push(aux);
+      }
+      var paises_avg=[];
+
+      for(let i=0; i<countries_filtered_years.length; i++) {
+        auxf = {};
+        auxm = {};
+        let somaf = 0;
+        let somam = 0;
+        for(let j=0; j<countries_filtered_years[i].length; j++) {
+          somaf = somaf + parseFloat(selected_countries[i][j].PercentageF.replace(",", "."));
+          somam = somam + parseFloat(selected_countries[i][j].PercentageM.replace(",", "."));
+        }
+        auxf['Country'] = countries_filtered_years[i][0].Country;
+        auxf['Sex'] = "female";  
+        auxf['Percentage'] = somaf /yearsv2.length;  
+        paises_avg.push(auxf);
+        auxm['Country'] = countries_filtered_years[i][0].Country;
+        auxm['Sex'] = "male"; 
+        auxm['Percentage'] = somam /yearsv2.length;
+        paises_avg.push(auxm);   
+      }
+
+      maximo_avg=0;
+      minimo_avg=0;
+      for(let i=0; i<paises_avg.length; i++) {
+        if(maximo_avg<paises_avg[i].Percentage) {
+          maximo_avg=paises_avg[i].Percentage;
+        }
+        if(minimo_avg>paises_avg[i].Percentage){
+          minimo_avg=paises_avg[i].Percentage;
+        }
+      }
+      console.log(paises_avg)
+      cleveland_chart(paises_avg, maximo_avg, minimo_avg, inequality);
+      });   
+      break;
     
     // GWG ____________________________________________________________________________________________
     case "GWG": 
@@ -621,8 +653,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
@@ -652,8 +684,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
@@ -683,8 +715,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
@@ -715,8 +747,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
@@ -751,12 +783,44 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
         .attr("d", lineGeneratorWHP(p[i])); 
+    }
+  }
+
+  else if (v === 'Poverty'){ 
+    var lineGenerator = d3
+    .line()
+    .x(function (d) {
+        return xscale(d.Percentage);
+    })
+    .y(function (d) { 
+      return hscale(d.Country);
+    })
+
+    p = []
+    for (let i = 1; i < paises.length; i+=2) {
+      aux = []
+      aux.push(paises[i-1])
+      aux.push(paises[i])
+      p.push(aux)
+    }  
+    console.log(p)
+    for (let i = 0; i < p.length; ++i){
+      svg
+        .append("path")
+        .datum(p[i])
+        .attr("fill", "none")
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
+        .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
+        .attr("selected", false)
+        .attr("class", "cleveline")
+        .attr("d", lineGenerator(p[i])); 
     }
   }
 
@@ -786,8 +850,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         .append("path")
         .datum(p[i])
         .attr("fill", "none")
-        .attr("stroke", "red")
-        .attr("stroke-width", 4)
+        .attr("stroke", "#878787")
+        .attr("stroke-width", 2)
         .attr("id", function(d){ return d[0].Country +'-LinesCleve'; })
         .attr("selected", false)
         .attr("class", "cleveline")
@@ -802,6 +866,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .join("circle") // now we append circles
     .attr("r", radius) // each circle
     .attr("name", function(d) {return d.Country;})
+    .attr("sex", function(d) {return d.Sex;})
     .attr("value", function(d){
       if (v === "GDP")
         return d.GDP;
@@ -813,25 +878,27 @@ function cleveland_chart(paises, maximo,minimo, v) {
         return d.Percentage;
       else if (v === "Women-high-pos")
         return d.growthRateWHP;
+      else if (v === "Poverty")
+        return d.Percentage;
       else if (v === "GWG")
         return d.GenderWageGap;
     })
     .attr("fill", function(d){
       if (d.Sex === 'female'){
-        return "red";
+        return "#D68A5A";
       } else if (d.Sex === 'male'){
-        return "blue";
+        return "#407A7D";
       } else {
-        return "green"
+        return "#3b946f"
       }
     })
     .attr("stroke", function(d){
       if (d.Sex === 'female'){
-        return "red";
+        return "#D68A5A";
       } else if (d.Sex === 'male'){
-        return "blue";
+        return "#407A7D";
       } else {
-        return "green"
+        return "#3b946f"
       }
     })
     .attr("cy", function(d) {
@@ -850,6 +917,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
         return xscale(d.Percentage);
       else if (v === "Women-high-pos")
         return xscale(d.growthRateWHP);
+      else if (v === "Poverty")
+        return xscale(d.Percentage);
       else if (v === "GWG")
         return xscale(d.GenderWageGap);
     })
@@ -893,7 +962,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .on("mouseover", function() {
       this.parentNode.appendChild(this);
       d3.select(this)
-        .attr("fill", "orange")
+        .attr("fill", "#E0C090")
         .attr("r", radius*2);
       d3.select(this)
         .transition()
@@ -930,7 +999,15 @@ function cleveland_chart(paises, maximo,minimo, v) {
     .on("mouseout", function(){
       if (this.attributes.is_clicked.value === 'false'){
         d3.select(this)
-        .attr("fill", "red")
+        .attr("fill", function(d){
+          if (d.Sex === 'female'){
+            return "#D68A5A";
+          } else if (d.Sex === 'male'){
+            return "#407A7D";
+          } else {
+            return "#3b946f"
+          }
+        })
         .attr("r", radius);
 
         div.transition()		
