@@ -3,6480 +3,6480 @@
    "Year": 2005,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "28,2",
-   "Percentage M": "20,7",
+   "PercentageF": "28,2",
+   "PercentageM": "20,7",
    "AveragePercentage": "24,45"
  },
  {
    "Year": 2005,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "35,9",
-   "Percentage M": "36,7",
+   "PercentageF": "35,9",
+   "PercentageM": "36,7",
    "AveragePercentage": "36,3"
  },
  {
    "Year": 2005,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "32,7",
-   "Percentage M": "34,1",
+   "PercentageF": "32,7",
+   "PercentageM": "34,1",
    "AveragePercentage": "33,4"
  },
  {
    "Year": 2005,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "36,6",
-   "Percentage M": "35,8",
+   "PercentageF": "36,6",
+   "PercentageM": "35,8",
    "AveragePercentage": "36,2"
  },
  {
    "Year": 2005,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "19,7",
-   "Percentage M": "14,0",
+   "PercentageF": "19,7",
+   "PercentageM": "14,0",
    "AveragePercentage": "16,85"
  },
  {
    "Year": 2005,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "27,3",
-   "Percentage M": "22,3",
+   "PercentageF": "27,3",
+   "PercentageM": "22,3",
    "AveragePercentage": "24,8"
  },
  {
    "Year": 2005,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "26,3",
-   "Percentage M": "25,1",
+   "PercentageF": "26,3",
+   "PercentageM": "25,1",
    "AveragePercentage": "25,7"
  },
  {
    "Year": 2005,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "17,2",
-   "Percentage M": "22,9",
+   "PercentageF": "17,2",
+   "PercentageM": "22,9",
    "AveragePercentage": "20,05"
  },
  {
    "Year": 2005,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "40,1",
-   "Percentage M": "40,0",
+   "PercentageF": "40,1",
+   "PercentageM": "40,0",
    "AveragePercentage": "40,05"
  },
  {
    "Year": 2005,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "50,6",
-   "Percentage M": "52,8",
+   "PercentageF": "50,6",
+   "PercentageM": "52,8",
    "AveragePercentage": "51,7"
  },
  {
    "Year": 2005,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "24,7",
-   "Percentage M": "29,2",
+   "PercentageF": "24,7",
+   "PercentageM": "29,2",
    "AveragePercentage": "26,95"
  },
  {
    "Year": 2005,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "36,6",
-   "Percentage M": "34,5",
+   "PercentageF": "36,6",
+   "PercentageM": "34,5",
    "AveragePercentage": "35,55"
  },
  {
    "Year": 2005,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "34,5",
-   "Percentage M": "23,9",
+   "PercentageF": "34,5",
+   "PercentageM": "23,9",
    "AveragePercentage": "29,2"
  },
  {
    "Year": 2005,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "31,1",
-   "Percentage M": "25,9",
+   "PercentageF": "31,1",
+   "PercentageM": "25,9",
    "AveragePercentage": "28,5"
  },
  {
    "Year": 2005,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "34,1",
-   "Percentage M": "39,9",
+   "PercentageF": "34,1",
+   "PercentageM": "39,9",
    "AveragePercentage": "37,0"
  },
  {
    "Year": 2005,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "49,9",
-   "Percentage M": "51,3",
+   "PercentageF": "49,9",
+   "PercentageM": "51,3",
    "AveragePercentage": "50,6"
  },
  {
    "Year": 2005,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "18,9",
-   "Percentage M": "22,8",
+   "PercentageF": "18,9",
+   "PercentageM": "22,8",
    "AveragePercentage": "20,85"
  },
  {
    "Year": 2005,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "41,7",
-   "Percentage M": "35,7",
+   "PercentageF": "41,7",
+   "PercentageM": "35,7",
    "AveragePercentage": "38,7"
  },
  {
    "Year": 2005,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "21,0",
-   "Percentage M": "28,5",
+   "PercentageF": "21,0",
+   "PercentageM": "28,5",
    "AveragePercentage": "24,75"
  },
  {
    "Year": 2005,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "72,5",
-   "Percentage M": "65,3",
+   "PercentageF": "72,5",
+   "PercentageM": "65,3",
    "AveragePercentage": "68,9"
  },
  {
    "Year": 2005,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "36,8",
-   "Percentage M": "32,3",
+   "PercentageF": "36,8",
+   "PercentageM": "32,3",
    "AveragePercentage": "34,55"
  },
  {
    "Year": 2005,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "22,0",
-   "Percentage M": "21,7",
+   "PercentageF": "22,0",
+   "PercentageM": "21,7",
    "AveragePercentage": "21,85"
  },
  {
    "Year": 2005,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "69,8",
-   "Percentage M": "75,6",
+   "PercentageF": "69,8",
+   "PercentageM": "75,6",
    "AveragePercentage": "72,7"
  },
  {
    "Year": 2005,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "37,2",
-   "Percentage M": "29,4",
+   "PercentageF": "37,2",
+   "PercentageM": "29,4",
    "AveragePercentage": "33,3"
  },
  {
    "Year": 2005,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "19,4",
-   "Percentage M": "23,2",
+   "PercentageF": "19,4",
+   "PercentageM": "23,2",
    "AveragePercentage": "21,3"
  },
  {
    "Year": 2005,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "25,9",
-   "Percentage M": "22,1",
+   "PercentageF": "25,9",
+   "PercentageM": "22,1",
    "AveragePercentage": "24,0"
  },
  {
    "Year": 2005,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "22,1",
-   "Percentage M": "17,8",
+   "PercentageF": "22,1",
+   "PercentageM": "17,8",
    "AveragePercentage": "19,95"
  },
  {
    "Year": 2006,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "29,6",
-   "Percentage M": "20,3",
+   "PercentageF": "29,6",
+   "PercentageM": "20,3",
    "AveragePercentage": "24,95"
  },
  {
    "Year": 2006,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "35,0",
-   "Percentage M": "36,4",
+   "PercentageF": "35,0",
+   "PercentageM": "36,4",
    "AveragePercentage": "35,7"
  },
  {
    "Year": 2006,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "30,2",
-   "Percentage M": "31,0",
+   "PercentageF": "30,2",
+   "PercentageM": "31,0",
    "AveragePercentage": "30,6"
  },
  {
    "Year": 2006,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "33,5",
-   "Percentage M": "33,6",
+   "PercentageF": "33,5",
+   "PercentageM": "33,6",
    "AveragePercentage": "33,55"
  },
  {
    "Year": 2006,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "13,7",
+   "PercentageF": "19,1",
+   "PercentageM": "13,7",
    "AveragePercentage": "16,4"
  },
  {
    "Year": 2006,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "26,9",
-   "Percentage M": "22,3",
+   "PercentageF": "26,9",
+   "PercentageM": "22,3",
    "AveragePercentage": "24,6"
  },
  {
    "Year": 2006,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "26,4",
-   "Percentage M": "24,4",
+   "PercentageF": "26,4",
+   "PercentageM": "24,4",
    "AveragePercentage": "25,4"
  },
  {
    "Year": 2006,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "17,1",
-   "Percentage M": "24,3",
+   "PercentageF": "17,1",
+   "PercentageM": "24,3",
    "AveragePercentage": "20,7"
  },
  {
    "Year": 2006,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "40,1",
-   "Percentage M": "42,7",
+   "PercentageF": "40,1",
+   "PercentageM": "42,7",
    "AveragePercentage": "41,4"
  },
  {
    "Year": 2006,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "49,5",
-   "Percentage M": "52,2",
+   "PercentageF": "49,5",
+   "PercentageM": "52,2",
    "AveragePercentage": "50,85"
  },
  {
    "Year": 2006,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "23,9",
-   "Percentage M": "28,5",
+   "PercentageF": "23,9",
+   "PercentageM": "28,5",
    "AveragePercentage": "26,2"
  },
  {
    "Year": 2006,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "35,8",
-   "Percentage M": "34,1",
+   "PercentageF": "35,8",
+   "PercentageM": "34,1",
    "AveragePercentage": "34,95"
  },
  {
    "Year": 2006,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "32,5",
-   "Percentage M": "23,9",
+   "PercentageF": "32,5",
+   "PercentageM": "23,9",
    "AveragePercentage": "28,2"
  },
  {
    "Year": 2006,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "29,7",
-   "Percentage M": "24,7",
+   "PercentageF": "29,7",
+   "PercentageM": "24,7",
    "AveragePercentage": "27,2"
  },
  {
    "Year": 2006,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "32,4",
-   "Percentage M": "38,6",
+   "PercentageF": "32,4",
+   "PercentageM": "38,6",
    "AveragePercentage": "35,5"
  },
  {
    "Year": 2006,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "48,7",
-   "Percentage M": "50,4",
+   "PercentageF": "48,7",
+   "PercentageM": "50,4",
    "AveragePercentage": "49,55"
  },
  {
    "Year": 2006,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "18,6",
-   "Percentage M": "22,8",
+   "PercentageF": "18,6",
+   "PercentageM": "22,8",
    "AveragePercentage": "20,7"
  },
  {
    "Year": 2006,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "41,4",
-   "Percentage M": "37,1",
+   "PercentageF": "41,4",
+   "PercentageM": "37,1",
    "AveragePercentage": "39,25"
  },
  {
    "Year": 2006,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "20,5",
-   "Percentage M": "29,1",
+   "PercentageF": "20,5",
+   "PercentageM": "29,1",
    "AveragePercentage": "24,8"
  },
  {
    "Year": 2006,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "70,9",
-   "Percentage M": "64,1",
+   "PercentageF": "70,9",
+   "PercentageM": "64,1",
    "AveragePercentage": "67,5"
  },
  {
    "Year": 2006,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "35,0",
-   "Percentage M": "32,3",
+   "PercentageF": "35,0",
+   "PercentageM": "32,3",
    "AveragePercentage": "33,65"
  },
  {
    "Year": 2006,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "20,9",
-   "Percentage M": "21,0",
+   "PercentageF": "20,9",
+   "PercentageM": "21,0",
    "AveragePercentage": "20,95"
  },
  {
    "Year": 2006,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "68,8",
-   "Percentage M": "74,7",
+   "PercentageF": "68,8",
+   "PercentageM": "74,7",
    "AveragePercentage": "71,75"
  },
  {
    "Year": 2006,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "35,9",
-   "Percentage M": "28,2",
+   "PercentageF": "35,9",
+   "PercentageM": "28,2",
    "AveragePercentage": "32,05"
  },
  {
    "Year": 2006,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "26,6",
-   "Percentage M": "27,1",
+   "PercentageF": "26,6",
+   "PercentageM": "27,1",
    "AveragePercentage": "26,85"
  },
  {
    "Year": 2006,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "24,6",
-   "Percentage M": "21,2",
+   "PercentageF": "24,6",
+   "PercentageM": "21,2",
    "AveragePercentage": "22,9"
  },
  {
    "Year": 2006,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "21,0",
-   "Percentage M": "16,7",
+   "PercentageF": "21,0",
+   "PercentageM": "16,7",
    "AveragePercentage": "18,85"
  },
  {
    "Year": 2007,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "30,0",
-   "Percentage M": "20,8",
+   "PercentageF": "30,0",
+   "PercentageM": "20,8",
    "AveragePercentage": "25,4"
  },
  {
    "Year": 2007,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "34,4",
-   "Percentage M": "35,2",
+   "PercentageF": "34,4",
+   "PercentageM": "35,2",
    "AveragePercentage": "34,8"
  },
  {
    "Year": 2007,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "28,2",
-   "Percentage M": "29,1",
+   "PercentageF": "28,2",
+   "PercentageM": "29,1",
    "AveragePercentage": "28,65"
  },
  {
    "Year": 2007,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "31,0",
-   "Percentage M": "31,3",
+   "PercentageF": "31,0",
+   "PercentageM": "31,3",
    "AveragePercentage": "31,15"
  },
  {
    "Year": 2007,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "18,8",
-   "Percentage M": "13,6",
+   "PercentageF": "18,8",
+   "PercentageM": "13,6",
    "AveragePercentage": "16,2"
  },
  {
    "Year": 2007,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "25,5",
-   "Percentage M": "21,5",
+   "PercentageF": "25,5",
+   "PercentageM": "21,5",
    "AveragePercentage": "23,5"
  },
  {
    "Year": 2007,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "32,6",
-   "Percentage M": "32,1",
+   "PercentageF": "32,6",
+   "PercentageM": "32,1",
    "AveragePercentage": "32,35"
  },
  {
    "Year": 2007,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "16,9",
-   "Percentage M": "23,3",
+   "PercentageF": "16,9",
+   "PercentageM": "23,3",
    "AveragePercentage": "20,1"
  },
  {
    "Year": 2007,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "39,4",
-   "Percentage M": "42,2",
+   "PercentageF": "39,4",
+   "PercentageM": "42,2",
    "AveragePercentage": "40,8"
  },
  {
    "Year": 2007,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "49,0",
-   "Percentage M": "51,2",
+   "PercentageF": "49,0",
+   "PercentageM": "51,2",
    "AveragePercentage": "50,1"
  },
  {
    "Year": 2007,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "23,0",
-   "Percentage M": "27,7",
+   "PercentageF": "23,0",
+   "PercentageM": "27,7",
    "AveragePercentage": "25,35"
  },
  {
    "Year": 2007,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "34,7",
-   "Percentage M": "33,2",
+   "PercentageF": "34,7",
+   "PercentageM": "33,2",
    "AveragePercentage": "33,95"
  },
  {
    "Year": 2007,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "30,6",
-   "Percentage M": "22,7",
+   "PercentageF": "30,6",
+   "PercentageM": "22,7",
    "AveragePercentage": "26,65"
  },
  {
    "Year": 2007,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "28,7",
-   "Percentage M": "23,8",
+   "PercentageF": "28,7",
+   "PercentageM": "23,8",
    "AveragePercentage": "26,25"
  },
  {
    "Year": 2007,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "30,3",
-   "Percentage M": "35,9",
+   "PercentageF": "30,3",
+   "PercentageM": "35,9",
    "AveragePercentage": "33,1"
  },
  {
    "Year": 2007,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "47,7",
-   "Percentage M": "49,7",
+   "PercentageF": "47,7",
+   "PercentageM": "49,7",
    "AveragePercentage": "48,7"
  },
  {
    "Year": 2007,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "17,8",
-   "Percentage M": "22,1",
+   "PercentageF": "17,8",
+   "PercentageM": "22,1",
    "AveragePercentage": "19,95"
  },
  {
    "Year": 2007,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "40,9",
-   "Percentage M": "36,5",
+   "PercentageF": "40,9",
+   "PercentageM": "36,5",
    "AveragePercentage": "38,7"
  },
  {
    "Year": 2007,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "20,3",
-   "Percentage M": "28,0",
+   "PercentageF": "20,3",
+   "PercentageM": "28,0",
    "AveragePercentage": "24,15"
  },
  {
    "Year": 2007,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "70,2",
-   "Percentage M": "64,4",
+   "PercentageF": "70,2",
+   "PercentageM": "64,4",
    "AveragePercentage": "67,3"
  },
  {
    "Year": 2007,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "34,1",
-   "Percentage M": "31,6",
+   "PercentageF": "34,1",
+   "PercentageM": "31,6",
    "AveragePercentage": "32,85"
  },
  {
    "Year": 2007,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "20,2",
-   "Percentage M": "20,6",
+   "PercentageF": "20,2",
+   "PercentageM": "20,6",
    "AveragePercentage": "20,4"
  },
  {
    "Year": 2007,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "68,5",
-   "Percentage M": "74,5",
+   "PercentageF": "68,5",
+   "PercentageM": "74,5",
    "AveragePercentage": "71,5"
  },
  {
    "Year": 2007,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "34,8",
-   "Percentage M": "27,0",
+   "PercentageF": "34,8",
+   "PercentageM": "27,0",
    "AveragePercentage": "30,9"
  },
  {
    "Year": 2007,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "26,4",
-   "Percentage M": "26,7",
+   "PercentageF": "26,4",
+   "PercentageM": "26,7",
    "AveragePercentage": "26,55"
  },
  {
    "Year": 2007,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "24,0",
-   "Percentage M": "20,5",
+   "PercentageF": "24,0",
+   "PercentageM": "20,5",
    "AveragePercentage": "22,25"
  },
  {
    "Year": 2007,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "20,1",
-   "Percentage M": "16,7",
+   "PercentageF": "20,1",
+   "PercentageM": "16,7",
    "AveragePercentage": "18,4"
  },
  {
    "Year": 2008,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "28,8",
-   "Percentage M": "20,3",
+   "PercentageF": "28,8",
+   "PercentageM": "20,3",
    "AveragePercentage": "24,55"
  },
  {
    "Year": 2008,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "33,0",
-   "Percentage M": "34,1",
+   "PercentageF": "33,0",
+   "PercentageM": "34,1",
    "AveragePercentage": "33,55"
  },
  {
    "Year": 2008,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "28,0",
-   "Percentage M": "28,7",
+   "PercentageF": "28,0",
+   "PercentageM": "28,7",
    "AveragePercentage": "28,35"
  },
  {
    "Year": 2008,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "30,7",
-   "Percentage M": "30,1",
+   "PercentageF": "30,7",
+   "PercentageM": "30,1",
    "AveragePercentage": "30,4"
  },
  {
    "Year": 2008,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "18,4",
-   "Percentage M": "13,4",
+   "PercentageF": "18,4",
+   "PercentageM": "13,4",
    "AveragePercentage": "15,9"
  },
  {
    "Year": 2008,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "24,1",
-   "Percentage M": "20,5",
+   "PercentageF": "24,1",
+   "PercentageM": "20,5",
    "AveragePercentage": "22,3"
  },
  {
    "Year": 2008,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "33,7",
-   "Percentage M": "32,8",
+   "PercentageF": "33,7",
+   "PercentageM": "32,8",
    "AveragePercentage": "33,25"
  },
  {
    "Year": 2008,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "17,8",
-   "Percentage M": "23,1",
+   "PercentageF": "17,8",
+   "PercentageM": "23,1",
    "AveragePercentage": "20,45"
  },
  {
    "Year": 2008,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "38,3",
-   "Percentage M": "41,2",
+   "PercentageF": "38,3",
+   "PercentageM": "41,2",
    "AveragePercentage": "39,75"
  },
  {
    "Year": 2008,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "48,4",
-   "Percentage M": "51,3",
+   "PercentageF": "48,4",
+   "PercentageM": "51,3",
    "AveragePercentage": "49,85"
  },
  {
    "Year": 2008,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "22,8",
-   "Percentage M": "27,5",
+   "PercentageF": "22,8",
+   "PercentageM": "27,5",
    "AveragePercentage": "25,15"
  },
  {
    "Year": 2008,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "33,4",
-   "Percentage M": "32,5",
+   "PercentageF": "33,4",
+   "PercentageM": "32,5",
    "AveragePercentage": "32,95"
  },
  {
    "Year": 2008,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "29,2",
-   "Percentage M": "22,6",
+   "PercentageF": "29,2",
+   "PercentageM": "22,6",
    "AveragePercentage": "25,9"
  },
  {
    "Year": 2008,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "28,0",
-   "Percentage M": "23,4",
+   "PercentageF": "28,0",
+   "PercentageM": "23,4",
    "AveragePercentage": "25,7"
  },
  {
    "Year": 2008,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "28,6",
-   "Percentage M": "35,0",
+   "PercentageF": "28,6",
+   "PercentageM": "35,0",
    "AveragePercentage": "31,8"
  },
  {
    "Year": 2008,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "46,7",
-   "Percentage M": "49,1",
+   "PercentageF": "46,7",
+   "PercentageM": "49,1",
    "AveragePercentage": "47,9"
  },
  {
    "Year": 2008,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "16,6",
-   "Percentage M": "20,6",
+   "PercentageF": "16,6",
+   "PercentageM": "20,6",
    "AveragePercentage": "18,6"
  },
  {
    "Year": 2008,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "39,2",
-   "Percentage M": "34,4",
+   "PercentageF": "39,2",
+   "PercentageM": "34,4",
    "AveragePercentage": "36,8"
  },
  {
    "Year": 2008,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "26,8",
+   "PercentageF": "19,1",
+   "PercentageM": "26,8",
    "AveragePercentage": "22,95"
  },
  {
    "Year": 2008,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "67,4",
-   "Percentage M": "62,9",
+   "PercentageF": "67,4",
+   "PercentageM": "62,9",
    "AveragePercentage": "65,15"
  },
  {
    "Year": 2008,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "33,8",
-   "Percentage M": "31,8",
+   "PercentageF": "33,8",
+   "PercentageM": "31,8",
    "AveragePercentage": "32,8"
  },
  {
    "Year": 2008,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "19,4",
-   "Percentage M": "19,9",
+   "PercentageF": "19,4",
+   "PercentageM": "19,9",
    "AveragePercentage": "19,65"
  },
  {
    "Year": 2008,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "67,8",
-   "Percentage M": "73,8",
+   "PercentageF": "67,8",
+   "PercentageM": "73,8",
    "AveragePercentage": "70,8"
  },
  {
    "Year": 2008,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "33,7",
-   "Percentage M": "26,6",
+   "PercentageF": "33,7",
+   "PercentageM": "26,6",
    "AveragePercentage": "30,15"
  },
  {
    "Year": 2008,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "26,0",
-   "Percentage M": "26,3",
+   "PercentageF": "26,0",
+   "PercentageM": "26,3",
    "AveragePercentage": "26,15"
  },
  {
    "Year": 2008,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "23,2",
-   "Percentage M": "20,6",
+   "PercentageF": "23,2",
+   "PercentageM": "20,6",
    "AveragePercentage": "21,9"
  },
  {
    "Year": 2008,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "19,4",
-   "Percentage M": "15,8",
+   "PercentageF": "19,4",
+   "PercentageM": "15,8",
    "AveragePercentage": "17,6"
  },
  {
    "Year": 2009,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "28,0",
-   "Percentage M": "19,6",
+   "PercentageF": "28,0",
+   "PercentageM": "19,6",
    "AveragePercentage": "23,8"
  },
  {
    "Year": 2009,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "31,7",
-   "Percentage M": "33,1",
+   "PercentageF": "31,7",
+   "PercentageM": "33,1",
    "AveragePercentage": "32,4"
  },
  {
    "Year": 2009,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "27,5",
-   "Percentage M": "27,6",
+   "PercentageF": "27,5",
+   "PercentageM": "27,6",
    "AveragePercentage": "27,55"
  },
  {
    "Year": 2009,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "31,4",
-   "Percentage M": "31,0",
+   "PercentageF": "31,4",
+   "PercentageM": "31,0",
    "AveragePercentage": "31,2"
  },
  {
    "Year": 2009,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "17,4",
-   "Percentage M": "13,0",
+   "PercentageF": "17,4",
+   "PercentageM": "13,0",
    "AveragePercentage": "15,2"
  },
  {
    "Year": 2009,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "23,7",
-   "Percentage M": "20,3",
+   "PercentageF": "23,7",
+   "PercentageM": "20,3",
    "AveragePercentage": "22,0"
  },
  {
    "Year": 2009,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "32,6",
-   "Percentage M": "32,2",
+   "PercentageF": "32,6",
+   "PercentageM": "32,2",
    "AveragePercentage": "32,4"
  },
  {
    "Year": 2009,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "16,2",
-   "Percentage M": "22,4",
+   "PercentageF": "16,2",
+   "PercentageM": "22,4",
    "AveragePercentage": "19,3"
  },
  {
    "Year": 2009,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "37,8",
-   "Percentage M": "41,4",
+   "PercentageF": "37,8",
+   "PercentageM": "41,4",
    "AveragePercentage": "39,6"
  },
  {
    "Year": 2009,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "47,7",
-   "Percentage M": "51,2",
+   "PercentageF": "47,7",
+   "PercentageM": "51,2",
    "AveragePercentage": "49,45"
  },
  {
    "Year": 2009,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "22,2",
-   "Percentage M": "26,5",
+   "PercentageF": "22,2",
+   "PercentageM": "26,5",
    "AveragePercentage": "24,35"
  },
  {
    "Year": 2009,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "32,8",
-   "Percentage M": "31,9",
+   "PercentageF": "32,8",
+   "PercentageM": "31,9",
    "AveragePercentage": "32,35"
  },
  {
    "Year": 2009,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "28,5",
-   "Percentage M": "22,2",
+   "PercentageF": "28,5",
+   "PercentageM": "22,2",
    "AveragePercentage": "25,35"
  },
  {
    "Year": 2009,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "27,0",
-   "Percentage M": "22,9",
+   "PercentageF": "27,0",
+   "PercentageM": "22,9",
    "AveragePercentage": "24,95"
  },
  {
    "Year": 2009,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "27,5",
-   "Percentage M": "33,8",
+   "PercentageF": "27,5",
+   "PercentageM": "33,8",
    "AveragePercentage": "30,65"
  },
  {
    "Year": 2009,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "46,1",
-   "Percentage M": "48,2",
+   "PercentageF": "46,1",
+   "PercentageM": "48,2",
    "AveragePercentage": "47,15"
  },
  {
    "Year": 2009,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "16,0",
-   "Percentage M": "20,2",
+   "PercentageF": "16,0",
+   "PercentageM": "20,2",
    "AveragePercentage": "18,1"
  },
  {
    "Year": 2009,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "31,0",
-   "Percentage M": "26,2",
+   "PercentageF": "31,0",
+   "PercentageM": "26,2",
    "AveragePercentage": "28,6"
  },
  {
    "Year": 2009,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "18,0",
-   "Percentage M": "25,4",
+   "PercentageF": "18,0",
+   "PercentageM": "25,4",
    "AveragePercentage": "21,7"
  },
  {
    "Year": 2009,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "63,7",
-   "Percentage M": "60,3",
+   "PercentageF": "63,7",
+   "PercentageM": "60,3",
    "AveragePercentage": "62,0"
  },
  {
    "Year": 2009,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "33,2",
-   "Percentage M": "32,0",
+   "PercentageF": "33,2",
+   "PercentageM": "32,0",
    "AveragePercentage": "32,6"
  },
  {
    "Year": 2009,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "18,4",
-   "Percentage M": "19,0",
+   "PercentageF": "18,4",
+   "PercentageM": "19,0",
    "AveragePercentage": "18,7"
  },
  {
    "Year": 2009,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "66,5",
-   "Percentage M": "72,1",
+   "PercentageF": "66,5",
+   "PercentageM": "72,1",
    "AveragePercentage": "69,3"
  },
  {
    "Year": 2009,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "33,5",
-   "Percentage M": "26,9",
+   "PercentageF": "33,5",
+   "PercentageM": "26,9",
    "AveragePercentage": "30,2"
  },
  {
    "Year": 2009,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "25,2",
-   "Percentage M": "25,6",
+   "PercentageF": "25,2",
+   "PercentageM": "25,6",
    "AveragePercentage": "25,4"
  },
  {
    "Year": 2009,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "22,1",
-   "Percentage M": "19,6",
+   "PercentageF": "22,1",
+   "PercentageM": "19,6",
    "AveragePercentage": "20,85"
  },
  {
    "Year": 2009,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "18,0",
-   "Percentage M": "15,0",
+   "PercentageF": "18,0",
+   "PercentageM": "15,0",
    "AveragePercentage": "16,5"
  },
  {
    "Year": 2010,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "27,0",
-   "Percentage M": "19,4",
+   "PercentageF": "27,0",
+   "PercentageM": "19,4",
    "AveragePercentage": "23,2"
  },
  {
    "Year": 2010,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "31,7",
-   "Percentage M": "33,4",
+   "PercentageF": "31,7",
+   "PercentageM": "33,4",
    "AveragePercentage": "32,55"
  },
  {
    "Year": 2010,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "25,0",
-   "Percentage M": "25,3",
+   "PercentageF": "25,0",
+   "PercentageM": "25,3",
    "AveragePercentage": "25,15"
  },
  {
    "Year": 2010,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "29,5",
-   "Percentage M": "29,7",
+   "PercentageF": "29,5",
+   "PercentageM": "29,7",
    "AveragePercentage": "29,6"
  },
  {
    "Year": 2010,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "16,7",
-   "Percentage M": "12,2",
+   "PercentageF": "16,7",
+   "PercentageM": "12,2",
    "AveragePercentage": "14,45"
  },
  {
    "Year": 2010,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "22,6",
-   "Percentage M": "19,4",
+   "PercentageF": "22,6",
+   "PercentageM": "19,4",
    "AveragePercentage": "21,0"
  },
  {
    "Year": 2010,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "32,0",
-   "Percentage M": "32,3",
+   "PercentageF": "32,0",
+   "PercentageM": "32,3",
    "AveragePercentage": "32,15"
  },
  {
    "Year": 2010,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "15,0",
-   "Percentage M": "21,5",
+   "PercentageF": "15,0",
+   "PercentageM": "21,5",
    "AveragePercentage": "18,25"
  },
  {
    "Year": 2010,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "36,6",
-   "Percentage M": "40,5",
+   "PercentageF": "36,6",
+   "PercentageM": "40,5",
    "AveragePercentage": "38,55"
  },
  {
    "Year": 2010,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "46,2",
-   "Percentage M": "50,0",
+   "PercentageF": "46,2",
+   "PercentageM": "50,0",
    "AveragePercentage": "48,1"
  },
  {
    "Year": 2010,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "21,6",
-   "Percentage M": "25,7",
+   "PercentageF": "21,6",
+   "PercentageM": "25,7",
    "AveragePercentage": "23,65"
  },
  {
    "Year": 2010,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "32,4",
-   "Percentage M": "31,4",
+   "PercentageF": "32,4",
+   "PercentageM": "31,4",
    "AveragePercentage": "31,9"
  },
  {
    "Year": 2010,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "28,7",
-   "Percentage M": "22,1",
+   "PercentageF": "28,7",
+   "PercentageM": "22,1",
    "AveragePercentage": "25,4"
  },
  {
    "Year": 2010,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "26,3",
-   "Percentage M": "22,5",
+   "PercentageF": "26,3",
+   "PercentageM": "22,5",
    "AveragePercentage": "24,4"
  },
  {
    "Year": 2010,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "27,0",
-   "Percentage M": "32,8",
+   "PercentageF": "27,0",
+   "PercentageM": "32,8",
    "AveragePercentage": "29,9"
  },
  {
    "Year": 2010,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "45,1",
-   "Percentage M": "47,4",
+   "PercentageF": "45,1",
+   "PercentageM": "47,4",
    "AveragePercentage": "46,25"
  },
  {
    "Year": 2010,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "15,5",
-   "Percentage M": "18,9",
+   "PercentageF": "15,5",
+   "PercentageM": "18,9",
    "AveragePercentage": "17,2"
  },
  {
    "Year": 2010,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "31,0",
-   "Percentage M": "26,8",
+   "PercentageF": "31,0",
+   "PercentageM": "26,8",
    "AveragePercentage": "28,9"
  },
  {
    "Year": 2010,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "15,9",
-   "Percentage M": "23,5",
+   "PercentageF": "15,9",
+   "PercentageM": "23,5",
    "AveragePercentage": "19,7"
  },
  {
    "Year": 2010,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "61,5",
-   "Percentage M": "59,1",
+   "PercentageF": "61,5",
+   "PercentageM": "59,1",
    "AveragePercentage": "60,3"
  },
  {
    "Year": 2010,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "32,5",
-   "Percentage M": "31,1",
+   "PercentageF": "32,5",
+   "PercentageM": "31,1",
    "AveragePercentage": "31,8"
  },
  {
    "Year": 2010,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "17,6",
-   "Percentage M": "18,4",
+   "PercentageF": "17,6",
+   "PercentageM": "18,4",
    "AveragePercentage": "18,0"
  },
  {
    "Year": 2010,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "64,1",
-   "Percentage M": "70,7",
+   "PercentageF": "64,1",
+   "PercentageM": "70,7",
    "AveragePercentage": "67,4"
  },
  {
    "Year": 2010,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "34,1",
-   "Percentage M": "27,1",
+   "PercentageF": "34,1",
+   "PercentageM": "27,1",
    "AveragePercentage": "30,6"
  },
  {
    "Year": 2010,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "24,8",
-   "Percentage M": "25,2",
+   "PercentageF": "24,8",
+   "PercentageM": "25,2",
    "AveragePercentage": "25,0"
  },
  {
    "Year": 2010,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "22,2",
-   "Percentage M": "19,7",
+   "PercentageF": "22,2",
+   "PercentageM": "19,7",
    "AveragePercentage": "20,95"
  },
  {
    "Year": 2010,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "17,5",
-   "Percentage M": "15,0",
+   "PercentageF": "17,5",
+   "PercentageM": "15,0",
    "AveragePercentage": "16,25"
  },
  {
    "Year": 2011,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "26,6",
-   "Percentage M": "19,5",
+   "PercentageF": "26,6",
+   "PercentageM": "19,5",
    "AveragePercentage": "23,05"
  },
  {
    "Year": 2011,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "30,7",
-   "Percentage M": "33,0",
+   "PercentageF": "30,7",
+   "PercentageM": "33,0",
    "AveragePercentage": "31,85"
  },
  {
    "Year": 2011,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "23,9",
-   "Percentage M": "24,1",
+   "PercentageF": "23,9",
+   "PercentageM": "24,1",
    "AveragePercentage": "24,0"
  },
  {
    "Year": 2011,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "27,5",
-   "Percentage M": "29,2",
+   "PercentageF": "27,5",
+   "PercentageM": "29,2",
    "AveragePercentage": "28,35"
  },
  {
    "Year": 2011,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "16,0",
-   "Percentage M": "11,8",
+   "PercentageF": "16,0",
+   "PercentageM": "11,8",
    "AveragePercentage": "13,9"
  },
  {
    "Year": 2011,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "19,7",
-   "Percentage M": "16,4",
+   "PercentageF": "19,7",
+   "PercentageM": "16,4",
    "AveragePercentage": "18,05"
  },
  {
    "Year": 2011,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "30,4",
-   "Percentage M": "31,3",
+   "PercentageF": "30,4",
+   "PercentageM": "31,3",
    "AveragePercentage": "30,85"
  },
  {
    "Year": 2011,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "14,9",
-   "Percentage M": "20,6",
+   "PercentageF": "14,9",
+   "PercentageM": "20,6",
    "AveragePercentage": "17,75"
  },
  {
    "Year": 2011,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "35,1",
-   "Percentage M": "39,1",
+   "PercentageF": "35,1",
+   "PercentageM": "39,1",
    "AveragePercentage": "37,1"
  },
  {
    "Year": 2011,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "44,9",
-   "Percentage M": "49,0",
+   "PercentageF": "44,9",
+   "PercentageM": "49,0",
    "AveragePercentage": "46,95"
  },
  {
    "Year": 2011,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "20,6",
-   "Percentage M": "25,2",
+   "PercentageF": "20,6",
+   "PercentageM": "25,2",
    "AveragePercentage": "22,9"
  },
  {
    "Year": 2011,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "31,7",
-   "Percentage M": "30,8",
+   "PercentageF": "31,7",
+   "PercentageM": "30,8",
    "AveragePercentage": "31,25"
  },
  {
    "Year": 2011,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "28,0",
-   "Percentage M": "21,3",
+   "PercentageF": "28,0",
+   "PercentageM": "21,3",
    "AveragePercentage": "24,65"
  },
  {
    "Year": 2011,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "26,1",
-   "Percentage M": "22,4",
+   "PercentageF": "26,1",
+   "PercentageM": "22,4",
    "AveragePercentage": "24,25"
  },
  {
    "Year": 2011,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "26,2",
-   "Percentage M": "32,0",
+   "PercentageF": "26,2",
+   "PercentageM": "32,0",
    "AveragePercentage": "29,1"
  },
  {
    "Year": 2011,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "44,0",
-   "Percentage M": "47,0",
+   "PercentageF": "44,0",
+   "PercentageM": "47,0",
    "AveragePercentage": "45,5"
  },
  {
    "Year": 2011,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "14,3",
-   "Percentage M": "17,5",
+   "PercentageF": "14,3",
+   "PercentageM": "17,5",
    "AveragePercentage": "15,9"
  },
  {
    "Year": 2011,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "30,4",
-   "Percentage M": "27,7",
+   "PercentageF": "30,4",
+   "PercentageM": "27,7",
    "AveragePercentage": "29,05"
  },
  {
    "Year": 2011,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "15,7",
-   "Percentage M": "23,7",
+   "PercentageF": "15,7",
+   "PercentageM": "23,7",
    "AveragePercentage": "19,7"
  },
  {
    "Year": 2011,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "59,1",
-   "Percentage M": "58,7",
+   "PercentageF": "59,1",
+   "PercentageM": "58,7",
    "AveragePercentage": "58,9"
  },
  {
    "Year": 2011,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "32,3",
-   "Percentage M": "31,0",
+   "PercentageF": "32,3",
+   "PercentageM": "31,0",
    "AveragePercentage": "31,65"
  },
  {
    "Year": 2011,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "17,1",
-   "Percentage M": "18,0",
+   "PercentageF": "17,1",
+   "PercentageM": "18,0",
    "AveragePercentage": "17,55"
  },
  {
    "Year": 2011,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "60,9",
-   "Percentage M": "67,6",
+   "PercentageF": "60,9",
+   "PercentageM": "67,6",
    "AveragePercentage": "64,25"
  },
  {
    "Year": 2011,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "33,1",
-   "Percentage M": "26,8",
+   "PercentageF": "33,1",
+   "PercentageM": "26,8",
    "AveragePercentage": "29,95"
  },
  {
    "Year": 2011,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "24,0",
-   "Percentage M": "24,8",
+   "PercentageF": "24,0",
+   "PercentageM": "24,8",
    "AveragePercentage": "24,4"
  },
  {
    "Year": 2011,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "20,9",
-   "Percentage M": "18,6",
+   "PercentageF": "20,9",
+   "PercentageM": "18,6",
    "AveragePercentage": "19,75"
  },
  {
    "Year": 2011,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "17,1",
-   "Percentage M": "14,2",
+   "PercentageF": "17,1",
+   "PercentageM": "14,2",
    "AveragePercentage": "15,65"
  },
  {
    "Year": 2012,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "25,9",
-   "Percentage M": "18,8",
+   "PercentageF": "25,9",
+   "PercentageM": "18,8",
    "AveragePercentage": "22,35"
  },
  {
    "Year": 2012,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "30,1",
-   "Percentage M": "32,7",
+   "PercentageF": "30,1",
+   "PercentageM": "32,7",
    "AveragePercentage": "31,4"
  },
  {
    "Year": 2012,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "22,9",
-   "Percentage M": "23,0",
+   "PercentageF": "22,9",
+   "PercentageM": "23,0",
    "AveragePercentage": "22,95"
  },
  {
    "Year": 2012,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "26,4",
-   "Percentage M": "26,4",
+   "PercentageF": "26,4",
+   "PercentageM": "26,4",
    "AveragePercentage": "26,4"
  },
  {
    "Year": 2012,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "15,3",
-   "Percentage M": "11,6",
+   "PercentageF": "15,3",
+   "PercentageM": "11,6",
    "AveragePercentage": "13,45"
  },
  {
    "Year": 2012,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "19,5",
-   "Percentage M": "16,3",
+   "PercentageF": "19,5",
+   "PercentageM": "16,3",
    "AveragePercentage": "17,9"
  },
  {
    "Year": 2012,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "29,0",
-   "Percentage M": "31,1",
+   "PercentageF": "29,0",
+   "PercentageM": "31,1",
    "AveragePercentage": "30,05"
  },
  {
    "Year": 2012,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,8",
-   "Percentage M": "19,9",
+   "PercentageF": "13,8",
+   "PercentageM": "19,9",
    "AveragePercentage": "16,85"
  },
  {
    "Year": 2012,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "34,1",
-   "Percentage M": "37,7",
+   "PercentageF": "34,1",
+   "PercentageM": "37,7",
    "AveragePercentage": "35,9"
  },
  {
    "Year": 2012,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "44,2",
-   "Percentage M": "48,6",
+   "PercentageF": "44,2",
+   "PercentageM": "48,6",
    "AveragePercentage": "46,4"
  },
  {
    "Year": 2012,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "19,6",
-   "Percentage M": "24,0",
+   "PercentageF": "19,6",
+   "PercentageM": "24,0",
    "AveragePercentage": "21,8"
  },
  {
    "Year": 2012,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "30,5",
-   "Percentage M": "30,2",
+   "PercentageF": "30,5",
+   "PercentageM": "30,2",
    "AveragePercentage": "30,35"
  },
  {
    "Year": 2012,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "26,0",
-   "Percentage M": "20,3",
+   "PercentageF": "26,0",
+   "PercentageM": "20,3",
    "AveragePercentage": "23,15"
  },
  {
    "Year": 2012,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "25,0",
-   "Percentage M": "21,9",
+   "PercentageF": "25,0",
+   "PercentageM": "21,9",
    "AveragePercentage": "23,45"
  },
  {
    "Year": 2012,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "25,6",
-   "Percentage M": "30,9",
+   "PercentageF": "25,6",
+   "PercentageM": "30,9",
    "AveragePercentage": "28,25"
  },
  {
    "Year": 2012,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "42,5",
-   "Percentage M": "46,0",
+   "PercentageF": "42,5",
+   "PercentageM": "46,0",
    "AveragePercentage": "44,25"
  },
  {
    "Year": 2012,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "13,3",
-   "Percentage M": "16,8",
+   "PercentageF": "13,3",
+   "PercentageM": "16,8",
    "AveragePercentage": "15,05"
  },
  {
    "Year": 2012,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "29,5",
-   "Percentage M": "27,3",
+   "PercentageF": "29,5",
+   "PercentageM": "27,3",
    "AveragePercentage": "28,4"
  },
  {
    "Year": 2012,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "13,7",
-   "Percentage M": "21,5",
+   "PercentageF": "13,7",
+   "PercentageM": "21,5",
    "AveragePercentage": "17,6"
  },
  {
    "Year": 2012,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "57,4",
-   "Percentage M": "56,4",
+   "PercentageF": "57,4",
+   "PercentageM": "56,4",
    "AveragePercentage": "56,9"
  },
  {
    "Year": 2012,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "31,2",
-   "Percentage M": "30,3",
+   "PercentageF": "31,2",
+   "PercentageM": "30,3",
    "AveragePercentage": "30,75"
  },
  {
    "Year": 2012,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "16,1",
-   "Percentage M": "17,3",
+   "PercentageF": "16,1",
+   "PercentageM": "17,3",
    "AveragePercentage": "16,7"
  },
  {
    "Year": 2012,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "57,8",
-   "Percentage M": "65,6",
+   "PercentageF": "57,8",
+   "PercentageM": "65,6",
    "AveragePercentage": "61,7"
  },
  {
    "Year": 2012,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "32,2",
-   "Percentage M": "26,3",
+   "PercentageF": "32,2",
+   "PercentageM": "26,3",
    "AveragePercentage": "29,25"
  },
  {
    "Year": 2012,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "23,1",
-   "Percentage M": "24,5",
+   "PercentageF": "23,1",
+   "PercentageM": "24,5",
    "AveragePercentage": "23,8"
  },
  {
    "Year": 2012,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "19,8",
-   "Percentage M": "18,4",
+   "PercentageF": "19,8",
+   "PercentageM": "18,4",
    "AveragePercentage": "19,1"
  },
  {
    "Year": 2012,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "16,2",
-   "Percentage M": "13,8",
+   "PercentageF": "16,2",
+   "PercentageM": "13,8",
    "AveragePercentage": "15,0"
  },
  {
    "Year": 2013,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "25,4",
-   "Percentage M": "18,9",
+   "PercentageF": "25,4",
+   "PercentageM": "18,9",
    "AveragePercentage": "22,15"
  },
  {
    "Year": 2013,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "29,0",
-   "Percentage M": "31,8",
+   "PercentageF": "29,0",
+   "PercentageM": "31,8",
    "AveragePercentage": "30,4"
  },
  {
    "Year": 2013,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "21,9",
-   "Percentage M": "22,3",
+   "PercentageF": "21,9",
+   "PercentageM": "22,3",
    "AveragePercentage": "22,1"
  },
  {
    "Year": 2013,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "25,0",
-   "Percentage M": "25,9",
+   "PercentageF": "25,0",
+   "PercentageM": "25,9",
    "AveragePercentage": "25,45"
  },
  {
    "Year": 2013,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "14,4",
-   "Percentage M": "11,4",
+   "PercentageF": "14,4",
+   "PercentageM": "11,4",
    "AveragePercentage": "12,9"
  },
  {
    "Year": 2013,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "16,2",
+   "PercentageF": "19,1",
+   "PercentageM": "16,2",
    "AveragePercentage": "17,65"
  },
  {
    "Year": 2013,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "28,6",
-   "Percentage M": "31,1",
+   "PercentageF": "28,6",
+   "PercentageM": "31,1",
    "AveragePercentage": "29,85"
  },
  {
    "Year": 2013,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "12,6",
-   "Percentage M": "19,2",
+   "PercentageF": "12,6",
+   "PercentageM": "19,2",
    "AveragePercentage": "15,9"
  },
  {
    "Year": 2013,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "32,9",
-   "Percentage M": "36,2",
+   "PercentageF": "32,9",
+   "PercentageM": "36,2",
    "AveragePercentage": "34,55"
  },
  {
    "Year": 2013,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "43,2",
-   "Percentage M": "48,0",
+   "PercentageF": "43,2",
+   "PercentageM": "48,0",
    "AveragePercentage": "45,6"
  },
  {
    "Year": 2013,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "18,6",
-   "Percentage M": "23,0",
+   "PercentageF": "18,6",
+   "PercentageM": "23,0",
    "AveragePercentage": "20,8"
  },
  {
    "Year": 2013,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "28,4",
-   "Percentage M": "27,6",
+   "PercentageF": "28,4",
+   "PercentageM": "27,6",
    "AveragePercentage": "28,0"
  },
  {
    "Year": 2013,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "24,8",
-   "Percentage M": "20,0",
+   "PercentageF": "24,8",
+   "PercentageM": "20,0",
    "AveragePercentage": "22,4"
  },
  {
    "Year": 2013,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "24,3",
-   "Percentage M": "21,2",
+   "PercentageF": "24,3",
+   "PercentageM": "21,2",
    "AveragePercentage": "22,75"
  },
  {
    "Year": 2013,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "23,9",
-   "Percentage M": "29,4",
+   "PercentageF": "23,9",
+   "PercentageM": "29,4",
    "AveragePercentage": "26,65"
  },
  {
    "Year": 2013,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "41,6",
-   "Percentage M": "45,2",
+   "PercentageF": "41,6",
+   "PercentageM": "45,2",
    "AveragePercentage": "43,4"
  },
  {
    "Year": 2013,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "12,8",
-   "Percentage M": "16,1",
+   "PercentageF": "12,8",
+   "PercentageM": "16,1",
    "AveragePercentage": "14,45"
  },
  {
    "Year": 2013,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "26,7",
-   "Percentage M": "25,7",
+   "PercentageF": "26,7",
+   "PercentageM": "25,7",
    "AveragePercentage": "26,2"
  },
  {
    "Year": 2013,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "13,0",
-   "Percentage M": "20,5",
+   "PercentageF": "13,0",
+   "PercentageM": "20,5",
    "AveragePercentage": "16,75"
  },
  {
    "Year": 2013,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "54,4",
-   "Percentage M": "54,3",
+   "PercentageF": "54,4",
+   "PercentageM": "54,3",
    "AveragePercentage": "54,35"
  },
  {
    "Year": 2013,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "29,5",
-   "Percentage M": "28,6",
+   "PercentageF": "29,5",
+   "PercentageM": "28,6",
    "AveragePercentage": "29,05"
  },
  {
    "Year": 2013,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "15,4",
-   "Percentage M": "16,8",
+   "PercentageF": "15,4",
+   "PercentageM": "16,8",
    "AveragePercentage": "16,1"
  },
  {
    "Year": 2013,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "55,3",
-   "Percentage M": "63,7",
+   "PercentageF": "55,3",
+   "PercentageM": "63,7",
    "AveragePercentage": "59,5"
  },
  {
    "Year": 2013,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "31,7",
-   "Percentage M": "26,1",
+   "PercentageF": "31,7",
+   "PercentageM": "26,1",
    "AveragePercentage": "28,9"
  },
  {
    "Year": 2013,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "22,0",
-   "Percentage M": "23,8",
+   "PercentageF": "22,0",
+   "PercentageM": "23,8",
    "AveragePercentage": "22,9"
  },
  {
    "Year": 2013,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "17,9",
+   "PercentageF": "19,1",
+   "PercentageM": "17,9",
    "AveragePercentage": "18,5"
  },
  {
    "Year": 2013,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "16,0",
-   "Percentage M": "13,5",
+   "PercentageF": "16,0",
+   "PercentageM": "13,5",
    "AveragePercentage": "14,75"
  },
  {
    "Year": 2014,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "23,2",
-   "Percentage M": "17,3",
+   "PercentageF": "23,2",
+   "PercentageM": "17,3",
    "AveragePercentage": "20,25"
  },
  {
    "Year": 2014,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "28,1",
-   "Percentage M": "30,9",
+   "PercentageF": "28,1",
+   "PercentageM": "30,9",
    "AveragePercentage": "29,5"
  },
  {
    "Year": 2014,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "22,0",
-   "Percentage M": "23,2",
+   "PercentageF": "22,0",
+   "PercentageM": "23,2",
    "AveragePercentage": "22,6"
  },
  {
    "Year": 2014,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "25,3",
-   "Percentage M": "26,9",
+   "PercentageF": "25,3",
+   "PercentageM": "26,9",
    "AveragePercentage": "26,1"
  },
  {
    "Year": 2014,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,9",
-   "Percentage M": "10,9",
+   "PercentageF": "13,9",
+   "PercentageM": "10,9",
    "AveragePercentage": "12,4"
  },
  {
    "Year": 2014,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "20,8",
-   "Percentage M": "18,6",
+   "PercentageF": "20,8",
+   "PercentageM": "18,6",
    "AveragePercentage": "19,7"
  },
  {
    "Year": 2014,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "27,0",
-   "Percentage M": "30,4",
+   "PercentageF": "27,0",
+   "PercentageM": "30,4",
    "AveragePercentage": "28,7"
  },
  {
    "Year": 2014,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,3",
-   "Percentage M": "22,2",
+   "PercentageF": "13,3",
+   "PercentageM": "22,2",
    "AveragePercentage": "17,75"
  },
  {
    "Year": 2014,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "31,6",
-   "Percentage M": "34,7",
+   "PercentageF": "31,6",
+   "PercentageM": "34,7",
    "AveragePercentage": "33,15"
  },
  {
    "Year": 2014,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "42,3",
-   "Percentage M": "46,6",
+   "PercentageF": "42,3",
+   "PercentageM": "46,6",
    "AveragePercentage": "44,45"
  },
  {
    "Year": 2014,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "17,6",
-   "Percentage M": "22,6",
+   "PercentageF": "17,6",
+   "PercentageM": "22,6",
    "AveragePercentage": "20,1"
  },
  {
    "Year": 2014,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "27,0",
-   "Percentage M": "26,0",
+   "PercentageF": "27,0",
+   "PercentageM": "26,0",
    "AveragePercentage": "26,5"
  },
  {
    "Year": 2014,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "23,4",
-   "Percentage M": "18,6",
+   "PercentageF": "23,4",
+   "PercentageM": "18,6",
    "AveragePercentage": "21,0"
  },
  {
    "Year": 2014,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "23,2",
-   "Percentage M": "20,8",
+   "PercentageF": "23,2",
+   "PercentageM": "20,8",
    "AveragePercentage": "22,0"
  },
  {
    "Year": 2014,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "21,2",
-   "Percentage M": "26,7",
+   "PercentageF": "21,2",
+   "PercentageM": "26,7",
    "AveragePercentage": "23,95"
  },
  {
    "Year": 2014,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "40,5",
-   "Percentage M": "44,2",
+   "PercentageF": "40,5",
+   "PercentageM": "44,2",
    "AveragePercentage": "42,35"
  },
  {
    "Year": 2014,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "12,5",
-   "Percentage M": "16,1",
+   "PercentageF": "12,5",
+   "PercentageM": "16,1",
    "AveragePercentage": "14,3"
  },
  {
    "Year": 2014,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "26,6",
-   "Percentage M": "23,1",
+   "PercentageF": "26,6",
+   "PercentageM": "23,1",
    "AveragePercentage": "24,85"
  },
  {
    "Year": 2014,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,6",
-   "Percentage M": "20,0",
+   "PercentageF": "12,6",
+   "PercentageM": "20,0",
    "AveragePercentage": "16,3"
  },
  {
    "Year": 2014,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "52,1",
-   "Percentage M": "52,3",
+   "PercentageF": "52,1",
+   "PercentageM": "52,3",
    "AveragePercentage": "52,2"
  },
  {
    "Year": 2014,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "29,2",
-   "Percentage M": "28,5",
+   "PercentageF": "29,2",
+   "PercentageM": "28,5",
    "AveragePercentage": "28,85"
  },
  {
    "Year": 2014,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "14,9",
-   "Percentage M": "16,2",
+   "PercentageF": "14,9",
+   "PercentageM": "16,2",
    "AveragePercentage": "15,55"
  },
  {
    "Year": 2014,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "52,2",
-   "Percentage M": "60,7",
+   "PercentageF": "52,2",
+   "PercentageM": "60,7",
    "AveragePercentage": "56,45"
  },
  {
    "Year": 2014,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "33,3",
-   "Percentage M": "29,1",
+   "PercentageF": "33,3",
+   "PercentageM": "29,1",
    "AveragePercentage": "31,2"
  },
  {
    "Year": 2014,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "21,1",
-   "Percentage M": "23,2",
+   "PercentageF": "21,1",
+   "PercentageM": "23,2",
    "AveragePercentage": "22,15"
  },
  {
    "Year": 2014,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "19,5",
-   "Percentage M": "17,4",
+   "PercentageF": "19,5",
+   "PercentageM": "17,4",
    "AveragePercentage": "18,45"
  },
  {
    "Year": 2014,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "16,3",
-   "Percentage M": "14,1",
+   "PercentageF": "16,3",
+   "PercentageM": "14,1",
    "AveragePercentage": "15,2"
  },
  {
    "Year": 2015,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "22,5",
-   "Percentage M": "16,6",
+   "PercentageF": "22,5",
+   "PercentageM": "16,6",
    "AveragePercentage": "19,55"
  },
  {
    "Year": 2015,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "27,3",
-   "Percentage M": "30,0",
+   "PercentageF": "27,3",
+   "PercentageM": "30,0",
    "AveragePercentage": "28,65"
  },
  {
    "Year": 2015,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "21,5",
-   "Percentage M": "22,9",
+   "PercentageF": "21,5",
+   "PercentageM": "22,9",
    "AveragePercentage": "22,2"
  },
  {
    "Year": 2015,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "24,8",
-   "Percentage M": "26,4",
+   "PercentageF": "24,8",
+   "PercentageM": "26,4",
    "AveragePercentage": "25,6"
  },
  {
    "Year": 2015,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,9",
-   "Percentage M": "11,0",
+   "PercentageF": "13,9",
+   "PercentageM": "11,0",
    "AveragePercentage": "12,45"
  },
  {
    "Year": 2015,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "20,8",
-   "Percentage M": "18,9",
+   "PercentageF": "20,8",
+   "PercentageM": "18,9",
    "AveragePercentage": "19,85"
  },
  {
    "Year": 2015,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "26,1",
-   "Percentage M": "29,7",
+   "PercentageF": "26,1",
+   "PercentageM": "29,7",
    "AveragePercentage": "27,9"
  },
  {
    "Year": 2015,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "14,1",
-   "Percentage M": "20,5",
+   "PercentageF": "14,1",
+   "PercentageM": "20,5",
    "AveragePercentage": "17,3"
  },
  {
    "Year": 2015,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "30,1",
-   "Percentage M": "33,0",
+   "PercentageF": "30,1",
+   "PercentageM": "33,0",
    "AveragePercentage": "31,55"
  },
  {
    "Year": 2015,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "40,9",
-   "Percentage M": "46,1",
+   "PercentageF": "40,9",
+   "PercentageM": "46,1",
    "AveragePercentage": "43,5"
  },
  {
    "Year": 2015,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "16,8",
-   "Percentage M": "21,5",
+   "PercentageF": "16,8",
+   "PercentageM": "21,5",
    "AveragePercentage": "19,15"
  },
  {
    "Year": 2015,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "26,1",
-   "Percentage M": "25,7",
+   "PercentageF": "26,1",
+   "PercentageM": "25,7",
    "AveragePercentage": "25,9"
  },
  {
    "Year": 2015,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "23,0",
-   "Percentage M": "17,8",
+   "PercentageF": "23,0",
+   "PercentageM": "17,8",
    "AveragePercentage": "20,4"
  },
  {
    "Year": 2015,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "23,0",
-   "Percentage M": "20,8",
+   "PercentageF": "23,0",
+   "PercentageM": "20,8",
    "AveragePercentage": "21,9"
  },
  {
    "Year": 2015,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "21,0",
-   "Percentage M": "26,0",
+   "PercentageF": "21,0",
+   "PercentageM": "26,0",
    "AveragePercentage": "23,5"
  },
  {
    "Year": 2015,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "39,8",
-   "Percentage M": "43,9",
+   "PercentageF": "39,8",
+   "PercentageM": "43,9",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2015,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "11,7",
-   "Percentage M": "16,0",
+   "PercentageF": "11,7",
+   "PercentageM": "16,0",
    "AveragePercentage": "13,85"
  },
  {
    "Year": 2015,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "30,1",
-   "Percentage M": "30,5",
+   "PercentageF": "30,1",
+   "PercentageM": "30,5",
    "AveragePercentage": "30,3"
  },
  {
    "Year": 2015,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,3",
-   "Percentage M": "19,1",
+   "PercentageF": "12,3",
+   "PercentageM": "19,1",
    "AveragePercentage": "15,7"
  },
  {
    "Year": 2015,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "49,5",
-   "Percentage M": "51,3",
+   "PercentageF": "49,5",
+   "PercentageM": "51,3",
    "AveragePercentage": "50,4"
  },
  {
    "Year": 2015,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "28,5",
-   "Percentage M": "28,3",
+   "PercentageF": "28,5",
+   "PercentageM": "28,3",
    "AveragePercentage": "28,4"
  },
  {
    "Year": 2015,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "14,6",
-   "Percentage M": "15,9",
+   "PercentageF": "14,6",
+   "PercentageM": "15,9",
    "AveragePercentage": "15,25"
  },
  {
    "Year": 2015,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "50,9",
-   "Percentage M": "58,1",
+   "PercentageF": "50,9",
+   "PercentageM": "58,1",
    "AveragePercentage": "54,5"
  },
  {
    "Year": 2015,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "31,4",
-   "Percentage M": "27,4",
+   "PercentageF": "31,4",
+   "PercentageM": "27,4",
    "AveragePercentage": "29,4"
  },
  {
    "Year": 2015,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "20,4",
-   "Percentage M": "22,8",
+   "PercentageF": "20,4",
+   "PercentageM": "22,8",
    "AveragePercentage": "21,6"
  },
  {
    "Year": 2015,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "18,3",
-   "Percentage M": "16,7",
+   "PercentageF": "18,3",
+   "PercentageM": "16,7",
    "AveragePercentage": "17,5"
  },
  {
    "Year": 2015,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "15,6",
-   "Percentage M": "13,6",
+   "PercentageF": "15,6",
+   "PercentageM": "13,6",
    "AveragePercentage": "14,6"
  },
  {
    "Year": 2016,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "22,1",
-   "Percentage M": "17,0",
+   "PercentageF": "22,1",
+   "PercentageM": "17,0",
    "AveragePercentage": "19,55"
  },
  {
    "Year": 2016,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "27,1",
-   "Percentage M": "29,3",
+   "PercentageF": "27,1",
+   "PercentageM": "29,3",
    "AveragePercentage": "28,2"
  },
  {
    "Year": 2016,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "21,3",
-   "Percentage M": "22,5",
+   "PercentageF": "21,3",
+   "PercentageM": "22,5",
    "AveragePercentage": "21,9"
  },
  {
    "Year": 2016,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "22,8",
-   "Percentage M": "25,4",
+   "PercentageF": "22,8",
+   "PercentageM": "25,4",
    "AveragePercentage": "24,1"
  },
  {
    "Year": 2016,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,6",
-   "Percentage M": "11,1",
+   "PercentageF": "13,6",
+   "PercentageM": "11,1",
    "AveragePercentage": "12,35"
  },
  {
    "Year": 2016,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "20,6",
-   "Percentage M": "19,1",
+   "PercentageF": "20,6",
+   "PercentageM": "19,1",
    "AveragePercentage": "19,85"
  },
  {
    "Year": 2016,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "25,5",
-   "Percentage M": "29,1",
+   "PercentageF": "25,5",
+   "PercentageM": "29,1",
    "AveragePercentage": "27,3"
  },
  {
    "Year": 2016,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,0",
-   "Percentage M": "20,4",
+   "PercentageF": "13,0",
+   "PercentageM": "20,4",
    "AveragePercentage": "16,7"
  },
  {
    "Year": 2016,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "28,7",
-   "Percentage M": "31,4",
+   "PercentageF": "28,7",
+   "PercentageM": "31,4",
    "AveragePercentage": "30,05"
  },
  {
    "Year": 2016,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "39,7",
-   "Percentage M": "45,5",
+   "PercentageF": "39,7",
+   "PercentageM": "45,5",
    "AveragePercentage": "42,6"
  },
  {
    "Year": 2016,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "16,4",
-   "Percentage M": "20,7",
+   "PercentageF": "16,4",
+   "PercentageM": "20,7",
    "AveragePercentage": "18,55"
  },
  {
    "Year": 2016,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "25,4",
-   "Percentage M": "25,4",
+   "PercentageF": "25,4",
+   "PercentageM": "25,4",
    "AveragePercentage": "25,4"
  },
  {
    "Year": 2016,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "22,9",
-   "Percentage M": "18,3",
+   "PercentageF": "22,9",
+   "PercentageM": "18,3",
    "AveragePercentage": "20,6"
  },
  {
    "Year": 2016,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "23,0",
-   "Percentage M": "20,6",
+   "PercentageF": "23,0",
+   "PercentageM": "20,6",
    "AveragePercentage": "21,8"
  },
  {
    "Year": 2016,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "20,2",
-   "Percentage M": "25,8",
+   "PercentageF": "20,2",
+   "PercentageM": "25,8",
    "AveragePercentage": "23,0"
  },
  {
    "Year": 2016,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "39,5",
-   "Percentage M": "43,7",
+   "PercentageF": "39,5",
+   "PercentageM": "43,7",
    "AveragePercentage": "41,6"
  },
  {
    "Year": 2016,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "10,5",
-   "Percentage M": "14,5",
+   "PercentageF": "10,5",
+   "PercentageM": "14,5",
    "AveragePercentage": "12,5"
  },
  {
    "Year": 2016,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "28,7",
-   "Percentage M": "27,7",
+   "PercentageF": "28,7",
+   "PercentageM": "27,7",
    "AveragePercentage": "28,2"
  },
  {
    "Year": 2016,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,2",
-   "Percentage M": "17,9",
+   "PercentageF": "12,2",
+   "PercentageM": "17,9",
    "AveragePercentage": "15,05"
  },
  {
    "Year": 2016,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "46,6",
-   "Percentage M": "49,0",
+   "PercentageF": "46,6",
+   "PercentageM": "49,0",
    "AveragePercentage": "47,8"
  },
  {
    "Year": 2016,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "27,9",
-   "Percentage M": "28,0",
+   "PercentageF": "27,9",
+   "PercentageM": "28,0",
    "AveragePercentage": "27,95"
  },
  {
    "Year": 2016,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "14,0",
-   "Percentage M": "15,2",
+   "PercentageF": "14,0",
+   "PercentageM": "15,2",
    "AveragePercentage": "14,6"
  },
  {
    "Year": 2016,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "49,3",
-   "Percentage M": "56,7",
+   "PercentageF": "49,3",
+   "PercentageM": "56,7",
    "AveragePercentage": "53,0"
  },
  {
    "Year": 2016,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "29,8",
-   "Percentage M": "26,3",
+   "PercentageF": "29,8",
+   "PercentageM": "26,3",
    "AveragePercentage": "28,05"
  },
  {
    "Year": 2016,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "20,2",
-   "Percentage M": "22,0",
+   "PercentageF": "20,2",
+   "PercentageM": "22,0",
    "AveragePercentage": "21,1"
  },
  {
    "Year": 2016,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "18,1",
-   "Percentage M": "16,4",
+   "PercentageF": "18,1",
+   "PercentageM": "16,4",
    "AveragePercentage": "17,25"
  },
  {
    "Year": 2016,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "15,1",
-   "Percentage M": "13,4",
+   "PercentageF": "15,1",
+   "PercentageM": "13,4",
    "AveragePercentage": "14,25"
  },
  {
    "Year": 2017,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "21,4",
-   "Percentage M": "17,2",
+   "PercentageF": "21,4",
+   "PercentageM": "17,2",
    "AveragePercentage": "19,3"
  },
  {
    "Year": 2017,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "26,0",
-   "Percentage M": "28,4",
+   "PercentageF": "26,0",
+   "PercentageM": "28,4",
    "AveragePercentage": "27,2"
  },
  {
    "Year": 2017,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "21,0",
-   "Percentage M": "21,7",
+   "PercentageF": "21,0",
+   "PercentageM": "21,7",
    "AveragePercentage": "21,35"
  },
  {
    "Year": 2017,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "22,2",
-   "Percentage M": "23,6",
+   "PercentageF": "22,2",
+   "PercentageM": "23,6",
    "AveragePercentage": "22,9"
  },
  {
    "Year": 2017,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,2",
-   "Percentage M": "11,1",
+   "PercentageF": "13,2",
+   "PercentageM": "11,1",
    "AveragePercentage": "12,15"
  },
  {
    "Year": 2017,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "20,3",
-   "Percentage M": "19,4",
+   "PercentageF": "20,3",
+   "PercentageM": "19,4",
    "AveragePercentage": "19,85"
  },
  {
    "Year": 2017,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "24,3",
-   "Percentage M": "29,0",
+   "PercentageF": "24,3",
+   "PercentageM": "29,0",
    "AveragePercentage": "26,65"
  },
  {
    "Year": 2017,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,3",
-   "Percentage M": "20,5",
+   "PercentageF": "13,3",
+   "PercentageM": "20,5",
    "AveragePercentage": "16,9"
  },
  {
    "Year": 2017,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "28,2",
-   "Percentage M": "30,4",
+   "PercentageF": "28,2",
+   "PercentageM": "30,4",
    "AveragePercentage": "29,3"
  },
  {
    "Year": 2017,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "39,0",
-   "Percentage M": "44,7",
+   "PercentageF": "39,0",
+   "PercentageM": "44,7",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2017,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "15,8",
-   "Percentage M": "20,9",
+   "PercentageF": "15,8",
+   "PercentageM": "20,9",
    "AveragePercentage": "18,35"
  },
  {
    "Year": 2017,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "25,3",
-   "Percentage M": "25,1",
+   "PercentageF": "25,3",
+   "PercentageM": "25,1",
    "AveragePercentage": "25,2"
  },
  {
    "Year": 2017,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "21,7",
-   "Percentage M": "18,1",
+   "PercentageF": "21,7",
+   "PercentageM": "18,1",
    "AveragePercentage": "19,9"
  },
  {
    "Year": 2017,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "22,5",
-   "Percentage M": "19,6",
+   "PercentageF": "22,5",
+   "PercentageM": "19,6",
    "AveragePercentage": "21,05"
  },
  {
    "Year": 2017,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "24,6",
+   "PercentageF": "19,1",
+   "PercentageM": "24,6",
    "AveragePercentage": "21,85"
  },
  {
    "Year": 2017,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "38,6",
-   "Percentage M": "43,1",
+   "PercentageF": "38,6",
+   "PercentageM": "43,1",
    "AveragePercentage": "40,85"
  },
  {
    "Year": 2017,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "10,1",
-   "Percentage M": "14,1",
+   "PercentageF": "10,1",
+   "PercentageM": "14,1",
    "AveragePercentage": "12,1"
  },
  {
    "Year": 2017,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "30,5",
-   "Percentage M": "30,5",
+   "PercentageF": "30,5",
+   "PercentageM": "30,5",
    "AveragePercentage": "30,5"
  },
  {
    "Year": 2017,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,3",
-   "Percentage M": "18,4",
+   "PercentageF": "12,3",
+   "PercentageM": "18,4",
    "AveragePercentage": "15,35"
  },
  {
    "Year": 2017,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "44,9",
-   "Percentage M": "46,3",
+   "PercentageF": "44,9",
+   "PercentageM": "46,3",
    "AveragePercentage": "45,6"
  },
  {
    "Year": 2017,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "26,2",
-   "Percentage M": "27,0",
+   "PercentageF": "26,2",
+   "PercentageM": "27,0",
    "AveragePercentage": "26,6"
  },
  {
    "Year": 2017,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "13,3",
-   "Percentage M": "14,5",
+   "PercentageF": "13,3",
+   "PercentageM": "14,5",
    "AveragePercentage": "13,9"
  },
  {
    "Year": 2017,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "47,5",
-   "Percentage M": "56,1",
+   "PercentageF": "47,5",
+   "PercentageM": "56,1",
    "AveragePercentage": "51,8"
  },
  {
    "Year": 2017,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "28,4",
-   "Percentage M": "25,5",
+   "PercentageF": "28,4",
+   "PercentageM": "25,5",
    "AveragePercentage": "26,95"
  },
  {
    "Year": 2017,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "20,2",
-   "Percentage M": "22,0",
+   "PercentageF": "20,2",
+   "PercentageM": "22,0",
    "AveragePercentage": "21,1"
  },
  {
    "Year": 2017,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "17,4",
-   "Percentage M": "16,1",
+   "PercentageF": "17,4",
+   "PercentageM": "16,1",
    "AveragePercentage": "16,75"
  },
  {
    "Year": 2017,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "15,7",
-   "Percentage M": "13,8",
+   "PercentageF": "15,7",
+   "PercentageM": "13,8",
    "AveragePercentage": "14,75"
  },
  {
    "Year": 2018,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "21,1",
-   "Percentage M": "16,6",
+   "PercentageF": "21,1",
+   "PercentageM": "16,6",
    "AveragePercentage": "18,85"
  },
  {
    "Year": 2018,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "25,1",
-   "Percentage M": "27,6",
+   "PercentageF": "25,1",
+   "PercentageM": "27,6",
    "AveragePercentage": "26,35"
  },
  {
    "Year": 2018,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "20,9",
-   "Percentage M": "22,2",
+   "PercentageF": "20,9",
+   "PercentageM": "22,2",
    "AveragePercentage": "21,55"
  },
  {
    "Year": 2018,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "20,6",
-   "Percentage M": "23,2",
+   "PercentageF": "20,6",
+   "PercentageM": "23,2",
    "AveragePercentage": "21,9"
  },
  {
    "Year": 2018,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,0",
-   "Percentage M": "11,2",
+   "PercentageF": "13,0",
+   "PercentageM": "11,2",
    "AveragePercentage": "12,1"
  },
  {
    "Year": 2018,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "20,0",
-   "Percentage M": "19,3",
+   "PercentageF": "20,0",
+   "PercentageM": "19,3",
    "AveragePercentage": "19,65"
  },
  {
    "Year": 2018,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "24,0",
-   "Percentage M": "29,2",
+   "PercentageF": "24,0",
+   "PercentageM": "29,2",
    "AveragePercentage": "26,6"
  },
  {
    "Year": 2018,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,3",
-   "Percentage M": "20,3",
+   "PercentageF": "13,3",
+   "PercentageM": "20,3",
    "AveragePercentage": "16,8"
  },
  {
    "Year": 2018,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "27,9",
-   "Percentage M": "29,5",
+   "PercentageF": "27,9",
+   "PercentageM": "29,5",
    "AveragePercentage": "28,7"
  },
  {
    "Year": 2018,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "37,7",
-   "Percentage M": "44,0",
+   "PercentageF": "37,7",
+   "PercentageM": "44,0",
    "AveragePercentage": "40,85"
  },
  {
    "Year": 2018,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "15,1",
-   "Percentage M": "20,2",
+   "PercentageF": "15,1",
+   "PercentageM": "20,2",
    "AveragePercentage": "17,65"
  },
  {
    "Year": 2018,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "24,3",
-   "Percentage M": "24,6",
+   "PercentageF": "24,3",
+   "PercentageM": "24,6",
    "AveragePercentage": "24,45"
  },
  {
    "Year": 2018,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "20,2",
-   "Percentage M": "17,2",
+   "PercentageF": "20,2",
+   "PercentageM": "17,2",
    "AveragePercentage": "18,7"
  },
  {
    "Year": 2018,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "21,3",
-   "Percentage M": "19,2",
+   "PercentageF": "21,3",
+   "PercentageM": "19,2",
    "AveragePercentage": "20,25"
  },
  {
    "Year": 2018,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "19,0",
-   "Percentage M": "24,0",
+   "PercentageF": "19,0",
+   "PercentageM": "24,0",
    "AveragePercentage": "21,5"
  },
  {
    "Year": 2018,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "38,2",
-   "Percentage M": "42,4",
+   "PercentageF": "38,2",
+   "PercentageM": "42,4",
    "AveragePercentage": "40,3"
  },
  {
    "Year": 2018,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "9,9",
-   "Percentage M": "13,5",
+   "PercentageF": "9,9",
+   "PercentageM": "13,5",
    "AveragePercentage": "11,7"
  },
  {
    "Year": 2018,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "27,3",
-   "Percentage M": "27,8",
+   "PercentageF": "27,3",
+   "PercentageM": "27,8",
    "AveragePercentage": "27,55"
  },
  {
    "Year": 2018,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,3",
-   "Percentage M": "18,4",
+   "PercentageF": "12,3",
+   "PercentageM": "18,4",
    "AveragePercentage": "15,35"
  },
  {
    "Year": 2018,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "42,7",
-   "Percentage M": "43,1",
+   "PercentageF": "42,7",
+   "PercentageM": "43,1",
    "AveragePercentage": "42,9"
  },
  {
    "Year": 2018,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "25,7",
-   "Percentage M": "26,4",
+   "PercentageF": "25,7",
+   "PercentageM": "26,4",
    "AveragePercentage": "26,05"
  },
  {
    "Year": 2018,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "12,8",
-   "Percentage M": "14,1",
+   "PercentageF": "12,8",
+   "PercentageM": "14,1",
    "AveragePercentage": "13,45"
  },
  {
    "Year": 2018,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "45,3",
-   "Percentage M": "54,7",
+   "PercentageF": "45,3",
+   "PercentageM": "54,7",
    "AveragePercentage": "50,0"
  },
  {
    "Year": 2018,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "27,6",
-   "Percentage M": "25,0",
+   "PercentageF": "27,6",
+   "PercentageM": "25,0",
    "AveragePercentage": "26,3"
  },
  {
    "Year": 2018,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "19,6",
-   "Percentage M": "22,3",
+   "PercentageF": "19,6",
+   "PercentageM": "22,3",
    "AveragePercentage": "20,95"
  },
  {
    "Year": 2018,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "16,9",
-   "Percentage M": "16,0",
+   "PercentageF": "16,9",
+   "PercentageM": "16,0",
    "AveragePercentage": "16,45"
  },
  {
    "Year": 2018,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "15,2",
-   "Percentage M": "13,7",
+   "PercentageF": "15,2",
+   "PercentageM": "13,7",
    "AveragePercentage": "14,45"
  },
  {
    "Year": 2019,
    "Country": "AT",
    "ISCED11": "0-2",
-   "Percentage F": "20,5",
-   "Percentage M": "16,9",
+   "PercentageF": "20,5",
+   "PercentageM": "16,9",
    "AveragePercentage": "18,7"
  },
  {
    "Year": 2019,
    "Country": "BE",
    "ISCED11": "0-2",
-   "Percentage F": "24,0",
-   "Percentage M": "27,7",
+   "PercentageF": "24,0",
+   "PercentageM": "27,7",
    "AveragePercentage": "25,85"
  },
  {
    "Year": 2019,
    "Country": "BG",
    "ISCED11": "0-2",
-   "Percentage F": "21,4",
-   "Percentage M": "22,3",
+   "PercentageF": "21,4",
+   "PercentageM": "22,3",
    "AveragePercentage": "21,85"
  },
  {
    "Year": 2019,
    "Country": "CY",
    "ISCED11": "0-2",
-   "Percentage F": "20,0",
-   "Percentage M": "23,0",
+   "PercentageF": "20,0",
+   "PercentageM": "23,0",
    "AveragePercentage": "21,5"
  },
  {
    "Year": 2019,
    "Country": "CZ",
    "ISCED11": "0-2",
-   "Percentage F": "13,1",
-   "Percentage M": "11,6",
+   "PercentageF": "13,1",
+   "PercentageM": "11,6",
    "AveragePercentage": "12,35"
  },
  {
    "Year": 2019,
    "Country": "DE",
    "ISCED11": "0-2",
-   "Percentage F": "19,9",
-   "Percentage M": "19,2",
+   "PercentageF": "19,9",
+   "PercentageM": "19,2",
    "AveragePercentage": "19,55"
  },
  {
    "Year": 2019,
    "Country": "DK",
    "ISCED11": "0-2",
-   "Percentage F": "23,9",
-   "Percentage M": "28,3",
+   "PercentageF": "23,9",
+   "PercentageM": "28,3",
    "AveragePercentage": "26,1"
  },
  {
    "Year": 2019,
    "Country": "EE",
    "ISCED11": "0-2",
-   "Percentage F": "13,0",
-   "Percentage M": "18,6",
+   "PercentageF": "13,0",
+   "PercentageM": "18,6",
    "AveragePercentage": "15,8"
  },
  {
    "Year": 2019,
    "Country": "EL",
    "ISCED11": "0-2",
-   "Percentage F": "26,0",
-   "Percentage M": "25,8",
+   "PercentageF": "26,0",
+   "PercentageM": "25,8",
    "AveragePercentage": "25,9"
  },
  {
    "Year": 2019,
    "Country": "ES",
    "ISCED11": "0-2",
-   "Percentage F": "36,3",
-   "Percentage M": "43,0",
+   "PercentageF": "36,3",
+   "PercentageM": "43,0",
    "AveragePercentage": "39,65"
  },
  {
    "Year": 2019,
    "Country": "FI",
    "ISCED11": "0-2",
-   "Percentage F": "14,9",
-   "Percentage M": "18,9",
+   "PercentageF": "14,9",
+   "PercentageM": "18,9",
    "AveragePercentage": "16,9"
  },
  {
    "Year": 2019,
    "Country": "FR",
    "ISCED11": "0-2",
-   "Percentage F": "22,9",
-   "Percentage M": "24,0",
+   "PercentageF": "22,9",
+   "PercentageM": "24,0",
    "AveragePercentage": "23,45"
  },
  {
    "Year": 2019,
    "Country": "HR",
    "ISCED11": "0-2",
-   "Percentage F": "19,9",
-   "Percentage M": "16,3",
+   "PercentageF": "19,9",
+   "PercentageM": "16,3",
    "AveragePercentage": "18,1"
  },
  {
    "Year": 2019,
    "Country": "HU",
    "ISCED11": "0-2",
-   "Percentage F": "20,8",
-   "Percentage M": "19,1",
+   "PercentageF": "20,8",
+   "PercentageM": "19,1",
    "AveragePercentage": "19,95"
  },
  {
    "Year": 2019,
    "Country": "IE",
    "ISCED11": "0-2",
-   "Percentage F": "18,7",
-   "Percentage M": "23,4",
+   "PercentageF": "18,7",
+   "PercentageM": "23,4",
    "AveragePercentage": "21,05"
  },
  {
    "Year": 2019,
    "Country": "IT",
    "ISCED11": "0-2",
-   "Percentage F": "37,5",
-   "Percentage M": "42,1",
+   "PercentageF": "37,5",
+   "PercentageM": "42,1",
    "AveragePercentage": "39,8"
  },
  {
    "Year": 2019,
    "Country": "LT",
    "ISCED11": "0-2",
-   "Percentage F": "9,5",
-   "Percentage M": "12,8",
+   "PercentageF": "9,5",
+   "PercentageM": "12,8",
    "AveragePercentage": "11,15"
  },
  {
    "Year": 2019,
    "Country": "LU",
    "ISCED11": "0-2",
-   "Percentage F": "27,2",
-   "Percentage M": "26,3",
+   "PercentageF": "27,2",
+   "PercentageM": "26,3",
    "AveragePercentage": "26,75"
  },
  {
    "Year": 2019,
    "Country": "LV",
    "ISCED11": "0-2",
-   "Percentage F": "12,3",
-   "Percentage M": "17,6",
+   "PercentageF": "12,3",
+   "PercentageM": "17,6",
    "AveragePercentage": "14,95"
  },
  {
    "Year": 2019,
    "Country": "MT",
    "ISCED11": "0-2",
-   "Percentage F": "40,3",
-   "Percentage M": "42,2",
+   "PercentageF": "40,3",
+   "PercentageM": "42,2",
    "AveragePercentage": "41,25"
  },
  {
    "Year": 2019,
    "Country": "NL",
    "ISCED11": "0-2",
-   "Percentage F": "25,1",
-   "Percentage M": "26,0",
+   "PercentageF": "25,1",
+   "PercentageM": "26,0",
    "AveragePercentage": "25,55"
  },
  {
    "Year": 2019,
    "Country": "PL",
    "ISCED11": "0-2",
-   "Percentage F": "12,5",
-   "Percentage M": "14,1",
+   "PercentageF": "12,5",
+   "PercentageM": "14,1",
    "AveragePercentage": "13,3"
  },
  {
    "Year": 2019,
    "Country": "PT",
    "ISCED11": "0-2",
-   "Percentage F": "43,6",
-   "Percentage M": "51,9",
+   "PercentageF": "43,6",
+   "PercentageM": "51,9",
    "AveragePercentage": "47,75"
  },
  {
    "Year": 2019,
    "Country": "RO",
    "ISCED11": "0-2",
-   "Percentage F": "26,3",
-   "Percentage M": "23,9",
+   "PercentageF": "26,3",
+   "PercentageM": "23,9",
    "AveragePercentage": "25,1"
  },
  {
    "Year": 2019,
    "Country": "SE",
    "ISCED11": "0-2",
-   "Percentage F": "19,1",
-   "Percentage M": "22,3",
+   "PercentageF": "19,1",
+   "PercentageM": "22,3",
    "AveragePercentage": "20,7"
  },
  {
    "Year": 2019,
    "Country": "SI",
    "ISCED11": "0-2",
-   "Percentage F": "16,1",
-   "Percentage M": "15,5",
+   "PercentageF": "16,1",
+   "PercentageM": "15,5",
    "AveragePercentage": "15,8"
  },
  {
    "Year": 2019,
    "Country": "SK",
    "ISCED11": "0-2",
-   "Percentage F": "15,0",
-   "Percentage M": "14,0",
+   "PercentageF": "15,0",
+   "PercentageM": "14,0",
    "AveragePercentage": "14,5"
  },
  {
    "Year": 2005,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,9",
-   "Percentage M": "62,1",
+   "PercentageF": "58,9",
+   "PercentageM": "62,1",
    "AveragePercentage": "60,5"
  },
  {
    "Year": 2005,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,4",
-   "Percentage M": "37,6",
+   "PercentageF": "35,4",
+   "PercentageM": "37,6",
    "AveragePercentage": "36,5"
  },
  {
    "Year": 2005,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "45,6",
-   "Percentage M": "52,1",
+   "PercentageF": "45,6",
+   "PercentageM": "52,1",
    "AveragePercentage": "48,85"
  },
  {
    "Year": 2005,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "37,1",
-   "Percentage M": "39,1",
+   "PercentageF": "37,1",
+   "PercentageM": "39,1",
    "AveragePercentage": "38,1"
  },
  {
    "Year": 2005,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "70,3",
-   "Percentage M": "74,0",
+   "PercentageF": "70,3",
+   "PercentageM": "74,0",
    "AveragePercentage": "72,15"
  },
  {
    "Year": 2005,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "55,5",
-   "Percentage M": "53,8",
+   "PercentageF": "55,5",
+   "PercentageM": "53,8",
    "AveragePercentage": "54,65"
  },
  {
    "Year": 2005,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "42,9",
-   "Percentage M": "48,6",
+   "PercentageF": "42,9",
+   "PercentageM": "48,6",
    "AveragePercentage": "45,75"
  },
  {
    "Year": 2005,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "49,9",
-   "Percentage M": "55,1",
+   "PercentageF": "49,9",
+   "PercentageM": "55,1",
    "AveragePercentage": "52,5"
  },
  {
    "Year": 2005,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,6",
-   "Percentage M": "42,1",
+   "PercentageF": "42,6",
+   "PercentageM": "42,1",
    "AveragePercentage": "42,35"
  },
  {
    "Year": 2005,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "22,6",
-   "Percentage M": "22,0",
+   "PercentageF": "22,6",
+   "PercentageM": "22,0",
    "AveragePercentage": "22,3"
  },
  {
    "Year": 2005,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,7",
-   "Percentage M": "46,2",
+   "PercentageF": "42,7",
+   "PercentageM": "46,2",
    "AveragePercentage": "44,45"
  },
  {
    "Year": 2005,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "38,7",
-   "Percentage M": "43,5",
+   "PercentageF": "38,7",
+   "PercentageM": "43,5",
    "AveragePercentage": "41,1"
  },
  {
    "Year": 2005,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "51,7",
-   "Percentage M": "63,1",
+   "PercentageF": "51,7",
+   "PercentageM": "63,1",
    "AveragePercentage": "57,4"
  },
  {
    "Year": 2005,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,2",
-   "Percentage M": "60,9",
+   "PercentageF": "53,2",
+   "PercentageM": "60,9",
    "AveragePercentage": "57,05"
  },
  {
    "Year": 2005,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "38,2",
-   "Percentage M": "36,3",
+   "PercentageF": "38,2",
+   "PercentageM": "36,3",
    "AveragePercentage": "37,25"
  },
  {
    "Year": 2005,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "38,7",
-   "Percentage M": "38,6",
+   "PercentageF": "38,7",
+   "PercentageM": "38,6",
    "AveragePercentage": "38,65"
  },
  {
    "Year": 2005,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "55,6",
-   "Percentage M": "58,3",
+   "PercentageF": "55,6",
+   "PercentageM": "58,3",
    "AveragePercentage": "56,95"
  },
  {
    "Year": 2005,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "37,0",
-   "Percentage M": "39,6",
+   "PercentageF": "37,0",
+   "PercentageM": "39,6",
    "AveragePercentage": "38,3"
  },
  {
    "Year": 2005,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "58,7",
-   "Percentage M": "58,3",
+   "PercentageF": "58,7",
+   "PercentageM": "58,3",
    "AveragePercentage": "58,5"
  },
  {
    "Year": 2005,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "17,8",
-   "Percentage M": "23,6",
+   "PercentageF": "17,8",
+   "PercentageM": "23,6",
    "AveragePercentage": "20,7"
  },
  {
    "Year": 2005,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,4",
-   "Percentage M": "41,6",
+   "PercentageF": "40,4",
+   "PercentageM": "41,6",
    "AveragePercentage": "41,0"
  },
  {
    "Year": 2005,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "62,2",
-   "Percentage M": "66,4",
+   "PercentageF": "62,2",
+   "PercentageM": "66,4",
    "AveragePercentage": "64,3"
  },
  {
    "Year": 2005,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "16,9",
-   "Percentage M": "15,6",
+   "PercentageF": "16,9",
+   "PercentageM": "15,6",
    "AveragePercentage": "16,25"
  },
  {
    "Year": 2005,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "61,3",
+   "PercentageF": "53,9",
+   "PercentageM": "61,3",
    "AveragePercentage": "57,6"
  },
  {
    "Year": 2005,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "50,8",
-   "Percentage M": "55,4",
+   "PercentageF": "50,8",
+   "PercentageM": "55,4",
    "AveragePercentage": "53,1"
  },
  {
    "Year": 2005,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "55,1",
-   "Percentage M": "63,5",
+   "PercentageF": "55,1",
+   "PercentageM": "63,5",
    "AveragePercentage": "59,3"
  },
  {
    "Year": 2005,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "66,7",
-   "Percentage M": "70,6",
+   "PercentageF": "66,7",
+   "PercentageM": "70,6",
    "AveragePercentage": "68,65"
  },
  {
    "Year": 2006,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "57,8",
-   "Percentage M": "62,8",
+   "PercentageF": "57,8",
+   "PercentageM": "62,8",
    "AveragePercentage": "60,3"
  },
  {
    "Year": 2006,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,6",
-   "Percentage M": "37,3",
+   "PercentageF": "35,6",
+   "PercentageM": "37,3",
    "AveragePercentage": "36,45"
  },
  {
    "Year": 2006,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "47,7",
-   "Percentage M": "54,9",
+   "PercentageF": "47,7",
+   "PercentageM": "54,9",
    "AveragePercentage": "51,3"
  },
  {
    "Year": 2006,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "37,4",
-   "Percentage M": "40,3",
+   "PercentageF": "37,4",
+   "PercentageM": "40,3",
    "AveragePercentage": "38,85"
  },
  {
    "Year": 2006,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "70,4",
-   "Percentage M": "74,0",
+   "PercentageF": "70,4",
+   "PercentageM": "74,0",
    "AveragePercentage": "72,2"
  },
  {
    "Year": 2006,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "56,0",
-   "Percentage M": "54,7",
+   "PercentageF": "56,0",
+   "PercentageM": "54,7",
    "AveragePercentage": "55,35"
  },
  {
    "Year": 2006,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "42,3",
-   "Percentage M": "48,3",
+   "PercentageF": "42,3",
+   "PercentageM": "48,3",
    "AveragePercentage": "45,3"
  },
  {
    "Year": 2006,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "50,0",
-   "Percentage M": "54,2",
+   "PercentageF": "50,0",
+   "PercentageM": "54,2",
    "AveragePercentage": "52,1"
  },
  {
    "Year": 2006,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "41,5",
-   "Percentage M": "38,3",
+   "PercentageF": "41,5",
+   "PercentageM": "38,3",
    "AveragePercentage": "39,9"
  },
  {
    "Year": 2006,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "23,2",
-   "Percentage M": "22,3",
+   "PercentageF": "23,2",
+   "PercentageM": "22,3",
    "AveragePercentage": "22,75"
  },
  {
    "Year": 2006,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,7",
-   "Percentage M": "46,8",
+   "PercentageF": "42,7",
+   "PercentageM": "46,8",
    "AveragePercentage": "44,75"
  },
  {
    "Year": 2006,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "38,8",
-   "Percentage M": "43,4",
+   "PercentageF": "38,8",
+   "PercentageM": "43,4",
    "AveragePercentage": "41,1"
  },
  {
    "Year": 2006,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "52,9",
-   "Percentage M": "63,6",
+   "PercentageF": "52,9",
+   "PercentageM": "63,6",
    "AveragePercentage": "58,25"
  },
  {
    "Year": 2006,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "61,7",
+   "PercentageF": "53,9",
+   "PercentageM": "61,7",
    "AveragePercentage": "57,8"
  },
  {
    "Year": 2006,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,5",
-   "Percentage M": "36,5",
+   "PercentageF": "37,5",
+   "PercentageM": "36,5",
    "AveragePercentage": "37,0"
  },
  {
    "Year": 2006,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "39,0",
-   "Percentage M": "39,1",
+   "PercentageF": "39,0",
+   "PercentageM": "39,1",
    "AveragePercentage": "39,05"
  },
  {
    "Year": 2006,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "55,8",
-   "Percentage M": "59,0",
+   "PercentageF": "55,8",
+   "PercentageM": "59,0",
    "AveragePercentage": "57,4"
  },
  {
    "Year": 2006,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "39,2",
-   "Percentage M": "41,2",
+   "PercentageF": "39,2",
+   "PercentageM": "41,2",
    "AveragePercentage": "40,2"
  },
  {
    "Year": 2006,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "58,2",
-   "Percentage M": "57,7",
+   "PercentageF": "58,2",
+   "PercentageM": "57,7",
    "AveragePercentage": "57,95"
  },
  {
    "Year": 2006,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "17,6",
-   "Percentage M": "25,2",
+   "PercentageF": "17,6",
+   "PercentageM": "25,2",
    "AveragePercentage": "21,4"
  },
  {
    "Year": 2006,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "41,2",
-   "Percentage M": "41,7",
+   "PercentageF": "41,2",
+   "PercentageM": "41,7",
    "AveragePercentage": "41,45"
  },
  {
    "Year": 2006,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "62,1",
-   "Percentage M": "66,2",
+   "PercentageF": "62,1",
+   "PercentageM": "66,2",
    "AveragePercentage": "64,15"
  },
  {
    "Year": 2006,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "17,4",
-   "Percentage M": "15,9",
+   "PercentageF": "17,4",
+   "PercentageM": "15,9",
    "AveragePercentage": "16,65"
  },
  {
    "Year": 2006,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "54,7",
-   "Percentage M": "62,1",
+   "PercentageF": "54,7",
+   "PercentageM": "62,1",
    "AveragePercentage": "58,4"
  },
  {
    "Year": 2006,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "43,4",
-   "Percentage M": "50,9",
+   "PercentageF": "43,4",
+   "PercentageM": "50,9",
    "AveragePercentage": "47,15"
  },
  {
    "Year": 2006,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "54,9",
-   "Percentage M": "63,7",
+   "PercentageF": "54,9",
+   "PercentageM": "63,7",
    "AveragePercentage": "59,3"
  },
  {
    "Year": 2006,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "67,4",
-   "Percentage M": "71,1",
+   "PercentageF": "67,4",
+   "PercentageM": "71,1",
    "AveragePercentage": "69,25"
  },
  {
    "Year": 2007,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "57,6",
-   "Percentage M": "62,5",
+   "PercentageF": "57,6",
+   "PercentageM": "62,5",
    "AveragePercentage": "60,05"
  },
  {
    "Year": 2007,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,8",
-   "Percentage M": "38,5",
+   "PercentageF": "35,8",
+   "PercentageM": "38,5",
    "AveragePercentage": "37,15"
  },
  {
    "Year": 2007,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "49,3",
-   "Percentage M": "56,3",
+   "PercentageF": "49,3",
+   "PercentageM": "56,3",
    "AveragePercentage": "52,8"
  },
  {
    "Year": 2007,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "37,6",
-   "Percentage M": "40,8",
+   "PercentageF": "37,6",
+   "PercentageM": "40,8",
    "AveragePercentage": "39,2"
  },
  {
    "Year": 2007,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "70,4",
-   "Percentage M": "74,0",
+   "PercentageF": "70,4",
+   "PercentageM": "74,0",
    "AveragePercentage": "72,2"
  },
  {
    "Year": 2007,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "56,9",
-   "Percentage M": "55,4",
+   "PercentageF": "56,9",
+   "PercentageM": "55,4",
    "AveragePercentage": "56,15"
  },
  {
    "Year": 2007,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "39,2",
-   "Percentage M": "44,2",
+   "PercentageF": "39,2",
+   "PercentageM": "44,2",
    "AveragePercentage": "41,7"
  },
  {
    "Year": 2007,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "49,5",
-   "Percentage M": "55,6",
+   "PercentageF": "49,5",
+   "PercentageM": "55,6",
    "AveragePercentage": "52,55"
  },
  {
    "Year": 2007,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "41,8",
-   "Percentage M": "38,4",
+   "PercentageF": "41,8",
+   "PercentageM": "38,4",
    "AveragePercentage": "40,1"
  },
  {
    "Year": 2007,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "23,2",
-   "Percentage M": "23,0",
+   "PercentageF": "23,2",
+   "PercentageM": "23,0",
    "AveragePercentage": "23,1"
  },
  {
    "Year": 2007,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,5",
-   "Percentage M": "46,6",
+   "PercentageF": "42,5",
+   "PercentageM": "46,6",
    "AveragePercentage": "44,55"
  },
  {
    "Year": 2007,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "39,5",
-   "Percentage M": "43,9",
+   "PercentageF": "39,5",
+   "PercentageM": "43,9",
    "AveragePercentage": "41,7"
  },
  {
    "Year": 2007,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "55,4",
-   "Percentage M": "64,5",
+   "PercentageF": "55,4",
+   "PercentageM": "64,5",
    "AveragePercentage": "59,95"
  },
  {
    "Year": 2007,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "54,4",
-   "Percentage M": "62,4",
+   "PercentageF": "54,4",
+   "PercentageM": "62,4",
    "AveragePercentage": "58,4"
  },
  {
    "Year": 2007,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,0",
-   "Percentage M": "36,5",
+   "PercentageF": "37,0",
+   "PercentageM": "36,5",
    "AveragePercentage": "36,75"
  },
  {
    "Year": 2007,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "39,2",
-   "Percentage M": "39,4",
+   "PercentageF": "39,2",
+   "PercentageM": "39,4",
    "AveragePercentage": "39,3"
  },
  {
    "Year": 2007,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "54,7",
-   "Percentage M": "58,3",
+   "PercentageF": "54,7",
+   "PercentageM": "58,3",
    "AveragePercentage": "56,5"
  },
  {
    "Year": 2007,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "37,3",
-   "Percentage M": "39,9",
+   "PercentageF": "37,3",
+   "PercentageM": "39,9",
    "AveragePercentage": "38,6"
  },
  {
    "Year": 2007,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "57,4",
-   "Percentage M": "57,5",
+   "PercentageF": "57,4",
+   "PercentageM": "57,5",
    "AveragePercentage": "57,45"
  },
  {
    "Year": 2007,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "18,3",
-   "Percentage M": "23,6",
+   "PercentageF": "18,3",
+   "PercentageM": "23,6",
    "AveragePercentage": "20,95"
  },
  {
    "Year": 2007,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "41,6",
-   "Percentage M": "41,8",
+   "PercentageF": "41,6",
+   "PercentageM": "41,8",
    "AveragePercentage": "41,7"
  },
  {
    "Year": 2007,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "61,6",
-   "Percentage M": "66,3",
+   "PercentageF": "61,6",
+   "PercentageM": "66,3",
    "AveragePercentage": "63,95"
  },
  {
    "Year": 2007,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "17,1",
-   "Percentage M": "16,1",
+   "PercentageF": "17,1",
+   "PercentageM": "16,1",
    "AveragePercentage": "16,6"
  },
  {
    "Year": 2007,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "55,4",
-   "Percentage M": "62,9",
+   "PercentageF": "55,4",
+   "PercentageM": "62,9",
    "AveragePercentage": "59,15"
  },
  {
    "Year": 2007,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "43,2",
-   "Percentage M": "50,8",
+   "PercentageF": "43,2",
+   "PercentageM": "50,8",
    "AveragePercentage": "47,0"
  },
  {
    "Year": 2007,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "54,4",
-   "Percentage M": "64,1",
+   "PercentageF": "54,4",
+   "PercentageM": "64,1",
    "AveragePercentage": "59,25"
  },
  {
    "Year": 2007,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "67,6",
-   "Percentage M": "71,8",
+   "PercentageF": "67,6",
+   "PercentageM": "71,8",
    "AveragePercentage": "69,7"
  },
  {
    "Year": 2008,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,1",
-   "Percentage M": "62,7",
+   "PercentageF": "58,1",
+   "PercentageM": "62,7",
    "AveragePercentage": "60,4"
  },
  {
    "Year": 2008,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,7",
-   "Percentage M": "39,3",
+   "PercentageF": "36,7",
+   "PercentageM": "39,3",
    "AveragePercentage": "38,0"
  },
  {
    "Year": 2008,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "49,3",
-   "Percentage M": "56,3",
+   "PercentageF": "49,3",
+   "PercentageM": "56,3",
    "AveragePercentage": "52,8"
  },
  {
    "Year": 2008,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "36,3",
-   "Percentage M": "41,0",
+   "PercentageF": "36,3",
+   "PercentageM": "41,0",
    "AveragePercentage": "38,65"
  },
  {
    "Year": 2008,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "69,7",
-   "Percentage M": "73,8",
+   "PercentageF": "69,7",
+   "PercentageM": "73,8",
    "AveragePercentage": "71,75"
  },
  {
    "Year": 2008,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,3",
-   "Percentage M": "55,4",
+   "PercentageF": "57,3",
+   "PercentageM": "55,4",
    "AveragePercentage": "56,35"
  },
  {
    "Year": 2008,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,1",
-   "Percentage M": "43,3",
+   "PercentageF": "38,1",
+   "PercentageM": "43,3",
    "AveragePercentage": "40,7"
  },
  {
    "Year": 2008,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "47,4",
-   "Percentage M": "55,5",
+   "PercentageF": "47,4",
+   "PercentageM": "55,5",
    "AveragePercentage": "51,45"
  },
  {
    "Year": 2008,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "41,9",
-   "Percentage M": "39,1",
+   "PercentageF": "41,9",
+   "PercentageM": "39,1",
    "AveragePercentage": "40,5"
  },
  {
    "Year": 2008,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "23,6",
-   "Percentage M": "22,7",
+   "PercentageF": "23,6",
+   "PercentageM": "22,7",
    "AveragePercentage": "23,15"
  },
  {
    "Year": 2008,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,3",
-   "Percentage M": "46,9",
+   "PercentageF": "42,3",
+   "PercentageM": "46,9",
    "AveragePercentage": "44,6"
  },
  {
    "Year": 2008,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "39,9",
-   "Percentage M": "44,7",
+   "PercentageF": "39,9",
+   "PercentageM": "44,7",
    "AveragePercentage": "42,3"
  },
  {
    "Year": 2008,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "56,1",
-   "Percentage M": "64,9",
+   "PercentageF": "56,1",
+   "PercentageM": "64,9",
    "AveragePercentage": "60,5"
  },
  {
    "Year": 2008,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "62,0",
+   "PercentageF": "53,9",
+   "PercentageM": "62,0",
    "AveragePercentage": "57,95"
  },
  {
    "Year": 2008,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,2",
-   "Percentage M": "36,7",
+   "PercentageF": "37,2",
+   "PercentageM": "36,7",
    "AveragePercentage": "36,95"
  },
  {
    "Year": 2008,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "39,3",
-   "Percentage M": "39,6",
+   "PercentageF": "39,3",
+   "PercentageM": "39,6",
    "AveragePercentage": "39,45"
  },
  {
    "Year": 2008,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "53,8",
-   "Percentage M": "58,7",
+   "PercentageF": "53,8",
+   "PercentageM": "58,7",
    "AveragePercentage": "56,25"
  },
  {
    "Year": 2008,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "38,4",
-   "Percentage M": "40,6",
+   "PercentageF": "38,4",
+   "PercentageM": "40,6",
    "AveragePercentage": "39,5"
  },
  {
    "Year": 2008,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "55,2",
-   "Percentage M": "57,9",
+   "PercentageF": "55,2",
+   "PercentageM": "57,9",
    "AveragePercentage": "56,55"
  },
  {
    "Year": 2008,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "21,1",
-   "Percentage M": "24,5",
+   "PercentageF": "21,1",
+   "PercentageM": "24,5",
    "AveragePercentage": "22,8"
  },
  {
    "Year": 2008,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "41,0",
-   "Percentage M": "40,9",
+   "PercentageF": "41,0",
+   "PercentageM": "40,9",
    "AveragePercentage": "40,95"
  },
  {
    "Year": 2008,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "61,3",
-   "Percentage M": "66,4",
+   "PercentageF": "61,3",
+   "PercentageM": "66,4",
    "AveragePercentage": "63,85"
  },
  {
    "Year": 2008,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "16,9",
-   "Percentage M": "16,3",
+   "PercentageF": "16,9",
+   "PercentageM": "16,3",
    "AveragePercentage": "16,6"
  },
  {
    "Year": 2008,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "55,6",
-   "Percentage M": "62,7",
+   "PercentageF": "55,6",
+   "PercentageM": "62,7",
    "AveragePercentage": "59,15"
  },
  {
    "Year": 2008,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "42,9",
-   "Percentage M": "50,9",
+   "PercentageF": "42,9",
+   "PercentageM": "50,9",
    "AveragePercentage": "46,9"
  },
  {
    "Year": 2008,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "54,4",
-   "Percentage M": "63,7",
+   "PercentageF": "54,4",
+   "PercentageM": "63,7",
    "AveragePercentage": "59,05"
  },
  {
    "Year": 2008,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "67,8",
-   "Percentage M": "72,3",
+   "PercentageF": "67,8",
+   "PercentageM": "72,3",
    "AveragePercentage": "70,05"
  },
  {
    "Year": 2009,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "57,7",
-   "Percentage M": "62,8",
+   "PercentageF": "57,7",
+   "PercentageM": "62,8",
    "AveragePercentage": "60,25"
  },
  {
    "Year": 2009,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,8",
-   "Percentage M": "39,4",
+   "PercentageF": "36,8",
+   "PercentageM": "39,4",
    "AveragePercentage": "38,1"
  },
  {
    "Year": 2009,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "49,2",
-   "Percentage M": "57,3",
+   "PercentageF": "49,2",
+   "PercentageM": "57,3",
    "AveragePercentage": "53,25"
  },
  {
    "Year": 2009,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "35,9",
-   "Percentage M": "40,8",
+   "PercentageF": "35,9",
+   "PercentageM": "40,8",
    "AveragePercentage": "38,35"
  },
  {
    "Year": 2009,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "69,5",
-   "Percentage M": "73,4",
+   "PercentageF": "69,5",
+   "PercentageM": "73,4",
    "AveragePercentage": "71,45"
  },
  {
    "Year": 2009,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "56,6",
-   "Percentage M": "55,0",
+   "PercentageF": "56,6",
+   "PercentageM": "55,0",
    "AveragePercentage": "55,8"
  },
  {
    "Year": 2009,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "37,7",
-   "Percentage M": "44,2",
+   "PercentageF": "37,7",
+   "PercentageM": "44,2",
    "AveragePercentage": "40,95"
  },
  {
    "Year": 2009,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "45,7",
-   "Percentage M": "55,9",
+   "PercentageF": "45,7",
+   "PercentageM": "55,9",
    "AveragePercentage": "50,8"
  },
  {
    "Year": 2009,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "41,9",
-   "Percentage M": "39,0",
+   "PercentageF": "41,9",
+   "PercentageM": "39,0",
    "AveragePercentage": "40,45"
  },
  {
    "Year": 2009,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "23,5",
-   "Percentage M": "22,8",
+   "PercentageF": "23,5",
+   "PercentageM": "22,8",
    "AveragePercentage": "23,15"
  },
  {
    "Year": 2009,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,8",
-   "Percentage M": "47,6",
+   "PercentageF": "41,8",
+   "PercentageM": "47,6",
    "AveragePercentage": "44,7"
  },
  {
    "Year": 2009,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "39,5",
-   "Percentage M": "44,1",
+   "PercentageF": "39,5",
+   "PercentageM": "44,1",
    "AveragePercentage": "41,8"
  },
  {
    "Year": 2009,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "55,1",
-   "Percentage M": "65,2",
+   "PercentageF": "55,1",
+   "PercentageM": "65,2",
    "AveragePercentage": "60,15"
  },
  {
    "Year": 2009,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "54,0",
-   "Percentage M": "62,4",
+   "PercentageF": "54,0",
+   "PercentageM": "62,4",
    "AveragePercentage": "58,2"
  },
  {
    "Year": 2009,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "36,9",
-   "Percentage M": "36,5",
+   "PercentageF": "36,9",
+   "PercentageM": "36,5",
    "AveragePercentage": "36,7"
  },
  {
    "Year": 2009,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "39,7",
-   "Percentage M": "40,5",
+   "PercentageF": "39,7",
+   "PercentageM": "40,5",
    "AveragePercentage": "40,1"
  },
  {
    "Year": 2009,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "59,2",
+   "PercentageF": "53,9",
+   "PercentageM": "59,2",
    "AveragePercentage": "56,55"
  },
  {
    "Year": 2009,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "41,0",
-   "Percentage M": "41,5",
+   "PercentageF": "41,0",
+   "PercentageM": "41,5",
    "AveragePercentage": "41,25"
  },
  {
    "Year": 2009,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "55,2",
-   "Percentage M": "59,1",
+   "PercentageF": "55,2",
+   "PercentageM": "59,1",
    "AveragePercentage": "57,15"
  },
  {
    "Year": 2009,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "22,8",
-   "Percentage M": "27,5",
+   "PercentageF": "22,8",
+   "PercentageM": "27,5",
    "AveragePercentage": "25,15"
  },
  {
    "Year": 2009,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,8",
-   "Percentage M": "40,5",
+   "PercentageF": "40,8",
+   "PercentageM": "40,5",
    "AveragePercentage": "40,65"
  },
  {
    "Year": 2009,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "60,4",
-   "Percentage M": "66,2",
+   "PercentageF": "60,4",
+   "PercentageM": "66,2",
    "AveragePercentage": "63,3"
  },
  {
    "Year": 2009,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "17,9",
-   "Percentage M": "17,4",
+   "PercentageF": "17,9",
+   "PercentageM": "17,4",
    "AveragePercentage": "17,65"
  },
  {
    "Year": 2009,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "54,9",
-   "Percentage M": "62,3",
+   "PercentageF": "54,9",
+   "PercentageM": "62,3",
    "AveragePercentage": "58,6"
  },
  {
    "Year": 2009,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "42,8",
-   "Percentage M": "51,0",
+   "PercentageF": "42,8",
+   "PercentageM": "51,0",
    "AveragePercentage": "46,9"
  },
  {
    "Year": 2009,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "54,2",
-   "Percentage M": "64,6",
+   "PercentageF": "54,2",
+   "PercentageM": "64,6",
    "AveragePercentage": "59,4"
  },
  {
    "Year": 2009,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "67,6",
-   "Percentage M": "72,6",
+   "PercentageF": "67,6",
+   "PercentageM": "72,6",
    "AveragePercentage": "70,1"
  },
  {
    "Year": 2010,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,2",
-   "Percentage M": "62,9",
+   "PercentageF": "58,2",
+   "PercentageM": "62,9",
    "AveragePercentage": "60,55"
  },
  {
    "Year": 2010,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,5",
-   "Percentage M": "38,0",
+   "PercentageF": "35,5",
+   "PercentageM": "38,0",
    "AveragePercentage": "36,75"
  },
  {
    "Year": 2010,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "50,6",
-   "Percentage M": "59,6",
+   "PercentageF": "50,6",
+   "PercentageM": "59,6",
    "AveragePercentage": "55,1"
  },
  {
    "Year": 2010,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "36,2",
-   "Percentage M": "40,6",
+   "PercentageF": "36,2",
+   "PercentageM": "40,6",
    "AveragePercentage": "38,4"
  },
  {
    "Year": 2010,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "68,9",
-   "Percentage M": "73,2",
+   "PercentageF": "68,9",
+   "PercentageM": "73,2",
    "AveragePercentage": "71,05"
  },
  {
    "Year": 2010,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,3",
-   "Percentage M": "55,4",
+   "PercentageF": "57,3",
+   "PercentageM": "55,4",
    "AveragePercentage": "56,35"
  },
  {
    "Year": 2010,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "37,7",
-   "Percentage M": "43,4",
+   "PercentageF": "37,7",
+   "PercentageM": "43,4",
    "AveragePercentage": "40,55"
  },
  {
    "Year": 2010,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "47,3",
-   "Percentage M": "56,5",
+   "PercentageF": "47,3",
+   "PercentageM": "56,5",
    "AveragePercentage": "51,9"
  },
  {
    "Year": 2010,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,0",
-   "Percentage M": "39,1",
+   "PercentageF": "42,0",
+   "PercentageM": "39,1",
    "AveragePercentage": "40,55"
  },
  {
    "Year": 2010,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "23,6",
-   "Percentage M": "23,3",
+   "PercentageF": "23,6",
+   "PercentageM": "23,3",
    "AveragePercentage": "23,45"
  },
  {
    "Year": 2010,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,9",
-   "Percentage M": "47,7",
+   "PercentageF": "41,9",
+   "PercentageM": "47,7",
    "AveragePercentage": "44,8"
  },
  {
    "Year": 2010,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "39,7",
-   "Percentage M": "44,1",
+   "PercentageF": "39,7",
+   "PercentageM": "44,1",
    "AveragePercentage": "41,9"
  },
  {
    "Year": 2010,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,0",
-   "Percentage M": "63,7",
+   "PercentageF": "54,0",
+   "PercentageM": "63,7",
    "AveragePercentage": "58,85"
  },
  {
    "Year": 2010,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "54,4",
-   "Percentage M": "62,7",
+   "PercentageF": "54,4",
+   "PercentageM": "62,7",
    "AveragePercentage": "58,55"
  },
  {
    "Year": 2010,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "35,9",
-   "Percentage M": "36,6",
+   "PercentageF": "35,9",
+   "PercentageM": "36,6",
    "AveragePercentage": "36,25"
  },
  {
    "Year": 2010,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "40,4",
-   "Percentage M": "41,0",
+   "PercentageF": "40,4",
+   "PercentageM": "41,0",
    "AveragePercentage": "40,7"
  },
  {
    "Year": 2010,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "52,3",
-   "Percentage M": "60,0",
+   "PercentageF": "52,3",
+   "PercentageM": "60,0",
    "AveragePercentage": "56,15"
  },
  {
    "Year": 2010,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "41,5",
-   "Percentage M": "40,1",
+   "PercentageF": "41,5",
+   "PercentageM": "40,1",
    "AveragePercentage": "40,8"
  },
  {
    "Year": 2010,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "56,0",
-   "Percentage M": "59,8",
+   "PercentageF": "56,0",
+   "PercentageM": "59,8",
    "AveragePercentage": "57,9"
  },
  {
    "Year": 2010,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "23,9",
-   "Percentage M": "27,2",
+   "PercentageF": "23,9",
+   "PercentageM": "27,2",
    "AveragePercentage": "25,55"
  },
  {
    "Year": 2010,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,9",
-   "Percentage M": "40,0",
+   "PercentageF": "40,9",
+   "PercentageM": "40,0",
    "AveragePercentage": "40,45"
  },
  {
    "Year": 2010,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "59,6",
-   "Percentage M": "65,5",
+   "PercentageF": "59,6",
+   "PercentageM": "65,5",
    "AveragePercentage": "62,55"
  },
  {
    "Year": 2010,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "19,2",
-   "Percentage M": "18,4",
+   "PercentageF": "19,2",
+   "PercentageM": "18,4",
    "AveragePercentage": "18,8"
  },
  {
    "Year": 2010,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "61,1",
+   "PercentageF": "53,9",
+   "PercentageM": "61,1",
    "AveragePercentage": "57,5"
  },
  {
    "Year": 2010,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "42,7",
-   "Percentage M": "50,7",
+   "PercentageF": "42,7",
+   "PercentageM": "50,7",
    "AveragePercentage": "46,7"
  },
  {
    "Year": 2010,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "53,5",
-   "Percentage M": "63,9",
+   "PercentageF": "53,5",
+   "PercentageM": "63,9",
    "AveragePercentage": "58,7"
  },
  {
    "Year": 2010,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "65,8",
-   "Percentage M": "71,6",
+   "PercentageF": "65,8",
+   "PercentageM": "71,6",
    "AveragePercentage": "68,7"
  },
  {
    "Year": 2011,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,6",
-   "Percentage M": "62,6",
+   "PercentageF": "58,6",
+   "PercentageM": "62,6",
    "AveragePercentage": "60,6"
  },
  {
    "Year": 2011,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,5",
-   "Percentage M": "38,9",
+   "PercentageF": "36,5",
+   "PercentageM": "38,9",
    "AveragePercentage": "37,7"
  },
  {
    "Year": 2011,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "51,5",
-   "Percentage M": "60,3",
+   "PercentageF": "51,5",
+   "PercentageM": "60,3",
    "AveragePercentage": "55,9"
  },
  {
    "Year": 2011,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "35,5",
-   "Percentage M": "40,6",
+   "PercentageF": "35,5",
+   "PercentageM": "40,6",
    "AveragePercentage": "38,05"
  },
  {
    "Year": 2011,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "68,0",
-   "Percentage M": "72,4",
+   "PercentageF": "68,0",
+   "PercentageM": "72,4",
    "AveragePercentage": "70,2"
  },
  {
    "Year": 2011,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "58,1",
-   "Percentage M": "57,2",
+   "PercentageF": "58,1",
+   "PercentageM": "57,2",
    "AveragePercentage": "57,65"
  },
  {
    "Year": 2011,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,2",
-   "Percentage M": "44,4",
+   "PercentageF": "38,2",
+   "PercentageM": "44,4",
    "AveragePercentage": "41,3"
  },
  {
    "Year": 2011,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "46,3",
-   "Percentage M": "56,0",
+   "PercentageF": "46,3",
+   "PercentageM": "56,0",
    "AveragePercentage": "51,15"
  },
  {
    "Year": 2011,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,1",
-   "Percentage M": "39,2",
+   "PercentageF": "42,1",
+   "PercentageM": "39,2",
    "AveragePercentage": "40,65"
  },
  {
    "Year": 2011,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,1",
-   "Percentage M": "23,4",
+   "PercentageF": "24,1",
+   "PercentageM": "23,4",
    "AveragePercentage": "23,75"
  },
  {
    "Year": 2011,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,5",
-   "Percentage M": "47,6",
+   "PercentageF": "41,5",
+   "PercentageM": "47,6",
    "AveragePercentage": "44,55"
  },
  {
    "Year": 2011,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "40,0",
-   "Percentage M": "44,2",
+   "PercentageF": "40,0",
+   "PercentageM": "44,2",
    "AveragePercentage": "42,1"
  },
  {
    "Year": 2011,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "55,3",
-   "Percentage M": "64,7",
+   "PercentageF": "55,3",
+   "PercentageM": "64,7",
    "AveragePercentage": "60,0"
  },
  {
    "Year": 2011,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,7",
-   "Percentage M": "61,9",
+   "PercentageF": "53,7",
+   "PercentageM": "61,9",
    "AveragePercentage": "57,8"
  },
  {
    "Year": 2011,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "36,1",
-   "Percentage M": "36,9",
+   "PercentageF": "36,1",
+   "PercentageM": "36,9",
    "AveragePercentage": "36,5"
  },
  {
    "Year": 2011,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "41,4",
-   "Percentage M": "41,4",
+   "PercentageF": "41,4",
+   "PercentageM": "41,4",
    "AveragePercentage": "41,4"
  },
  {
    "Year": 2011,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "52,5",
-   "Percentage M": "60,3",
+   "PercentageF": "52,5",
+   "PercentageM": "60,3",
    "AveragePercentage": "56,4"
  },
  {
    "Year": 2011,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "39,6",
-   "Percentage M": "38,9",
+   "PercentageF": "39,6",
+   "PercentageM": "38,9",
    "AveragePercentage": "39,25"
  },
  {
    "Year": 2011,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "54,5",
-   "Percentage M": "59,4",
+   "PercentageF": "54,5",
+   "PercentageM": "59,4",
    "AveragePercentage": "56,95"
  },
  {
    "Year": 2011,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "25,7",
-   "Percentage M": "26,4",
+   "PercentageF": "25,7",
+   "PercentageM": "26,4",
    "AveragePercentage": "26,05"
  },
  {
    "Year": 2011,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,6",
-   "Percentage M": "40,3",
+   "PercentageF": "40,6",
+   "PercentageM": "40,3",
    "AveragePercentage": "40,45"
  },
  {
    "Year": 2011,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "59,0",
-   "Percentage M": "65,4",
+   "PercentageF": "59,0",
+   "PercentageM": "65,4",
    "AveragePercentage": "62,2"
  },
  {
    "Year": 2011,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "20,9",
-   "Percentage M": "19,7",
+   "PercentageF": "20,9",
+   "PercentageM": "19,7",
    "AveragePercentage": "20,3"
  },
  {
    "Year": 2011,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "53,7",
-   "Percentage M": "60,7",
+   "PercentageF": "53,7",
+   "PercentageM": "60,7",
    "AveragePercentage": "57,2"
  },
  {
    "Year": 2011,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "42,2",
-   "Percentage M": "50,8",
+   "PercentageF": "42,2",
+   "PercentageM": "50,8",
    "AveragePercentage": "46,5"
  },
  {
    "Year": 2011,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "53,0",
-   "Percentage M": "64,1",
+   "PercentageF": "53,0",
+   "PercentageM": "64,1",
    "AveragePercentage": "58,55"
  },
  {
    "Year": 2011,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "64,6",
-   "Percentage M": "71,3",
+   "PercentageF": "64,6",
+   "PercentageM": "71,3",
    "AveragePercentage": "67,95"
  },
  {
    "Year": 2012,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,5",
-   "Percentage M": "63,0",
+   "PercentageF": "58,5",
+   "PercentageM": "63,0",
    "AveragePercentage": "60,75"
  },
  {
    "Year": 2012,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,0",
-   "Percentage M": "38,7",
+   "PercentageF": "36,0",
+   "PercentageM": "38,7",
    "AveragePercentage": "37,35"
  },
  {
    "Year": 2012,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "51,9",
-   "Percentage M": "60,8",
+   "PercentageF": "51,9",
+   "PercentageM": "60,8",
    "AveragePercentage": "56,35"
  },
  {
    "Year": 2012,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "36,1",
-   "Percentage M": "41,4",
+   "PercentageF": "36,1",
+   "PercentageM": "41,4",
    "AveragePercentage": "38,75"
  },
  {
    "Year": 2012,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "67,2",
-   "Percentage M": "71,9",
+   "PercentageF": "67,2",
+   "PercentageM": "71,9",
    "AveragePercentage": "69,55"
  },
  {
    "Year": 2012,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,4",
-   "Percentage M": "57,0",
+   "PercentageF": "57,4",
+   "PercentageM": "57,0",
    "AveragePercentage": "57,2"
  },
  {
    "Year": 2012,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,0",
-   "Percentage M": "44,8",
+   "PercentageF": "38,0",
+   "PercentageM": "44,8",
    "AveragePercentage": "41,4"
  },
  {
    "Year": 2012,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "46,5",
-   "Percentage M": "55,9",
+   "PercentageF": "46,5",
+   "PercentageM": "55,9",
    "AveragePercentage": "51,2"
  },
  {
    "Year": 2012,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,4",
-   "Percentage M": "40,1",
+   "PercentageF": "42,4",
+   "PercentageM": "40,1",
    "AveragePercentage": "41,25"
  },
  {
    "Year": 2012,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,0",
-   "Percentage M": "23,2",
+   "PercentageF": "24,0",
+   "PercentageM": "23,2",
    "AveragePercentage": "23,6"
  },
  {
    "Year": 2012,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,1",
-   "Percentage M": "48,6",
+   "PercentageF": "42,1",
+   "PercentageM": "48,6",
    "AveragePercentage": "45,35"
  },
  {
    "Year": 2012,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "39,9",
-   "Percentage M": "43,9",
+   "PercentageF": "39,9",
+   "PercentageM": "43,9",
    "AveragePercentage": "41,9"
  },
  {
    "Year": 2012,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "56,7",
-   "Percentage M": "65,5",
+   "PercentageF": "56,7",
+   "PercentageM": "65,5",
    "AveragePercentage": "61,1"
  },
  {
    "Year": 2012,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,3",
-   "Percentage M": "61,9",
+   "PercentageF": "53,3",
+   "PercentageM": "61,9",
    "AveragePercentage": "57,6"
  },
  {
    "Year": 2012,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "35,4",
-   "Percentage M": "36,8",
+   "PercentageF": "35,4",
+   "PercentageM": "36,8",
    "AveragePercentage": "36,1"
  },
  {
    "Year": 2012,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "41,9",
-   "Percentage M": "41,8",
+   "PercentageF": "41,9",
+   "PercentageM": "41,8",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2012,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "52,3",
-   "Percentage M": "60,7",
+   "PercentageF": "52,3",
+   "PercentageM": "60,7",
    "AveragePercentage": "56,5"
  },
  {
    "Year": 2012,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "39,2",
-   "Percentage M": "37,3",
+   "PercentageF": "39,2",
+   "PercentageM": "37,3",
    "AveragePercentage": "38,25"
  },
  {
    "Year": 2012,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "54,6",
-   "Percentage M": "60,5",
+   "PercentageF": "54,6",
+   "PercentageM": "60,5",
    "AveragePercentage": "57,55"
  },
  {
    "Year": 2012,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "25,5",
-   "Percentage M": "27,5",
+   "PercentageF": "25,5",
+   "PercentageM": "27,5",
    "AveragePercentage": "26,5"
  },
  {
    "Year": 2012,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,7",
-   "Percentage M": "40,6",
+   "PercentageF": "40,7",
+   "PercentageM": "40,6",
    "AveragePercentage": "40,65"
  },
  {
    "Year": 2012,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "58,5",
-   "Percentage M": "65,1",
+   "PercentageF": "58,5",
+   "PercentageM": "65,1",
    "AveragePercentage": "61,8"
  },
  {
    "Year": 2012,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "22,6",
-   "Percentage M": "20,7",
+   "PercentageF": "22,6",
+   "PercentageM": "20,7",
    "AveragePercentage": "21,65"
  },
  {
    "Year": 2012,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "53,8",
-   "Percentage M": "60,7",
+   "PercentageF": "53,8",
+   "PercentageM": "60,7",
    "AveragePercentage": "57,25"
  },
  {
    "Year": 2012,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "41,8",
-   "Percentage M": "50,2",
+   "PercentageF": "41,8",
+   "PercentageM": "50,2",
    "AveragePercentage": "46,0"
  },
  {
    "Year": 2012,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "52,2",
-   "Percentage M": "63,5",
+   "PercentageF": "52,2",
+   "PercentageM": "63,5",
    "AveragePercentage": "57,85"
  },
  {
    "Year": 2012,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "64,6",
-   "Percentage M": "71,5",
+   "PercentageF": "64,6",
+   "PercentageM": "71,5",
    "AveragePercentage": "68,05"
  },
  {
    "Year": 2013,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "58,1",
-   "Percentage M": "62,3",
+   "PercentageF": "58,1",
+   "PercentageM": "62,3",
    "AveragePercentage": "60,2"
  },
  {
    "Year": 2013,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,7",
-   "Percentage M": "39,5",
+   "PercentageF": "36,7",
+   "PercentageM": "39,5",
    "AveragePercentage": "38,1"
  },
  {
    "Year": 2013,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "51,0",
-   "Percentage M": "60,4",
+   "PercentageF": "51,0",
+   "PercentageM": "60,4",
    "AveragePercentage": "55,7"
  },
  {
    "Year": 2013,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "36,6",
-   "Percentage M": "42,1",
+   "PercentageF": "36,6",
+   "PercentageM": "42,1",
    "AveragePercentage": "39,35"
  },
  {
    "Year": 2013,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "66,7",
-   "Percentage M": "71,2",
+   "PercentageF": "66,7",
+   "PercentageM": "71,2",
    "AveragePercentage": "68,95"
  },
  {
    "Year": 2013,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,3",
-   "Percentage M": "56,9",
+   "PercentageF": "57,3",
+   "PercentageM": "56,9",
    "AveragePercentage": "57,1"
  },
  {
    "Year": 2013,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,0",
-   "Percentage M": "44,3",
+   "PercentageF": "38,0",
+   "PercentageM": "44,3",
    "AveragePercentage": "41,15"
  },
  {
    "Year": 2013,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "47,2",
-   "Percentage M": "56,8",
+   "PercentageF": "47,2",
+   "PercentageM": "56,8",
    "AveragePercentage": "52,0"
  },
  {
    "Year": 2013,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,7",
-   "Percentage M": "40,2",
+   "PercentageF": "42,7",
+   "PercentageM": "40,2",
    "AveragePercentage": "41,45"
  },
  {
    "Year": 2013,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,0",
-   "Percentage M": "22,9",
+   "PercentageF": "24,0",
+   "PercentageM": "22,9",
    "AveragePercentage": "23,45"
  },
  {
    "Year": 2013,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,3",
-   "Percentage M": "48,9",
+   "PercentageF": "42,3",
+   "PercentageM": "48,9",
    "AveragePercentage": "45,6"
  },
  {
    "Year": 2013,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "40,8",
-   "Percentage M": "45,6",
+   "PercentageF": "40,8",
+   "PercentageM": "45,6",
    "AveragePercentage": "43,2"
  },
  {
    "Year": 2013,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "56,2",
-   "Percentage M": "64,9",
+   "PercentageF": "56,2",
+   "PercentageM": "64,9",
    "AveragePercentage": "60,55"
  },
  {
    "Year": 2013,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,5",
-   "Percentage M": "62,2",
+   "PercentageF": "53,5",
+   "PercentageM": "62,2",
    "AveragePercentage": "57,85"
  },
  {
    "Year": 2013,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "35,2",
-   "Percentage M": "37,0",
+   "PercentageF": "35,2",
+   "PercentageM": "37,0",
    "AveragePercentage": "36,1"
  },
  {
    "Year": 2013,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,1",
-   "Percentage M": "42,2",
+   "PercentageF": "42,1",
+   "PercentageM": "42,2",
    "AveragePercentage": "42,15"
  },
  {
    "Year": 2013,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "51,7",
-   "Percentage M": "60,2",
+   "PercentageF": "51,7",
+   "PercentageM": "60,2",
    "AveragePercentage": "55,95"
  },
  {
    "Year": 2013,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "38,7",
-   "Percentage M": "38,5",
+   "PercentageF": "38,7",
+   "PercentageM": "38,5",
    "AveragePercentage": "38,6"
  },
  {
    "Year": 2013,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "53,2",
-   "Percentage M": "59,9",
+   "PercentageF": "53,2",
+   "PercentageM": "59,9",
    "AveragePercentage": "56,55"
  },
  {
    "Year": 2013,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "26,8",
-   "Percentage M": "28,7",
+   "PercentageF": "26,8",
+   "PercentageM": "28,7",
    "AveragePercentage": "27,75"
  },
  {
    "Year": 2013,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "41,5",
-   "Percentage M": "41,7",
+   "PercentageF": "41,5",
+   "PercentageM": "41,7",
    "AveragePercentage": "41,6"
  },
  {
    "Year": 2013,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "57,9",
-   "Percentage M": "64,7",
+   "PercentageF": "57,9",
+   "PercentageM": "64,7",
    "AveragePercentage": "61,3"
  },
  {
    "Year": 2013,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "23,4",
-   "Percentage M": "22,6",
+   "PercentageF": "23,4",
+   "PercentageM": "22,6",
    "AveragePercentage": "23,0"
  },
  {
    "Year": 2013,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "60,8",
+   "PercentageF": "53,9",
+   "PercentageM": "60,8",
    "AveragePercentage": "57,35"
  },
  {
    "Year": 2013,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "41,3",
-   "Percentage M": "49,9",
+   "PercentageF": "41,3",
+   "PercentageM": "49,9",
    "AveragePercentage": "45,6"
  },
  {
    "Year": 2013,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "51,7",
-   "Percentage M": "62,3",
+   "PercentageF": "51,7",
+   "PercentageM": "62,3",
    "AveragePercentage": "57,0"
  },
  {
    "Year": 2013,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "64,2",
-   "Percentage M": "70,9",
+   "PercentageF": "64,2",
+   "PercentageM": "70,9",
    "AveragePercentage": "67,55"
  },
  {
    "Year": 2014,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "50,1",
-   "Percentage M": "54,7",
+   "PercentageF": "50,1",
+   "PercentageM": "54,7",
    "AveragePercentage": "52,4"
  },
  {
    "Year": 2014,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,2",
-   "Percentage M": "39,4",
+   "PercentageF": "36,2",
+   "PercentageM": "39,4",
    "AveragePercentage": "37,8"
  },
  {
    "Year": 2014,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "49,0",
-   "Percentage M": "58,4",
+   "PercentageF": "49,0",
+   "PercentageM": "58,4",
    "AveragePercentage": "53,7"
  },
  {
    "Year": 2014,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "34,3",
-   "Percentage M": "41,1",
+   "PercentageF": "34,3",
+   "PercentageM": "41,1",
    "AveragePercentage": "37,7"
  },
  {
    "Year": 2014,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "66,0",
-   "Percentage M": "71,0",
+   "PercentageF": "66,0",
+   "PercentageM": "71,0",
    "AveragePercentage": "68,5"
  },
  {
    "Year": 2014,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "58,7",
-   "Percentage M": "55,6",
+   "PercentageF": "58,7",
+   "PercentageM": "55,6",
    "AveragePercentage": "57,15"
  },
  {
    "Year": 2014,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "39,4",
-   "Percentage M": "44,3",
+   "PercentageF": "39,4",
+   "PercentageM": "44,3",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2014,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "46,0",
-   "Percentage M": "53,5",
+   "PercentageF": "46,0",
+   "PercentageM": "53,5",
    "AveragePercentage": "49,75"
  },
  {
    "Year": 2014,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "43,2",
-   "Percentage M": "41,3",
+   "PercentageF": "43,2",
+   "PercentageM": "41,3",
    "AveragePercentage": "42,25"
  },
  {
    "Year": 2014,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,0",
-   "Percentage M": "23,7",
+   "PercentageF": "24,0",
+   "PercentageM": "23,7",
    "AveragePercentage": "23,85"
  },
  {
    "Year": 2014,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "42,1",
-   "Percentage M": "48,3",
+   "PercentageF": "42,1",
+   "PercentageM": "48,3",
    "AveragePercentage": "45,2"
  },
  {
    "Year": 2014,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "41,1",
-   "Percentage M": "46,5",
+   "PercentageF": "41,1",
+   "PercentageM": "46,5",
    "AveragePercentage": "43,8"
  },
  {
    "Year": 2014,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "56,2",
-   "Percentage M": "64,8",
+   "PercentageF": "56,2",
+   "PercentageM": "64,8",
    "AveragePercentage": "60,5"
  },
  {
    "Year": 2014,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,7",
-   "Percentage M": "61,8",
+   "PercentageF": "53,7",
+   "PercentageM": "61,8",
    "AveragePercentage": "57,75"
  },
  {
    "Year": 2014,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,1",
-   "Percentage M": "39,1",
+   "PercentageF": "37,1",
+   "PercentageM": "39,1",
    "AveragePercentage": "38,1"
  },
  {
    "Year": 2014,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,6",
-   "Percentage M": "42,8",
+   "PercentageF": "42,6",
+   "PercentageM": "42,8",
    "AveragePercentage": "42,7"
  },
  {
    "Year": 2014,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "50,6",
-   "Percentage M": "58,3",
+   "PercentageF": "50,6",
+   "PercentageM": "58,3",
    "AveragePercentage": "54,45"
  },
  {
    "Year": 2014,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "35,3",
-   "Percentage M": "35,8",
+   "PercentageF": "35,3",
+   "PercentageM": "35,8",
    "AveragePercentage": "35,55"
  },
  {
    "Year": 2014,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "53,5",
-   "Percentage M": "60,7",
+   "PercentageF": "53,5",
+   "PercentageM": "60,7",
    "AveragePercentage": "57,1"
  },
  {
    "Year": 2014,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "27,7",
-   "Percentage M": "29,0",
+   "PercentageF": "27,7",
+   "PercentageM": "29,0",
    "AveragePercentage": "28,35"
  },
  {
    "Year": 2014,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,8",
-   "Percentage M": "42,0",
+   "PercentageF": "40,8",
+   "PercentageM": "42,0",
    "AveragePercentage": "41,4"
  },
  {
    "Year": 2014,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "57,0",
-   "Percentage M": "64,4",
+   "PercentageF": "57,0",
+   "PercentageM": "64,4",
    "AveragePercentage": "60,7"
  },
  {
    "Year": 2014,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "24,0",
-   "Percentage M": "23,9",
+   "PercentageF": "24,0",
+   "PercentageM": "23,9",
    "AveragePercentage": "23,95"
  },
  {
    "Year": 2014,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "51,9",
-   "Percentage M": "57,3",
+   "PercentageF": "51,9",
+   "PercentageM": "57,3",
    "AveragePercentage": "54,6"
  },
  {
    "Year": 2014,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "40,5",
-   "Percentage M": "49,4",
+   "PercentageF": "40,5",
+   "PercentageM": "49,4",
    "AveragePercentage": "44,95"
  },
  {
    "Year": 2014,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "50,5",
-   "Percentage M": "62,2",
+   "PercentageF": "50,5",
+   "PercentageM": "62,2",
    "AveragePercentage": "56,35"
  },
  {
    "Year": 2014,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "63,4",
-   "Percentage M": "69,9",
+   "PercentageF": "63,4",
+   "PercentageM": "69,9",
    "AveragePercentage": "66,65"
  },
  {
    "Year": 2015,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "49,8",
-   "Percentage M": "54,8",
+   "PercentageF": "49,8",
+   "PercentageM": "54,8",
    "AveragePercentage": "52,3"
  },
  {
    "Year": 2015,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,8",
-   "Percentage M": "40,6",
+   "PercentageF": "36,8",
+   "PercentageM": "40,6",
    "AveragePercentage": "38,7"
  },
  {
    "Year": 2015,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "48,9",
-   "Percentage M": "58,4",
+   "PercentageF": "48,9",
+   "PercentageM": "58,4",
    "AveragePercentage": "53,65"
  },
  {
    "Year": 2015,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "34,9",
-   "Percentage M": "41,6",
+   "PercentageF": "34,9",
+   "PercentageM": "41,6",
    "AveragePercentage": "38,25"
  },
  {
    "Year": 2015,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "65,0",
-   "Percentage M": "70,5",
+   "PercentageF": "65,0",
+   "PercentageM": "70,5",
    "AveragePercentage": "67,75"
  },
  {
    "Year": 2015,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,9",
-   "Percentage M": "54,9",
+   "PercentageF": "57,9",
+   "PercentageM": "54,9",
    "AveragePercentage": "56,4"
  },
  {
    "Year": 2015,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "39,1",
-   "Percentage M": "44,6",
+   "PercentageF": "39,1",
+   "PercentageM": "44,6",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2015,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "44,3",
-   "Percentage M": "54,8",
+   "PercentageF": "44,3",
+   "PercentageM": "54,8",
    "AveragePercentage": "49,55"
  },
  {
    "Year": 2015,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "43,3",
-   "Percentage M": "42,8",
+   "PercentageF": "43,3",
+   "PercentageM": "42,8",
    "AveragePercentage": "43,05"
  },
  {
    "Year": 2015,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,5",
-   "Percentage M": "24,3",
+   "PercentageF": "24,5",
+   "PercentageM": "24,3",
    "AveragePercentage": "24,4"
  },
  {
    "Year": 2015,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,9",
-   "Percentage M": "48,6",
+   "PercentageF": "41,9",
+   "PercentageM": "48,6",
    "AveragePercentage": "45,25"
  },
  {
    "Year": 2015,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "41,0",
-   "Percentage M": "46,3",
+   "PercentageF": "41,0",
+   "PercentageM": "46,3",
    "AveragePercentage": "43,65"
  },
  {
    "Year": 2015,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,8",
-   "Percentage M": "65,0",
+   "PercentageF": "54,8",
+   "PercentageM": "65,0",
    "AveragePercentage": "59,9"
  },
  {
    "Year": 2015,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,1",
-   "Percentage M": "61,3",
+   "PercentageF": "53,1",
+   "PercentageM": "61,3",
    "AveragePercentage": "57,2"
  },
  {
    "Year": 2015,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "36,1",
-   "Percentage M": "39,0",
+   "PercentageF": "36,1",
+   "PercentageM": "39,0",
    "AveragePercentage": "37,55"
  },
  {
    "Year": 2015,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,5",
-   "Percentage M": "42,8",
+   "PercentageF": "42,5",
+   "PercentageM": "42,8",
    "AveragePercentage": "42,65"
  },
  {
    "Year": 2015,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "48,7",
-   "Percentage M": "57,6",
+   "PercentageF": "48,7",
+   "PercentageM": "57,6",
    "AveragePercentage": "53,15"
  },
  {
    "Year": 2015,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "34,5",
-   "Percentage M": "34,5",
+   "PercentageF": "34,5",
+   "PercentageM": "34,5",
    "AveragePercentage": "34,5"
  },
  {
    "Year": 2015,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "51,6",
-   "Percentage M": "61,4",
+   "PercentageF": "51,6",
+   "PercentageM": "61,4",
    "AveragePercentage": "56,5"
  },
  {
    "Year": 2015,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "29,0",
-   "Percentage M": "30,4",
+   "PercentageF": "29,0",
+   "PercentageM": "30,4",
    "AveragePercentage": "29,7"
  },
  {
    "Year": 2015,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,8",
-   "Percentage M": "41,4",
+   "PercentageF": "40,8",
+   "PercentageM": "41,4",
    "AveragePercentage": "41,1"
  },
  {
    "Year": 2015,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "56,3",
-   "Percentage M": "64,3",
+   "PercentageF": "56,3",
+   "PercentageM": "64,3",
    "AveragePercentage": "60,3"
  },
  {
    "Year": 2015,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "24,5",
-   "Percentage M": "25,3",
+   "PercentageF": "24,5",
+   "PercentageM": "25,3",
    "AveragePercentage": "24,9"
  },
  {
    "Year": 2015,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "52,8",
-   "Percentage M": "58,3",
+   "PercentageF": "52,8",
+   "PercentageM": "58,3",
    "AveragePercentage": "55,55"
  },
  {
    "Year": 2015,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "39,5",
-   "Percentage M": "49,2",
+   "PercentageF": "39,5",
+   "PercentageM": "49,2",
    "AveragePercentage": "44,35"
  },
  {
    "Year": 2015,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "49,5",
-   "Percentage M": "62,1",
+   "PercentageF": "49,5",
+   "PercentageM": "62,1",
    "AveragePercentage": "55,8"
  },
  {
    "Year": 2015,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "62,9",
-   "Percentage M": "70,2",
+   "PercentageF": "62,9",
+   "PercentageM": "70,2",
    "AveragePercentage": "66,55"
  },
  {
    "Year": 2016,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "48,9",
-   "Percentage M": "54,0",
+   "PercentageF": "48,9",
+   "PercentageM": "54,0",
    "AveragePercentage": "51,45"
  },
  {
    "Year": 2016,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "36,4",
-   "Percentage M": "40,8",
+   "PercentageF": "36,4",
+   "PercentageM": "40,8",
    "AveragePercentage": "38,6"
  },
  {
    "Year": 2016,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "48,8",
-   "Percentage M": "58,5",
+   "PercentageF": "48,8",
+   "PercentageM": "58,5",
    "AveragePercentage": "53,65"
  },
  {
    "Year": 2016,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "34,7",
-   "Percentage M": "42,3",
+   "PercentageF": "34,7",
+   "PercentageM": "42,3",
    "AveragePercentage": "38,5"
  },
  {
    "Year": 2016,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "64,6",
-   "Percentage M": "69,4",
+   "PercentageF": "64,6",
+   "PercentageM": "69,4",
    "AveragePercentage": "67,0"
  },
  {
    "Year": 2016,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,4",
-   "Percentage M": "54,1",
+   "PercentageF": "57,4",
+   "PercentageM": "54,1",
    "AveragePercentage": "55,75"
  },
  {
    "Year": 2016,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "39,5",
-   "Percentage M": "43,9",
+   "PercentageF": "39,5",
+   "PercentageM": "43,9",
    "AveragePercentage": "41,7"
  },
  {
    "Year": 2016,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "44,4",
-   "Percentage M": "54,2",
+   "PercentageF": "44,4",
+   "PercentageM": "54,2",
    "AveragePercentage": "49,3"
  },
  {
    "Year": 2016,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "43,1",
-   "Percentage M": "43,9",
+   "PercentageF": "43,1",
+   "PercentageM": "43,9",
    "AveragePercentage": "43,5"
  },
  {
    "Year": 2016,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "24,9",
-   "Percentage M": "24,6",
+   "PercentageF": "24,9",
+   "PercentageM": "24,6",
    "AveragePercentage": "24,75"
  },
  {
    "Year": 2016,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,7",
-   "Percentage M": "49,3",
+   "PercentageF": "41,7",
+   "PercentageM": "49,3",
    "AveragePercentage": "45,5"
  },
  {
    "Year": 2016,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "41,3",
-   "Percentage M": "46,0",
+   "PercentageF": "41,3",
+   "PercentageM": "46,0",
    "AveragePercentage": "43,65"
  },
  {
    "Year": 2016,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,6",
-   "Percentage M": "64,3",
+   "PercentageF": "54,6",
+   "PercentageM": "64,3",
    "AveragePercentage": "59,45"
  },
  {
    "Year": 2016,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,4",
-   "Percentage M": "62,0",
+   "PercentageF": "53,4",
+   "PercentageM": "62,0",
    "AveragePercentage": "57,7"
  },
  {
    "Year": 2016,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "36,3",
-   "Percentage M": "38,8",
+   "PercentageF": "36,3",
+   "PercentageM": "38,8",
    "AveragePercentage": "37,55"
  },
  {
    "Year": 2016,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,6",
-   "Percentage M": "42,9",
+   "PercentageF": "42,6",
+   "PercentageM": "42,9",
    "AveragePercentage": "42,75"
  },
  {
    "Year": 2016,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "48,6",
-   "Percentage M": "58,7",
+   "PercentageF": "48,6",
+   "PercentageM": "58,7",
    "AveragePercentage": "53,65"
  },
  {
    "Year": 2016,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "35,0",
-   "Percentage M": "35,8",
+   "PercentageF": "35,0",
+   "PercentageM": "35,8",
    "AveragePercentage": "35,4"
  },
  {
    "Year": 2016,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "50,4",
-   "Percentage M": "61,2",
+   "PercentageF": "50,4",
+   "PercentageM": "61,2",
    "AveragePercentage": "55,8"
  },
  {
    "Year": 2016,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "31,6",
-   "Percentage M": "31,9",
+   "PercentageF": "31,6",
+   "PercentageM": "31,9",
    "AveragePercentage": "31,75"
  },
  {
    "Year": 2016,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,7",
-   "Percentage M": "41,4",
+   "PercentageF": "40,7",
+   "PercentageM": "41,4",
    "AveragePercentage": "41,05"
  },
  {
    "Year": 2016,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "55,9",
-   "Percentage M": "64,5",
+   "PercentageF": "55,9",
+   "PercentageM": "64,5",
    "AveragePercentage": "60,2"
  },
  {
    "Year": 2016,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "25,3",
-   "Percentage M": "26,0",
+   "PercentageF": "25,3",
+   "PercentageM": "26,0",
    "AveragePercentage": "25,65"
  },
  {
    "Year": 2016,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "54,2",
-   "Percentage M": "59,5",
+   "PercentageF": "54,2",
+   "PercentageM": "59,5",
    "AveragePercentage": "56,85"
  },
  {
    "Year": 2016,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "38,4",
-   "Percentage M": "48,7",
+   "PercentageF": "38,4",
+   "PercentageM": "48,7",
    "AveragePercentage": "43,55"
  },
  {
    "Year": 2016,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "48,7",
-   "Percentage M": "62,2",
+   "PercentageF": "48,7",
+   "PercentageM": "62,2",
    "AveragePercentage": "55,45"
  },
  {
    "Year": 2016,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "62,2",
-   "Percentage M": "69,8",
+   "PercentageF": "62,2",
+   "PercentageM": "69,8",
    "AveragePercentage": "66,0"
  },
  {
    "Year": 2017,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "48,6",
-   "Percentage M": "53,3",
+   "PercentageF": "48,6",
+   "PercentageM": "53,3",
    "AveragePercentage": "50,95"
  },
  {
    "Year": 2017,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,0",
-   "Percentage M": "39,3",
+   "PercentageF": "35,0",
+   "PercentageM": "39,3",
    "AveragePercentage": "37,15"
  },
  {
    "Year": 2017,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "49,0",
-   "Percentage M": "59,1",
+   "PercentageF": "49,0",
+   "PercentageM": "59,1",
    "AveragePercentage": "54,05"
  },
  {
    "Year": 2017,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "34,9",
-   "Percentage M": "43,3",
+   "PercentageF": "34,9",
+   "PercentageM": "43,3",
    "AveragePercentage": "39,1"
  },
  {
    "Year": 2017,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "63,7",
-   "Percentage M": "69,2",
+   "PercentageF": "63,7",
+   "PercentageM": "69,2",
    "AveragePercentage": "66,45"
  },
  {
    "Year": 2017,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "57,2",
-   "Percentage M": "53,8",
+   "PercentageF": "57,2",
+   "PercentageM": "53,8",
    "AveragePercentage": "55,5"
  },
  {
    "Year": 2017,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "39,0",
-   "Percentage M": "43,3",
+   "PercentageF": "39,0",
+   "PercentageM": "43,3",
    "AveragePercentage": "41,15"
  },
  {
    "Year": 2017,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "43,3",
-   "Percentage M": "53,7",
+   "PercentageF": "43,3",
+   "PercentageM": "53,7",
    "AveragePercentage": "48,5"
  },
  {
    "Year": 2017,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "42,9",
-   "Percentage M": "44,3",
+   "PercentageF": "42,9",
+   "PercentageM": "44,3",
    "AveragePercentage": "43,6"
  },
  {
    "Year": 2017,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "25,2",
-   "Percentage M": "24,7",
+   "PercentageF": "25,2",
+   "PercentageM": "24,7",
    "AveragePercentage": "24,95"
  },
  {
    "Year": 2017,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "41,3",
-   "Percentage M": "49,0",
+   "PercentageF": "41,3",
+   "PercentageM": "49,0",
    "AveragePercentage": "45,15"
  },
  {
    "Year": 2017,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "41,0",
-   "Percentage M": "45,8",
+   "PercentageF": "41,0",
+   "PercentageM": "45,8",
    "AveragePercentage": "43,4"
  },
  {
    "Year": 2017,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,9",
-   "Percentage M": "64,2",
+   "PercentageF": "54,9",
+   "PercentageM": "64,2",
    "AveragePercentage": "59,55"
  },
  {
    "Year": 2017,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,8",
-   "Percentage M": "62,4",
+   "PercentageF": "53,8",
+   "PercentageM": "62,4",
    "AveragePercentage": "58,1"
  },
  {
    "Year": 2017,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,0",
-   "Percentage M": "38,5",
+   "PercentageF": "37,0",
+   "PercentageM": "38,5",
    "AveragePercentage": "37,75"
  },
  {
    "Year": 2017,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,2",
-   "Percentage M": "43,0",
+   "PercentageF": "42,2",
+   "PercentageM": "43,0",
    "AveragePercentage": "42,6"
  },
  {
    "Year": 2017,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "48,4",
-   "Percentage M": "58,2",
+   "PercentageF": "48,4",
+   "PercentageM": "58,2",
    "AveragePercentage": "53,3"
  },
  {
    "Year": 2017,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "34,4",
-   "Percentage M": "36,4",
+   "PercentageF": "34,4",
+   "PercentageM": "36,4",
    "AveragePercentage": "35,4"
  },
  {
    "Year": 2017,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "50,1",
-   "Percentage M": "59,7",
+   "PercentageF": "50,1",
+   "PercentageM": "59,7",
    "AveragePercentage": "54,9"
  },
  {
    "Year": 2017,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "32,4",
-   "Percentage M": "32,3",
+   "PercentageF": "32,4",
+   "PercentageM": "32,3",
    "AveragePercentage": "32,35"
  },
  {
    "Year": 2017,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,9",
-   "Percentage M": "41,7",
+   "PercentageF": "40,9",
+   "PercentageM": "41,7",
    "AveragePercentage": "41,3"
  },
  {
    "Year": 2017,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "55,3",
-   "Percentage M": "64,3",
+   "PercentageF": "55,3",
+   "PercentageM": "64,3",
    "AveragePercentage": "59,8"
  },
  {
    "Year": 2017,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "26,4",
-   "Percentage M": "26,8",
+   "PercentageF": "26,4",
+   "PercentageM": "26,8",
    "AveragePercentage": "26,6"
  },
  {
    "Year": 2017,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "55,1",
-   "Percentage M": "60,3",
+   "PercentageF": "55,1",
+   "PercentageM": "60,3",
    "AveragePercentage": "57,7"
  },
  {
    "Year": 2017,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "37,8",
-   "Percentage M": "47,8",
+   "PercentageF": "37,8",
+   "PercentageM": "47,8",
    "AveragePercentage": "42,8"
  },
  {
    "Year": 2017,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "47,7",
-   "Percentage M": "61,2",
+   "PercentageF": "47,7",
+   "PercentageM": "61,2",
    "AveragePercentage": "54,45"
  },
  {
    "Year": 2017,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "60,4",
-   "Percentage M": "68,6",
+   "PercentageF": "60,4",
+   "PercentageM": "68,6",
    "AveragePercentage": "64,5"
  },
  {
    "Year": 2018,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "49,1",
-   "Percentage M": "53,0",
+   "PercentageF": "49,1",
+   "PercentageM": "53,0",
    "AveragePercentage": "51,05"
  },
  {
    "Year": 2018,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,2",
-   "Percentage M": "40,2",
+   "PercentageF": "35,2",
+   "PercentageM": "40,2",
    "AveragePercentage": "37,7"
  },
  {
    "Year": 2018,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "48,9",
-   "Percentage M": "58,3",
+   "PercentageF": "48,9",
+   "PercentageM": "58,3",
    "AveragePercentage": "53,6"
  },
  {
    "Year": 2018,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "35,0",
-   "Percentage M": "42,6",
+   "PercentageF": "35,0",
+   "PercentageM": "42,6",
    "AveragePercentage": "38,8"
  },
  {
    "Year": 2018,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "63,4",
-   "Percentage M": "68,9",
+   "PercentageF": "63,4",
+   "PercentageM": "68,9",
    "AveragePercentage": "66,15"
  },
  {
    "Year": 2018,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "56,8",
-   "Percentage M": "53,6",
+   "PercentageF": "56,8",
+   "PercentageM": "53,6",
    "AveragePercentage": "55,2"
  },
  {
    "Year": 2018,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,7",
-   "Percentage M": "43,2",
+   "PercentageF": "38,7",
+   "PercentageM": "43,2",
    "AveragePercentage": "40,95"
  },
  {
    "Year": 2018,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "41,8",
-   "Percentage M": "52,9",
+   "PercentageF": "41,8",
+   "PercentageM": "52,9",
    "AveragePercentage": "47,35"
  },
  {
    "Year": 2018,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "43,0",
-   "Percentage M": "44,3",
+   "PercentageF": "43,0",
+   "PercentageM": "44,3",
    "AveragePercentage": "43,65"
  },
  {
    "Year": 2018,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "25,7",
-   "Percentage M": "24,6",
+   "PercentageF": "25,7",
+   "PercentageM": "24,6",
    "AveragePercentage": "25,15"
  },
  {
    "Year": 2018,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "40,9",
-   "Percentage M": "49,1",
+   "PercentageF": "40,9",
+   "PercentageM": "49,1",
    "AveragePercentage": "45,0"
  },
  {
    "Year": 2018,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "40,4",
-   "Percentage M": "45,3",
+   "PercentageF": "40,4",
+   "PercentageM": "45,3",
    "AveragePercentage": "42,85"
  },
  {
    "Year": 2018,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,8",
-   "Percentage M": "63,8",
+   "PercentageF": "54,8",
+   "PercentageM": "63,8",
    "AveragePercentage": "59,3"
  },
  {
    "Year": 2018,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "62,3",
+   "PercentageF": "53,9",
+   "PercentageM": "62,3",
    "AveragePercentage": "58,1"
  },
  {
    "Year": 2018,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "36,8",
-   "Percentage M": "39,3",
+   "PercentageF": "36,8",
+   "PercentageM": "39,3",
    "AveragePercentage": "38,05"
  },
  {
    "Year": 2018,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,1",
-   "Percentage M": "43,1",
+   "PercentageF": "42,1",
+   "PercentageM": "43,1",
    "AveragePercentage": "42,6"
  },
  {
    "Year": 2018,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "47,3",
-   "Percentage M": "57,5",
+   "PercentageF": "47,3",
+   "PercentageM": "57,5",
    "AveragePercentage": "52,4"
  },
  {
    "Year": 2018,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "33,3",
-   "Percentage M": "34,9",
+   "PercentageF": "33,3",
+   "PercentageM": "34,9",
    "AveragePercentage": "34,1"
  },
  {
    "Year": 2018,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "49,9",
-   "Percentage M": "59,7",
+   "PercentageF": "49,9",
+   "PercentageM": "59,7",
    "AveragePercentage": "54,8"
  },
  {
    "Year": 2018,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "31,2",
-   "Percentage M": "33,6",
+   "PercentageF": "31,2",
+   "PercentageM": "33,6",
    "AveragePercentage": "32,4"
  },
  {
    "Year": 2018,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "40,4",
-   "Percentage M": "41,5",
+   "PercentageF": "40,4",
+   "PercentageM": "41,5",
    "AveragePercentage": "40,95"
  },
  {
    "Year": 2018,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "54,6",
-   "Percentage M": "64,0",
+   "PercentageF": "54,6",
+   "PercentageM": "64,0",
    "AveragePercentage": "59,3"
  },
  {
    "Year": 2018,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "27,4",
-   "Percentage M": "27,8",
+   "PercentageF": "27,4",
+   "PercentageM": "27,8",
    "AveragePercentage": "27,6"
  },
  {
    "Year": 2018,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "55,7",
-   "Percentage M": "60,7",
+   "PercentageF": "55,7",
+   "PercentageM": "60,7",
    "AveragePercentage": "58,2"
  },
  {
    "Year": 2018,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "37,1",
-   "Percentage M": "46,6",
+   "PercentageF": "37,1",
+   "PercentageM": "46,6",
    "AveragePercentage": "41,85"
  },
  {
    "Year": 2018,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "48,7",
-   "Percentage M": "60,7",
+   "PercentageF": "48,7",
+   "PercentageM": "60,7",
    "AveragePercentage": "54,7"
  },
  {
    "Year": 2018,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "59,4",
-   "Percentage M": "67,7",
+   "PercentageF": "59,4",
+   "PercentageM": "67,7",
    "AveragePercentage": "63,55"
  },
  {
    "Year": 2019,
    "Country": "AT",
    "ISCED11": "3-4",
-   "Percentage F": "48,3",
-   "Percentage M": "52,0",
+   "PercentageF": "48,3",
+   "PercentageM": "52,0",
    "AveragePercentage": "50,15"
  },
  {
    "Year": 2019,
    "Country": "BE",
    "ISCED11": "3-4",
-   "Percentage F": "35,9",
-   "Percentage M": "40,3",
+   "PercentageF": "35,9",
+   "PercentageM": "40,3",
    "AveragePercentage": "38,1"
  },
  {
    "Year": 2019,
    "Country": "BG",
    "ISCED11": "3-4",
-   "Percentage F": "48,6",
-   "Percentage M": "58,2",
+   "PercentageF": "48,6",
+   "PercentageM": "58,2",
    "AveragePercentage": "53,4"
  },
  {
    "Year": 2019,
    "Country": "CY",
    "ISCED11": "3-4",
-   "Percentage F": "34,5",
-   "Percentage M": "42,8",
+   "PercentageF": "34,5",
+   "PercentageM": "42,8",
    "AveragePercentage": "38,65"
  },
  {
    "Year": 2019,
    "Country": "CZ",
    "ISCED11": "3-4",
-   "Percentage F": "63,5",
-   "Percentage M": "68,6",
+   "PercentageF": "63,5",
+   "PercentageM": "68,6",
    "AveragePercentage": "66,05"
  },
  {
    "Year": 2019,
    "Country": "DE",
    "ISCED11": "3-4",
-   "Percentage F": "56,1",
-   "Percentage M": "52,9",
+   "PercentageF": "56,1",
+   "PercentageM": "52,9",
    "AveragePercentage": "54,5"
  },
  {
    "Year": 2019,
    "Country": "DK",
    "ISCED11": "3-4",
-   "Percentage F": "38,4",
-   "Percentage M": "43,1",
+   "PercentageF": "38,4",
+   "PercentageM": "43,1",
    "AveragePercentage": "40,75"
  },
  {
    "Year": 2019,
    "Country": "EE",
    "ISCED11": "3-4",
-   "Percentage F": "41,4",
-   "Percentage M": "54,1",
+   "PercentageF": "41,4",
+   "PercentageM": "54,1",
    "AveragePercentage": "47,75"
  },
  {
    "Year": 2019,
    "Country": "EL",
    "ISCED11": "3-4",
-   "Percentage F": "44,4",
-   "Percentage M": "48,3",
+   "PercentageF": "44,4",
+   "PercentageM": "48,3",
    "AveragePercentage": "46,35"
  },
  {
    "Year": 2019,
    "Country": "ES",
    "ISCED11": "3-4",
-   "Percentage F": "25,8",
-   "Percentage M": "24,7",
+   "PercentageF": "25,8",
+   "PercentageM": "24,7",
    "AveragePercentage": "25,25"
  },
  {
    "Year": 2019,
    "Country": "FI",
    "ISCED11": "3-4",
-   "Percentage F": "40,2",
-   "Percentage M": "48,8",
+   "PercentageF": "40,2",
+   "PercentageM": "48,8",
    "AveragePercentage": "44,5"
  },
  {
    "Year": 2019,
    "Country": "FR",
    "ISCED11": "3-4",
-   "Percentage F": "40,7",
-   "Percentage M": "45,1",
+   "PercentageF": "40,7",
+   "PercentageM": "45,1",
    "AveragePercentage": "42,9"
  },
  {
    "Year": 2019,
    "Country": "HR",
    "ISCED11": "3-4",
-   "Percentage F": "54,4",
-   "Percentage M": "65,3",
+   "PercentageF": "54,4",
+   "PercentageM": "65,3",
    "AveragePercentage": "59,85"
  },
  {
    "Year": 2019,
    "Country": "HU",
    "ISCED11": "3-4",
-   "Percentage F": "52,8",
-   "Percentage M": "62,4",
+   "PercentageF": "52,8",
+   "PercentageM": "62,4",
    "AveragePercentage": "57,6"
  },
  {
    "Year": 2019,
    "Country": "IE",
    "ISCED11": "3-4",
-   "Percentage F": "37,2",
-   "Percentage M": "39,4",
+   "PercentageF": "37,2",
+   "PercentageM": "39,4",
    "AveragePercentage": "38,3"
  },
  {
    "Year": 2019,
    "Country": "IT",
    "ISCED11": "3-4",
-   "Percentage F": "42,4",
-   "Percentage M": "43,1",
+   "PercentageF": "42,4",
+   "PercentageM": "43,1",
    "AveragePercentage": "42,75"
  },
  {
    "Year": 2019,
    "Country": "LT",
    "ISCED11": "3-4",
-   "Percentage F": "45,8",
-   "Percentage M": "56,3",
+   "PercentageF": "45,8",
+   "PercentageM": "56,3",
    "AveragePercentage": "51,05"
  },
  {
    "Year": 2019,
    "Country": "LU",
    "ISCED11": "3-4",
-   "Percentage F": "30,6",
-   "Percentage M": "33,9",
+   "PercentageF": "30,6",
+   "PercentageM": "33,9",
    "AveragePercentage": "32,25"
  },
  {
    "Year": 2019,
    "Country": "LV",
    "ISCED11": "3-4",
-   "Percentage F": "49,0",
-   "Percentage M": "58,8",
+   "PercentageF": "49,0",
+   "PercentageM": "58,8",
    "AveragePercentage": "53,9"
  },
  {
    "Year": 2019,
    "Country": "MT",
    "ISCED11": "3-4",
-   "Percentage F": "30,5",
-   "Percentage M": "33,5",
+   "PercentageF": "30,5",
+   "PercentageM": "33,5",
    "AveragePercentage": "32,0"
  },
  {
    "Year": 2019,
    "Country": "NL",
    "ISCED11": "3-4",
-   "Percentage F": "39,4",
-   "Percentage M": "40,1",
+   "PercentageF": "39,4",
+   "PercentageM": "40,1",
    "AveragePercentage": "39,75"
  },
  {
    "Year": 2019,
    "Country": "PL",
    "ISCED11": "3-4",
-   "Percentage F": "53,9",
-   "Percentage M": "63,0",
+   "PercentageF": "53,9",
+   "PercentageM": "63,0",
    "AveragePercentage": "58,45"
  },
  {
    "Year": 2019,
    "Country": "PT",
    "ISCED11": "3-4",
-   "Percentage F": "28,4",
-   "Percentage M": "29,0",
+   "PercentageF": "28,4",
+   "PercentageM": "29,0",
    "AveragePercentage": "28,7"
  },
  {
    "Year": 2019,
    "Country": "RO",
    "ISCED11": "3-4",
-   "Percentage F": "56,4",
-   "Percentage M": "61,3",
+   "PercentageF": "56,4",
+   "PercentageM": "61,3",
    "AveragePercentage": "58,85"
  },
  {
    "Year": 2019,
    "Country": "SE",
    "ISCED11": "3-4",
-   "Percentage F": "36,4",
-   "Percentage M": "46,2",
+   "PercentageF": "36,4",
+   "PercentageM": "46,2",
    "AveragePercentage": "41,3"
  },
  {
    "Year": 2019,
    "Country": "SI",
    "ISCED11": "3-4",
-   "Percentage F": "48,5",
-   "Percentage M": "60,9",
+   "PercentageF": "48,5",
+   "PercentageM": "60,9",
    "AveragePercentage": "54,7"
  },
  {
    "Year": 2019,
    "Country": "SK",
    "ISCED11": "3-4",
-   "Percentage F": "57,9",
-   "Percentage M": "66,7",
+   "PercentageF": "57,9",
+   "PercentageM": "66,7",
    "AveragePercentage": "62,3"
  }
 ]
