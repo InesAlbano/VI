@@ -6,8 +6,7 @@ var radius = 5;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
-analyzer("Init")
-
+analyzerLine("Init")
 
 document.addEventListener('clickedCountryMap' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
@@ -21,19 +20,24 @@ document.addEventListener('clickedCountryClev' , function(){
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#line-svg").remove();
+  console.log("vou dar update")
   updateLine()
 }); 
-
 
 var years1 = localStorage.getItem("years");
 
 function updateLine(){
   var v = localStorage.getItem("variable");
   var e = localStorage.getItem("education");
-  analyzer(v, e);
+  console.log("antes do update analyzer")
+  console.log(v, e)
+  analyzerLine(v, e)
+  console.log("depois do update analyzer")
 }
 
-function analyzer(inequality, education) {
+function analyzerLine(inequality, education) {
+  console.log(inequality, education)
+  console.log("dentro do analyzer")
 	switch (inequality) {
     case "GDP": // no education
       d3.select("#line-svg").remove();
@@ -377,7 +381,6 @@ var div = d3.select("body").append("div")
 
 function line_chart(paises, maximo,minimo, v) {
   // INITIAL VARS ____________________________________________________________________________
-
   var xscaleData = paises[0].map((a) => a.Year);
 
   // Scales
