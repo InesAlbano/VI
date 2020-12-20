@@ -389,7 +389,8 @@ function line_chart(paises, maximo,minimo, v) {
   var xscale = d3
     .scalePoint()
     .domain(xscaleData)
-    .range([padding, width - padding]);
+    .range([padding, width - padding])
+    .padding(0.05);
 
   var hscale = d3
     .scaleLinear()

@@ -224,6 +224,8 @@ function mapGDP(data, filePath, c, y, update){
     var projection = d3.geoMercator()
                        .center([75, 50])
                        .scale(300)
+
+    var countries = c;
                        
     var path = d3.geoPath().projection(projection);
     d3.select("#map-holder").append("svg")
@@ -257,7 +259,7 @@ function mapGDP(data, filePath, c, y, update){
       .attr("class", 'countries')
       .attr("is_clicked", false)
       .style("stroke", function(d) {
-        if(c.includes(d['id'])) {
+        if(countries.includes(d['id'])) {
           this.parentNode.appendChild(this);
           return '#E0C090'
         }
@@ -267,7 +269,7 @@ function mapGDP(data, filePath, c, y, update){
 
       })
       .style("stroke-width", function(d) {
-        if(c.includes(d['id'])) {
+        if(countries.includes(d['id'])) {
           return 3
         }
         else {
@@ -280,44 +282,69 @@ function mapGDP(data, filePath, c, y, update){
         var paths = d3.selectAll("#map-holder path")
 
         for (let i = 0; i < paths._groups[0].length; i++){
-          if (paths._groups[0][i].attributes.name.value != this.attributes.name.value){
-            if (paths._groups[0][i].attributes.is_clicked.value === 'true') {
-              paths._groups[0][i].attributes.is_clicked.value = 'false';
-              d3.selectAll(".country")
-                .transition()
-                .duration(200)
-                .style("opacity", .8)
-              d3.select(paths._groups[0][i])
-                .transition()
-                .duration(200)
-                .style("stroke", "#E0C090")
-              div.transition()		
-                .duration(200)		
-                .style("opacity", 0);		
-            }
-          } else {
-            this.attributes.is_clicked.value = "true";
-              this.parentNode.appendChild(this);
-              d3.selectAll(".country")
-                .transition()
-                .duration(200)
-                .style("opacity", .5)
-              d3.select(this)
-                .transition()
-                .duration(200)
-                .style("opacity", 1)
-                .style("stroke", "#E0C090")      
-                .style("stroke-width", 3)      
-              div.transition()		
+          console.log(paths._groups[0][i].attributes.name.value)
+          if ((paths._groups[0][i].attributes.name.value === this.attributes.name.value) && (paths._groups[0][i].attributes.is_clicked.value === 'true')) {
+            console.log("olá111")
+            d3.selectAll(".country")
+              .transition()
+              .duration(200)
+              .style("opacity", .8)
+            //paths._groups[0][i].attributes.stroke.value = '#515151';
+            var a = document.getElementById("map-svg").getElementById(paths._groups[0][i].attributes.name.value);
+            var fill = a.attributes.style.value.split(";")[0].replace("fill: ", '');
+            a.attributes.style.value = 'fill: ' + fill + "; stroke: '#515151'; stroke-width: 1;"
+            a.attributes.is_clicked.value = false;
+            countries = countries.filter(item => item !== a.attributes.id.value);
+            //paths._groups[0][i].attributes.stroke-width.value = 1;
+            /*d3.select(paths._groups[0][i])
+              .transition()
+              .duration(200)
+              .style("stroke", function(d) { 
+                countries = countries.filter(item => item !== d['id'])
+                return '#515151'; 
+              })
+              .style("stroke-width", function(d) { return 1; })      
+            */
+            div.transition()		
               .duration(200)		
-              .style("opacity", .9);
-                
-            localStorage.setItem("clickedItemCountry", this.attributes.name.value)
-
-            const event = new Event('clickedCountryMap');
-            document.dispatchEvent(event);
+              .style("opacity", 0);		
+          }
+        
+          else if ((paths._groups[0][i].attributes.name.value === this.attributes.name.value) && (paths._groups[0][i].attributes.is_clicked.value === 'false')) {
+            console.log("olá")
+            this.parentNode.appendChild(this);
+            d3.selectAll(".country")
+              .transition()
+              .duration(200)
+              .style("opacity", .5)
+            var a = document.getElementById("map-svg").getElementById(paths._groups[0][i].attributes.name.value);
+            var fill = a.attributes.style.value.split(";")[0].replace("fill: ", '');
+            a.attributes.style.value = 'fill: ' + fill + "; stroke: '#E0C090'; stroke-width: 3;"
+            a.attributes.is_clicked.value = true;
+            countries.push(a.attributes.id.value);
+  
+            /*
+            d3.select(this)
+              .transition()
+              .duration(200)
+              .style("opacity", 1)
+              .style("stroke", function(d) {
+                  this.parentNode.appendChild(this);
+                  countries.push(d['id']);
+                  return '#E0C090';
+              })
+              .style("stroke-width", function(d) { return 3; })      
+              */
+             div.transition()		
+            .duration(200)		
+            .style("opacity", .9);
           }
         }
+        localStorage.setItem("countries", countries)
+        localStorage.setItem("clickedItemCountry", this.attributes.name.value)
+
+        const event = new Event('clickedCountryMap');
+        document.dispatchEvent(event);
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
         //if(c.includes($(this).attr('name'))) {
@@ -354,7 +381,9 @@ function mapGDP(data, filePath, c, y, update){
             .transition()
             .duration(200)
             .style("stroke", function(d) {
-              if(c.includes(d['id'])) {
+              if(countries.includes(d['id'])) {
+                console.log(countries)
+                console.log(d['id'])
                 this.parentNode.appendChild(this);
                 return '#E0C090'
               }
@@ -362,6 +391,16 @@ function mapGDP(data, filePath, c, y, update){
                 return '#515151'
               }
             })
+            .style("stroke-width", function(d) {
+              if(countries.includes(d['id'])) {
+                this.parentNode.appendChild(this);
+                return 3
+              }
+              else {
+                return 1
+              }
+            })      
+
           div.transition()		
             .duration(500)		
             .style("opacity", 0);	
