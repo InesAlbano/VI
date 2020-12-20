@@ -20,7 +20,6 @@ document.addEventListener('clickedCountryClev' , function(){
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#line-svg").remove();
-  console.log("vou dar update")
   updateLine()
 }); 
 
@@ -29,10 +28,7 @@ var years1 = localStorage.getItem("years");
 function updateLine(){
   var v = localStorage.getItem("variable");
   var e = localStorage.getItem("education");
-  console.log("antes do update analyzer")
-  console.log(v, e)
   analyzerLine(v, e)
-  console.log("depois do update analyzer")
 }
 
 function analyzerLine(inequality, education) {
