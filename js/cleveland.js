@@ -626,7 +626,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
   var hscale = d3
     .scalePoint()
     .domain(dif_paises)
-    .range([height - padding, padding]);
+    .range([height - padding, padding])
+    .padding(0.5);
 
   var xscale = d3
     .scaleLinear()
@@ -659,11 +660,11 @@ function cleveland_chart(paises, maximo,minimo, v) {
   svg
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 0)
-    .attr("x", 0 - height / 2)
+    .attr("y", 20)
+    .attr("x", 0 - height/1.8)
     //.attr("dy", "1em")
     .attr("class", "label")
-    .text("Value");
+    .text("Countries");
 
   /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
       if (i % 5 == 0) return d;
@@ -1119,7 +1120,22 @@ function cleveland_chart(paises, maximo,minimo, v) {
       if(clickedVarCountryMap) 
         clickedVarCountryMap = false;
     }
+
+  // select the svg area
+  var svg = d3.select("#legenda")
+  .style("margin-top", '3%')
+  .style("margin-right", '0%')
+  .style("left", "850px")
+  .style("position", "absolute")
+
+  svg.append("circle").attr("cx",200).attr("cy",130).attr("r", 6).style("fill", "#407d64").style("stroke", "white")
+  svg.append("circle").attr("cx",200).attr("cy",160).attr("r", 6).style("fill", "#D68A5A").style("stroke", "white")
+  svg.append("circle").attr("cx",200).attr("cy",190).attr("r", 6).style("fill", "#5b98c7").style("stroke", "white")
+  svg.append("text").attr("x", 220).attr("y", 135).text("Men").style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+  svg.append("text").attr("x", 220).attr("y", 165).text("Women").style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+  svg.append("text").attr("x", 220).attr("y", 195).text("Total").style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
 }
+// END OF CLEVELAND
 
 /* interaction */
 function changeClev(Country){
