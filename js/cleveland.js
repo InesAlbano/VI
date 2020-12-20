@@ -626,7 +626,8 @@ function cleveland_chart(paises, maximo,minimo, v) {
   var hscale = d3
     .scalePoint()
     .domain(dif_paises)
-    .range([height - padding, padding]);
+    .range([height - padding, padding])
+    .padding(0.5);
 
   var xscale = d3
     .scaleLinear()
@@ -659,11 +660,11 @@ function cleveland_chart(paises, maximo,minimo, v) {
   svg
     .append("text")
     .attr("transform", "rotate(-90)")
-    .attr("y", 0)
-    .attr("x", 0 - height / 2)
+    .attr("y", 20)
+    .attr("x", 0 - height/1.8)
     //.attr("dy", "1em")
     .attr("class", "label")
-    .text("Value");
+    .text("Countries");
 
   /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
       if (i % 5 == 0) return d;
