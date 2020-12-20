@@ -20,7 +20,7 @@ document.addEventListener('clickedCountryClev' , function(){
   changeSlope(localStorage.getItem("clickedItemCountry"));
 });
 
-/*document.addEventListener('clickedCountrySlope', function(){
+document.addEventListener('clickedCountrySlope', function(){
   var vars = document.querySelectorAll("input[type=radio][name=variables]");
   var clickedVar = localStorage.getItem("clickedVar")
   vars.forEach(function(c) {
@@ -33,7 +33,7 @@ document.addEventListener('clickedCountryClev' , function(){
       c.checked = false
     }
   });
-});*/
+});
 
 document.addEventListener('updateCharts' , function(){
   d3.select("#slope-svg").remove();
@@ -1117,7 +1117,7 @@ function slope_chart(paises, maxMin) {
               .attr("fill", "#dea959") // turns the circle into orange
               .attr("r", radius*1.5);   // doubles the size of the circle
             localStorage.setItem("clickedItemCountry", this.attributes.name.value)
-            localStorage.setItem("clickedVar", this.attributes.id.value) 
+            localStorage.setItem("variable", this.attributes.id.value) 
             
             const event = new Event('clickedCountrySlope');
             document.dispatchEvent(event);
