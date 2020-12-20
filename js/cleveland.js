@@ -3,8 +3,9 @@ var width = 600;
 var height = 400;
 var padding = 60;
 var radius = 5;
-
+var clickedVarCountrySlope;
 var tooltipLine = d3.select("div.tooltipLine");
+var plots;
 
 analyzerClev("Init")
 
@@ -15,8 +16,12 @@ document.addEventListener('clickedCountryMap' , function(){
 document.addEventListener('clickedCountryLine' , function(){
   changeClev(localStorage.getItem("clickedItemCountry"));
 }); 
+
 document.addEventListener('clickedCountrySlope' , function(){
-  changeClev(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountrySlope = true;
+  d3.select("#cleveland-svg").remove();
+  updateLineClev()
+  
 });
 
 document.addEventListener('updateCharts' , function(){
@@ -916,7 +921,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
   }
 
   // PLOTS - Faltam os outros Datasets que nao o GDP --------------------------------------
-  var plots = svg
+  plots = svg
   .selectAll("circle")
   .data(paises)
   .join("circle") // now we append circles
@@ -1083,6 +1088,31 @@ function cleveland_chart(paises, maximo,minimo, v) {
       tooltipLine.classed("hidden", true);
     }
   });
+
+    var country1 = ''
+    if (clickedVarCountrySlope){
+      var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
+      for (let i = 0; i < b.length; ++i){
+        if(localStorage.getItem("clickedItemCountry") === b[i].attributes.id.value.replace('-LinesCleve', '')){
+          b[i].attributes.selected.value = true;
+          b[i].attributes.stroke.value = "#E0C090"
+          country1 = b[i].attributes.id.value.replace('-LinesCleve', '')
+        }       
+      }
+
+      for (let i = 0; i < plots._groups[0].length; i++){
+        if (plots._groups[0][i].__data__.Country === country1 && plots._groups[0][i].attributes.is_clicked.value === 'false'){
+          plots._groups[0][i].attributes.is_clicked.value = "true";
+          d3.select(plots._groups[0][i])
+            .attr("fill", "#dea959")
+            .style("stroke", "white")
+            .attr("r", radius*1.5);
+        }
+      }
+
+      clickedVarCountrySlope = false;
+
+    }
 }
 
 /* interaction */
