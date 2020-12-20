@@ -22,7 +22,7 @@ document.addEventListener('clickedCountryClev' , function(){
 
 document.addEventListener('clickedCountrySlope', function(){
   var vars = document.querySelectorAll("input[type=radio][name=variables]");
-  var clickedVar = localStorage.getItem("clickedVar")
+  var clickedVar = localStorage.getItem("variable")
   vars.forEach(function(c) {
     if (clickedVar === 'Women'){
       clickedVar = "Women-high-pos"
