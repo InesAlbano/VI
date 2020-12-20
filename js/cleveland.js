@@ -642,7 +642,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
 
   svg
     .append("g") // we are creating a 'g' element to match our yaxis
-    .attr("transform", "translate(" + padding + ",0)")
+    .attr("transform", "translate(" + xscale(0) + ",0)")
     .attr("class", "yaxis") // we are giving it a css style
     .call(yaxis);
 
