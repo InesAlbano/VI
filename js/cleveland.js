@@ -1125,7 +1125,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
   var svg = d3.select("#legenda")
   .style("margin-top", '3%')
   .style("margin-right", '0%')
-  .style("left", "850px")
+  .style("left", "35%")
   .style("position", "absolute")
 
   svg.append("circle").attr("cx",200).attr("cy",130).attr("r", 6).style("fill", "#407d64").style("stroke", "white")
