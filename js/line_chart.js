@@ -3,6 +3,7 @@ var width = 600;
 var height = 400;
 var padding = 60;
 var radius = 5;
+var clickedVarCountryLine;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
@@ -12,7 +13,9 @@ document.addEventListener('clickedCountryMap' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
 }); 
 document.addEventListener('clickedCountrySlope' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountryLine = true;
+  d3.select("#line-svg").remove();
+  updateLine()
 }); 
 document.addEventListener('clickedCountryClev' , function(){
   changeLine(localStorage.getItem("clickedItemCountry"));
@@ -32,8 +35,6 @@ function updateLine(){
 }
 
 function analyzerLine(inequality, education) {
-  console.log(inequality, education)
-  console.log("dentro do analyzer")
 	switch (inequality) {
     case "GDP": // no education
       d3.select("#line-svg").remove();
@@ -651,8 +652,19 @@ function line_chart(paises, maximo,minimo, v) {
     }
   }
   //______________________________________________________________________________________________
-
   
+  if (clickedVarCountryLine){      
+    var b = document.getElementById("line-svg").getElementsByClassName("line")
+    for (let i = 0; i < b.length; ++i){
+      if(localStorage.getItem("clickedItemCountry") === b[i].attributes.id.value.replace('-Lines', '')){
+        b[i].attributes.selected.value = true;
+        b[i].attributes.stroke.value = "#E0C090"
+      }
+    }
+    clickedVarCountryLine = false;
+
+  }
+
 }
 
 
