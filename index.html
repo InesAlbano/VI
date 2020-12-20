@@ -71,15 +71,34 @@
               <li>
                 <div id="checkboxes1" style="margin-left: 55px">
                     <label class="container-checkbox" for="2010"><input type="checkbox" id="2010" name="year" value="2010"/><span class="checkmark"></span>2010</label>
-                    <label class="container-checkbox" for="2011"><input type="checkbox" id="2011" name="year" value="2011"/><span class="checkmark"></span>2011</label>
-                    <label class="container-checkbox" for="2012"><input type="checkbox" id="2012" name="year" value="2012"/><span class="checkmark"></span>2012</label>
-                    <label class="container-checkbox" for="2013"><input type="checkbox" id="2013" name="year" value="2013"/><span class="checkmark"></span>2013</label>
-                    <label class="container-checkbox" for="2014"><input type="checkbox" id="2014" name="year" value="2014"/><span class="checkmark"></span>2014</label>
-                    <label class="container-checkbox" for="2015"><input type="checkbox" id="2015" name="year" value="2015"/><span class="checkmark"></span>2015</label>
-                    <label class="container-checkbox" for="2016"><input type="checkbox" id="2016" name="year" value="2016"/><span class="checkmark"></span>2016</label>
-                    <label class="container-checkbox" for="2017"><input type="checkbox" id="2017" name="year" value="2017"/><span class="checkmark"></span>2017</label>
-                    <label class="container-checkbox" for="2018"><input type="checkbox" id="2018" name="year" value="2018"/><span class="checkmark"></span>2018</label>
-                    <label class="container-checkbox" for="2019"><input type="checkbox" id="2019" name="year" value="2019"/><span class="checkmark"></span>2019</label>
+                    
+                    <div class="rectangle" id="2011-rect" style="height: 15px;width: 4px; background-color: #E0C090; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div>       
+                    <label class="container-checkbox" for="2011" style="margin-top: -1px;"><input type="checkbox" id="2011" name="year" value="2011"/><span class="checkmark"></span>2011</label>
+                    
+                    <div class="rectangle" id="2012-rect" style="height: 15px;width: 4px; background-color: #E0C090; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div>       
+                    <label class="container-checkbox" for="2012" style="margin-top: -1px;"><input type="checkbox" id="2012" name="year" value="2012"/><span class="checkmark"></span>2012</label>
+                    
+                    <div class="rectangle" id="2013-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div>       
+                    <label class="container-checkbox" for="2013" style="margin-top: -1px;"><input type="checkbox" id="2013" name="year" value="2013"/><span class="checkmark"></span>2013</label>
+                    
+                    <div class="rectangle" id="2014-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div>       
+                    <label class="container-checkbox" for="2014" style="margin-top: -1px;"><input type="checkbox" id="2014" name="year" value="2014"/><span class="checkmark"></span>2014</label>
+                    
+                    <div class="rectangle" id="2015-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div> 
+                    <label class="container-checkbox" for="2015" style="margin-top: -1px;"><input type="checkbox" id="2015" name="year" value="2015"/><span class="checkmark"></span>2015</label>
+                    
+                    <div class="rectangle" id="2016-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div>                
+                    <label class="container-checkbox" for="2016" style="margin-top: -1px;"><input type="checkbox" id="2016" name="year" value="2016"/><span class="checkmark"></span>2016</label>
+                    
+                    <div class="rectangle" id="2017-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div> 
+                    <label class="container-checkbox" for="2017" style="margin-top: -1px;"><input type="checkbox" id="2017" name="year" value="2017"/><span class="checkmark"></span>2017</label>
+                    
+                    <div class="rectangle" id="2018-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div> 
+                    <label class="container-checkbox" for="2018" style="margin-top: -1px;"><input type="checkbox" id="2018" name="year" value="2018"/><span class="checkmark"></span>2018</label>
+                    
+                    <div class="rectangle" id="2019-rect" style="height: 15px;width: 4px; background-color: #515151; position: relative;z-index: -1; margin-top: -1px; margin-left: 5px;"></div> 
+                    <label class="container-checkbox" for="2019" style="margin-top: -1px;"><input type="checkbox" id="2019" name="year" value="2019"/><span class="checkmark"></span>2019</label>
+
                 </div> <br>
               </li>
               <li>
@@ -346,6 +365,7 @@ function initMenu() {
 
 function checkMiddleBoxes(c, counter){
   let years = ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019"];
+  let years_rect = ["2011-rect", "2012-rect", "2013-rect", "2014-rect", "2015-rect", "2016-rect", "2017-rect", "2018-rect", "2019-rect"];
   let years_checked = [false,false,false,false,false,false,false,false,false,false]
 
   if (counter % 2 == 0) { // recomecar
@@ -364,7 +384,6 @@ function checkMiddleBoxes(c, counter){
       years_checked[i] = true;
     }
   }
-
 
   if (checkedboxes.length > 1){
     fill = false;
@@ -386,7 +405,12 @@ function checkMiddleBoxes(c, counter){
     });
     document.getElementById(c.value).checked = true;
   }
-  
+
+  console.log(years_checked)
+
+  for (let i = 0; i < years_checked.length; ++i){
+
+  }
 
 }
 
