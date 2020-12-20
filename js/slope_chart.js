@@ -1214,13 +1214,10 @@ function slope_chart(paises, maxMin) {
     }
     // Change circle colors on click
     for (let i = 0; i < plots._groups[0].length; i++){
-      console.log("plots", plots._groups[0][i].attributes.id.value)
       if (plots._groups[0][i].attributes.id.value === variable1 && (plots._groups[0][i].attributes.name.value === localStorage.getItem("clickedItemCountry"))){
-        console.log("plots", plots._groups[0][i])
         plots._groups[0][i].attributes.fill.value = "#dea959";
         plots._groups[0][i].attributes.is_clicked.value = true;
         plots._groups[0][i].attributes.r.value = radius*1.5;
-        console.log(plots._groups[0][i])
       }
     }
 
