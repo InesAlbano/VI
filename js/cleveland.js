@@ -4,6 +4,7 @@ var height = 400;
 var padding = 60;
 var radius = 5;
 var clickedVarCountrySlope;
+var clickedVarCountryMap;
 var tooltipLine = d3.select("div.tooltipLine");
 var plots;
 
@@ -11,7 +12,11 @@ analyzerClev("Init")
 
 
 document.addEventListener('clickedCountryMap' , function(){
-  changeClev(localStorage.getItem("clickedItemCountry"));
+  //changeClev(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountryMap = true
+  d3.select("#cleveland-svg").remove();
+  updateLineClev()
+
 }); 
 document.addEventListener('clickedCountryLine' , function(){
   changeClev(localStorage.getItem("clickedItemCountry"));
@@ -1090,7 +1095,7 @@ function cleveland_chart(paises, maximo,minimo, v) {
   });
 
     var country1 = ''
-    if (clickedVarCountrySlope){
+    if (clickedVarCountrySlope || clickedVarCountryMap){
       var b = document.getElementById("cleveland-svg").getElementsByClassName("cleveline")
       for (let i = 0; i < b.length; ++i){
         if(localStorage.getItem("clickedItemCountry") === b[i].attributes.id.value.replace('-LinesCleve', '')){
@@ -1109,9 +1114,10 @@ function cleveland_chart(paises, maximo,minimo, v) {
             .attr("r", radius*1.5);
         }
       }
-
-      clickedVarCountrySlope = false;
-
+      if (clickedVarCountrySlope)
+        clickedVarCountrySlope = false;
+      if(clickedVarCountryMap) 
+        clickedVarCountryMap = false;
     }
 }
 

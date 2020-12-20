@@ -4,13 +4,18 @@ var height = 400;
 var padding = 60;
 var radius = 5;
 var clickedVarCountryLine;
+var clickedVarCountryMap1;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
 analyzerLine("Init")
 
 document.addEventListener('clickedCountryMap' , function(){
-  changeLine(localStorage.getItem("clickedItemCountry"));
+  //changeLine(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountryMap1 = true
+  d3.select("#lines-svg").remove();
+  updateLine()
+
 }); 
 document.addEventListener('clickedCountrySlope' , function(){
   clickedVarCountryLine = true;
@@ -653,7 +658,7 @@ function line_chart(paises, maximo,minimo, v) {
   }
   //______________________________________________________________________________________________
   
-  if (clickedVarCountryLine){      
+  if (clickedVarCountryLine || clickedVarCountryMap1){      
     var b = document.getElementById("line-svg").getElementsByClassName("line")
     for (let i = 0; i < b.length; ++i){
       if(localStorage.getItem("clickedItemCountry") === b[i].attributes.id.value.replace('-Lines', '')){
@@ -661,7 +666,10 @@ function line_chart(paises, maximo,minimo, v) {
         b[i].attributes.stroke.value = "#E0C090"
       }
     }
-    clickedVarCountryLine = false;
+    if(clickedVarCountryLine)
+      clickedVarCountryLine = false;
+    if(clickedVarCountryMap1)
+      clickedVarCountryMap1 = false;
 
   }
 

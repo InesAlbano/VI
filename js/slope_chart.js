@@ -3,6 +3,9 @@ var width = 600;
 var height = 400;
 var padding = 60;
 var radius = 5;
+var clickedVarCountryMap2;
+var clickedVarCountrySlope2;
+var clickedVarCountryLine2;
 
 var tooltipLine = d3.select("div.tooltipLine");
 
@@ -11,13 +14,24 @@ var e = localStorage.getItem("education");
 analyzer(e,true)
 
 document.addEventListener('clickedCountryMap' , function(){
-  changeSlope(localStorage.getItem("clickedItemCountry"));
+  //changeSlope(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountryMap2 = true
+  d3.select("#slope-svg").remove();
+  updateLineSlope()
 }); 
 document.addEventListener('clickedCountryLine' , function(){
-  changeSlope(localStorage.getItem("clickedItemCountry"));
+  //changeSlope(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountryLine2 = true
+  d3.select("#slope-svg").remove();
+  updateLineSlope()
+
 });
 document.addEventListener('clickedCountryClev' , function(){
-  changeSlope(localStorage.getItem("clickedItemCountry"));
+  //changeSlope(localStorage.getItem("clickedItemCountry"));
+  clickedVarCountrySlope2 = true
+  d3.select("#slope-svg").remove();
+  updateLineSlope()
+
 });
 
 document.addEventListener('clickedCountrySlope', function(){
@@ -1184,9 +1198,38 @@ function slope_chart(paises, maxMin) {
       });
     }
   }
-        
 
+  var variable1 = localStorage.getItem("variable");
 
+  if(variable1 === 'Women')
+    variable1 = 'Women-high-pos'
+
+  if(clickedVarCountryMap2 || clickedVarCountrySlope2 || clickedVarCountryLine2) {
+    var b = document.getElementById("slope-svg").getElementsByClassName("lineSlope")
+    for (let i = 0; i < b.length; ++i){
+      if(localStorage.getItem("clickedItemCountry") === b[i].attributes.id.value.replace('-LinesSlope', '')){
+        b[i].attributes.selected.value = true;
+        b[i].attributes.stroke.value = "#E0C090"
+      }
+    }
+    // Change circle colors on click
+    for (let i = 0; i < plots._groups[0].length; i++){
+      console.log("plots", plots._groups[0][i].attributes.id.value)
+      if (plots._groups[0][i].attributes.id.value === variable1 && (plots._groups[0][i].attributes.name.value === localStorage.getItem("clickedItemCountry"))){
+        console.log("plots", plots._groups[0][i])
+        plots._groups[0][i].attributes.fill.value = "#dea959";
+        plots._groups[0][i].attributes.is_clicked.value = true;
+        plots._groups[0][i].attributes.r.value = radius*1.5;
+        console.log(plots._groups[0][i])
+      }
+    }
+
+    if(clickedVarCountryMap2)
+      clickedVarCountryMap2 = false;
+    if(clickedVarCountrySlope2)
+      clickedVarCountrySlope2 = false;
+
+  }
 }
 
 

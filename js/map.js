@@ -19,6 +19,22 @@ document.addEventListener('updateCharts' , function(){
   updateMap(update=true);
 }); 
 
+document.addEventListener('clickedCountryMap', function(){
+  var vars = document.querySelectorAll("input[type=checkbox][name=country]");
+  var clickedVar = localStorage.getItem("clickedItemCountry");
+  vars.forEach(function(c) {
+    if (clickedVar === c.attributes.id.value){
+      if(c.checked) {
+        c.checked = false;
+      }
+      else {
+        c.checked = true;
+      }
+    }
+  });
+});
+
+
 
 // Tooltip: hover in the coutries
 var tooltip = d3.select("div.tooltip");
@@ -66,7 +82,7 @@ function init(e,v,c,y, update) {
       switch(v){
         case "GDP":
           filePath = "csv/CholoplethMap/gdp.json";
-          mapGDP(data, filePath, c, y, update);   
+          mapGDP(data, filePath, c, y, update);  
           break;
         case "Employment":
           filePath = "csv/CholoplethMap/Q2_total.json"; 
@@ -132,7 +148,15 @@ function mouseLeave() {
     d3.select(this)
       .transition()
       .duration(200)
-      .style("stroke", "#515151")
+      .style("stroke", function(d) {
+        if(c.includes(d['id'])) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
     div.transition()		
       .duration(500)		
       .style("opacity", 0);	
@@ -230,17 +254,25 @@ function mapGDP(data, filePath, c, y, update){
       .attr("id", function(d){
         return d.id;
       })
+      .attr("class", 'countries')
       .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', function(d) {
-        data2.forEach(d2 => {
-          if (c.includes(d2.Country)) {  
-            return '3';   
-          }
-          else{
-            return '1';
-          }
-        })
+      .style("stroke", function(d) {
+        if(c.includes(d['id'])) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+
+      })
+      .style("stroke-width", function(d) {
+        if(c.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
       })
       .on("click", function (){
         this.attributes.is_clicked.value = "true";
@@ -258,14 +290,13 @@ function mapGDP(data, filePath, c, y, update){
               d3.select(paths._groups[0][i])
                 .transition()
                 .duration(200)
-                .style("stroke", "#515151")
+                .style("stroke", "#E0C090")
               div.transition()		
                 .duration(200)		
                 .style("opacity", 0);		
             }
           } else {
             this.attributes.is_clicked.value = "true";
-            //if(c.includes($(this).attr('name'))) {
               this.parentNode.appendChild(this);
               d3.selectAll(".country")
                 .transition()
@@ -275,7 +306,8 @@ function mapGDP(data, filePath, c, y, update){
                 .transition()
                 .duration(200)
                 .style("opacity", 1)
-                .style("stroke", "white")      
+                .style("stroke", "#E0C090")      
+                .style("stroke-width", 3)      
               div.transition()		
               .duration(200)		
               .style("opacity", .9);
@@ -284,14 +316,11 @@ function mapGDP(data, filePath, c, y, update){
 
             const event = new Event('clickedCountryMap');
             document.dispatchEvent(event);
-
-            //}
           }
         }
       })
       .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
         //if(c.includes($(this).attr('name'))) {
-          this.parentNode.appendChild(this);
           d3.selectAll(".country")
             .transition()
             .duration(200)
@@ -315,7 +344,29 @@ function mapGDP(data, filePath, c, y, update){
           .style("top", (event.pageY - 28) + "px");	
           //}
         })			
-      .on("mouseleave", mouseLeave)
+      .on("mouseleave", function() {
+        if (this.attributes.is_clicked.value === 'false'){
+          d3.selectAll(".country")
+            .transition()
+            .duration(200)
+            .style("opacity", .8)
+          d3.select(this)
+            .transition()
+            .duration(200)
+            .style("stroke", function(d) {
+              if(c.includes(d['id'])) {
+                this.parentNode.appendChild(this);
+                return '#E0C090'
+              }
+              else {
+                return '#515151'
+              }
+            })
+          div.transition()		
+            .duration(500)		
+            .style("opacity", 0);	
+        }      
+      })
       addZoom();  
   });
 }
@@ -379,6 +430,8 @@ function mapEmployment(data, filePath, c, y, e){
       .style('stroke', '#515151')
       .style('stroke-width', 1)
       .on("click", function (){
+        this.parentNode.appendChild(this);
+
         this.attributes.is_clicked.value = "true";
 
         var paths = d3.selectAll("#map-holder path")
@@ -425,7 +478,7 @@ function mapEmployment(data, filePath, c, y, e){
           }
         }
       })
-      .on("mouseover", function() {	 // permitir apenas fazer hover nos itens selecionados
+      .on("mouseover", function() {	 
         //if(c.includes($(this).attr('name'))) {
           this.parentNode.appendChild(this);
           d3.selectAll(".country")
