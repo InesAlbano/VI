@@ -244,7 +244,7 @@ function mapGDP(data, filePath, c, y, update){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' €').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
   }
@@ -263,13 +263,13 @@ function mapGDP(data, filePath, c, y, update){
     // Handmade legend
     for (i = 0; i < 6; i++) {
       svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
-      svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle")
+      svg.append("text").attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' €').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle")
       }  
   }
   
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
-                       .center([75, 50])
+                       .center([55, 50])
                        .scale(300)
 
     var countries = c;
@@ -319,7 +319,6 @@ function mapGDP(data, filePath, c, y, update){
         else {
           return '#515151'
         }
-
       })
       .style("stroke-width", function(d) {
         if(countries.includes(d['id'])) {
@@ -359,16 +358,19 @@ function mapEmployment(data, filePath, c, y, e){
     for (i = 0; i < 6; i++) {
       svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
       svg.selectAll("text").each(function(d,i) { 
-        d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+        d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' %').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
         })
       }  
 
     d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
-                       .center([75, 50])
+                       .center([55, 50])
                        .scale(300)
+
+    var countries = c;
                        
     var path = d3.geoPath().projection(projection);
+
     d3.select("#map-holder").append("svg")
       .attr("id", "map-svg")
       .attr("width", 960)
@@ -397,9 +399,30 @@ function mapEmployment(data, filePath, c, y, e){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
@@ -430,14 +453,16 @@ function mapIncome(data, filePath, c, y, e){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' €').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
-                       .center([75, 50])  // projection center [longitude, latitude]
+                       .center([55, 50])  // projection center [longitude, latitude]
                        .scale(300)        // scale factor of the projection
+
+    var countries = c;
                        
     var path = d3.geoPath().projection(projection);
     
@@ -471,9 +496,30 @@ function mapIncome(data, filePath, c, y, e){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
@@ -504,15 +550,17 @@ function mapEducation(data, filePath, c, y, e){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' %').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
-                       .center([75, 50])  // projection center [longitude, latitude]
+                       .center([55, 50])  // projection center [longitude, latitude]
                        .scale(300)        // scale factor of the projection
-                       
+    
+    var countries = c;
+                   
     var path = d3.geoPath().projection(projection);
     
     d3.select("#map-holder").append("svg") //this cannot be append
@@ -545,9 +593,30 @@ function mapEducation(data, filePath, c, y, e){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
@@ -578,13 +647,15 @@ function mapWHP(data, filePath, c, y){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' %').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
 
+  var countries = c;
+
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()
-                       .center([75, 50])
+                       .center([55, 50])
                        .scale(300)
                        
     var path = d3.geoPath().projection(projection);
@@ -614,9 +685,30 @@ function mapWHP(data, filePath, c, y){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
@@ -647,15 +739,17 @@ function mapPoverty(data, filePath, c, y, e){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' %').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
-                       .center([75, 50])  // projection center [longitude, latitude]
+                       .center([55, 50])  // projection center [longitude, latitude]
                        .scale(300)        // scale factor of the projection
                        
+    var countries = c;
+
     var path = d3.geoPath().projection(projection);
     
     d3.select("#map-holder").append("svg") //this cannot be append
@@ -687,9 +781,30 @@ function mapPoverty(data, filePath, c, y, e){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
@@ -720,15 +835,17 @@ function mapGWG(data, filePath, c, y, e){
   for (i = 0; i < 6; i++) {
     svg.append("circle").attr("cx",200).attr("cy",100 + i*bias).attr("r", 6).style("fill", d3.schemeBlues[6][i])
     svg.selectAll("text").each(function(d,i) { 
-      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]).style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
+      d3.select(this).attr("x", 220).attr("y", 100 + i*bias).text(keys[i]+' %').style("fill", "white").style("font-size", "15px").attr("alignment-baseline","middle") 
       })
     }  
 
   d3.json(filePath).then(function (data2) {
     var projection = d3.geoMercator()     // creates the mercator projection
-                       .center([75, 50])  // projection center [longitude, latitude]
+                       .center([55, 50])  // projection center [longitude, latitude]
                        .scale(300)        // scale factor of the projection
                        
+    var countries = c;
+
     var path = d3.geoPath().projection(projection);
     
     d3.select("#map-holder").append("svg") //this cannot be append
@@ -761,9 +878,30 @@ function mapGWG(data, filePath, c, y, e){
       .attr("id", function(d){
         return d.id;
       })
-      .attr("is_clicked", false)
-      .style('stroke', '#515151')
-      .style('stroke-width', 1)
+      .attr("is_clicked", function(d){ //this changed
+        if (c.includes(d.id)) {
+          return true
+        } else {
+          return false
+        }
+      })
+      .style("stroke", function(d) {
+        if(countries.includes(d.id)) {
+          this.parentNode.appendChild(this);
+          return '#E0C090'
+        }
+        else {
+          return '#515151'
+        }
+      })
+      .style("stroke-width", function(d) {
+        if(countries.includes(d['id'])) {
+          return 3
+        }
+        else {
+          return 1
+        }
+      })
       .on("click", function (){
         click(this);
       })
