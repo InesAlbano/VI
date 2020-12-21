@@ -434,7 +434,10 @@ function line_chart(paises, maximo,minimo, v) {
     .attr("x", 0 - height / 2)
     .attr("dy", "1em")
     .attr("class", "label")
-    .text("Value");
+    .text("Value")
+    .attr("fill", "white")
+    .style("font-size", "15px")
+    .attr("alignment-baseline","middle");;
 
   /*   var xscaleDataFiltered = xscaleData.filter(function (d, i) {
       if (i % 5 == 0) return d;
@@ -460,7 +463,10 @@ function line_chart(paises, maximo,minimo, v) {
       "translate(" + width / 2 + " ," + (height - padding / 3) + ")"
     )
     .attr("class", "label")
-    .text("Year");
+    .text("Year")
+    .attr("fill", "white")
+    .style("font-size", "15px")
+    .attr("alignment-baseline","middle");
 
   // SVG - Plots + Lines ______________________________________________________________________
   if(paises.length > 0) {
