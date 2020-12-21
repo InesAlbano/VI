@@ -21,13 +21,9 @@
               <img src="img/logo.png" style="width: 60%; text-align: center; margin-left: 35px">
 
               <li>
-                  <div class="multiselect">
-                      <div class="selectBox" onclick="showCheckboxes()">
-                          <select>
-                              
-                              <option style="font-family: sans-serif, Arial;">Select the countries...</option>
-                          </select>
-                          <div class="overSelect"></div>
+                  <div class="multiselect" onmouseout="hideCheckboxes();" onmouseover="showCheckboxes();">
+                      <div class="selectBox" >
+                          <input type="text" id="myInput" onkeyup="showCheckboxes();searchBar()" autocomplete="off" placeholder="Search for country.." title="Type in a country" style="width:160px;font-family: sans-serif, Arial;">                          
                       </div>
                       <div id="checkboxes">
                           <label for="BE"><input type="checkbox" name="country" value="BE"  id="BE"/><img class="flags" src="img/be.png"> BE - Belgium</label>
@@ -152,15 +148,37 @@
 
     function showCheckboxes() {
         var checkboxes = document.getElementById("checkboxes"); //countries
-        if (!expanded) {
-            checkboxes.style.display = "block";
-            expanded = true;
+        checkboxes.style.display = "block";
+        expanded = true;
+    }
+
+    function hideCheckboxes(){
+      var checkboxes = document.getElementById("checkboxes"); //countries
+      checkboxes.style.display = "none";
+      expanded = false;
+    }
+
+    
+  function searchBar() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("checkboxes");
+    li = ul.getElementsByTagName("label");
+
+
+    for (i = 0; i < li.length; i++) {
+        a = li[i];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
         } else {
-            checkboxes.style.display = "none";
-            expanded = false;
+            li[i].style.display = "none";
         }
     }
+  }
 </script>
+
 
 <script>
 
