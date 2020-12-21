@@ -673,12 +673,22 @@ function cleveland_chart(paises, maximo,minimo, v) {
       if (i % 5 == 0) return d;
   }); */
 
-  var xaxis = d3
-    .axisBottom() // we are creating a d3 axis
-    .scale(xscale) // we are adding our padding
-    .tickFormat(d3.format(".2s"))
-    //.tickValues(xscaleDataFiltered)
-    .tickSizeOuter(0);
+  if (v==="Women-high-pos" || v==="GWG") {
+    var xaxis = d3
+      .axisBottom() // we are creating a d3 axis
+      .scale(xscale) // we are adding our padding
+      //.tickFormat(d3.format(".2s"))
+      //.tickValues(xscaleDataFiltered)
+      .tickSizeOuter(0);
+  }
+  else {
+    var xaxis = d3
+      .axisBottom() // we are creating a d3 axis
+      .scale(xscale) // we are adding our padding
+      .tickFormat(d3.format(".2s"))
+      //.tickValues(xscaleDataFiltered)
+      .tickSizeOuter(0);
+  }
 
   svg
     .append("g") // we are creating a 'g' element to match our x axis
