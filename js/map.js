@@ -81,31 +81,31 @@ function init(e,v,c,y, update) {
        
       switch(v){
         case "GDP":
-          filePath = "csv/CholoplethMap/gdp.json";
+          filePath = "csv/gdp.json";
           mapGDP(data, filePath, c, y, update);  
           break;
         case "Employment":
-          filePath = "csv/CholoplethMap/Q2_total.json"; 
+          filePath = "csv/Q2_total.json"; 
           mapEmployment(data, filePath, c, y, e);  
           break;
         case "Income":
-          filePath = "csv/CholoplethMap/Q4.json";
+          filePath = "csv/Q4.json";
           mapIncome(data, filePath, c, y, e);  
           break;
         case "Education":
-          filePath = "csv/CholoplethMap/Q3_total.json"; 
+          filePath = "csv/Q3_total.json"; 
           mapEducation(data, filePath, c, y, e);  
           break;
         case "Women-high-pos":
-          filePath = "csv/CholoplethMap/Q6.json";
+          filePath = "csv/Q6.json";
           mapWHP(data, filePath, c, y);  
           break;
         case "Poverty":
-          filePath = "csv/CholoplethMap/Q1.json";
+          filePath = "csv/Q1.json";
           mapPoverty(data, filePath, c, y, e);
           break;
         case "GWG":
-          filePath = "csv/CholoplethMap/Q4_b.json";
+          filePath = "csv/Q4_b.json";
           mapGWG(data, filePath, c, y, e);  
           break;
       }
@@ -114,7 +114,7 @@ function init(e,v,c,y, update) {
   } else {
     d3.select("#map-svg").remove();
     d3.json("csv/map.json").then(function (data) {
-      filePath = "csv/CholoplethMap/gdp.json";
+      filePath = "csv/gdp.json";
       mapGDP(data, filePath, ["BE", "BG", "CZ", "PT"], [2010, 2011, 2012], update); 
     });
   }

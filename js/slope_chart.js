@@ -75,13 +75,13 @@ var maxGDP = 0, minGDP = 0,
 
 function analyzer(isced, init) {
   Promise.all([
-    d3.json("csv/LineChart/gdp.json"),
-    d3.json("csv/LineChart/Q2_total.json"),
-    d3.json("csv/LineChart/Q4.json"),
-    d3.json("csv/LineChart/Q3_total.json"),
-    d3.json("csv/LineChart/Q6.json"),
-    d3.json("csv/LineChart/Q1.json"),
-    d3.json("csv/LineChart/Q4_b.json")
+    d3.json("csv/gdp.json"),
+    d3.json("csv/Q2_total.json"),
+    d3.json("csv/Q4.json"),
+    d3.json("csv/Q3_total.json"),
+    d3.json("csv/Q6.json"),
+    d3.json("csv/Q1.json"),
+    d3.json("csv/Q4_b.json")
   ]).then(function(files){
   
     if(init) {

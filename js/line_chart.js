@@ -43,7 +43,7 @@ function analyzerLine(inequality, education) {
 	switch (inequality) {
     case "GDP": // no education
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/gdp.json").then(function (data) {
+      d3.json("csv/gdp.json").then(function (data) {
         dataset = data;
 
         var selected_countries = [];
@@ -83,7 +83,7 @@ function analyzerLine(inequality, education) {
       break
     case "Employment":
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q2_total.json").then(function (data) { //parse data
+      d3.json("csv/Q2_total.json").then(function (data) { //parse data
         dataset = data;
 
         var selected_countries = [];
@@ -124,7 +124,7 @@ function analyzerLine(inequality, education) {
       break
     case "Income":
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q4.json").then(function (data) {
+      d3.json("csv/Q4.json").then(function (data) {
         dataset = data;
 
         var selected_countries = [];
@@ -168,7 +168,7 @@ function analyzerLine(inequality, education) {
       break
     case "Education":
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q3_total.json").then(function (data) { //parse data
+      d3.json("csv/Q3_total.json").then(function (data) { //parse data
         dataset = data;
 
         var selected_countries = [];
@@ -209,7 +209,7 @@ function analyzerLine(inequality, education) {
       break
       case "Women-high-pos": // no education
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q6.json").then(function (data) {
+      d3.json("csv/Q6.json").then(function (data) {
         dataset = data;
 
         var selected_countries = [];
@@ -250,7 +250,7 @@ function analyzerLine(inequality, education) {
       break
     case "Poverty":
       d3.select("#line-svg").remove();
-      d3.json("csv/LineChart/Q1.json").then(function (data) {
+      d3.json("csv/Q1.json").then(function (data) {
         dataset = data;
 
         var selected_countries = [];
@@ -291,7 +291,7 @@ function analyzerLine(inequality, education) {
       break
     case "GWG": 
     d3.select("#line-svg").remove();
-    d3.json("csv/LineChart/Q4_b.json").then(function (data) {
+    d3.json("csv/Q4_b.json").then(function (data) {
       dataset = data;
 
       var selected_countries = [];
@@ -334,7 +334,7 @@ function analyzerLine(inequality, education) {
       break
     default:
 
-      d3.json("csv/LineChart/gdp.json").then(function (data) {
+      d3.json("csv/gdp.json").then(function (data) {
         dataset = data;
         var selected_countries = [];
         selected_countries.push(dataset.filter(row => row.Country === $(this).attr('BG').value))

@@ -8798,25 +8798,94 @@
     "ISCED11": "5-8",
     "AVG": 37
   },
-  {
-    "Year": 2019,
-    "Country": "Switzerlan",
-    "code": "0-2",
-    "ISCED11": 16,
-    "AVG": 5
-  },
-  {
-    "Year": 2019,
-    "Country": "Switzerlan",
-    "code": "3-4",
-    "ISCED11": 44,
-    "AVG": 95
-  },
-  {
-    "Year": 2019,
-    "Country": "Switzerlan",
-    "code": "5-8",
-    "ISCED11": 38,
-    "AVG": 55
-  }
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2005,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2006,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2007,
+      "AVG":0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2008,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2009,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2010,
+      "AVG":0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2011,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2012,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2013,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2014,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2015,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2016,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2017,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2018,
+      "AVG": 0
+    },
+    {
+      "ISCED11": "0-2",
+      "code": "NL",
+      "Year": 2019,
+      "AVG": 0
+    }
 ]
